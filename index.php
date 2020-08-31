@@ -21,7 +21,7 @@ $protocolo -> https();
   <meta property="og:description" content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canceravanzadodemama.com/">
-  <!-- <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/foto.jpeg" /> -->
+  <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/fotos/FotoSparc1.jpg" />
   <!-- <meta property="og:video" content="https://canceravanzadodemama.com/video" /> -->
 
   <!-- Favicon -->
