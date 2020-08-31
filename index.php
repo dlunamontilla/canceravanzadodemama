@@ -1,3 +1,14 @@
+<?php
+include __DIR__ . "/app/php/index.php";
+
+$protocolo = new DLProtocolo([
+  "cancerdemamaavanzado.com",
+  "www.cancerdemamaavanzado.com"
+]);
+
+$protocolo -> https();
+?>
+
 <!DOCTYPE html>
 <html lang="es-VE" prefix="og: https://ogp.me/ns#">
 <head>
@@ -6,13 +17,12 @@
   <title>Cáncer Avanzado de Mama</title>
 
   <!-- Protocolo OpenGraph -->
-  <!--
   <meta property="og:title" content="Cáncer Avanzado de Mama" />
+  <meta property="og:description" content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canceravanzadodemama.com/">
-  <meta property="og:image" content="https://canceravanzadodemama.com/imagen.jpeg" />
-  <meta property="og:video" content="https://canceravanzadodemama.com/video" />
-  -->
+  <!-- <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/foto.jpeg" /> -->
+  <!-- <meta property="og:video" content="https://canceravanzadodemama.com/video" /> -->
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="multimedia/favicon/favicon.ico" type="image/x-icon" />
@@ -43,7 +53,12 @@
 </head>
 <body>
   <main id="app">
-    <h1>Cáncer Avanzado de Mama</h1>
+    <div class="content">
+      <h1 class="frontal frontal--secundario">Cáncer Avanzado de Mama</h1>
+
+      <hr>
+      <p>La página de inicio de este sitio Web estará disponible las próximas horas</p>
+    </div>
   </main>
 </body>
 </html>

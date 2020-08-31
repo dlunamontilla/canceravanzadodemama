@@ -5,3 +5,5 @@ Herramientas
 *.sql
 upload
 uploads
+.well-known
+cgi-bin

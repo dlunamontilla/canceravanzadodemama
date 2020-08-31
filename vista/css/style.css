@@ -11,7 +11,7 @@ html, body {
   margin: 0;
   padding: 0;
   color: #606060;
-  background-color: white;
+  background-color: #f3f3f3;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0080d4;
+  color: #4d4d4d;
 }
 a:not([class]):hover {
   text-decoration: underline;
@@ -52,14 +52,14 @@ a:not([class]):hover {
 hr {
   margin: 20px auto 30px;
   border: 0;
-  border-bottom: 1px solid #6ec6ff;
+  border-bottom: 1px solid #9a9a9a;
 }
 
 pre, code {
   word-wrap: break-word;
   white-space: pre-wrap;
-  background-color: #f3faff;
-  color: #0080d4;
+  background-color: gainsboro;
+  color: #4d4d4d;
   font-size: 0.9rem;
   line-height: 1.5;
   padding: 10px;
@@ -136,10 +136,10 @@ pre, code {
   transition: 300ms ease;
 }
 .frontal--base, .frontal--base-hover:hover {
-  color: #0080d4;
+  color: #4d4d4d;
 }
 .frontal--secundario, .frontal--secundario-hover:hover {
-  color: #f06600;
+  color: #f97ca9;
 }
 .frontal--whatsapp, .frontal--whatsapp-hover:hover {
   color: #00e676;
@@ -167,12 +167,12 @@ pre, code {
   transition: 300ms ease;
 }
 .fondo--base, .fondo--base-hover:hover {
-  background-color: #0080d4;
-  fill: #0080d4;
+  background-color: #4d4d4d;
+  fill: #4d4d4d;
 }
 .fondo--secundario, .fondo--secundario-hover:hover {
-  background-color: #f06600;
-  fill: #f06600;
+  background-color: #f97ca9;
+  fill: #f97ca9;
 }
 .fondo--whatsapp, .fondo--whatsapp-hover:hover {
   background-color: #00e676;
@@ -201,6 +201,12 @@ pre, code {
 .fondo--skype, .fondo--skype-hover:hover {
   background-color: #00aff0;
   fill: #00aff0;
+}
+
+.content {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 1200px;
 }
 
 /*# sourceMappingURL=style.css.map */
