@@ -7,11 +7,11 @@
 
   <!-- Protocolo OpenGraph -->
   <!--
-  <meta property="og:title" content="Título de la página" />
+  <meta property="og:title" content="Cáncer Avanzado de Mama" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ejemplo.com/">
-  <meta property="og:image" content="https://ejemplo.com/imagen.jpeg" />
-  <meta property="og:video" content="https://example.com/video" />
+  <meta property="og:url" content="https://canceravanzadodemama.com/">
+  <meta property="og:image" content="https://canceravanzadodemama.com/imagen.jpeg" />
+  <meta property="og:video" content="https://canceravanzadodemama.com/video" />
   -->
 
   <!-- Favicon -->
@@ -39,11 +39,11 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
 
   <!-- JavaScript -->
-  <script src="app/js/main.js" defer></script>
+  <script src="app/js/main.js" type="module" defer></script>
 </head>
 <body>
   <main id="app">
-    <!-- Escriba a aquí su código -->
+    <h1>Cáncer Avanzado de Mama</h1>
   </main>
 </body>
 </html>
