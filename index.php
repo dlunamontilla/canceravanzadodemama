@@ -2,8 +2,8 @@
 include __DIR__ . "/app/php/index.php";
 
 $protocolo = new DLProtocolo([
-  "cancerdemamaavanzado.com",
-  "www.cancerdemamaavanzado.com"
+  "canceravanzadodemama.com",
+  "www.canceravanzadodemama.com"
 ]);
 
 $protocolo -> https();
