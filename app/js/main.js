@@ -1,3 +1,3 @@
-(function() {
-  console.log( "Primeras líneas aquí");
-}());
+import { imagenSVG } from "./imagenSVG.js";
+
+imagenSVG();

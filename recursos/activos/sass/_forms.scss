@@ -1,0 +1,73 @@
+[type="search"],
+[type="text"],
+[type="tel"],
+[type="password"] {
+  outline: medium none;
+}
+
+// Contenedor del buscador:
+.buscador {
+  display: flex;
+  justify-content: flex-end;
+}
+
+// Etiqueta:
+.label {
+  display: var(--display);
+  position: relative;
+  height: var(--height);
+
+  &--buscar {
+    --display: block;
+    --height: 30px;
+    --width: 150px;
+  }
+}
+
+.input {
+  display: var(--display);
+  position: var(--position);
+
+  &--buscar {
+    --position: relative;
+    
+    // Propiedades estándar:
+    margin: auto;
+
+    border: 2px solid $color-secundario;
+    width: var(--width);
+    height: 100%;
+    border-radius: calc(var(--height) / 2 );
+
+    padding-left: calc(var(--height) / 2);
+    padding-right: calc(var(--height) / 1.1 );
+    transition: 300ms ease;
+    color: darken( $color-secundario, 20 );
+
+    &:focus {
+      width: 180px;
+    }
+  }
+}
+
+.button {
+  background-image:none;
+  background-color: var(--background-color);
+  outline: medium none;
+  border: 0;
+
+  &--buscar {
+    display: (--display);
+    position: absolute;
+    height: var(--height);
+    width: var(--height);
+
+    border-radius: calc(var(--height) / 2 );
+    left: auto; right: 5px;
+    top: 0; bottom: 0;
+
+    svg {
+      height: calc(var(--height) / 1.7 );
+    }
+  }
+}

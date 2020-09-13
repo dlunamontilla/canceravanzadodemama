@@ -1,0 +1,8 @@
+// Borde inferior:
+@mixin border( $multiplo, $cantidad ) {
+  @for $indice from 1 through $cantidad {
+    &-#{$multiplo * $indice} {
+      --border-width: #{$multiplo * $indice + px};
+    }
+  }
+}

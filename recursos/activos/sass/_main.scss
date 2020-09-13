@@ -1,5 +1,136 @@
+.header {
+  background-color: var(--fondo);
+  
+  font: {
+    size: 0.9rem;
+  }
+
+  &--fondo {
+    --fondo: white;
+  }
+}
+
 .content {
   margin: 0 auto;
   width: $width;
   max-width: $max-width;
+
+}
+
+// .border {
+//   @include border-bottom( 5, 5 );
+// }
+
+.border {
+  // Establecer los valores del border predeterminado:
+  --border-width: 1px;
+  --border-color: #{rgba( $color-secundario, 0.75 )};
+
+  // Ancho de borde predeterminado:
+  &:not([class*="border--"]) {
+    --border-left: var(--border-width);
+    --border-right: var(--border-width);
+    --border-top: var(--border-width);
+    --border-bottom: var(--border-width);
+  }
+
+  border-left: var(--border-left) solid var(--border-color);
+  border-right: var(--border-right) solid var(--border-color);
+  border-top: var(--border-top) solid var(--border-color);
+  border-bottom: var(--border-bottom) solid var(--border-color);
+
+  &--home {
+    --border-top: 25px;
+    --border-bottom: 5px;
+  }
+}
+
+// Logotipo
+.logotipo {
+  width: 100%;
+  max-width: var(--width);
+  max-height: var(--height);
+
+  &--header {
+    --width: 300px;
+  }
+}
+
+// Cajas flexibles:
+.flex {
+  display: flex;
+  justify-content: var(--justify-content);
+  align-items: center;
+
+  // Separación de contenido con una longitud
+  // de 20px de ancho:
+  --gap: 20px;
+
+  &__item {
+    &:not(:first-of-type) {
+      padding-left: calc(var(--gap) / 2);
+    }
+
+    &:not(:last-of-type) {
+      padding-right: calc(var(--gap) / 2);
+    }
+  }
+
+  &--between {
+    --justify-content: space-between;
+  }
+
+  &--center {
+    --justify-content: center;
+  }
+}
+
+.navigation {
+  height: 100px;
+}
+
+// Menú de navegación:
+.menu {
+  list-style: none;
+  padding: 0;
+  display: var(--display);
+  height: 100%;
+  // background-color: rgba($color-secundario-3, 0.1 );
+
+  // Aplica a los elementos del menú:
+  --display: flex;
+
+  &__item,
+  &__enlace {
+    transition: 300ms ease;
+  }
+
+  &__item {
+    display: var(--display);
+    padding: 0;
+    margin: 0;
+    max-width: 170px;
+    background-color: transparent;
+
+    &:hover {
+      background-color: rgba( $color-secundario, 0.07 );
+    }
+  }
+
+  &__enlace {
+    display: var(--display);
+    padding: 5px 10px;
+    text-align: center;
+    height: 100%;
+    outline: medium none;
+
+    &:hover {
+      color: darken($color-secundario, 15);
+    }
+
+    &:focus {
+      background-color: rgba($color-secundario, 0.1 );
+      color: darken($color-secundario, 20 );
+    }
+  }
 }
