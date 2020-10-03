@@ -132,6 +132,10 @@ pre, code {
   text-decoration: underline;
 }
 
+svg {
+  max-height: 100%;
+}
+
 .frontal {
   transition: 300ms ease;
 }
@@ -239,7 +243,6 @@ pre, code {
 .logotipo {
   width: 100%;
   max-width: var(--width);
-  max-height: var(--height);
 }
 .logotipo--header {
   --width: 300px;
@@ -265,7 +268,7 @@ pre, code {
 }
 
 .navigation {
-  height: 100px;
+  height: 80px;
 }
 
 .menu {
@@ -301,6 +304,29 @@ pre, code {
 .menu__enlace:focus {
   background-color: rgba(249, 124, 169, 0.1);
   color: #f51a69;
+}
+
+.presentacion {
+  position: relative;
+}
+.presentacion--home {
+  min-height: calc(100vh - 110px);
+}
+
+.decoration {
+  position: absolute;
+  margin: auto;
+  height: 100%;
+}
+.decoration--left {
+  left: 0;
+  right: auto;
+  top: 0;
+  bottom: 0;
+}
+.decoration--left svg {
+  width: auto;
+  height: 100%;
 }
 
 [type="search"],

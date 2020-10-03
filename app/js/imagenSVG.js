@@ -5,7 +5,7 @@ const imagenSVG = () => {
 
   _elementos.forEach( _elemento => {
     fetch ( _elemento.dataset.src )
-      .then(function( respuesta) {
+      .then(function(respuesta) {
         return respuesta.text();
       })
       .then(function( datos ) {

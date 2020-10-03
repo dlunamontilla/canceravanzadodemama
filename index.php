@@ -58,7 +58,6 @@ $protocolo -> https();
   <main id="app">
     <header class="header header--fondo">
       <div class="border border--home">
-
         <nav class="navigation flex flex--between default">
           <div class="logotipo logotipo--header flex__item" data-src="multimedia/vectores/logotipo.svg"></div>
 
@@ -79,16 +78,14 @@ $protocolo -> https();
             </form>
           </div>
         </nav>
+      </div>
 
+      <div class="presentacion presentacion--home">
+        <div class="decoration decoration--left" data-src="multimedia/vectores/decoracion-izquierda.svg"></div>
       </div>
     </header>
 
-    <div class="content">
-      <h1 class="frontal frontal--secundario">Cáncer Avanzado de Mama</h1>
-
-      <hr>
-      <p>La página de inicio de este sitio Web estará disponible las próximas horas</p>
-    </div>
+    <div class="content"></div>
   </main>
 </body>
 
