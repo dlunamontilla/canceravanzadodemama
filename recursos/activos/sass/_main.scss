@@ -138,6 +138,28 @@
 .presentacion {
   position: relative;
 
+  --columnas: 2;
+  display: grid;
+  grid-template-columns: repeat( var(--columnas), 1fr);
+
+  background-color: rgba( $color-secundario-2, 0.3 );
+
+  &__item {
+
+    &--left {
+      background-color: rgba( white, 0.3 );
+    }
+
+    &--right {
+      background-color: rgba( black, 0.3 );
+    }
+  }
+}
+
+// Portada:
+.portada {
+  position: relative;
+  
   &--home {
     min-height: calc(100vh - 110px);
   }

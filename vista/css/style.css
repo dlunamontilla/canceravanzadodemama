@@ -308,8 +308,22 @@ svg {
 
 .presentacion {
   position: relative;
+  --columnas: 2;
+  display: grid;
+  grid-template-columns: repeat(var(--columnas), 1fr);
+  background-color: rgba(252, 189, 212, 0.3);
 }
-.presentacion--home {
+.presentacion__item--left {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.presentacion__item--right {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portada {
+  position: relative;
+}
+.portada--home {
   min-height: calc(100vh - 110px);
 }
 

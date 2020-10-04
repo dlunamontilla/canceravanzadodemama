@@ -6,11 +6,9 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   id="svg7299"
+   id="foto-seno"
    version="1.1"
-   viewBox="0 0 200 221.79305"
-   height="221.79305mm"
-   width="200mm">
+   viewBox="0 0 200 221.79305">
   <defs
      id="defs7293">
     <clipPath
@@ -38,10 +36,11 @@
      transform="translate(-10.114578,-12.918478)"
      id="layer1">
     <image
-       xlink:href="Documentos/Trabajos/Clientes/Lluvia/Materiales/Lo que se necesita/image102.png"
+       xlink:href="multimedia/img/image102.png
+"
        y="12.315001"
        x="-111.42648"
-       id="image7375"
+       id="carousel-foto"
        preserveAspectRatio="none"
        height="223"
        width="475.19348"

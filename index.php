@@ -38,7 +38,7 @@ $protocolo -> https();
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?v2" />
+  <link rel="stylesheet" href="vista/css/style.css?v3" />
 
   <!-- jQuery -->
   <!--
@@ -80,8 +80,17 @@ $protocolo -> https();
         </nav>
       </div>
 
-      <div class="presentacion presentacion--home">
+      <div class="portada portada--home">
         <div class="decoration decoration--left" data-src="multimedia/vectores/decoracion-izquierda.svg"></div>
+
+        <div class="presentacion">
+          <div class="presentacion__item presentacion__item--left">
+            d
+          </div>
+
+          <div class="presentacion__item presentacion__item--right" data-src="multimedia/vectores/seno-foto.svg"></div>
+        </div>
+
       </div>
     </header>
 
