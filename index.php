@@ -19,7 +19,8 @@ $protocolo -> https();
 
   <!-- Palabras claves -->
   <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama, Cáncer de Mama, tratamientos">
-
+  <meta name="description" content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones.">
+  
   <!-- Protocolo OpenGraph -->
   <meta property="og:title" content="Cáncer Avanzado de Mama" />
   <meta property="og:description"
