@@ -17,6 +17,9 @@ $protocolo -> https();
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cáncer Avanzado de Mama</title>
 
+  <!-- Palabras claves -->
+  <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama">
+
   <!-- Protocolo OpenGraph -->
   <meta property="og:title" content="Cáncer Avanzado de Mama" />
   <meta property="og:description"
