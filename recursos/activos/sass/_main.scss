@@ -53,6 +53,11 @@
   &--header {
     --width: 300px;
   }
+
+  &--presentacion {
+    --width: 80%;
+    margin-bottom: 60px;
+  }
 }
 
 // Cajas flexibles:
@@ -137,21 +142,25 @@
 // Presentación o portadas:
 .presentacion {
   position: relative;
+  margin: 0 auto;
 
   --columnas: 2;
-  display: grid;
-  grid-template-columns: repeat( var(--columnas), 1fr);
+  --gap: 10px;
 
-  background-color: rgba( $color-secundario-2, 0.3 );
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));
+
+  grid-gap: var(--gap);
+  gap: var(--gap);
 
   &__item {
 
     &--left {
-      background-color: rgba( white, 0.3 );
-    }
-
-    &--right {
-      background-color: rgba( black, 0.3 );
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
     }
   }
 }
@@ -173,10 +182,44 @@
 
   &--left {
     left: 0; right: auto;
-    top: 0; bottom: 0;
+    top: auto; bottom: 0;
+
+    height: calc(100% - 30px);
+    
     svg {
       width: auto;
       height: 100%;
+    }
+  }
+}
+
+// Iconos en formato SVG:
+.icon {
+  position: relative;
+  width: $width;
+  max-width: 500px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  --gap: 20px;
+
+  grid-gap: var(--gap);
+  gap: var(--gap);
+  
+  &__item {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 100%;
+    }
+
+    &--left {
+      padding: 0 5px;
+    }
+
+    &--center {
+      padding: 0 20px;
     }
   }
 }
