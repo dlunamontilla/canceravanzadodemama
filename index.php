@@ -18,7 +18,7 @@ $protocolo -> https();
   <title>Cáncer Avanzado de Mama</title>
 
   <!-- Palabras claves -->
-  <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama">
+  <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama, Cáncer de Mama, tratamientos">
 
   <!-- Protocolo OpenGraph -->
   <meta property="og:title" content="Cáncer Avanzado de Mama" />
