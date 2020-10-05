@@ -38,7 +38,7 @@ $protocolo -> https();
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?v3" />
+  <link rel="stylesheet" href="vista/css/style.css?v6" />
 
   <!-- jQuery -->
   <!--
