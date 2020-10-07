@@ -11,8 +11,6 @@ const imagenSVG = () => {
       .then(function( datos ) {
         _elemento.innerHTML = datos;
         _elemento.removeAttribute("data-src");
-
-        console.log( _elemento );
       })
   });
 }

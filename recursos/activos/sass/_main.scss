@@ -1,6 +1,6 @@
 .header {
   background-color: var(--fondo);
-  
+
   font: {
     size: 0.9rem;
   }
@@ -12,9 +12,6 @@
 
 .content {
   margin: 0 auto;
-  width: $width;
-  max-width: $max-width;
-
 }
 
 // .border {
@@ -24,7 +21,7 @@
 .border {
   // Establecer los valores del border predeterminado:
   --border-width: 1px;
-  --border-color: #{rgba( $color-secundario, 0.75 )};
+  --border-color: #{rgba($color-secundario, 0.75)};
 
   // Ancho de borde predeterminado:
   &:not([class*="border--"]) {
@@ -95,36 +92,50 @@
 
 // Menú de navegación:
 .menu {
+  --height: 100%;
+  --width: 170px;
+  --text-align: center;
+
   list-style: none;
   padding: 0;
   display: var(--display);
-  height: 100%;
-  // background-color: rgba($color-secundario-3, 0.1 );
+  height: var(--height);
 
   // Aplica a los elementos del menú:
   --display: flex;
+  --background-color: rgba(#{$color-secundario}, 0.07);
+
+  &--vertical {
+    --display: block;
+    --background-color: transparent;
+    --height: auto;
+    --width: auto;
+    --text-align: left;
+    color: white;
+  }
 
   &__item,
   &__enlace {
     transition: 300ms ease;
+    color: inherit;
   }
 
   &__item {
     display: var(--display);
     padding: 0;
     margin: 0;
-    max-width: 170px;
+    max-width: var(--width);
     background-color: transparent;
 
     &:hover {
-      background-color: rgba( $color-secundario, 0.07 );
+      background-color: var(--background-color);
     }
   }
 
   &__enlace {
     display: var(--display);
     padding: 5px 10px;
-    text-align: center;
+    text-align: var(--text-align);
     height: 100%;
     outline: medium none;
 
@@ -133,8 +144,8 @@
     }
 
     &:focus {
-      background-color: rgba($color-secundario, 0.1 );
-      color: darken($color-secundario, 20 );
+      background-color: rgba($color-secundario, 0.1);
+      color: darken($color-secundario, 20);
     }
   }
 }
@@ -148,13 +159,12 @@
   --gap: 10px;
 
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 
   grid-gap: var(--gap);
   gap: var(--gap);
 
   &__item {
-
     &--left {
       display: flex;
       flex-direction: column;
@@ -168,7 +178,7 @@
 // Portada:
 .portada {
   position: relative;
-  
+
   &--home {
     min-height: calc(100vh - 110px);
   }
@@ -181,11 +191,13 @@
   height: 100%;
 
   &--left {
-    left: 0; right: auto;
-    top: auto; bottom: 0;
+    left: 0;
+    right: auto;
+    top: auto;
+    bottom: 0;
 
     height: calc(100% - 30px);
-    
+
     svg {
       width: auto;
       height: 100%;
@@ -205,7 +217,7 @@
 
   grid-gap: var(--gap);
   gap: var(--gap);
-  
+
   &__item {
     display: flex;
     align-items: center;
@@ -221,5 +233,59 @@
     &--center {
       padding: 0 20px;
     }
+  }
+}
+
+// Pie de página:
+.footer {
+  background-color: darken($color-secundario-3, 10);
+  color: white;
+}
+
+// Contenedor principal del pie de página
+.f-inner {
+  margin: 0 auto;
+  width: $width;
+  max-width: $max-width;
+
+  display: grid;
+  --columnas: repeat(2, 1fr) 2fr 1fr;
+
+  grid-template-columns: var(--columnas);
+  min-height: 100px;
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 260px;
+      max-height: 80px;
+    }
+  }
+}
+
+.redes-sociales {
+  --diametro: 30px;
+
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+
+  &__item {
+    display: flex;
+    padding: 0;
+  }
+
+  &__enlace {
+    padding: 0 3px;
+  }
+
+  svg {
+    width: var(--diametro);
+    height: var(--diametro);
+    fill: white;
   }
 }

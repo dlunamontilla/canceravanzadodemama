@@ -1,5 +1,6 @@
 <?php
-include __DIR__ . "/app/php/index.php";
+include __DIR__ . "/app/php/DLTools/index.php";
+include __DIR__ . "/app/php/modulos/index.php";
 
 $protocolo = new DLProtocolo([
   "canceravanzadodemama.com",
@@ -63,61 +64,21 @@ $protocolo -> https();
     <header class="header header--fondo">
       <div class="border border--home">
         <nav class="navigation flex flex--between default">
-          <div class="logotipo logotipo--header flex__item" data-src="multimedia/vectores/logotipo.svg"></div>
-
-          <ul class="menu flex__item">
-            <li class="menu__item"><a class="menu__enlace flex" href="/">Inicio</a></li>
-            <li class="menu__item"><a class="menu__enlace flex" href="?nosotros">Nosotros</a></li>
-            <li class="menu__item"><a class="menu__enlace flex" href="?herramientas_desiciones">Herramientas para la
-                toma de desiciones</a></li>
-            <li class="menu__item"><a class="menu__enlace flex" href="?conozca_su_enfermedad">Conozca su enfermedad</a>
-            </li>
-            <li class="menu__item"><a class="menu__enlace flex" href="?la_paciente_y_su_proceso">La paciente y su
-                proceso</a></li>
-          </ul>
-
-          <div class="buscador flex__item">
-            <form action="#" class="buscar" method="get">
-              <label class="label label--buscar">
-                <input type="search" name="buscar" id="buscar" placeholder="Buscar..." autocomplete="off"
-                  class="input input--buscar">
-                <button class="button button--buscar" data-src="multimedia/vectores/buscar.svg"></button>
-              </label>
-            </form>
+          <div class="logotipo logotipo--header flex__item">
+            <a href="/" data-src="multimedia/vectores/logotipo.svg"></a>
           </div>
+
+          <?= $menu; ?>
+          <?= $buscador; ?>
         </nav>
-      </div>
-
-      <div class="portada">
-        <div class="decoration decoration--left" data-src="multimedia/vectores/decoracion-izquierda.svg"></div>
-
-        <div class="presentacion">
-          <div class="presentacion__item presentacion__item--left">
-            <div class="logotipo logotipo--presentacion" data-src="multimedia/vectores/logotipo-slogan.svg"></div>
-
-            <!-- Iconos -->
-            <div class="icon">
-              <div class="icon__item icon__item--left">
-                <a href="#" target="_blank" data-src="multimedia/vectores/fuveicam.svg"></a>
-              </div>
-
-              <div class="icon__item icon__item--center">
-                <a href="#" target="_blank" data-src="multimedia/vectores/uicc.svg"></a>
-              </div>
-
-              <div class="icon__item">
-                <a href="https://www.abcglobalalliance.org/" target="_blank" data-src="multimedia/vectores/abcglobalalliance.svg"></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="presentacion__item presentacion__item--right" data-src="multimedia/vectores/seno-foto.svg"></div>
-        </div>
-
       </div>
     </header>
 
-    <div class="content"></div>
+    <div class="content">
+      <?= $portada; ?>
+    </div>
+
+    <?= $footer; ?>
   </main>
 </body>
 

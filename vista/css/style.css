@@ -95,6 +95,9 @@ pre, code {
 .text--right {
   text-align: right;
 }
+.text--margin-none {
+  margin: 0;
+}
 
 .default, .predeterminado {
   width: calc(calc(100% - 20px) - 10px);
@@ -217,8 +220,6 @@ svg {
 
 .content {
   margin: 0 auto;
-  width: calc(100% - 20px);
-  max-width: 1200px;
 }
 
 .border {
@@ -276,29 +277,42 @@ svg {
 }
 
 .menu {
+  --height: 100%;
+  --width: 170px;
+  --text-align: center;
   list-style: none;
   padding: 0;
   display: var(--display);
-  height: 100%;
+  height: var(--height);
   --display: flex;
+  --background-color: rgba(#f97ca9, 0.07);
+}
+.menu--vertical {
+  --display: block;
+  --background-color: transparent;
+  --height: auto;
+  --width: auto;
+  --text-align: left;
+  color: white;
 }
 .menu__item, .menu__enlace {
   transition: 300ms ease;
+  color: inherit;
 }
 .menu__item {
   display: var(--display);
   padding: 0;
   margin: 0;
-  max-width: 170px;
+  max-width: var(--width);
   background-color: transparent;
 }
 .menu__item:hover {
-  background-color: rgba(249, 124, 169, 0.07);
+  background-color: var(--background-color);
 }
 .menu__enlace {
   display: var(--display);
   padding: 5px 10px;
-  text-align: center;
+  text-align: var(--text-align);
   height: 100%;
   outline: medium none;
 }
@@ -374,6 +388,50 @@ svg {
 }
 .icon__item--center {
   padding: 0 20px;
+}
+
+.footer {
+  background-color: #008484;
+  color: white;
+}
+
+.f-inner {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 1200px;
+  display: grid;
+  --columnas: repeat(2, 1fr) 2fr 1fr;
+  grid-template-columns: var(--columnas);
+  min-height: 100px;
+}
+.f-inner__item {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f-inner__item svg {
+  width: 260px;
+  max-height: 80px;
+}
+
+.redes-sociales {
+  --diametro: 30px;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.redes-sociales__item {
+  display: flex;
+  padding: 0;
+}
+.redes-sociales__enlace {
+  padding: 0 3px;
+}
+.redes-sociales svg {
+  width: var(--diametro);
+  height: var(--diametro);
+  fill: white;
 }
 
 [type="search"],
