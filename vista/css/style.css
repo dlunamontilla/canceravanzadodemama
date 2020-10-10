@@ -250,9 +250,13 @@ svg {
 .logotipo {
   width: 100%;
   max-width: var(--width);
+  transition: 300ms ease;
 }
 .logotipo--header {
   --width: 300px;
+}
+.logotipo--scroll {
+  --width: 200px;
 }
 .logotipo--presentacion {
   --width: 80%;
@@ -279,7 +283,12 @@ svg {
 }
 
 .navigation {
-  height: 80px;
+  --height: 80px;
+  transition: 300ms ease;
+  height: var(--height);
+}
+.navigation--scroll {
+  --height: 50px;
 }
 
 .menu {
@@ -370,6 +379,7 @@ svg {
 .decoration--left svg {
   width: auto;
   height: 100%;
+  opacity: 0.4;
 }
 
 .icon {
@@ -397,17 +407,30 @@ svg {
 }
 
 .footer {
-  background-color: #008484;
   color: white;
+  transition: 500ms ease;
+  --background-color: #008484;
+}
+@media screen and (min-width: 801px) {
+  .footer {
+    background-color: var(--background-color);
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer {
+    background-color: rgba(0, 132, 132, 0.7);
+  }
 }
 
 .f-inner {
+  --gap: 0;
   margin: 0 auto;
-  width: calc(100% - 20px);
   max-width: 1200px;
   display: grid;
   grid-template-columns: var(--columnas);
   min-height: 100px;
+  grid-gap: var(--gap);
+  gap: var(--gap);
 }
 @media screen and (min-width: 801px) {
   .f-inner {
@@ -424,15 +447,26 @@ svg {
     --columnas: 1fr;
   }
 }
+@media screen and (max-width: 800px) {
+  .f-inner {
+    --gap: 1px;
+  }
+}
 .f-inner__item {
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 300ms ease;
 }
 .f-inner__item svg {
   width: auto;
   height: 100px;
+}
+@media screen and (max-width: 800px) {
+  .f-inner__item {
+    background-color: var(--background-color);
+  }
 }
 .f-inner__enlace {
   color: white;

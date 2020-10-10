@@ -63,9 +63,9 @@ $protocolo -> https();
   <main id="app">
     <header class="header header--fondo">
       <div class="border border--home">
-        <nav class="navigation flex flex--between default">
-          <div class="logotipo logotipo--header flex__item">
-            <a href="/" data-src="multimedia/vectores/logotipo-slogan.svg"></a>
+        <nav class="navigation flex flex--between default" id="nav-header">
+          <div id="logotipo-header" class="logotipo logotipo--header flex__item">
+            <a href="/" data-src="multimedia/vectores/logotipo.svg"></a>
           </div>
 
           <?= $menu; ?>

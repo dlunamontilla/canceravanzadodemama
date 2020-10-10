@@ -53,9 +53,14 @@
 .logotipo {
   width: 100%;
   max-width: var(--width);
+  transition: 300ms ease;
 
   &--header {
     --width: 300px;
+  }
+
+  &--scroll {
+    --width: 200px;
   }
 
   &--presentacion {
@@ -94,7 +99,14 @@
 }
 
 .navigation {
-  height: 80px;
+  --height: 80px;
+
+  transition: 300ms ease;
+  height: var(--height);
+
+  &--scroll {
+    --height: 50px;
+  }
 }
 
 // Menú de navegación:
@@ -208,6 +220,7 @@
     svg {
       width: auto;
       height: 100%;
+      opacity: 0.4;
     }
   }
 }
@@ -245,20 +258,35 @@
 
 // Pie de página:
 .footer {
-  background-color: darken($color-secundario-3, 10);
   color: white;
+  transition: 500ms ease;
+  $color: darken($color-secundario-3, 10);
+  --background-color: #{$color};
+
+  @media screen and (min-width: 801px) {
+    background-color: var(--background-color);
+  }
+
+  @media screen and (max-width: 800px) {
+    background-color: rgba( $color, 0.7 );
+  }
 }
 
 // Contenedor principal del pie de página
 .f-inner {
+  // Separación predeterminada:
+  --gap: 0;
+
   margin: 0 auto;
-  width: $width;
   max-width: $max-width;
 
   display: grid;
 
   grid-template-columns: var(--columnas);
   min-height: 100px;
+
+  grid-gap: var(--gap);
+  gap: var(--gap);
   
   // A partir de 801px 4 columnas:
   @media screen and ( min-width: 801px) {
@@ -267,12 +295,16 @@
 
   // A partir de 501 hasta 800px 2 columnas:
   @media screen and ( min-width: 501px ) and ( max-width: 800px ) {
-    --columnas: repeat(2, 1fr); 
+    --columnas: repeat(2, 1fr);
   }
 
   // Hasta 500 px 1 columna:
   @media screen and ( max-width: 500px ) {
     --columnas: 1fr;
+  }
+
+  @media screen and (max-width: 800px) {
+    --gap: 1px;
   }
 
 
@@ -285,6 +317,12 @@
     svg {
       width: auto;
       height: 100px;
+    }
+    
+    transition: 300ms ease;
+
+    @media screen and (max-width: 800px) {
+      background-color: var(--background-color);
     }
   }
 
