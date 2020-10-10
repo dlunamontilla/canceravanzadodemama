@@ -50,57 +50,62 @@
 .fondo {
 	transition: 300ms ease;
 
+	// Aplicados únicamente a elementos SVG:
+	&--svg {
+		fill: var(--background-color);
+	}
+
+	// Aplicados a elementos HTML:
+	&--html {
+		background-color: var(--background-color);
+	}
+
 	&--base,
 	&--base-hover:hover {
-		background-color: $color-base;
-		fill: $color-base;
+		--background-color: #{$color-base};
 	}
 
 	&--secundario,
 	&--secundario-hover:hover {
-		background-color: $color-secundario;
-		fill: $color-secundario;
+		--background-color: #{$color-secundario};
 	}
 
 	&--whatsapp,
 	&--whatsapp-hover:hover {
-		background-color: $color-whatsapp;
-		fill: $color-whatsapp;
+		--background-color: #{$color-whatsapp};
 	}
 
 	&--facebook,
 	&--facebook-hover:hover {
-		background-color: $color-facebook;
-		fill: $color-facebook;
+		--background-color: #{$color-facebook};
 	}
 
 	&--twitter,
 	&--twitter-hover:hover {
-		background-color: $color-twitter;
-		fill: $color-twitter;
+		--background-color: #{$color-twitter};
 	}
 
 	&--youtube,
 	&--youtube-hover:hover {
-		background-color: $color-youtube;
-		fill: $color-youtube;
+		--background-color: #{$color-youtube};
 	}
 
 	&--pinterest,
 	&--pinterest-hover:hover {
-		background-color: $color-pinterest;
-		fill: $color-pinterest;
+		--background-color: #{$color-pinterest};
 	}
 
 	&--linkedin,
 	&--linkedin-hover:hover {
-		background-color: $color-linkedin;
-		fill: $color-linkedin;
+		--background-color: #{$color-linkedin};
 	}
 
 	&--skype,
 	&--skype-hover:hover {
-		background-color: $color-skype;
-		fill: $color-skype;
+		--background-color: #{$color-skype};
 	}
+
+	// Propiedades CSS aplicados únicamente
+	// a elementos SVG:
+
 }

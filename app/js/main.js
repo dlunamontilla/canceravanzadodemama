@@ -1,7 +1,7 @@
-import { imagenSVG } from "./imagenSVG.js";
-// import { redesSociales } from "./redesSociales.js";
+import { imagenSVG } from "./modulos/imagenSVG.js";
+import { redesSociales } from "./modulos/redesSociales.js";
 
 console.clear();
 
 imagenSVG();
-// redesSociales();
+redesSociales();

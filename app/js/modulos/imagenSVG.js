@@ -1,7 +1,7 @@
 import { elementos } from "./elementos.js";
 
 const imagenSVG = () => {
-  const _elementos = elementos( "[data-src$='svg']");
+  const _elementos = elementos( "[data-src$='.svg']");
 
   _elementos.forEach( _elemento => {
     fetch ( _elemento.dataset.src )

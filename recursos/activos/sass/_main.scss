@@ -1,5 +1,11 @@
 .header {
+  position: fixed;
+  margin: auto;
+  left: 0; right: 0;
+  top: 0; bottom: auto;
   background-color: var(--fondo);
+
+  z-index: 100;
 
   font: {
     size: 0.9rem;
@@ -12,6 +18,7 @@
 
 .content {
   margin: 0 auto;
+  margin-top: 110px;
 }
 
 // .border {
@@ -249,10 +256,25 @@
   max-width: $max-width;
 
   display: grid;
-  --columnas: repeat(2, 1fr) 2fr 1fr;
 
   grid-template-columns: var(--columnas);
   min-height: 100px;
+  
+  // A partir de 801px 4 columnas:
+  @media screen and ( min-width: 801px) {
+    --columnas: repeat(2, 1fr) 2fr 1fr;
+  }
+
+  // A partir de 501 hasta 800px 2 columnas:
+  @media screen and ( min-width: 501px ) and ( max-width: 800px ) {
+    --columnas: repeat(2, 1fr); 
+  }
+
+  // Hasta 500 px 1 columna:
+  @media screen and ( max-width: 500px ) {
+    --columnas: 1fr;
+  }
+
 
   &__item {
     padding: 10px;
@@ -261,8 +283,30 @@
     align-items: center;
 
     svg {
-      width: 260px;
-      max-height: 80px;
+      width: auto;
+      height: 100px;
+    }
+  }
+
+  &__enlace {
+    color: white;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__nosotros {
+    text-align: center;
+
+    svg {
+      width: var(--diametro);
+      height: var(--diametro);
+      fill: white;
+    }
+
+    &--icon {
+      --diametro: 40px;
     }
   }
 }
@@ -286,6 +330,37 @@
   svg {
     width: var(--diametro);
     height: var(--diametro);
+    
+    &:not(:hover) {
+      fill: white;
+    }
+
+    &:hover {
+      fill: rgba(white, 0.6);
+    }
+    
+    &:active {
+      fill: white;
+      transition: none;
+    }
+  }
+}
+
+// Manipulación de archivos SVG:
+.nosotros {
+  --diametro: 100px;
+  
+  width: var(--diametro) !important;
+  height: var(--diametro) !important;
+
+  &--icon {
+    --diametro: 50px;
     fill: white;
+
+    transition: 300ms ease;
+
+    &:hover {
+      fill: pink !important;
+    }
   }
 }

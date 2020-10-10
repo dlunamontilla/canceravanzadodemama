@@ -137,6 +137,7 @@ pre, code {
 
 svg {
   max-height: 100%;
+  transition: 300ms ease;
 }
 
 .frontal {
@@ -173,45 +174,49 @@ svg {
 .fondo {
   transition: 300ms ease;
 }
+.fondo--svg {
+  fill: var(--background-color);
+}
+.fondo--html {
+  background-color: var(--background-color);
+}
 .fondo--base, .fondo--base-hover:hover {
-  background-color: #4d4d4d;
-  fill: #4d4d4d;
+  --background-color: #4d4d4d;
 }
 .fondo--secundario, .fondo--secundario-hover:hover {
-  background-color: #f97ca9;
-  fill: #f97ca9;
+  --background-color: #f97ca9;
 }
 .fondo--whatsapp, .fondo--whatsapp-hover:hover {
-  background-color: #00e676;
-  fill: #00e676;
+  --background-color: #00e676;
 }
 .fondo--facebook, .fondo--facebook-hover:hover {
-  background-color: #1877f2;
-  fill: #1877f2;
+  --background-color: #1877f2;
 }
 .fondo--twitter, .fondo--twitter-hover:hover {
-  background-color: #1da1f2;
-  fill: #1da1f2;
+  --background-color: #1da1f2;
 }
 .fondo--youtube, .fondo--youtube-hover:hover {
-  background-color: #ff0000;
-  fill: #ff0000;
+  --background-color: #ff0000;
 }
 .fondo--pinterest, .fondo--pinterest-hover:hover {
-  background-color: #cb2027;
-  fill: #cb2027;
+  --background-color: #cb2027;
 }
 .fondo--linkedin, .fondo--linkedin-hover:hover {
-  background-color: #0b66c3;
-  fill: #0b66c3;
+  --background-color: #0b66c3;
 }
 .fondo--skype, .fondo--skype-hover:hover {
-  background-color: #00aff0;
-  fill: #00aff0;
+  --background-color: #00aff0;
 }
 
 .header {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
   background-color: var(--fondo);
+  z-index: 100;
   font-size: 0.9rem;
 }
 .header--fondo {
@@ -220,6 +225,7 @@ svg {
 
 .content {
   margin: 0 auto;
+  margin-top: 110px;
 }
 
 .border {
@@ -400,9 +406,23 @@ svg {
   width: calc(100% - 20px);
   max-width: 1200px;
   display: grid;
-  --columnas: repeat(2, 1fr) 2fr 1fr;
   grid-template-columns: var(--columnas);
   min-height: 100px;
+}
+@media screen and (min-width: 801px) {
+  .f-inner {
+    --columnas: repeat(2, 1fr) 2fr 1fr;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .f-inner {
+    --columnas: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .f-inner {
+    --columnas: 1fr;
+  }
 }
 .f-inner__item {
   padding: 10px;
@@ -411,8 +431,25 @@ svg {
   align-items: center;
 }
 .f-inner__item svg {
-  width: 260px;
-  max-height: 80px;
+  width: auto;
+  height: 100px;
+}
+.f-inner__enlace {
+  color: white;
+}
+.f-inner__enlace:hover {
+  text-decoration: underline;
+}
+.f-inner__nosotros {
+  text-align: center;
+}
+.f-inner__nosotros svg {
+  width: var(--diametro);
+  height: var(--diametro);
+  fill: white;
+}
+.f-inner__nosotros--icon {
+  --diametro: 40px;
 }
 
 .redes-sociales {
@@ -431,7 +468,30 @@ svg {
 .redes-sociales svg {
   width: var(--diametro);
   height: var(--diametro);
+}
+.redes-sociales svg:not(:hover) {
   fill: white;
+}
+.redes-sociales svg:hover {
+  fill: rgba(255, 255, 255, 0.6);
+}
+.redes-sociales svg:active {
+  fill: white;
+  transition: none;
+}
+
+.nosotros {
+  --diametro: 100px;
+  width: var(--diametro) !important;
+  height: var(--diametro) !important;
+}
+.nosotros--icon {
+  --diametro: 50px;
+  fill: white;
+  transition: 300ms ease;
+}
+.nosotros--icon:hover {
+  fill: pink !important;
 }
 
 [type="search"],
