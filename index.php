@@ -43,7 +43,7 @@ $protocolo -> https();
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?v6" />
+  <link rel="stylesheet" href="vista/css/style.css?v7" />
 
   <!-- jQuery -->
   <!--
@@ -56,7 +56,7 @@ $protocolo -> https();
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
 
   <!-- JavaScript -->
-  <script src="app/js/main.js" type="module" defer></script>
+  <script src="app/js/main.js?v1" type="module" defer></script>
 </head>
 
 <body>
