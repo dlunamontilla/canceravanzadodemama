@@ -5,7 +5,6 @@ $footer = <<<HTML
 
   <footer class="footer">
     <div class="f-inner">
-      <!-- <div class="f-inner__item" data-src="multimedia/vectores/logotipo-slogan-blanco.svg"></div> -->
       <div class="f-inner__item" data-src="multimedia/vectores/isotipo.svg"></div>
 
       <div class="f-inner__item">

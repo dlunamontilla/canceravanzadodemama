@@ -256,7 +256,7 @@ svg {
   --width: 300px;
 }
 .logotipo--scroll {
-  --width: 200px;
+  --width: 250px;
 }
 .logotipo--presentacion {
   --width: 80%;
@@ -288,7 +288,7 @@ svg {
   height: var(--height);
 }
 .navigation--scroll {
-  --height: 50px;
+  --height: 60px;
 }
 
 .menu {
@@ -300,7 +300,16 @@ svg {
   display: var(--display);
   height: var(--height);
   --display: flex;
-  --background-color: rgba(#f97ca9, 0.07);
+  --background-color: rgba(249, 124, 169, 0.07);
+}
+.menu--inner {
+  --inclinacion: 30px;
+  overflow: hidden;
+  background-color: #00b7b7;
+  color: white;
+  padding-left: var(--inclinacion);
+  padding-right: var(--inclinacion);
+  clip-path: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
 }
 .menu--vertical {
   --display: block;
@@ -526,6 +535,18 @@ svg {
 }
 .nosotros--icon:hover {
   fill: pink !important;
+}
+
+.relleno {
+  --menu--height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease;
+  height: calc(100vh - var(--menu--height));
+}
+.relleno--scroll {
+  --menu--height: 90px;
 }
 
 [type="search"],

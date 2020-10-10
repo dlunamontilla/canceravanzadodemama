@@ -12,22 +12,23 @@ $enlace = (object) $enlace;
 
 $menu = "";
 
+// Menú predeterminado:
 $menuHOME = <<<HTML
-<ul class="menu flex__item">
-  <li class="menu__item"><a class="menu__enlace flex" href="$enlace->inicio">Inicio - m</a></li>
+<ul class="menu menu--inner flex__item">
+  <li class="menu__item"><a class="menu__enlace flex" href="$enlace->inicio">Inicio</a></li>
   <li class="menu__item">
     <a class="menu__enlace flex" href="$enlace->nosotros">
       <div data-src=""></div>
-      Nosotros - m
+      Nosotros
     </a>
   </li>
 
   <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la
-      toma de desiciones - m</a></li>
-  <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su enfermedad - m</a>
+      toma de desiciones</a></li>
+  <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su enfermedad</a>
   </li>
   <li class="menu__item"><a class="menu__enlace flex" href="$enlace->paciente">La paciente y su
-      proceso - m</a></li>
+      proceso</a></li>
 </ul>
 HTML;
 

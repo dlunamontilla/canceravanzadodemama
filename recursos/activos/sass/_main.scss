@@ -60,7 +60,7 @@
   }
 
   &--scroll {
-    --width: 200px;
+    --width: 250px;
   }
 
   &--presentacion {
@@ -105,7 +105,7 @@
   height: var(--height);
 
   &--scroll {
-    --height: 50px;
+    --height: 60px;
   }
 }
 
@@ -122,7 +122,19 @@
 
   // Aplica a los elementos del menú:
   --display: flex;
-  --background-color: rgba(#{$color-secundario}, 0.07);
+  --background-color: #{rgba($color-secundario, 0.07)};
+
+  &--inner {
+    --inclinacion: 30px;
+
+    overflow: hidden;
+    background-color: $color-secundario-3;
+    color: white;
+    padding-left: var(--inclinacion);
+    padding-right: var(--inclinacion);
+
+    clip-path: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
+  }
 
   &--vertical {
     --display: block;
@@ -400,5 +412,19 @@
     &:hover {
       fill: pink !important;
     }
+  }
+}
+
+// Vista provisional:
+.relleno {
+  --menu--height: 110px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 300ms ease;
+  height: calc(100vh - var(--menu--height));
+  &--scroll {
+    --menu--height: 90px;
   }
 }
