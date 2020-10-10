@@ -126,14 +126,15 @@
 
   &--inner {
     --inclinacion: 30px;
+    --poligono: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
 
     overflow: hidden;
-    background-color: $color-secundario-3;
-    color: white;
+    background-color: $color-secundario-2;
+    color: desaturate(darken($color-secundario-2, 60), 30);
     padding-left: var(--inclinacion);
-    padding-right: var(--inclinacion);
+    // padding-right: var(--inclinacion);
 
-    clip-path: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
+    clip-path: var(--poligono);
   }
 
   &--vertical {
@@ -161,14 +162,38 @@
     &:hover {
       background-color: var(--background-color);
     }
+
+    &--inner {
+      &:hover {
+        background-color: lighten( $color-secundario-2, 2 );
+      }
+    }
+
+    &--select {
+      background-color: $color-secundario-3;
+
+      &:hover {
+        background-color: darken($color-secundario-3, 3 );
+      }
+
+      .menu__enlace--inner {
+        color: white;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
   }
 
   &__enlace {
     display: var(--display);
+    flex-wrap: wrap;
     padding: 5px 10px;
     text-align: var(--text-align);
     height: 100%;
     outline: medium none;
+    font-size: 0.9rem;
 
     &:hover {
       color: darken($color-secundario, 15);
@@ -177,6 +202,26 @@
     &:focus {
       background-color: rgba($color-secundario, 0.1);
       color: darken($color-secundario, 20);
+    }
+
+    &--inner {
+      $color: desaturate(darken($color-secundario-2, 60), 30);
+
+      &:hover {
+        color: lighten($color, 20);
+      }
+    }
+  }
+
+  &__icon {
+    --diametro: 30px;
+    width: 100%;
+    text-align: center;
+
+    svg {
+      width: var(--diametro);
+      height: var(--diametro);
+      fill: white;
     }
   }
 }

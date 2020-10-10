@@ -8,6 +8,14 @@ $protocolo = new DLProtocolo([
 ]);
 
 $protocolo -> https();
+
+$idNavigation = $idLogotipo = "";
+
+if ( count($_GET) < 1 ) {
+  $idNavigation = "nav-header";
+  $idLogotipo = "logotipo-header";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -62,9 +70,9 @@ $protocolo -> https();
 <body>
   <main id="app">
     <header class="header header--fondo">
-      <div class="border border--home">
-        <nav class="navigation flex flex--between default" id="nav-header">
-          <div id="logotipo-header" class="logotipo logotipo--header flex__item">
+      <div<?= $border; ?>>
+        <nav class="navigation flex flex--between default" id="<?= $idNavigation; ?>">
+          <div id="<?= $idLogotipo; ?>" class="logotipo logotipo--header flex__item">
             <a href="/" data-src="multimedia/vectores/logotipo.svg"></a>
           </div>
 

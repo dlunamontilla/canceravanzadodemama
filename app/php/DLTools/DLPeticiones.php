@@ -130,5 +130,14 @@
 				} 
 			}
 		}
+
+		// Módulos
+		public function modulo( $string ) : bool {
+			$peticion = [
+				"$string" => true
+			];
+
+			return $this -> validar($peticion);
+		}
 	}
 ?>

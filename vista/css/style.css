@@ -304,12 +304,12 @@ svg {
 }
 .menu--inner {
   --inclinacion: 30px;
+  --poligono: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
   overflow: hidden;
-  background-color: #00b7b7;
-  color: white;
+  background-color: #fcbdd4;
+  color: #6d1a38;
   padding-left: var(--inclinacion);
-  padding-right: var(--inclinacion);
-  clip-path: polygon(var(--inclinacion) 0%, 100% 0%, calc(100% - var(--inclinacion)) 100%, 0% 100%);
+  clip-path: var(--poligono);
 }
 .menu--vertical {
   --display: block;
@@ -333,12 +333,29 @@ svg {
 .menu__item:hover {
   background-color: var(--background-color);
 }
+.menu__item--inner:hover {
+  background-color: #fcc7da;
+}
+.menu__item--select {
+  background-color: #00b7b7;
+}
+.menu__item--select:hover {
+  background-color: #00a8a8;
+}
+.menu__item--select .menu__enlace--inner {
+  color: white;
+}
+.menu__item--select .menu__enlace--inner:hover {
+  color: white;
+}
 .menu__enlace {
   display: var(--display);
+  flex-wrap: wrap;
   padding: 5px 10px;
   text-align: var(--text-align);
   height: 100%;
   outline: medium none;
+  font-size: 0.9rem;
 }
 .menu__enlace:hover {
   color: #f63379;
@@ -346,6 +363,19 @@ svg {
 .menu__enlace:focus {
   background-color: rgba(249, 124, 169, 0.1);
   color: #f51a69;
+}
+.menu__enlace--inner:hover {
+  color: #bf2e63;
+}
+.menu__icon {
+  --diametro: 30px;
+  width: 100%;
+  text-align: center;
+}
+.menu__icon svg {
+  width: var(--diametro);
+  height: var(--diametro);
+  fill: white;
 }
 
 .presentacion {
