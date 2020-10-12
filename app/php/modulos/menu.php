@@ -82,7 +82,7 @@ if (count($_GET) < 1) {
   $border = " class=\"border border--home\"";
 
   $menuHOME = <<<HTML
-  <ul class="menu flex__item">
+  <ul class="menu menu--portada flex__item">
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->inicio">Inicio</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->nosotros">Nosotros</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la
