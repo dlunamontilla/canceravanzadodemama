@@ -582,6 +582,7 @@ svg {
 .directorio {
   position: relative;
   min-height: 200px;
+  transition: 300ms ease;
   padding-top: var(--padding);
   padding-bottom: var(--padding);
 }
@@ -594,9 +595,13 @@ svg {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  background-color: silver;
   border-top: 4px solid #fcbdd4;
   border-bottom: 4px solid #fcbdd4;
+}
+@media screen and (max-width: 830px) {
+  .directorio--recursos {
+    --padding: 40px;
+  }
 }
 .directorio--recursos::before {
   display: block;
@@ -611,7 +616,6 @@ svg {
 }
 
 .recursos {
-  --columnas: 3;
   --gap: 30px;
   position: relative;
   margin: 0 auto;
@@ -623,6 +627,21 @@ svg {
   mix-blend-mode: hard-light;
   grid-template-columns: repeat(var(--columnas), 1fr);
   z-index: 1;
+}
+@media screen and (min-width: 830px) {
+  .recursos {
+    --columnas: 3;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 829px) {
+  .recursos {
+    --columnas: 2;
+  }
+}
+@media screen and (ma-width: 449px) {
+  .recursos {
+    --columnas: 1;
+  }
 }
 .recursos__icon {
   --diametro: 120px;
@@ -668,6 +687,13 @@ svg {
 .recursos__enlace svg {
   width: var(--diametro);
   height: var(--diametro);
+}
+.recursos__enlace:hover path {
+  transition: 300ms ease;
+  fill: #00b7b7;
+}
+.recursos__enlace:hover svg {
+  opacity: 0.9;
 }
 
 [type="search"],

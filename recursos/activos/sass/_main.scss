@@ -477,7 +477,7 @@
 .directorio {
   position: relative;
   min-height: 200px;
-
+  transition: 300ms ease;
   padding-top: var(--padding);
   padding-bottom: var(--padding);
 
@@ -492,11 +492,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    // Colores provisionales:
-    background-color: silver;
 
     border-top: 4px solid $color-secundario-2;
     border-bottom: 4px solid $color-secundario-2;
+
+    @media screen and (max-width: 830px) {
+      --padding: 40px;
+    }
 
     &::before {
       display: block;
@@ -512,7 +514,6 @@
 }
 
 .recursos {
-  --columnas: 3;
   --gap: 30px;
 
   position: relative;
@@ -523,10 +524,24 @@
   grid-gap: var(--gap);
   gap: var(--gap);
   mix-blend-mode: hard-light;
-  
+
   grid-template-columns: repeat( var(--columnas), 1fr );
 
   z-index: 1;
+
+  @media screen and (min-width: 830px) {
+    --columnas: 3;
+  }
+
+  @media screen and (min-width: 550px) and (max-width: 829px) {
+    --columnas: 2;
+  }
+
+  @media screen and ( ma-width: 449px) {
+    --columnas: 1;
+  }
+
+
 
   &__icon {
     --diametro: 120px;
@@ -584,6 +599,17 @@
     svg {
       width: var(--diametro);
       height: var(--diametro);
+    }
+
+    &:hover {
+      path {
+        transition: 300ms ease;
+        fill: $color-secundario-3;
+      }
+
+      svg {
+        opacity: 0.9;
+      }
     }
   }
 }
