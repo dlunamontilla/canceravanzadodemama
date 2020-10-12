@@ -473,3 +473,117 @@
     --menu--height: 90px;
   }
 }
+
+.directorio {
+  position: relative;
+  min-height: 200px;
+
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+
+  &::before {
+    content: "";
+  }
+
+  &--recursos {
+    --padding: 100px;
+
+    background-image: url("../../../multimedia/fotos/foto-recursos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    // Colores provisionales:
+    background-color: silver;
+
+    border-top: 4px solid $color-secundario-2;
+    border-bottom: 4px solid $color-secundario-2;
+
+    &::before {
+      display: block;
+      position: absolute;
+      margin: auto;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+      background-color: rgba(black, 0.5);
+
+      z-index: 0;
+    }
+  }
+}
+
+.recursos {
+  --columnas: 3;
+  --gap: 30px;
+
+  position: relative;
+  margin: 0 auto;
+  width: $width;
+  max-width: 980px;
+  display: grid;
+  grid-gap: var(--gap);
+  gap: var(--gap);
+  mix-blend-mode: hard-light;
+  
+  grid-template-columns: repeat( var(--columnas), 1fr );
+
+  z-index: 1;
+
+  &__icon {
+    --diametro: 120px;
+    --fondo: #{rgba($color-secundario, 1)};
+
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: calc(var(--diametro) * 2);
+    width: calc(var(--diametro) * 1.9);
+    background-color: var(--fondo);
+    border-radius: 20px;
+    
+    svg {
+      width: var(--diametro);
+      height: var(--diametro);
+
+      fill: white;
+    }
+
+    &--consejos {
+      background-color: rgba($color-secundario-3, 1);
+    }
+
+    &--recursos {
+      background-color: rgba($color-secundario-4, 1);
+    }
+  }
+
+  &__caption {
+    --diametro: 240px;
+
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+
+    width: var(--diametro);
+  }
+
+  &__options {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__enlace {
+    --diametro: 40px;
+
+    &:not(:first-of-type) {
+      margin-left: 15px;
+    }
+
+    svg {
+      width: var(--diametro);
+      height: var(--diametro);
+    }
+  }
+}

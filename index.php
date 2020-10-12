@@ -84,6 +84,7 @@ if ( count($_GET) < 1 ) {
 
     <div class="content">
       <?= $portada; ?>
+      <?= $recursos; ?>
     </div>
 
     <?= $footer; ?>

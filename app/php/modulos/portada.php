@@ -1,5 +1,8 @@
 <?php
 
+if ( ! isset($get) )
+  exit;
+  
 $title = "";
 
 // Acerca de nosotros:
