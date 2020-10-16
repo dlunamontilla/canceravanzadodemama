@@ -638,7 +638,6 @@ svg {
   display: grid;
   grid-gap: var(--gap);
   gap: var(--gap);
-  mix-blend-mode: hard-light;
   grid-template-columns: repeat(var(--columnas), 1fr);
   z-index: 1;
 }
@@ -659,7 +658,7 @@ svg {
 }
 .recursos__icon {
   --diametro: 120px;
-  --fondo: #f97ca9;
+  --fondo: rgba(249, 124, 169, 0.7);
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -675,10 +674,10 @@ svg {
   fill: white;
 }
 .recursos__icon--consejos {
-  background-color: #00b7b7;
+  background-color: rgba(0, 183, 183, 0.7);
 }
 .recursos__icon--recursos {
-  background-color: #60c160;
+  background-color: rgba(96, 193, 96, 0.7);
 }
 .recursos__caption {
   --diametro: 240px;

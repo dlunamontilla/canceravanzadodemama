@@ -6,22 +6,24 @@ if ( ! isset($get) )
 $title = "";
 
 // Acerca de nosotros:
-if ( $get -> validar(["nosotros" => true]) ) {
+if ( $get -> modulo("nosotros") ) {
   $title = "Acerca de nosotros";
 }
 
+
+
 // Herramienta para la toma de decisiones:
-if ( $get -> validar(["herramientas" => true]) ) {
+if ( $get -> modulo("herramientas") ) {
   $title = "Herramienta para la toma de decisiones";
 }
 
 // Conozca su enfermedad:
-if ( $get -> validar(["conozca" => true]) ) {
+if ( $get -> modulo("conozca") ) {
   $title = "Conozca su enfermedad";
 }
 
 // La paciente y su proceso:
-if ( $get -> validar(["paciente" => true]) ) {
+if ( $get -> modulo("paciente") ) {
   $title = "La paciente y su proceso";
 }
 
