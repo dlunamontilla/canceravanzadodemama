@@ -82,7 +82,8 @@ if ( count($_GET) < 1 ) {
       </div>
     </header>
 
-    <div class="content">
+    <div class="content<?= $classContent; ?>">
+      <?= $content; ?>
       <?= $portada; ?>
       <?= $recursos; ?>
     </div>

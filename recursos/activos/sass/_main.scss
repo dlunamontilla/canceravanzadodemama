@@ -17,8 +17,14 @@
 }
 
 .content {
+  --separacion: 110px;
+
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: var(--separacion);
+
+  &--inner {
+    --separacion: 80px;
+  }
 }
 
 // .border {
@@ -453,6 +459,17 @@
       transition: none;
     }
   }
+
+  &--compartir {
+    height: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0;
+
+    margin: 0 auto;
+    width: $width;
+    max-width: $max-width;
+  }
 }
 
 // Manipulación de archivos SVG:
@@ -626,6 +643,140 @@
       svg {
         opacity: 0.9;
       }
+    }
+  }
+}
+
+.banner {
+  position: relative;
+  height: var(--height);
+
+  &::before {
+    content: "";
+  }
+
+  &--fuveicam {
+    --height: 200px;
+
+    border-bottom: 5px solid ($color-secundario-2);
+
+    &::before {
+      display: block;
+      position: absolute;
+      margin: auto;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+      background-color: rgba( $color-secundario-3, 0.7 );
+      z-index: 1;
+
+      overflow: hidden;
+    }
+  }
+
+  &__img {
+    display: block;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    height: 100%;
+    width: 100%;
+
+    --object-fit: cover;
+    --object-position: center top;
+
+    -webkit-object-fit: var(--object-fit);
+    -webkit-object-position: var(--object-position);
+    object-fit: var(--object-fit);
+    object-position: var(--object-position);
+
+    z-index: 0;
+  }
+
+  &__teta {
+    position: absolute;
+    margin: auto;
+    left: auto; right: 0;
+    top: 0; bottom: 0;
+
+    z-index: 2;
+
+    svg {
+      height: 100%;
+    }
+  }
+}
+
+// Compartir en las redes sociales:
+.compartir {
+  --diametro: 40px;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+  &__item {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__enlace {
+    --padding: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    transition: 300ms ease;
+
+    path {
+      transition: 300ms ease;
+      height: var(--diametro);
+      width: var(--diametro);
+      fill: darken($color-secundario-2, 20);
+    }
+
+    &--twitter:hover {
+      path {
+        fill: $color-twitter;
+      }
+    }
+
+    &--facebook:hover {
+      path {
+        fill: $color-facebook;
+      }
+    }
+  }
+
+}
+
+// Contenedores en todos los módulos:
+.modulo {
+  display: flex;
+  margin: 20px auto;
+  min-height: 200px;
+  width: $width;
+  max-width: $max-width;
+
+  background-color: silver;
+
+
+  &__item {
+    flex-shrink: 12;
+    padding: 10px;
+
+    &--sidebar {
+      flex-grow: 4;
+      background-color: white;
+    }
+
+    &--section {
+      flex-grow: 8;
     }
   }
 }

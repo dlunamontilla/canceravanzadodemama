@@ -45,7 +45,7 @@ if ( count($_GET) < 1 ) {
             </div>
   
             <div class="icon__item icon__item--center">
-              <a href="#" target="_blank" data-src="multimedia/vectores/uicc.svg"></a>
+              <a href="https://www.uicc.org/" target="_blank" data-src="multimedia/vectores/uicc.svg"></a>
             </div>
   
             <div class="icon__item">
@@ -69,4 +69,6 @@ if ( count($_GET) > 0 ) {
   </div>
 
 HTML;
+
+$portada = "";
 }

@@ -224,8 +224,12 @@ svg {
 }
 
 .content {
+  --separacion: 110px;
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: var(--separacion);
+}
+.content--inner {
+  --separacion: 80px;
 }
 
 .border {
@@ -566,6 +570,15 @@ svg {
   fill: white;
   transition: none;
 }
+.redes-sociales--compartir {
+  height: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 1200px;
+}
 
 .nosotros {
   --diametro: 100px;
@@ -707,6 +720,115 @@ svg {
 }
 .recursos__enlace:hover svg {
   opacity: 0.9;
+}
+
+.banner {
+  position: relative;
+  height: var(--height);
+}
+.banner::before {
+  content: "";
+}
+.banner--fuveicam {
+  --height: 200px;
+  border-bottom: 5px solid #fcbdd4;
+}
+.banner--fuveicam::before {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 183, 183, 0.7);
+  z-index: 1;
+  overflow: hidden;
+}
+.banner__img {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  --object-fit: cover;
+  --object-position: center top;
+  -webkit-object-fit: var(--object-fit);
+  -webkit-object-position: var(--object-position);
+  object-fit: var(--object-fit);
+  object-position: var(--object-position);
+  z-index: 0;
+}
+.banner__teta {
+  position: absolute;
+  margin: auto;
+  left: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.banner__teta svg {
+  height: 100%;
+}
+
+.compartir {
+  --diametro: 40px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.compartir__item {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+.compartir__enlace {
+  --padding: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  transition: 300ms ease;
+}
+.compartir__enlace path {
+  transition: 300ms ease;
+  height: var(--diametro);
+  width: var(--diametro);
+  fill: #f85b94;
+}
+.compartir__enlace--twitter:hover path {
+  fill: #1da1f2;
+}
+.compartir__enlace--facebook:hover path {
+  fill: #1877f2;
+}
+
+.modulo {
+  display: flex;
+  margin: 20px auto;
+  min-height: 200px;
+  width: calc(100% - 20px);
+  max-width: 1200px;
+  background-color: silver;
+}
+.modulo__item {
+  flex-shrink: 12;
+  padding: 10px;
+}
+.modulo__item--sidebar {
+  flex-grow: 4;
+  background-color: white;
+}
+.modulo__item--section {
+  flex-grow: 8;
 }
 
 [type="search"],
