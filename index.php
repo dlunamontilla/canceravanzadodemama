@@ -51,7 +51,7 @@ if ( count($_GET) < 1 ) {
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?v9" />
+  <link rel="stylesheet" href="vista/css/style.css?v10" />
 
   <!-- jQuery -->
   <!--
