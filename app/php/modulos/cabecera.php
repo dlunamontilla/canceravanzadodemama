@@ -5,10 +5,19 @@
 
   $cabecera = "";
 
-  if ( $get -> modulo("nosotros") ) {
+  if (
+    $get->modulo("nosotros") ||
+    $get->modulo("herramientas") ||
+    $get->modulo("conozca") ||
+    $get->modulo("paciente")
+  ) {
     $cabecera = <<<HTML
   
   <div class="banner banner--fuveicam">
+    <div class="banner__title">
+      <h2>$headerTitle</h2>
+    </div>
+
     <img class="banner__img" src="multimedia/fotos/fuveicam.jpeg" />
 
     <div class="banner__teta" data-src="multimedia/vectores/teta-cabecera.svg"></div>

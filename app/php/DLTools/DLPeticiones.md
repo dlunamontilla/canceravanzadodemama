@@ -51,3 +51,48 @@ if ( $get -> validar( $peticiones ) ) {
   # validación de las peticiones.
 }
 ```
+
+## Módulo de un solo parámetro
+
+Para establecer un contenido determinado en función de un módulo con un solo parámetro se debe considerar utilizar el método `DLPeticiones::modulo("modulo")` .
+
+**Mediante el método `POST`:**
+
+``` php
+if ( $post->modulo("modulo") ) {
+  // Instrucciones que se ejecutarán cuando el 
+  // usuario acceda al módulo "modulo".
+}
+```
+
+**Mediante el método `GET`:**
+``` php
+if ( $get->modulo("modulo") ) {
+  // Instrucciones que se ejecutarán cuando el
+  // usuario acceda al módulo "modulo".
+}
+```
+
+
+
+## Devolver una cadena en función de un módulo
+
+Para devolver una cadena en función de un módulo puede considerar lo siguiente:
+
+``` php
+$cadena = $get->cadena("modulo", "Cadena a devolver en función del módulo elegido");
+
+echo $cadena;
+```
+
+El resultado será:
+
+``` none
+Cadena a devolver en función del módulo elegido
+```
+
+Si en la barra de direcciones del navegador tiene el siguiente parámetro:
+
+``` none
+https://tusitioweb.com/?modulo
+```

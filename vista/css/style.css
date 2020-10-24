@@ -725,15 +725,13 @@ svg {
 .banner {
   position: relative;
   height: var(--height);
+  display: flex;
+  align-items: center;
 }
 .banner::before {
   content: "";
 }
-.banner--fuveicam {
-  --height: 200px;
-  border-bottom: 5px solid #fcbdd4;
-}
-.banner--fuveicam::before {
+.banner::before {
   display: block;
   position: absolute;
   margin: auto;
@@ -744,6 +742,10 @@ svg {
   background-color: rgba(0, 183, 183, 0.7);
   z-index: 1;
   overflow: hidden;
+}
+.banner--fuveicam {
+  --height: 200px;
+  border-bottom: 5px solid #fcbdd4;
 }
 .banner__img {
   display: block;
@@ -774,6 +776,15 @@ svg {
 }
 .banner__teta svg {
   height: 100%;
+}
+.banner__title {
+  position: relative;
+  color: white;
+  padding-left: 40px;
+  z-index: 2;
+}
+.banner__title h2 {
+  font-size: 2rem;
 }
 
 .compartir {

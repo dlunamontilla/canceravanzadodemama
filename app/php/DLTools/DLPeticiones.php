@@ -138,6 +138,10 @@
 			];
 
 			return $this -> validar($peticion);
-		}
+    }
+    
+    // Devolver una cadena elegida en función del parámetro:
+    public function cadena( string $modulo = "", string $string = "" ) : string {
+      return $this->modulo($modulo) ? $string : "";
+    }
 	}
-?>

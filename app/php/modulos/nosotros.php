@@ -6,7 +6,6 @@ if ( ! isset($get) )
 
 if ( $get -> modulo("nosotros") ) {
   $nosotros = <<<HTML
-$cabecera
 
 <div class="modulo modulo--fuveicam">
   <aside class="modulo__item modulo__item--sidebar">

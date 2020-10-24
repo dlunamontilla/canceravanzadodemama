@@ -2,30 +2,6 @@
 
 if ( ! isset($get) )
   exit;
-  
-$title = "";
-
-// Acerca de nosotros:
-if ( $get -> modulo("nosotros") ) {
-  $title = "Acerca de nosotros";
-}
-
-
-
-// Herramienta para la toma de decisiones:
-if ( $get -> modulo("herramientas") ) {
-  $title = "Herramienta para la toma de decisiones";
-}
-
-// Conozca su enfermedad:
-if ( $get -> modulo("conozca") ) {
-  $title = "Conozca su enfermedad";
-}
-
-// La paciente y su proceso:
-if ( $get -> modulo("paciente") ) {
-  $title = "La paciente y su proceso";
-}
 
 $portada = "";
 
@@ -59,16 +35,4 @@ if ( count($_GET) < 1 ) {
   
     </div>
 HTML;
-}
-
-if ( count($_GET) > 0 ) {
-  $portada = <<<HTML
-
-  <div class="relleno" id="relleno">
-    <h2>$title</h2>
-  </div>
-
-HTML;
-
-$portada = "";
 }

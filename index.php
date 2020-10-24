@@ -24,7 +24,7 @@ if ( count($_GET) < 1 ) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cáncer Avanzado de Mama</title>
+  <title><?= $title; ?></title>
 
   <!-- Palabras claves -->
   <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama, Cáncer de Mama, tratamientos">
@@ -83,6 +83,7 @@ if ( count($_GET) < 1 ) {
     </header>
 
     <div class="content<?= $classContent; ?>">
+      <?= $cabecera; ?>
       <?= $content; ?>
       <?= $portada; ?>
       <?= $recursos; ?>
