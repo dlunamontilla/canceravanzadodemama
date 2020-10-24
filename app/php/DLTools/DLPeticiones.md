@@ -75,15 +75,32 @@ if ( $get->modulo("modulo") ) {
 
 
 
-## Devolver una cadena en función de un módulo
+## Devolver una cadena en función de uno o varios parámetros
 
-Para devolver una cadena en función de un módulo puede considerar lo siguiente:
+Si en la barra de direcciones del navegador tiene el siguiente parámetro:
+
+``` none
+https://tusitioweb.com/?parametro
+```
+
+Para devolver una cadena en función de ese parámetro puede escribir:
 
 ``` php
-$cadena = $get->cadena("modulo", "Cadena a devolver en función del módulo elegido");
+$cadena = $get->cadena("parametro", "Cadena a devolver en función del módulo elegido");
 
 echo $cadena;
 ```
+
+También es posible utilizando la petición `POST`, pero es un poco inusual hacer. Sin embargo, la sintaxis es la misma que la anterior.
+
+> **Nota:** `$get` es la instancia de la clase `DLPeticiones`. Es decir:
+>``` php
+> // Para una petición POST:
+> $post = new DLPeticiones( "post" );
+>
+> // O para una petición GET:
+> $get = new DLPeticiones( "get" );
+>```
 
 El resultado será:
 
@@ -91,8 +108,30 @@ El resultado será:
 Cadena a devolver en función del módulo elegido
 ```
 
-Si en la barra de direcciones del navegador tiene el siguiente parámetro:
+Si tiene el siguiente parámetro en el navegador:
 
 ``` none
-https://tusitioweb.com/?modulo
+https://tusitioweb.com/?parametro1&parametro2&parametro3=1
 ```
+
+Y desea que con ello devuelva una cadena específica solo tendría que defnirla así:
+
+``` php
+$parametros = [
+  "parametro1" => true,
+  "parametro2" => true,
+  "parametro3" => false
+];
+
+$get-> cadena($parametros, "Una cadena de texto");
+```
+
+Dando como resultado:
+
+``` php
+// Una cadena de texto
+```
+
+En el caso anterior, al definir `parametro => true` significa que el valor que pueda tener es opcional, es decir, que puede ser `parametro1=valor` o simplemente `parametro1`. 
+
+Cuando se define como `false` significa que es obligatorio establecer un valor. Es decir, no es opcional.
