@@ -3,7 +3,7 @@
 Tienes que instanciar la clase con los nombres de dominio sobre los que se van a aplicar:
 
 ``` php
-$protocolo = new DLProtocolor([
+$protocolo = new DLProtocolo([
   "dominio.com",
   "dominio2.com",
   "dominio3.com",

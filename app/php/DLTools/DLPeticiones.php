@@ -3,7 +3,7 @@
 /**
  * 
  * @see Creado el 24 de junio de 2019
- * @package DL Petitions
+ * @package DLPetitions
  * @author David E Luna M <davidlunamontilla@gmail.com>
  * @copyright (c) 2019 - David E Luna M
  * @version v0.0.1

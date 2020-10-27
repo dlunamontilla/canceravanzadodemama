@@ -14,8 +14,6 @@ Para utilizarlo se debe definir la siguiente sintaxis:
 
 ``` php
 <?php
-include "DLSubir.php";
-
 // Se instancia la clase DLSubir:
 $subir = new DLSubir([
   "ruta" => "./path/uploads",
@@ -23,7 +21,7 @@ $subir = new DLSubir([
 ]);
 
 // Y se llama el método archivo del objeto $subir: 
-$array = $subir -> archivo( "fichero" );
+$array = $subir->archivo( "fichero" );
 ?>
 ```
 
