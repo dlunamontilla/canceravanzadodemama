@@ -9,6 +9,7 @@ $validar = new DLValidar();
 ### Validación de contraseña:
 
 Sintaxis para validar contraseñas:
+
 ``` php
 if ( $validar->password( "contraseña" ) ) {
   # Se ejecuta estas instrucciones 
