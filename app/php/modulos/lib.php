@@ -32,4 +32,18 @@
   ]);
 
   $title = (empty($title)) ? "Cáncer Avanzado de Mama" : $title . " | Cáncer Avanzado de Mama";
+
+  $contenido = "";
+  
+  $nosotrosm = [
+    "nosotros" => true,
+    "id" => false
+  ];
+
+  $contenido = cadena([
+    $get->cadena("herramientas", "Te encuentras en herramientas"),
+    $get->cadena("paciente", "Te encuentras en la página de pacientes"),
+    $get->cadena($nosotrosm, "Tiene algún valor en nostros")
+  ]);
+
   ?>
