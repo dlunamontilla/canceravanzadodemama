@@ -73,8 +73,6 @@ if ( $get->modulo("modulo") ) {
 }
 ```
 
-
-
 ## Devolver una cadena en función de uno o varios parámetros
 
 Si en la barra de direcciones del navegador tiene el siguiente parámetro:
@@ -135,3 +133,44 @@ Dando como resultado:
 En el caso anterior, al definir `parametro => true` significa que el valor que pueda tener es opcional, es decir, que puede ser `parametro1=valor` o simplemente `parametro1`. 
 
 Cuando se define como `false` significa que es obligatorio establecer un valor. Es decir, no es opcional.
+
+
+## Devolver el mismo contenido en submódulos o páginas seleccionadas
+
+Para distribuir contenido en diferentes submódulos o páginas podrías considerar escribir la siguiente sintaxis:
+
+``` php
+$modulos = [
+  "modulo1",
+  "modulo2",
+  "modulo3",
+  ...
+  "moduloN"
+];
+
+if ($get->visualizarEnModulos($modulos)) {
+  # Contenido que desee que distribuya en los módulos señalados en el 
+  # en el array $modulos
+}
+```
+
+Y si desea incluir submódulos donde los parámetros tienen algún valor, puede escribir:
+
+``` php
+$modulos = [
+  "modulo1",
+  "modulo2",
+  
+  "modulo3" => [
+    "modulo3" => true,
+    "id" => false
+  ],
+
+  ...
+  "moduloN"
+];
+
+if ( $get-visualizarEnModulos($modulos)) {
+  # El contenido que distribuirá en los módulos señalados.
+}
+```

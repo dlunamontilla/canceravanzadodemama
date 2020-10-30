@@ -5,12 +5,7 @@
 
   $cabecera = "";
 
-  if (
-    $get->modulo("nosotros") ||
-    $get->modulo("herramientas") ||
-    $get->modulo("conozca") ||
-    $get->modulo("paciente")
-  ) {
+  if ($get->visualizarEnModulos(["nosotros","herramientas","conozca","paciente"])) {
     $cabecera = <<<HTML
   
   <div class="banner banner--fuveicam">

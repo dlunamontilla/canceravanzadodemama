@@ -22,7 +22,6 @@ define("DL_VOID", "vacio");
 define("DL_FULL", "lleno");
 define("DL_MIXED", "mezclado");
 
-
 class DLPeticiones {
 	// Propiedades (atributos) protegidas:
 	protected $method = "";
@@ -154,5 +153,25 @@ class DLPeticiones {
 
 		// Devolver el valor por defecto:
 		return (string) $this->modulo($modulos) ? $string : "";
+	}
+
+	// Una función para visualizar en los módulos señalados a través de un array:
+	public function visualizarEnModulos( Array $modulos = [] ) : bool {
+		if ( !is_array($modulos))
+			return false;
+
+		// Validar que los parámetros sean válidos:
+		foreach( $modulos as $value ) {
+			if ( is_array( $value ) && $this->validar($value)) {
+				return true;
+			}else {
+				if ( $this->modulo( (string) $value ) ) {
+					return true;
+				}
+			}
+		}
+
+		// Valor por defecto:
+		return false;
 	}
 }
