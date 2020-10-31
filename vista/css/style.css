@@ -905,6 +905,11 @@ h6 {
   max-width: 400px;
   padding: 20px;
 }
+@media screen and (max-width: 800px) {
+  .modulo__item--sidebar {
+    display: none;
+  }
+}
 .modulo__item--sidebar img {
   width: 100%;
 }
