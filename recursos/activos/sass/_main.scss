@@ -16,8 +16,10 @@
   }
 }
 
+// Contenido
 .content {
   --separacion: 110px;
+  line-height: 1.6;
 
   margin: 0 auto;
   margin-top: var(--separacion);
@@ -776,8 +778,6 @@
   width: $width;
   max-width: $max-width;
 
-  background-color: silver;
-
 
   &__item {
     flex-shrink: 12;
@@ -785,10 +785,17 @@
 
     &--sidebar {
       flex-grow: 4;
-      background-color: white;
+
+      position: relative;
+      max-width: 400px;
+      padding: 20px;
+    
+      img {
+        width: 100%;
+      }
     }
 
-    &--section {
+    &--content {
       flex-grow: 8;
     }
   }

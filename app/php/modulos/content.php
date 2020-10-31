@@ -4,20 +4,20 @@
 $content = "";
 
 if ( $get->distribuirEnModulos([
-    "nosotros",
-    "herramientas",
-    "conozca",
-    "paciente"
+  "nosotros",
+  "herramientas",
+  "conozca",
+  "paciente"
 ]) ) {
-    $content = <<<HTML
+  $content = <<<HTML
 <div class="modulo modulo--fuveicam">
-    <aside class="modulo__item modulo__item--sidebar">
-        Barra lateral izquierda
-    </aside>
+  <aside class="modulo__item modulo__item--sidebar">
+    $sidebar
+  </aside>
 
-    <section class="modulo__item modulo__item--section">
-        <p>Contenido con diversos párrafos</p>
-    </section>
+  <section class="modulo__item modulo__item--content">
+    $contenido
+  </section>
 </div>
 HTML;
 }

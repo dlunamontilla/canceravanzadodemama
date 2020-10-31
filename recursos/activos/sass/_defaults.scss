@@ -106,7 +106,9 @@ pre, code {
 }
 
 // Texto
-.text {
+.text, .texto {
+  text-align: var(--align);
+
   &--small {
     font-size: 0.8em;
   }
@@ -120,23 +122,57 @@ pre, code {
   }
 
   &--justify {
-    text-align: justify;
+    --align: justify;
   }
 
   &--left {
-    text-align: left;
+    --align: left;
   }
 
   &--center {
-    text-align: center;
+    --align: center;
   }
 
   &--right {
-    text-align: right;
+    --align: right;
   }
 
   &--margin-none {
     margin: 0;
+  }
+  
+  &--destacado-1 {
+    background-color: $color-secundario-3;
+    color: white;
+    line-height: 1.3;
+    padding: 10px;
+    text-align: center;
+
+    font: {
+      size: 1.5rem;
+    }
+
+    margin-top: 40px;
+  }
+}
+
+.title {
+  text-align: var(--align);
+
+  &:not([class*="title--justify"]):not([class*="title--center"]):not([class*="title--right"]) {
+    --align: left;
+  }
+
+  &--justify {
+    --align: justify;
+  }
+
+  &--center {
+    --align: center;
+  }
+
+  &--right {
+    --align: right;
   }
 }
 
@@ -185,4 +221,26 @@ pre, code {
 svg {
   max-height: 100%;
   transition: 300ms ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+h3, h4, h5, h6 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+$size: 2.2;
+@for $indice from 1 through 6 {
+  h#{$indice} {
+    font-size: $size + rem;
+  }
+
+  $size: $size - 0.3;
 }

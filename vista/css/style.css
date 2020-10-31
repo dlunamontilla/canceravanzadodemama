@@ -74,29 +74,57 @@ pre, code {
   min-height: 100vh;
 }
 
-.text--small {
+.text, .texto {
+  text-align: var(--align);
+}
+.text--small, .texto--small {
   font-size: 0.8em;
 }
-.text--big {
+.text--big, .texto--big {
   font-size: 1.2em;
 }
-.text--variant {
+.text--variant, .texto--variant {
   font-variant: small-caps;
 }
-.text--justify {
-  text-align: justify;
+.text--justify, .texto--justify {
+  --align: justify;
 }
-.text--left {
-  text-align: left;
+.text--left, .texto--left {
+  --align: left;
 }
-.text--center {
-  text-align: center;
+.text--center, .texto--center {
+  --align: center;
 }
-.text--right {
-  text-align: right;
+.text--right, .texto--right {
+  --align: right;
 }
-.text--margin-none {
+.text--margin-none, .texto--margin-none {
   margin: 0;
+}
+.text--destacado-1, .texto--destacado-1 {
+  background-color: #00b7b7;
+  color: white;
+  line-height: 1.3;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.title {
+  text-align: var(--align);
+}
+.title:not([class*="title--justify"]):not([class*="title--center"]):not([class*="title--right"]) {
+  --align: left;
+}
+.title--justify {
+  --align: justify;
+}
+.title--center {
+  --align: center;
+}
+.title--right {
+  --align: right;
 }
 
 .default, .predeterminado {
@@ -138,6 +166,43 @@ pre, code {
 svg {
   max-height: 100%;
   transition: 300ms ease;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+}
+
+h3, h4, h5, h6 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  font-size: 1.9rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.7rem;
 }
 
 .frontal {
@@ -225,6 +290,7 @@ svg {
 
 .content {
   --separacion: 110px;
+  line-height: 1.6;
   margin: 0 auto;
   margin-top: var(--separacion);
 }
@@ -828,7 +894,6 @@ svg {
   min-height: 200px;
   width: calc(100% - 20px);
   max-width: 1200px;
-  background-color: silver;
 }
 .modulo__item {
   flex-shrink: 12;
@@ -836,9 +901,14 @@ svg {
 }
 .modulo__item--sidebar {
   flex-grow: 4;
-  background-color: white;
+  position: relative;
+  max-width: 400px;
+  padding: 20px;
 }
-.modulo__item--section {
+.modulo__item--sidebar img {
+  width: 100%;
+}
+.modulo__item--content {
   flex-grow: 8;
 }
 

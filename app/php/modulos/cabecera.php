@@ -10,7 +10,7 @@
   
   <div class="banner banner--fuveicam">
     <div class="banner__title">
-      <h2>$headerTitle</h2>
+      <h1>$headerTitle</h1>
     </div>
 
     <img class="banner__img" src="multimedia/fotos/fuveicam.jpeg" />
