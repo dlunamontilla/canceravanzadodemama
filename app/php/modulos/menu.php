@@ -19,7 +19,7 @@ $border = "";
 $selectInicio = $selectNosotros = $selectHerramientas = $selectConozca = $selectPaciente = "";
 
 switch( true ) {
-  case $get -> modulo("nosotros"):
+  case $get -> distribuirEnModulos(["nosotros","sparc-uicc","abc-global"]):
     $selectNosotros = " menu__item--select";
     break;
 

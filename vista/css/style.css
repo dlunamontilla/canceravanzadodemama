@@ -952,6 +952,34 @@ h6 {
   fill: #005151;
 }
 
+.sidebar {
+  position: relative;
+}
+.sidebar__item {
+  margin: 20px auto;
+}
+.sidebar__item--uicc {
+  max-width: 80%;
+}
+.sidebar__item--descarga {
+  max-width: 250px;
+}
+
+.lista {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.lista__item {
+  padding-left: 0;
+  margin: 0;
+  position: relative;
+}
+.lista__item--right {
+  text-align: right;
+}
+
 [type="search"],
 [type="text"],
 [type="tel"],

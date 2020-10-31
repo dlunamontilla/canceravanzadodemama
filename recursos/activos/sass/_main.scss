@@ -852,3 +852,36 @@
     }
   }
 }
+
+.sidebar {
+  position: relative;
+
+  &__item {
+    margin: 20px auto;
+
+    &--uicc {
+      max-width: 80%;
+    }
+
+    &--descarga {
+      max-width: 250px;
+    }
+  }
+}
+
+.lista {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  &__item {
+    padding-left: 0;
+    margin: 0;
+    position: relative;
+
+    &--right {
+      text-align: right;
+    }
+  }
+}

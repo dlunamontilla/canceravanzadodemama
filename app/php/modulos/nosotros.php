@@ -58,8 +58,48 @@ HTML;
 HTML;
 }
 
-// Módulo sparc-uicc
+// Módulo SPARCS UICC
 if ($get->modulo("sparc-uicc")) {
+  $sidebar = <<<HTML
+  <div class="sidebar__item sidebar__item--uicc" data-src="multimedia/vectores/uicc.svg"></div>
+
+  <!-- Foto -->
+  <div class="sidebar__item">
+    <img src="multimedia/fotos/nosotros-sparc-sidebar.jpg" alt="">
+  </div>
+
+  <!-- Enlace de descarga -->
+  <div class="sidebar__item sidebar__item--descarga">
+    <a href="#" target="_blank" data-src="multimedia/vectores/descarga-pdf.svg"></a>
+  </div>
+HTML;
+
+  $contenido = <<<HTML
+<div class="content__item">
+  <h2 class="text text--right">PROGRAMA SPARC-Unión Internacional Contra el Cáncer (UICC)</h2>
+
+  <p class="text text--justify">Es un programa de apoyo a mujeres con cáncer de mama avanzado. Con el nombre Sembrando Progreso y Recursos para la Comunidad del Cáncer: el Reto del Cáncer de Mama Metastásico (SPARC, por sus siglas en inglés), esta iniciativa subvenciona proyectos en todo el mundo de grupos de defensa de pacientes, redes de hospitales y otras organizaciones sin fines de lucro que trabajan para abordar las necesidades específicas de las pacientes con cáncer de mama avanzado. Con la intención de salvar más vidas al reducir el número de mujeres diagnosticadas con cáncer de mama en una etapa tardía, los proyectos SPARC se centran en:</p>
+
+  <ul class="lista">
+    <li class="lista__item lista__item--right">
+      <h3>Proporcionar información y apoyo</h3>
+      <p class="text text--justify">Mejorando la capacidad del paciente para navegar por los servicios de diagnóstico, tratamiento y atención, y fortaleciendo el nivel de apoyo social, económico, psicológico y espiritual para los pacientes y sus cuidadores. Los proyectos también pueden centrarse en fortalecer la capacidad de los profesionales sanitarios para apoyar las necesidades específicas de las pacientes.</p>
+    </li>
+
+    <li class="lista__item lista__item--right">
+      <h3>Aumentar la voz y la conciencia de los pacientes</h3>
+      <p class="text text--justify">Reduciendo el estigma y aumentando la conciencia pública sobre el cáncer de mama avanzado. A través de una mayor conciencia, estos proyectos fomentan la presentación más temprana y el acceso a un tratamiento oportuno para disminuir la incidencia de enfermedad localmente avanzada y metastásica en el primer diagnóstico.</p>
+    </li>
+
+    <li class="lista__item lista__item--right">
+      <h3>Influir en las Políticas Nacionales  y fortalecer los Sistemas de Salud</h3>
+      <p class="text text--justify">Involucrando y proporcionando a los formuladores de políticas orientación sobre los desafíos únicos de la enfermedad metastásica a través de iniciativas de promoción efectivas, incluidas las perspectivas y necesidades de los pacientes.</p>
+    </li>
+
+  </ul>
+</div>
+HTML;
+
     // Cuando el usuario se encuentre el módulo nosotros 
   // sin más parámetros:
   $atras = <<<HTML
