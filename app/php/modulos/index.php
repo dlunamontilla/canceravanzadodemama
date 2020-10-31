@@ -3,8 +3,10 @@
     exit;
   }
 
+  // Instanciando las peticiones:
   $get = new DLPeticiones("get");
-  
+  $post = new DLPeticiones("post");
+
   include __DIR__ . "/lib.php";
   include __DIR__ . "/css-class.php";
   include __DIR__ . "/menu.php";
@@ -13,5 +15,6 @@
   include __DIR__ . "/recursos.php";
   include __DIR__ . "/cabecera.php";
   include __DIR__ . "/nosotros.php";
+  include __DIR__ . "/content.php";
   include __DIR__ . "/footer.php";
 ?>

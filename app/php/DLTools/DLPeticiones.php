@@ -156,7 +156,7 @@ class DLPeticiones {
 	}
 
 	// Una función para visualizar en los módulos señalados a través de un array:
-	public function visualizarEnModulos( Array $modulos = [] ) : bool {
+	public function distribuirEnModulos( Array $modulos = [] ) : bool {
 		if ( !is_array($modulos))
 			return false;
 

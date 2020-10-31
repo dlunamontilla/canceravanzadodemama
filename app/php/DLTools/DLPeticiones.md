@@ -148,7 +148,7 @@ $modulos = [
   "moduloN"
 ];
 
-if ($get->visualizarEnModulos($modulos)) {
+if ($get->distribuirEnModulos($modulos)) {
   # Contenido que desee que distribuya en los módulos señalados en el 
   # en el array $modulos
 }
@@ -170,7 +170,7 @@ $modulos = [
   "moduloN"
 ];
 
-if ( $get-visualizarEnModulos($modulos)) {
+if ( $get-distribuirEnModulos($modulos)) {
   # El contenido que distribuirá en los módulos señalados.
 }
 ```

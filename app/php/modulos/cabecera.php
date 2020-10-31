@@ -5,7 +5,7 @@
 
   $cabecera = "";
 
-  if ($get->visualizarEnModulos(["nosotros","herramientas","conozca","paciente"])) {
+  if ($get->distribuirEnModulos(["nosotros","herramientas","conozca","paciente"])) {
     $cabecera = <<<HTML
   
   <div class="banner banner--fuveicam">
