@@ -800,3 +800,55 @@
     }
   }
 }
+
+// Barra de navegación para navegar entre páginas:
+.navegar {
+  margin: 0 auto;
+  width: $width;
+  max-width: $max-width;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --padding: 20px;
+
+  padding: var(--padding) var(--padding) calc(var(--padding) / 2) var(--padding);
+  color: darken($color-secundario-3, 20);
+
+  &__enlace {
+    --diametro: 40px;
+    --padding: 20px;
+
+    display: flex;
+    align-items: center;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    color: darken($color-secundario-2, 20);
+    transition: 300ms ease;
+
+    span {
+      padding: 5px;
+    }
+
+    svg {
+      display: block;
+      width: var(--diametro);
+      height: var(--diametro);
+    }
+
+    path {
+      fill: $color-secundario-2;
+      transition: 300ms ease;
+    }
+
+    &:hover {
+      $color: darken($color-secundario-3, 20);
+      color: $color;
+
+      path {
+        fill: $color;
+      }
+    }
+  }
+}

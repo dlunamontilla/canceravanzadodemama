@@ -5,6 +5,8 @@ $content = "";
 
 if ( $get->distribuirEnModulos([
   "nosotros",
+  "sparc-uicc",
+  "abc-global",
   "herramientas",
   "conozca",
   "paciente"
@@ -19,6 +21,12 @@ if ( $get->distribuirEnModulos([
     $contenido
   </section>
 </div>
+
+<!-- Botones de avanzar o regresar -->
+<nav class="navegar">
+  $atras
+  $avanzar
+</nav>
 HTML;
 }
 ?>

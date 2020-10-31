@@ -14,9 +14,10 @@
     return $string;
   }
 
-  // Permitirá cargar de forma dinámica el contenido en función del módulo
+  // Variables con contenidos dinámicos:
   $sidebar = $contenido = "";
-
+  $atras = $avanzar = "";
+  
   // Título de la cabecera de la página:
   $headerTitle = "";
   $headerTitle = cadena([

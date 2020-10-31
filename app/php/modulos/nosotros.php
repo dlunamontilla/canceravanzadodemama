@@ -39,5 +39,62 @@ HTML;
   </article>
 </div>
 HTML;
+
+  // Cuando el usuario se encuentre el módulo nosotros 
+  // sin más parámetros:
+  $atras = <<<HTML
+<a href="./" class="navegar__enlace">
+  <span>Inicio</span>
+  <span data-src="multimedia/vectores/inicio.svg"></span>
+</a>
+HTML;
+
+
+  $avanzar = <<<HTML
+<a href="?sparc-uicc" class="navegar__enlace">
+  <span data-src="multimedia/vectores/adelante.svg"></span>
+  <span>SPARC - UICC</span>
+</a>
+HTML;
+}
+
+// Módulo sparc-uicc
+if ($get->modulo("sparc-uicc")) {
+    // Cuando el usuario se encuentre el módulo nosotros 
+  // sin más parámetros:
+  $atras = <<<HTML
+<a href="?nosotros" class="navegar__enlace">
+  <span>Fuveicam</span>
+  <span data-src="multimedia/vectores/atras.svg"></span>
+</a>
+HTML;
+
+
+  $avanzar = <<<HTML
+<a href="?abc-global" class="navegar__enlace">
+  <span data-src="multimedia/vectores/adelante.svg"></span>
+  <span>ABC - Global Alliance</span>
+</a>
+HTML;
+}
+
+// Módulo Abc Global Alliance:
+if ($get->modulo("abc-global")) {
+  // Cuando el usuario se encuentre el módulo nosotros 
+// sin más parámetros:
+  $atras = <<<HTML
+<a href="?sparc-uicc" class="navegar__enlace">
+  <span>SPARC - UICC</span>
+  <span data-src="multimedia/vectores/atras.svg"></span>
+</a>
+HTML;
+
+
+  $avanzar = <<<HTML
+  <a href="./" class="navegar__enlace">
+    <span data-src="multimedia/vectores/inicio.svg"></span>
+    <span>Inicio</span>
+  </a>
+HTML;
 }
 ?>

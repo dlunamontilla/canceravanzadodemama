@@ -912,6 +912,46 @@ h6 {
   flex-grow: 8;
 }
 
+.navegar {
+  margin: 0 auto;
+  width: calc(100% - 20px);
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  --padding: 20px;
+  padding: var(--padding) var(--padding) calc(var(--padding) / 2) var(--padding);
+  color: #005151;
+}
+.navegar__enlace {
+  --diametro: 40px;
+  --padding: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  color: #f85b94;
+  transition: 300ms ease;
+}
+.navegar__enlace span {
+  padding: 5px;
+}
+.navegar__enlace svg {
+  display: block;
+  width: var(--diametro);
+  height: var(--diametro);
+}
+.navegar__enlace path {
+  fill: #fcbdd4;
+  transition: 300ms ease;
+}
+.navegar__enlace:hover {
+  color: #005151;
+}
+.navegar__enlace:hover path {
+  fill: #005151;
+}
+
 [type="search"],
 [type="text"],
 [type="tel"],
