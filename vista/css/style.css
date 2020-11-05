@@ -297,6 +297,11 @@ h6 {
 .content--inner {
   --separacion: 80px;
 }
+.content--infografia {
+  --separacion: 0;
+  width: calc(100% - 20px);
+  max-width: 1200px;
+}
 
 .border {
   --border-width: 1px;
@@ -905,7 +910,7 @@ h6 {
   max-width: 400px;
   padding: 20px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .modulo__item--sidebar {
     display: none;
   }
@@ -915,6 +920,11 @@ h6 {
 }
 .modulo__item--content {
   flex-grow: 8;
+}
+@media screen and (min-width: 701px) {
+  .modulo__item--content {
+    max-width: 65%;
+  }
 }
 
 .navegar {
@@ -983,6 +993,62 @@ h6 {
 }
 .lista__item--right {
   text-align: right;
+}
+
+.infografia {
+  --columnas: 3;
+  --gap: 0;
+  --color: black;
+  --relleno: 30px;
+  display: grid;
+  grid-template-columns: repeat(var(--columnas), 1fr);
+  grid-gap: var(--gap);
+  gap: var(--gap);
+  background-color: white;
+  padding-top: calc(var(--relleno) * 2);
+  padding-bottom: calc(var(--relleno) * 2);
+  padding-left: var(--relleno);
+  padding-right: var(--relleno);
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(0, 183, 183, 0.2);
+  cursor: default;
+}
+.infografia__item {
+  display: flex;
+}
+.infografia__item:hover {
+  --color: #4d4d4d;
+}
+.infografia__left {
+  --size: 50px;
+  position: relative;
+  width: var(--size);
+}
+.infografia__left svg {
+  width: var(--size);
+  height: auto;
+}
+.infografia__left path {
+  fill: var(--color);
+  transition: 300ms ease;
+}
+.infografia__left::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: calc(var(--size) / 2 - var(--size) * 0.127272727);
+  top: calc(var(--size) * 0.7272727273);
+  bottom: 0;
+  width: calc(var(--size) * 0.0909090909);
+  background-color: var(--color);
+  transition: 300ms ease;
+}
+.infografia__right {
+  --padding: 10px;
+  padding-left: 20px;
+  padding-bottom: var(--padding);
+  padding-right: var(--padding);
 }
 
 [type="search"],

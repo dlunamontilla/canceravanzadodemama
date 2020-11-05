@@ -17,6 +17,7 @@
   // Variables con contenidos dinámicos:
   $sidebar = $contenido = "";
   $atras = $avanzar = "";
+  $adicionales = "";
   
   // Título de la cabecera de la página:
   $headerTitle = "";

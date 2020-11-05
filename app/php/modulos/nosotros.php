@@ -120,8 +120,23 @@ HTML;
 
 // Módulo Abc Global Alliance:
 if ($get->modulo("abc-global")) {
-  // Cuando el usuario se encuentre el módulo nosotros 
-// sin más parámetros:
+  $sidebar = <<<HTML
+<div class="sidebar__item" data-src="multimedia/vectores/abcglobalalliance.svg"></div>
+<div class="sidebar__item sidebar__item--descarga">
+  <a href="#" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank"></a>
+</div>
+HTML;
+
+  $contenido = <<<HTML
+<div class="content__item">
+  <h2 class="text text--right">ALIANZA GLOBAL CONTRA EL CÁNCER DE MAMA AVANZADO (CMA)</h2>
+
+  <p class="text text--justify">
+    La ABC Global Alliance (Alianza Mundial contra el CMA), es una plataforma con múltiples participantes y respaldada por la ESO (European School of Oncology o Escuela Europea de Oncología) iniciada en noviembre 2016, que impulsa la Declaración Mundial sobre el CMA y alienta al colectivo de afectados, a los responsables políticos y a la opinión pública en todo el mundo a trabajar juntos para ayudar a cambiar el futuro de los pacientes con CMA. La Declaración Mundial sobre el CMA pretende fomentar un cambio en la asistencia de los pacientes con CMA, adaptando acciones para que sean pertinentes y factibles en diferentes lugares geográficos según sus capacidades. Las Acciones para el Cambio aspiran lograr objetivos a corto y largo plazo, dar voz a los pacientes, priorizar sus necesidades a la hora de tomar decisiones y finalmente a mejorar y prolongar su vida. La meta es unir al colectivo de afectados por el CMA, y ser un catalizador de cambio que mejore el desenlace para los pacientes con CMA. Los profesionales sanitarios, los gobiernos, los responsables de las políticas sanitarias, los defensores de los pacientes, los miembros de la comunidad de afectados por el cáncer de mama y cualquier persona cuya vida haya sido trastocada por el CMA deben emprender acciones a nivel local e internacional con vistas a alcanzar los objetivos para el año 2025 descritos a continuación:
+  </p>
+</div>
+HTML;
+
   $atras = <<<HTML
 <a href="?sparc-uicc" class="navegar__enlace">
   <span>SPARC - UICC</span>
@@ -135,6 +150,63 @@ HTML;
     <span data-src="multimedia/vectores/inicio.svg"></span>
     <span>Inicio</span>
   </a>
+HTML;
+    
+  // Infografía:
+  $adicionales = <<<HTML
+  <div class="content content--infografia">
+      <div class="infografia">
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-1.svg">1</div>
+          <div class="infografia__right">Ayudar a los pacientes con CAM a vivir más tiempo duplicando la mediana de superviviencia global para el año 2025.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-2.svg">2</div>
+          <div class="infografia__right">Mejorar nuestros conocimientos sobre el CAM aumentando la recopilación de datos de gran calidad.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-3.svg">3</div>
+          <div class="infografia__right">Mejorar la calidad de vida de los pacientes con CAM.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-4.svg">4</div>
+          <div class="infografia__right">Asegurarse de que los pacientes con CAM reciban el mejor tratamiento y atención posibles aumentando la disponibilidad y el acceso a la atención por parte del equipo multidisciplinar.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-5.svg">5</div>
+          <div class="infografia__right">Mejorar la comunicación entre los profesionales sanitarios y los pacientes con CAM a través de la formación en habilidades de comunicación para profesionales sanitarios.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-6.svg">6</div>
+          <div class="infografia__right">Conocer las necesidades de información de los pacientes con CAM mediante el uso de materiales y recursos de información fáciles de entender, precisos y actualizados.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-7.svg">7</div>
+          <div class="infografia__right">Asegurarse de que los pacientes con CAM conozcan y sean derivados a servicios de apoyos no clínicos.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-8.svg">8</div>
+          <div class="infografia__right">Contrarestar el estigma y el aislamiento asociados con el CAM al aumentar el conocimiento público de la enfermedad.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-9.svg">9</div>
+          <div class="infografia__right">Asegurarse de que los pacientes con CAM tengan acceso al tratamiento con independencia de su capacidad de pago.</div>
+        </div>
+        
+        <div class="infografia__item">
+          <div class="infografia__left" data-src="multimedia/vectores/infografia-10.svg">10</div>
+          <div class="infografia__right">Ayudar a los pacientes con CAM a seguir trabajando, al implantar una legislación que proteja su derecho al trabajo y garantice entornos laborales flexibles y adaptables.</div>
+        </div>
+      </div>
+  </div>
 HTML;
 }
 ?>

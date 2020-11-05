@@ -73,7 +73,7 @@ if ( count($_GET) < 1 ) {
       <div<?= $border; ?>>
         <nav class="navigation flex flex--between default" id="<?= $idNavigation; ?>">
           <div id="<?= $idLogotipo; ?>" class="logotipo logotipo--header flex__item">
-            <a href="/" data-src="multimedia/vectores/logotipo.svg"></a>
+            <a href="./" data-src="multimedia/vectores/logotipo.svg"></a>
           </div>
 
           <?= $menu; ?>

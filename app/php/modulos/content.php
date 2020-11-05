@@ -22,6 +22,8 @@ if ( $get->distribuirEnModulos([
   </section>
 </div>
 
+$adicionales
+
 <!-- Botones de avanzar o regresar -->
 <nav class="navegar">
   $atras

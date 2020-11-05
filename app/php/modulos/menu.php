@@ -4,7 +4,7 @@ if ( ! isset($get) )
   exit;
   
 $enlace = [
-  "inicio" => "/",
+  "inicio" => "./",
   "nosotros" => "?nosotros",
   "herramientas" => "?herramientas",
   "conozca" => "?conozca",
