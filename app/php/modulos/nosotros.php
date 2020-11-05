@@ -156,52 +156,52 @@ HTML;
   $adicionales = <<<HTML
   <div class="content content--infografia">
       <div class="infografia">
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--1">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-1.svg">1</div>
           <div class="infografia__right">Ayudar a los pacientes con CAM a vivir más tiempo duplicando la mediana de superviviencia global para el año 2025.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--2">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-2.svg">2</div>
           <div class="infografia__right">Mejorar nuestros conocimientos sobre el CAM aumentando la recopilación de datos de gran calidad.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--3">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-3.svg">3</div>
           <div class="infografia__right">Mejorar la calidad de vida de los pacientes con CAM.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--4">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-4.svg">4</div>
           <div class="infografia__right">Asegurarse de que los pacientes con CAM reciban el mejor tratamiento y atención posibles aumentando la disponibilidad y el acceso a la atención por parte del equipo multidisciplinar.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--5">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-5.svg">5</div>
           <div class="infografia__right">Mejorar la comunicación entre los profesionales sanitarios y los pacientes con CAM a través de la formación en habilidades de comunicación para profesionales sanitarios.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--6">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-6.svg">6</div>
           <div class="infografia__right">Conocer las necesidades de información de los pacientes con CAM mediante el uso de materiales y recursos de información fáciles de entender, precisos y actualizados.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--7">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-7.svg">7</div>
           <div class="infografia__right">Asegurarse de que los pacientes con CAM conozcan y sean derivados a servicios de apoyos no clínicos.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--8">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-8.svg">8</div>
           <div class="infografia__right">Contrarestar el estigma y el aislamiento asociados con el CAM al aumentar el conocimiento público de la enfermedad.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--9">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-9.svg">9</div>
           <div class="infografia__right">Asegurarse de que los pacientes con CAM tengan acceso al tratamiento con independencia de su capacidad de pago.</div>
         </div>
         
-        <div class="infografia__item">
+        <div class="infografia__item infografia__item--10">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-10.svg">10</div>
           <div class="infografia__right">Ayudar a los pacientes con CAM a seguir trabajando, al implantar una legislación que proteja su derecho al trabajo y garantice entornos laborales flexibles y adaptables.</div>
         </div>

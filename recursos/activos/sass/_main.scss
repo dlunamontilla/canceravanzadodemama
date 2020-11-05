@@ -929,12 +929,13 @@
     display: flex;
     
     &:hover {
-      --color: #{$color-base};
+      --color: #{$color-secundario-3};
+      --color: red;
     }
   }
   
   &__left {
-    --size: 50px;
+    --size: 40px;
     
     position: relative;
     width: var(--size);

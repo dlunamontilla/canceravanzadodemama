@@ -37,4 +37,12 @@
   ]);
 
   $title = (empty($title)) ? "Cáncer Avanzado de Mama" : $title . " | Cáncer Avanzado de Mama";
+
+  // Figura de los senos:
+  $senosCabecera = cadena([
+    $get->cadena("nosotros", "multimedia/vectores/teta-cabecera.svg"),
+    $get->cadena("herramientas", "multimedia/vectores/teta-herramientas.svg"),
+    $get->cadena("conozca", "multimedia/vectores/teta-conozca.svg"),
+    $get->cadena("paciente", "multimedia/vectores/teta-paciente.svg"),
+  ]);
   ?>

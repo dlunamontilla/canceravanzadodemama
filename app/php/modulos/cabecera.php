@@ -22,7 +22,7 @@
 
     <img class="banner__img" src="multimedia/fotos/fuveicam.jpeg" />
 
-    <div class="banner__teta" data-src="multimedia/vectores/teta-cabecera.svg"></div>
+    <div class="banner__teta" data-src="$senosCabecera"></div>
   </div>
 
   <div class="redes-sociales redes-sociales--compartir">
