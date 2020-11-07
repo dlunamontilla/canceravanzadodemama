@@ -108,6 +108,8 @@ pre, code {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.1;
   margin-top: 40px;
 }
 
@@ -899,6 +901,9 @@ h6 {
   min-height: 200px;
   width: calc(100% - 20px);
   max-width: 1200px;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 .modulo__item {
   flex-shrink: 12;
@@ -978,6 +983,11 @@ h6 {
 }
 .sidebar__item--descarga {
   max-width: 250px;
+}
+.sidebar__img {
+  background-color: #fcbdd4;
+  padding-top: 4px;
+  padding-bottom: 15px;
 }
 
 .lista {

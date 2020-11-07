@@ -39,10 +39,25 @@
   $title = (empty($title)) ? "Cáncer Avanzado de Mama" : $title . " | Cáncer Avanzado de Mama";
 
   // Figura de los senos:
+  
+  if ( $get->distribuirEnModulos() ) {
+
+  }
+
   $senosCabecera = cadena([
     $get->cadena("nosotros", "multimedia/vectores/teta-cabecera.svg"),
+    $get->cadena("sparc-uicc", "multimedia/vectores/teta-cabecera.svg"),
+    $get->cadena("abc-global", "multimedia/vectores/teta-cabecera.svg"),
     $get->cadena("herramientas", "multimedia/vectores/teta-herramientas.svg"),
     $get->cadena("conozca", "multimedia/vectores/teta-conozca.svg"),
     $get->cadena("paciente", "multimedia/vectores/teta-paciente.svg"),
+  ]);
+
+  // Imágenes de la cabecera:
+  $imgCabecera = "";
+  $imgCabecera = cadena([
+    $get->cadena("nosotros", "multimedia/fotos/fuveicam.jpeg"),
+    $get->cadena("sparc-uicc", "multimedia/fotos/nosotros/nosotros-sparc.jpg"),
+    $get->cadena("abc-global", "multimedia/fotos/nosotros/nosotros-abcgloballacience.jpg")
   ]);
   ?>

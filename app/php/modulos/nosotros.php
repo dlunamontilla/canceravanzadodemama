@@ -14,7 +14,7 @@ if ($get->modulo("nosotros")) {
 </div>
 
 <div class="sidebar__item">
-  <img src="multimedia/fotos/nosotros--fuveican-sidebar.jpg" alt="Atención médica">
+  <img class="sidebar__img" src="multimedia/fotos/nosotros--fuveican-sidebar.jpg" alt="Atención médica">
 </div>
 HTML;
 
@@ -65,7 +65,7 @@ if ($get->modulo("sparc-uicc")) {
 
   <!-- Foto -->
   <div class="sidebar__item">
-    <img src="multimedia/fotos/nosotros-sparc-sidebar.jpg" alt="">
+    <img class="sidebar__img" src="multimedia/fotos/nosotros-sparc-sidebar.jpg" alt="">
   </div>
 
   <!-- Enlace de descarga -->

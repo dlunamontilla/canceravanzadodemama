@@ -20,7 +20,7 @@
       <h1>$headerTitle</h1>
     </div>
 
-    <img class="banner__img" src="multimedia/fotos/fuveicam.jpeg" />
+    <img class="banner__img" src="$imgCabecera" />
 
     <div class="banner__teta" data-src="$senosCabecera"></div>
   </div>
