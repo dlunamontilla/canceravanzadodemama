@@ -20,9 +20,10 @@ if ( $get->distribuirEnModulos([
   <section class="modulo__item modulo__item--content">
     $contenido
   </section>
+
+  $adicionales
 </div>
 
-$adicionales
 
 <!-- Botones de avanzar o regresar -->
 <nav class="navegar">

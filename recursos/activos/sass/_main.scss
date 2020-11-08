@@ -31,8 +31,15 @@
   &--infografia {
     --separacion: 0;
 
-    width: $width;
-    max-width: $max-width;
+    width: 100%;
+    background-color: rgba( $color-secundario-4, 0.5 );
+
+    --padding: 40px;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
   }
 }
 
@@ -437,10 +444,13 @@
 
 .redes-sociales {
   --diametro: 30px;
+  --padding: 30px;
 
   display: flex;
   list-style-type: none;
-  padding: 0;
+
+
+  padding-top: var(--padding);
 
   &__item {
     display: flex;
@@ -473,7 +483,7 @@
     height: 50px;
     justify-content: flex-end;
     align-items: center;
-    padding: 0;
+    padding-top: var(--padding);
 
     margin: 0 auto;
     width: $width;
@@ -780,13 +790,12 @@
 // Contenedores en todos los módulos:
 .modulo {
   display: flex;
+  flex-wrap: wrap;
   margin: 20px auto;
   min-height: 200px;
   width: $width;
   max-width: $max-width;
   background-color: white;
-  border: 1px solid white;
-  box-shadow: 0 0 2px rgba(black, 0.2);
 
 
   &__item {
@@ -933,6 +942,9 @@
   box-shadow: 4px 4px 10px rgba($color-secundario-3, 0.2);
   cursor: default;
 
+  width: $width;
+  max-width: $max-width;
+  margin: 0 auto;
   
   &__item {
     display: flex;
