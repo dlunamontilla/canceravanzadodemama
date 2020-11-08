@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="18.922991mm"
+   width="20.922991mm"
    height="33.821323mm"
-   viewBox="0 0 18.922991 33.821323"
+   viewBox="0 0 20.922991 33.821323"
    version="1.1"
    id="svg45748"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="descarga herramientas 1.1 informe.svg">
+   sodipodi:docname="descarga-herramientas-1.1 informe.svg">
   <defs
      id="defs45742">
     <clipPath
@@ -95,6 +95,106 @@
          stdDeviation="5.2205081"
          id="feGaussianBlur18886-6-6" />
     </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath84">
+      <path
+         d="M 0,2441 H 1400 V 0 H 0 Z"
+         id="path82"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4164">
+      <path
+         d="M 142,876 H 377 V 550 H 142 Z"
+         id="path4162"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath84-3">
+      <path
+         d="M 0,2441 H 1400 V 0 H 0 Z"
+         id="path82-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44190-7">
+      <path
+         d="M 0,4909.237 H 1438.284 V 0 H 0 Z"
+         id="path44188-5"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <pattern
+       patternTransform="matrix(0.0486836,0,0,-0.0486836,-6495.98,6725.86)"
+       patternUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="48"
+       height="48"
+       id="pattern44198-3">
+      <path
+         d="M 0,0 48,0 48,48 0,48 0,0 Z"
+         style="fill:#ffffff;fill-opacity:0.800003;fill-rule:evenodd;stroke:none"
+         id="path44194-5" />
+      <path
+         d="M 0,0 6,0 6,24 0,24 0,0 Z"
+         style="fill:#9bbb59;fill-opacity:0.800003;fill-rule:evenodd;stroke:none"
+         id="path44196-6" />
+    </pattern>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44216-2">
+      <path
+         d="M 247.462,702.173 H 435.306 V 843.057 H 247.462 Z"
+         id="path44214-9"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44228-1">
+      <path
+         d="M 200.983,602.237 H 449.329 V 923.612 H 200.983 Z"
+         id="path44226-2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44236-7">
+      <path
+         d="M 201.178,843.074 H 424.279 V 804.146 H 201.178 Z"
+         id="path44234-0"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44240-9">
+      <path
+         d="M 201.178,804.146 H 424.28 v 38.928 H 201.178 Z"
+         id="path44238-3"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath44274-6">
+      <path
+         d="M 200.983,602.237 H 449.329 V 923.612 H 200.983 Z"
+         id="path44272-0"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter18884-3-5-1"
+       x="-0.057991955"
+       width="1.1159838"
+       y="-0.040945187"
+       height="1.0818903">
+      <feGaussianBlur
+         stdDeviation="5.2205081"
+         id="feGaussianBlur18886-6-6-9" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -103,9 +203,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8931788"
-     inkscape:cx="55.063291"
-     inkscape:cy="61.844485"
+     inkscape:zoom="2.3236092"
+     inkscape:cx="8.3221482"
+     inkscape:cy="89.182374"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -117,7 +217,8 @@
      inkscape:window-height="652"
      inkscape:window-x="0"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true" />
   <metadata
      id="metadata45745">
     <rdf:RDF>
@@ -142,7 +243,7 @@
        height="305.99982"
        x="178"
        y="-1466"
-       transform="matrix(0.078483,0,0,0.07629245,49.367338,260.0086)" />
+       transform="matrix(0.078483,0,0,0.07629245,50.425672,260.0086)" />
     <text
        y="173.67386"
        x="64.495338"
@@ -318,5 +419,38 @@
          style="fill:#f97ca9;fill-opacity:1;stroke:#f97ca9;stroke-width:0.22670054;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
          d="m -108.61234,314.97876 c -1.48237,0 -2.96545,0 -4.44782,0 -1.44956,0 -2.37031,-0.9204 -2.37137,-2.36114 0,-0.37289 -0.005,-0.74789 10e-4,-1.12184 0.004,-0.31926 0.16439,-0.51787 0.49036,-0.52211 0.32844,-0.006 0.49812,0.19897 0.51364,0.50765 0.0173,0.3743 0.004,0.74824 0.006,1.12113 0.002,0.89782 0.48013,1.37654 1.39065,1.37724 2.24331,0.004 4.48592,0 6.72959,0 0.72284,0 1.44427,0.005 2.16535,0 0.8583,-0.008 1.3402,-0.49459 1.3469,-1.3462 0.002,-0.35983 -0.007,-0.72037 0.003,-1.08126 0.0113,-0.37888 0.21379,-0.6029 0.52388,-0.57997 0.35278,0.024 0.4833,0.24377 0.47872,0.57644 -0.005,0.375 0.002,0.74718 -7.1e-4,1.12183 -0.0116,1.39524 -0.93274,2.30541 -2.34138,2.30752 -1.49578,0.005 -2.99015,0.004 -4.48734,0.004 z" />
     </g>
-  </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot235"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,62.353981,147.04172)"><flowRegion
+         id="flowRegion237"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333302px;font-family:Verdana;-inkscape-font-specification:Verdana" /><flowPara
+         id="flowPara241"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot259"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,62.353981,147.04172)"><flowRegion
+         id="flowRegion261"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana"><rect
+           id="rect263"
+           width="37.258812"
+           height="29.27478"
+           x="-156.02127"
+           y="169.07945"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana" /></flowRegion><flowPara
+         id="flowPara265"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot267"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,62.353981,147.04172)"><flowRegion
+         id="flowRegion269"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana"><rect
+           id="rect271"
+           width="48.236855"
+           height="16.30073"
+           x="-161.34396"
+           y="189.03954"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Verdana;-inkscape-font-specification:Verdana" /></flowRegion><flowPara
+         id="flowPara273"></flowPara></flowRoot>  </g>
 </svg>
