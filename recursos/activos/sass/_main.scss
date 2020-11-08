@@ -1017,16 +1017,59 @@
 
 
     // Línea inferior delimitadora de la infografía:
+    min-height: calc(var(--size) * 0.05);
+
+    &--11,
+    &--12,
+    &--13 {
+      position: relative;
+
+      &::before,
+      &::after {
+        content: "";
+  
+        display: block;
+        position: absolute;
+        margin: auto;
+        right: auto;
+        top: 0; bottom: 0;
+        z-index: 1;
+      }
+
+      &::before {
+        width: calc(var(--size) / 2 - var(--size) * 0.127272727);
+      }
+
+      &::after {
+        left: calc(var(--size) / 2 - var(--size) * 0.127272727);
+        right: 0;
+      }
+    }
+
     &--11 {
-      border-top: calc(var(--size) * 0.05) solid $infografia-4;
+      &::after {
+        background-color: $infografia-4;
+      }
     }
 
     &--12 {
-      border-top: calc(var(--size) * 0.05) solid $infografia-7;
+      &::before {
+        background-color: $infografia-4;
+      }
+
+      &::after {
+        background-color: $infografia-7;
+      }
     }
 
     &--13 {
-      border-top: calc(var(--size) * 0.05) solid $infografia-10;
+      &::before {
+        background-color: $infografia-7;
+      }
+
+      &::after {
+        background-color: $infografia-10;
+      }
     }
 
   }
@@ -1053,8 +1096,6 @@
       margin: auto;
       left: calc(var(--size) / 2 - var(--size) * 0.127272727);
       top: calc(var(--size) * 0.7272727273); bottom: 0;
-
-      width: 3px;
       width: calc(var(--size) * 0.05);
       background-color: var(--color);
       transition: 300ms ease;

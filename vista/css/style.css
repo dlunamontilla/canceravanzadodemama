@@ -1108,6 +1108,7 @@ h6 {
   transition: 300ms ease;
   line-height: 1.3;
   font-size: 0.9rem;
+  min-height: calc(var(--size) * 0.05);
 }
 .infografia__item:hover {
   --color: #00b7b7;
@@ -1153,14 +1154,40 @@ h6 {
   grid-column: 3;
   grid-row: 4;
 }
-.infografia__item--11 {
-  border-top: calc(var(--size) * 0.05) solid #CE6C70;
+.infografia__item--11, .infografia__item--12, .infografia__item--13 {
+  position: relative;
 }
-.infografia__item--12 {
-  border-top: calc(var(--size) * 0.05) solid #866472;
+.infografia__item--11::before, .infografia__item--11::after, .infografia__item--12::before, .infografia__item--12::after, .infografia__item--13::before, .infografia__item--13::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  right: auto;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
-.infografia__item--13 {
-  border-top: calc(var(--size) * 0.05) solid #866472;
+.infografia__item--11::before, .infografia__item--12::before, .infografia__item--13::before {
+  width: calc(var(--size) / 2 - var(--size) * 0.127272727);
+}
+.infografia__item--11::after, .infografia__item--12::after, .infografia__item--13::after {
+  left: calc(var(--size) / 2 - var(--size) * 0.127272727);
+  right: 0;
+}
+.infografia__item--11::after {
+  background-color: #CE6C70;
+}
+.infografia__item--12::before {
+  background-color: #CE6C70;
+}
+.infografia__item--12::after {
+  background-color: #866472;
+}
+.infografia__item--13::before {
+  background-color: #866472;
+}
+.infografia__item--13::after {
+  background-color: #866472;
 }
 .infografia__left {
   position: relative;
@@ -1182,7 +1209,6 @@ h6 {
   left: calc(var(--size) / 2 - var(--size) * 0.127272727);
   top: calc(var(--size) * 0.7272727273);
   bottom: 0;
-  width: 3px;
   width: calc(var(--size) * 0.05);
   background-color: var(--color);
   transition: 300ms ease;
