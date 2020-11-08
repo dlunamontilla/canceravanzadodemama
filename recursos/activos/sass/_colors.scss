@@ -45,6 +45,8 @@
 	&--skype-hover:hover {
 		color: $color-skype;
 	}
+
+	@include infografia-color;
 }
 
 .fondo {

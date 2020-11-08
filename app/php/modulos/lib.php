@@ -25,8 +25,8 @@
     $get->cadena("nosotros", "Fuveicam"),
     $get->cadena("sparc-uicc", "Sparc - UICC"),
     $get->cadena("abc-global", "ABC Global Alliance"),
-    $get->cadena("herramientas", "Modalidades de Tratamientos"),
-    $get->cadena("conozca", "Conozca su enfermedad"),
+    $get->cadena("herramientas", "Entienda su diagnóstico"),
+    $get->cadena("conozca", "Cáncer Avanzado de Mama. <br>Cáncer de Mama Localmente <br> Avanzado"),
     $get->cadena("paciente", "Emociones de la Paciente a través del Proceso de su Enfermedad")
   ]);
 

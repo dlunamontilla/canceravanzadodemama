@@ -237,6 +237,76 @@ h6 {
 .frontal--skype, .frontal--skype-hover:hover {
   color: #00aff0;
 }
+.frontal--infografia-1 {
+  color: #4B5C70;
+  --color: #4B5C70;
+}
+.frontal--infografia-1 path {
+  fill: #4B5C70;
+}
+.frontal--infografia-2 {
+  color: #70999E;
+  --color: #70999E;
+}
+.frontal--infografia-2 path {
+  fill: #70999E;
+}
+.frontal--infografia-3 {
+  color: #866472;
+  --color: #866472;
+}
+.frontal--infografia-3 path {
+  fill: #866472;
+}
+.frontal--infografia-4 {
+  color: #CE6C70;
+  --color: #CE6C70;
+}
+.frontal--infografia-4 path {
+  fill: #CE6C70;
+}
+.frontal--infografia-5 {
+  color: #70999E;
+  --color: #70999E;
+}
+.frontal--infografia-5 path {
+  fill: #70999E;
+}
+.frontal--infografia-6 {
+  color: #CE6C70;
+  --color: #CE6C70;
+}
+.frontal--infografia-6 path {
+  fill: #CE6C70;
+}
+.frontal--infografia-7 {
+  color: #866472;
+  --color: #866472;
+}
+.frontal--infografia-7 path {
+  fill: #866472;
+}
+.frontal--infografia-8 {
+  color: #4B5C70;
+  --color: #4B5C70;
+}
+.frontal--infografia-8 path {
+  fill: #4B5C70;
+}
+.frontal--infografia-9 {
+  color: #CE6C70;
+  --color: #CE6C70;
+}
+.frontal--infografia-9 path {
+  fill: #CE6C70;
+}
+.frontal--infografia-10 {
+  color: #866472;
+  --color: #866472;
+}
+.frontal--infografia-10 path {
+  fill: #866472;
+}
 
 .fondo {
   transition: 300ms ease;
@@ -650,7 +720,7 @@ h6 {
   transition: none;
 }
 .redes-sociales--compartir {
-  height: 50px;
+  padding-bottom: 10px;
   justify-content: flex-end;
   align-items: center;
   padding-top: var(--padding);
@@ -904,7 +974,8 @@ h6 {
 .modulo {
   display: flex;
   flex-wrap: wrap;
-  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
   min-height: 200px;
   width: calc(100% - 20px);
   max-width: 1200px;
@@ -944,9 +1015,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  --padding: 20px;
-  padding: var(--padding) var(--padding) calc(var(--padding) / 2) var(--padding);
-  color: #005151;
+  --padding: 13px;
+  padding: var(--padding) 0 var(--padding) 0;
 }
 .navegar__enlace {
   --diametro: 40px;
@@ -1033,6 +1103,9 @@ h6 {
 }
 .infografia__item {
   display: flex;
+  text-align: justify;
+  line-height: 1.3;
+  font-size: 0.9rem;
 }
 .infografia__item:hover {
   --color: #00b7b7;
@@ -1067,6 +1140,7 @@ h6 {
   --padding: 10px;
   padding-left: 20px;
   padding-bottom: var(--padding);
+  padding-top: var(--padding);
   padding-right: var(--padding);
 }
 
