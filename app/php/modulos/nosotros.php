@@ -205,6 +205,10 @@ HTML;
           <div class="infografia__left" data-src="multimedia/vectores/infografia-10.svg">10</div>
           <div class="infografia__right">Ayudar a los pacientes con CAM a seguir trabajando, al implantar una legislación que proteja su derecho al trabajo y garantice entornos laborales flexibles y adaptables.</div>
         </div>
+
+        <div class="infografia__item infografia__item--10 frontal frontal--infografia-10">
+          <!-- contenido -->
+        </div>
       </div>
   </div>
 HTML;

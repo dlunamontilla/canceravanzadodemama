@@ -23,11 +23,12 @@
 
   @each $numero, $color in $colores {
     &--infografia-#{$numero} {
-      color: $color;
       --color: #{$color};
+
+      color: var(--color);
       
       path {
-        fill: $color;
+        fill: var(--color);
       }
     }
   }

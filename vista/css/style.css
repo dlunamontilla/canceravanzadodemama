@@ -238,74 +238,74 @@ h6 {
   color: #00aff0;
 }
 .frontal--infografia-1 {
-  color: #4B5C70;
   --color: #4B5C70;
+  color: var(--color);
 }
 .frontal--infografia-1 path {
-  fill: #4B5C70;
+  fill: var(--color);
 }
 .frontal--infografia-2 {
-  color: #70999E;
   --color: #70999E;
+  color: var(--color);
 }
 .frontal--infografia-2 path {
-  fill: #70999E;
+  fill: var(--color);
 }
 .frontal--infografia-3 {
-  color: #866472;
   --color: #866472;
+  color: var(--color);
 }
 .frontal--infografia-3 path {
-  fill: #866472;
+  fill: var(--color);
 }
 .frontal--infografia-4 {
-  color: #CE6C70;
   --color: #CE6C70;
+  color: var(--color);
 }
 .frontal--infografia-4 path {
-  fill: #CE6C70;
+  fill: var(--color);
 }
 .frontal--infografia-5 {
-  color: #70999E;
   --color: #70999E;
+  color: var(--color);
 }
 .frontal--infografia-5 path {
-  fill: #70999E;
+  fill: var(--color);
 }
 .frontal--infografia-6 {
-  color: #CE6C70;
   --color: #CE6C70;
+  color: var(--color);
 }
 .frontal--infografia-6 path {
-  fill: #CE6C70;
+  fill: var(--color);
 }
 .frontal--infografia-7 {
-  color: #866472;
   --color: #866472;
+  color: var(--color);
 }
 .frontal--infografia-7 path {
-  fill: #866472;
+  fill: var(--color);
 }
 .frontal--infografia-8 {
-  color: #4B5C70;
   --color: #4B5C70;
+  color: var(--color);
 }
 .frontal--infografia-8 path {
-  fill: #4B5C70;
+  fill: var(--color);
 }
 .frontal--infografia-9 {
-  color: #CE6C70;
   --color: #CE6C70;
+  color: var(--color);
 }
 .frontal--infografia-9 path {
-  fill: #CE6C70;
+  fill: var(--color);
 }
 .frontal--infografia-10 {
-  color: #866472;
   --color: #866472;
+  color: var(--color);
 }
 .frontal--infografia-10 path {
-  fill: #866472;
+  fill: var(--color);
 }
 
 .fondo {
@@ -1110,6 +1110,42 @@ h6 {
 .infografia__item:hover {
   --color: #00b7b7;
   --color: red;
+}
+.infografia__item--2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.infografia__item--3 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.infografia__item--4 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.infografia__item--5 {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+.infografia__item--6 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.infografia__item--7 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.infografia__item--8 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+.infografia__item--9 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.infografia__item--10 {
+  grid-column: 3;
+  grid-row: 4;
 }
 .infografia__left {
   --size: 40px;
