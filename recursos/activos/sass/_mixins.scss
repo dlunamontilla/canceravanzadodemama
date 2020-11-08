@@ -6,3 +6,30 @@
     }
   }
 }
+
+@mixin infografia-color {
+  $colores: (
+    "1": $infografia-1,
+    "2": $infografia-2,
+    "3": $infografia-3,
+    "4": $infografia-4,
+    "5": $infografia-5,
+    "6": $infografia-6,
+    "7": $infografia-7,
+    "8": $infografia-8,
+    "9": $infografia-9,
+    "10": $infografia-10
+  );
+
+  @each $numero, $color in $colores {
+    &--infografia-#{$numero} {
+      --color: #{$color};
+
+      color: var(--color);
+      
+      path {
+        fill: var(--color);
+      }
+    }
+  }
+}
