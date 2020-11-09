@@ -946,6 +946,16 @@
   max-width: $max-width;
   margin: 0 auto;
   
+
+  // Cantidad de columnas en función del espacio disponible:
+  @media screen and (min-width: 781px) {
+    --columnas: 3;
+  }
+
+  @media screen and (max-width: 780px) {
+    --columnas: 2;
+  }
+
   &__item {
     --size: 40px;
 
@@ -1072,6 +1082,9 @@
       }
     }
 
+    @media screen and (max-width: 780px) {
+      
+    }
   }
   
   &__left {

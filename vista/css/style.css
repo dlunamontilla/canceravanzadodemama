@@ -1101,6 +1101,16 @@ h6 {
   max-width: 1200px;
   margin: 0 auto;
 }
+@media screen and (min-width: 781px) {
+  .infografia {
+    --columnas: 3;
+  }
+}
+@media screen and (max-width: 780px) {
+  .infografia {
+    --columnas: 2;
+  }
+}
 .infografia__item {
   --size: 40px;
   display: flex;
