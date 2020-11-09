@@ -15,7 +15,7 @@
    version="1.1"
    id="svg5593"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="imagen-2.3-herramientas-terapia dirigida.svg">
+   sodipodi:docname="imagen-2.2-herramientas-terapia dirigida.svg">
   <defs
      id="defs5587">
     <clipPath
@@ -67,8 +67,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="387.432"
-     inkscape:cy="457.71886"
+     inkscape:cx="393.14629"
+     inkscape:cy="446.29029"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -89,7 +89,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -98,6 +98,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-3.3252826,-26.216654)">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.98823529;stroke:#dddddd;stroke-width:0.08797651;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1256"
+       width="226.03079"
+       height="247.9534"
+       x="2.5688183"
+       y="25.764988"
+       ry="14.363154" />
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,-231.04404,598.06381)"
        id="g1832">
