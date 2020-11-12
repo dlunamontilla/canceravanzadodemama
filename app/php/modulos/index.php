@@ -15,6 +15,7 @@
   include __DIR__ . "/recursos.php";
   include __DIR__ . "/cabecera.php";
   include __DIR__ . "/nosotros.php";
+  include __DIR__ . "/herramientas.php";
   include __DIR__ . "/content.php";
   include __DIR__ . "/footer.php";
 ?>
