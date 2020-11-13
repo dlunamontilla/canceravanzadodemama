@@ -24,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #4d4d4d;
+  color: #60c160;
 }
 a:not([class]):hover {
   text-decoration: underline;
@@ -1279,6 +1279,22 @@ h6 {
 }
 .glosario__tabla tbody tr:hover td:last-of-type {
   color: rgba(0, 50, 50, 0.8);
+}
+
+.estadificacion {
+  background-color: rgba(96, 193, 96, 0.5);
+  padding: 40px 10px;
+}
+.estadificacion__img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--width);
+  padding: 10px;
+  background-color: white;
+}
+.estadificacion__img--mediana {
+  --width: 500px;
 }
 
 [type="search"],

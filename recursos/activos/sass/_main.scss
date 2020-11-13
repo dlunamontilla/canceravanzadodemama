@@ -1128,7 +1128,7 @@
 .glosario {
   overflow: auto;
   padding-bottom: 20px;
-  
+
   &__tabla {
     width: 100%;
     border-collapse: collapse;
@@ -1184,6 +1184,24 @@
           }
         }
       }
+    }
+  }
+}
+
+.estadificacion {
+  background-color: rgba($color-secundario-4, 0.5);
+  padding: 40px 10px;
+
+  &__img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: var(--width);
+    padding: 10px;
+    background-color: white;
+
+    &--mediana {
+      --width: 500px;
     }
   }
 }

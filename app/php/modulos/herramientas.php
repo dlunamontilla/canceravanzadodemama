@@ -257,11 +257,11 @@ HTML;
       </p>
 
       <p class="text text--justify">
-        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American JointCommitte (AJCC) y la Unión Internacional de Control de Cáncer (UICC). <a href="https://www.uicc.org/resources/tnm" target="_blank">https://www.uicc.org/resources/tnm</a>
+        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American JointCommitte (AJCC) y la <a href="https://www.uicc.org/resources/tnm" target="_blank">Unión Internacional de Control de Cáncer (UICC).</a>
       </p>
 
       <p class="text text--justify">
-        La categoría  T se basa en el tamaño del tumor en la mama (tumor primario). Los números de T más altos significan un tumor más grande y/o una propagación más extensa a los tejidos vecinos de la mama.
+        La categoría  <strong>T</strong> se basa en el tamaño del tumor en la mama (tumor primario). Los números de T más altos significan un tumor más grande y/o una propagación más extensa a los tejidos vecinos de la mama.
       </p>
 
       <p class="text text--justify">
@@ -367,8 +367,9 @@ HTML;
       <p><i>American Joint Committee on Cancer (AJCC) 2017.Cancer Staging Handbook from the AJCC Cancer Staging Manual, Eighth Edition.</i></p>
 
       <hr>
-
-      <img src="multimedia/img/inforgrafia estadiosfinal-01.jpg" alt="Estadios">
+      <div class="estadificacion">
+        <img class="estadificacion__img estadificacion__img--mediana" src="multimedia/img/inforgrafia estadiosfinal-01.jpg?v1" alt="Estadios">
+      </div>
     </div>
 HTML;
 
