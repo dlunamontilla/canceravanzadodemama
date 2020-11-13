@@ -201,7 +201,7 @@ HTML;
 HTML;
 
   $atras = <<<HTML
-<a href="?nosotros" class="navegar__enlace">
+<a href="./" class="navegar__enlace">
   <span>Inicio</span>
   <span data-src="multimedia/vectores/inicio.svg"></span>
 </a>
@@ -230,7 +230,7 @@ HTML;
 HTML;
 
       $atras = <<<HTML
-<a href="?nosotros" class="navegar__enlace">
+<a href="?herramientas" class="navegar__enlace">
   <span>Informe de Anatomía</span>
   <span data-src="multimedia/vectores/atras.svg"></span>
 </a>
