@@ -1234,6 +1234,53 @@ h6 {
   padding-right: var(--padding);
 }
 
+.glosario {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+.glosario__tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+.glosario__tabla th:first-of-type, .glosario__tabla td:first-of-type {
+  width: 34%;
+}
+.glosario__tabla th {
+  height: 50px;
+  border: 1px solid white;
+  font-weight: normal;
+}
+.glosario__tabla th:first-of-type {
+  background-color: #60c160;
+  color: white;
+}
+.glosario__tabla th:last-of-type {
+  background-color: #fcbdd4;
+  color: #810633;
+}
+.glosario__tabla td {
+  border: 1px solid white;
+  min-height: 40px;
+  padding: 10px;
+  transition: 300ms ease;
+}
+.glosario__tabla td:first-of-type {
+  background-color: rgba(96, 193, 96, 0.05);
+  color: #348734;
+}
+.glosario__tabla tbody tr {
+  transition: 300ms ease;
+}
+.glosario__tabla tbody tr:nth-of-type(even) {
+  background-color: rgba(77, 77, 77, 0.03);
+}
+.glosario__tabla tbody tr:hover {
+  background-color: rgba(0, 183, 183, 0.05);
+}
+.glosario__tabla tbody tr:hover td:last-of-type {
+  color: rgba(0, 50, 50, 0.8);
+}
+
 [type="search"],
 [type="text"],
 [type="tel"],

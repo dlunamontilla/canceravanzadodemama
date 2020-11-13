@@ -3,9 +3,12 @@
     exit;
 
 
+  $texto = <<<EOT
+
+EOT;
+
   $tablaGlosario = <<<HTML
-<table class="glosario__table">
-  <caption>Glosario</caption>
+<table class="glosario__tabla">
 
   <thead>
     <tr>
