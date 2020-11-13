@@ -4,6 +4,7 @@
 $content = "";
 
 if ( $get->distribuirEnModulos([
+  // Página de Nosotros:
   "nosotros",
   "sparc-uicc",
   "abc-global",
@@ -12,8 +13,12 @@ if ( $get->distribuirEnModulos([
   "herramientas",
   "herramientas-subtipos-moleculares",
   "estadificacion",
+  "glosario",
   
+  // Conozca su enfermedad:
   "conozca",
+
+  // La pacidnte:
   "paciente"
 ]) ) {
   $content = <<<HTML

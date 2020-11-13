@@ -215,7 +215,7 @@ HTML;
 </a>
 HTML;
 
-    }
+  }
     
     // Clasificación en Subtipos Moleculares:
     if ( $get->modulo("herramientas-subtipos-moleculares")) {
@@ -244,5 +244,149 @@ HTML;
 </a>
 HTML;
 
-    }
+  }
+
+  // Estadificación:
+  if ($get->modulo("estadificacion")) {
+    $contenido = <<<HTML
+    <div class="content__item">
+      <h2 class="text text--right">+ Estadificación</h2>
+
+      <p class="text text--justify">
+      El estadio o etapa de un cáncer es una medida de la extensión y propagación del tumor, que indica la fase o etapa en la que se encuentra el cáncer, es decir cuánto ha crecido, si se ha diseminado y para dónde lo ha hecho.  Es importante conocer el estadio de la paciente para establecer el pronóstico y determinar el plan de tratamiento óptimo.
+      </p>
+
+      <p class="text text--justify">
+        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American JointCommitte (AJCC) y la Unión Internacional de Control de Cáncer (UICC). <a href="https://www.uicc.org/resources/tnm" target="_blank">https://www.uicc.org/resources/tnm</a>
+      </p>
+
+      <p class="text text--justify">
+        La categoría  T se basa en el tamaño del tumor en la mama (tumor primario). Los números de T más altos significan un tumor más grande y/o una propagación más extensa a los tejidos vecinos de la mama.
+      </p>
+
+      <p class="text text--justify">
+        <strong>N</strong> indica la propagación a los ganglios (nódulos) linfáticos de axila, infra/supraclaviculares y mamarios internos. 
+      </p>
+
+      <p class="text text--justify">
+        <strong>M</strong> se refiere a metástasis, es decir, propagación a partes distantes del cuerpo.
+      </p>
+
+      <small>Esta imagen es temporal:</small>
+      <img src="https://i.ibb.co/KLBC6bx/Estadificaci-n-pag.png" alt="Imagen temporal">
+      
+      <!-- Estadios -->
+      <h3 class="text text--right">
+          Estadios
+      </h3>
+
+      <p class="text text--justify">
+        Una vez que las categorías T, N y M se han determinado, esta información se combina para asignarle al cáncer una etapa general o estadio, con el objetivo de poder identificar la extensión de la enfermedad, entender su pronóstico y guiar la toma de decisiones. Este proceso se le conoce como estadificación.
+      </p>
+
+      <p class="text text--justify">
+        La determinación del estadio puede ser clínica o patológica. El estadio clínico está basado en el examen físico y los resultados de las pruebas imagenológicas que se realizan antes de iniciar el tratamiento.La determinación del estadio patológico se realiza a través del informe de biopsia de la pieza quirúrgica.
+      </p>
+
+      <p class="text text--justify">
+        Existen cinco estadios y se expresan en números romanos desde I (la etapa menos avanzada) hasta IV (la etapa más avanzada), que corresponden a cáncer invasivo o infiltrante. El cáncer no invasivo (carcinoma in situ) se reporta como estadio 0.
+      </p>
+      
+      <p class="text text--justify">
+        ESTADIO 0: Carcinoma In Situ. Corresponde a un cáncer no invasivo. Las células malignas no han invadido los tejidos que están alrededor del sitio de origen del tumor, es decir la membrana basal está intacta.
+      </p>
+      
+      <!-- Estadio 1 -->
+      <h4 class="text text--right">
+          ESTADIO I
+      </h4>
+      
+      <!-- Estadio IA -->
+      <p class="text text--right"><strong>Estadio IA (T1 N0 M0)</strong></p>
+      <p class="text text--justify">Tumor invasivo, pequeño (igual o inferior a 2 cm), que no se ha extendido a los ganglios linfáticos.</p>
+      
+      <!-- Estadio IB -->
+      <p class="text text--right"><strong>Estadio IB (T0 o T1 N1mic M0)</strong></p>
+      <p class="text text--justify">
+      Tumor pequeño (igual o inferior a 2 cm) o sin evidencia del tumor en mama, con extensión a ganglios linfáticos axilares, aunque estas metástasis son de pequeño tamaño (micrometástasis), que  miden más de 0.2 mm, pero menos de 2 mm.
+      </p>
+
+      <h4 class="text text--right">
+          ESTADIO II
+      </h4>
+      
+      <!-- Estadio IIA -->
+      <p class="text text--right"><strong>Estadio IIA</strong></p>
+
+      <p>Cualquiera de las siguientes situaciones:</p>
+      <ul>
+        <li>
+          T0 o T1 N1 M0: No hay evidencia del tumor en la mama o bien el tumor mide menos de 2 cm; con metástasis en ganglios linfáticos axilares en número de 1 a 3.
+        </li>
+
+        <li>
+          T2 N0 M0: El  tumor en la mama mide más de 2 cm pero igual o menos de 5 cm, y no hay extensión a los ganglios linfáticos axilares.
+        </li>
+      </ul>
+
+      <!-- Estadio IIB -->
+      <p><strong>Estadio IIB</strong></p>
+      <p>Cualquiera de las siguientes situaciones:</p>
+
+      <ul>
+        <li>T2 N1 M0: El tumor en la mama mide más de  2 cm pero igual o  menos de 5 cm, con extensión a los ganglios linfáticos axilares en número de 1 a 3.</li>
+        <li>T3 N0 M0: El tumor en la mama mide más de 5 cm, sin extensión a ganglios linfáticos axilares.</li>
+      </ul>
+
+      <!-- Estadio III -->
+      <h4 class="text text--right">ESTADIO III</h4>
+
+      <!-- Estadio IIIA -->
+      <p><strong>Estadio IIIA</strong></p>
+
+      <p>Cualquiera de las siguientes situaciones:</p>
+
+      <ul>
+        <li>T0 – T3 N2 M0: Tumor en la mama de cualquier tamaño o incluso en algunos casos no se detecta el tumor de la mama, con una extensión a 4 a 9 ganglios linfáticos axilares  o a ganglios linfáticos mamarios internos.</li>
+        <li>T3 N1 M0: Tumor en la mama mide más de 5 cm, con extensión a ganglios linfáticos axilares en número 1 a 3.</li>
+      </ul>
+
+      <!-- Estadio IIIB -->
+      <p class="text text--right"><strong>Estadio IIIB</strong></p>
+      <ul>
+        <li>T0 – T4 N3 M0: Tumor en la mama de cualquier tamaño que se ha diseminado a 10 o más ganglios linfáticos axilares, los ganglios linfáticos mamarios internos o los ganglios linfáticos debajo o por encima de la clavícula (ganglios supra e infraclaviculares).</li>
+      </ul>
+
+      <!-- Estadio IV -->
+      <h4 class="text text--right">ESTADIO IV</h4>
+
+      <p><strong>Cualquier T cualquier N M1:</strong></p>
+      <p class="text text--justify">Tumor en la mama de cualquier tamaño o con cualquier grado de extensión a los ganglios linfáticos próximos, que se ha diseminado a otros órganos, como huesos, pulmones, cerebro e hígado.</p>
+    
+      <p><strong>REFERENCIA</strong></p>
+      <p><i>American Joint Committee on Cancer (AJCC) 2017.Cancer Staging Handbook from the AJCC Cancer Staging Manual, Eighth Edition.</i></p>
+
+      <hr>
+
+      <img src="https://i.ibb.co/F5rQVmj/g1610.png" alt="Estadios">
+    </div>
+HTML;
+
+    // Botones de atrás y avanzar:
+    $atras = <<<HTML
+    <a href="?herramientas-subtipos-moleculares" class="navegar__enlace">
+      <span>Clasificación en Subtipos Moleculares</span>
+      <span data-src="multimedia/vectores/atras.svg"></span>
+    </a>
+HTML;
+    
+    
+    $avanzar = <<<HTML
+    <a href="?glosario" class="navegar__enlace">
+      <span data-src="multimedia/vectores/adelante.svg"></span>
+      <span>Glosario</span>
+    </a>
+HTML;
+
+  }
 ?>
