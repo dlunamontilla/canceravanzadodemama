@@ -392,7 +392,14 @@ HTML;
 
   // Glosario:
   if ( $get->modulo("glosario") ) {
-        // Botones de atrás y avanzar:
+    $contenido = <<<HTML
+    <div class="content__item">
+      <h2 class="text text--right">+ Glosario</h2>
+
+      $tablaGlosario
+    </div>
+HTML;
+    // Botones de atrás y avanzar:
     $atras = <<<HTML
     <a href="?estadificacion" class="navegar__enlace">
       <span>Estadificación</span>
