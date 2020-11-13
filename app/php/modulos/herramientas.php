@@ -58,7 +58,7 @@
 			La información contenida en el informe, permite determinar qué clase de células se encuentran en la muestra (benignas o malignas), es decir si la lesión es cancerosa o no. En el caso de ser cáncer, además el informe permite conocer:
 		</p>
 
-		<ol>
+		<ol type="a">
 			<li class="text text--justify">
 				<strong>Características del tumor: el tipo de cáncer de mama y si es infiltrante o no.</strong>
 
@@ -117,7 +117,7 @@
       <li>
         <strong> Otros Parámetros</strong>
 
-        <ol>
+        <ol type="i">
           <li>
             <strong>Índice de Proliferación Tumoral</strong>
 
@@ -162,13 +162,30 @@
 
         <p class="text text--left"><strong>Existen  cuatro pruebas para el HER2:</strong></p>
 
-        <ul>
+        <ul type="disc">
           <li>
             <p class="text text--justify">
             Análisis inmunohistoquímico (IHQ): Indica si hay demasiada proteína HER2 en las células cancerígenas. Los resultados del análisis de IHQ pueden ser: 0 (negativo), 1+ (también negativo), 2+ (ambiguo), o 3+ (positivo - sobreexpresión de la proteína HER2-).
             </p>
+
+            <!-- Lista desordenada anidada -->
+            <ul type="none">
+              <li>Análisis por hibridación fluorescente in situ (FISH), Análisis de HER2 mediante hibridación cromogénica in situ con tecnología de sonda por sustracción (CISH) SPoT- Light o Análisis de HER2 mediante hibridación in situ (ISH) dual: Estas pruebas indican si hay demasiadas copias del gen HER2 en las células cancerígenas,  pueden ser positivas (amplificación del gen HER2) o negativas (sin amplificación del gen HER2).</li>
+
+              <li>Es importante saber qué prueba para el receptor del HER2 se realizó. En general, sólo los casos de cáncer de mama que tienen resultados IHQ 3+, FISH positivo, SPoT-Light HER2 CISH positivo o HER2 ISH dual positivo responden a la terapia dirigida contra receptores HER2 positivos. Un resultado de análisis IHQ 2+ se denomina indeterminado o ambiguo. De ser así, se debe analizar la muestra mediante un análisis de HER2 más preciso, tal como el análisis por hibridación fluorescente in situ (FISH), el análisis de HER2 mediante hibridación cromogénica in situ (CISH) SPoT-Light o el análisis de HER2 mediante hibridación in situ (ISH) dual.</li>
+            </ul>
           </li>
         </ul>
+
+        <br>
+      </li>
+
+      <!-- Opción e -->
+      <li>
+        <strong>Informe de Anatomía Patológica de la Pieza Quirúrgica</strong>
+
+        <p>Se reporta el tamaño tumoral en centímetros y se analiza el tejido normal que lo rodea,  lo que se denomina margen quirúrgico o  de resección. Según la presencia o no de células tumorales en el margen,  se define como margen negativo a la no presencia de células tumorales, y como margen positivo a la presencia de células tumorales en el borde del tejido, por lo que con frecuencia se lleva a cabo otra cirugía de ampliación de márgenes.</p>
+        <p>De igual manera  se reporta si existe afectación de los ganglios linfáticos y si esta llegase a existir, cuántos de  estos ganglios presentan tumor.</p>
       </li>
 		</ol>
 </div>
