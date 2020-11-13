@@ -396,7 +396,9 @@ HTML;
     <div class="content__item">
       <h2 class="text text--right">+ Glosario</h2>
 
-      $tablaGlosario
+      <div class="glosario">
+        $tablaGlosario
+      </div>
     </div>
 HTML;
     // Botones de atrás y avanzar:
