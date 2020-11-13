@@ -368,7 +368,7 @@ HTML;
 
       <hr>
 
-      <img src="https://i.ibb.co/F5rQVmj/g1610.png" alt="Estadios">
+      <img src="multimedia/img/inforgrafia estadiosfinal-01.jpg" alt="Estadios">
     </div>
 HTML;
 
