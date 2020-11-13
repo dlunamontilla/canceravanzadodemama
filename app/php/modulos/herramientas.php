@@ -389,4 +389,23 @@ HTML;
 HTML;
 
   }
+
+  // Glosario:
+  if ( $get->modulo("glosario") ) {
+        // Botones de atrás y avanzar:
+    $atras = <<<HTML
+    <a href="?estadificacion" class="navegar__enlace">
+      <span>Estadificación</span>
+      <span data-src="multimedia/vectores/atras.svg"></span>
+    </a>
+HTML;
+    
+    
+    $avanzar = <<<HTML
+    <a href="./" class="navegar__enlace">
+      <span data-src="multimedia/vectores/adelante.svg"></span>
+      <span>Inicio</span>
+    </a>
+HTML;
+  }
 ?>
