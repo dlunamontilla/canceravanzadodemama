@@ -8,6 +8,7 @@ if ( $get->distribuirEnModulos([
   "sparc-uicc",
   "abc-global",
   "herramientas",
+  "herramientas-subtipos-moleculares",
   "conozca",
   "paciente"
 ]) ) {

@@ -3,11 +3,12 @@
 		exit;
 
     
-	// Herramientas primera página:
+  // Herramientas primera página:
+  // Página 1.1:
 	if ( $get->modulo("herramientas") ) {
 		$contenido = <<<HTML
 <div class="content__item">
-		<h2 class="text text--right">Herramientas Informe de Anatomía</h2>
+		<h2 class="text text--right">Informe de Anatomía</h2>
 		<p class="text text--justify">Es el reporte emitido por un médico patólogo de los hallazgos de cada tejido que es extraído como muestra o espécimen de una zona sospechosa para ser analizado en el microscopio y determinar la presencia o no de cáncer. Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
 
 		<h3 class="text text--right">Tipos de biopsias</h3>
@@ -83,17 +84,19 @@
           Existen tres grados histológicos dependiendo de cuán diferente son las células tumorales en relación a las células normales o sanas de la mama: 
         </p>
 
-        <p class="text text--justify">
-            <strong>Grado 1:</strong> Bajo grado o bien diferenciado. Las células cancerosas lucen sólo un poco diferente a las células normales.
-        </p>
-
-        <p class="text text--justify">
-          <strong>Grado 2:</strong> Grado Intermedio o moderadamente diferenciado. Las células cancerosas no lucen como las células normales, ya que se reproducen un poco más rápido.
-        </p>
-
-        <p class="text text--justify">
-          <strong>Grado 3:</strong> Alto Grado o Pobremente diferenciado. Las células lucen muy diferente a las células normales, ya que se reproducen de rápida manera.
-        </p>
+        <ul type="none">
+          <li class="text text--justify">
+            <p class="text text--justify"><strong>Grado 1:</strong> Bajo grado o bien diferenciado. Las células cancerosas lucen sólo un poco diferente a las células normales.</p>
+          </li>
+          
+          <li class="text text--justify">
+            <p class="text text--justify"><strong>Grado 2:</strong> Grado Intermedio o moderadamente diferenciado. Las células cancerosas no lucen como las células normales, ya que se reproducen un poco más rápido.</p>
+          </li>
+          
+          <li class="text text--justify">
+            <p class="text text--justify"><strong>Grado 3:</strong> Alto Grado o Pobremente diferenciado. Las células lucen muy diferente a las células normales, ya que se reproducen de rápida manera.</p>
+          </li>
+        </ul>
 
         <p class="text text--justify">
           El cáncer de mama tiene su propio sistema para determinar su capacidad y velocidad de crecimiento, y se denomina Sistema  de Gradación de Nottingham o  modificación de Elston-Ellis del sistema de gradación de Scarff-Bloom-Richardson.  En este caso las características que se evalúan incluyen la disposición normal de las células en los ductos (formación tubular), la evaluación del tamaño y la forma del núcleo (grado nuclear), y cuántas de las células cancerosas están en el proceso de división (índice mitótico). Se asigna  a cada categoría una puntuación del 1 al 3. 
@@ -189,14 +192,45 @@
       </li>
 		</ol>
 </div>
-
 HTML;
-
 
 	$sidebar = <<<HTML
 <div class="sidebar__item">
 	<h2>Sidebar</h2>
 </div>
 HTML;
-		}
+
+    // Cuando el usuario se encuentre el módulo nosotros 
+  // sin más parámetros:
+  $atras = <<<HTML
+<a href="?nosotros" class="navegar__enlace">
+  <span>Inicio</span>
+  <span data-src="multimedia/vectores/inicio.svg"></span>
+</a>
+HTML;
+
+
+  $avanzar = <<<HTML
+<a href="?herramientas-subtipos-moleculares" class="navegar__enlace">
+  <span data-src="multimedia/vectores/adelante.svg"></span>
+  <span>Clasificación en Subtipos Moleculares</span>
+</a>
+HTML;
+
+    }
+    
+    // Clasificación en Subtipos Moleculares:
+    if ( $get->modulo("herramientas-subtipos-moleculares")) {
+      $contenido = <<<HTML
+<div class="content__item">
+  <h2 class="text text--right">Clasificación en Subtipos Moleculares</h2>
+
+  <p class="text text--justify">El cáncer de mama puede clasificarse de acuerdo con parámetros moleculares en subtipos: Luminal A, Luminal B, Her2+ y Basal, que en la práctica clínica se traducen por las características morfológicas e inmunohistoquímicas reportadas en la biopsia. Distinguir entre subtipos es importante para optimizar las estrategias de tratamiento.</p>
+  
+  <div data-src="multimedia/vectores/imagen-1.2-herramientas-subtipos.svg"></div>
+</div>
+HTML;
+
+
+    }
 ?>
