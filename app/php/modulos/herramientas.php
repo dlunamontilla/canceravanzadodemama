@@ -72,7 +72,7 @@
 				</p>
 
 				<div>
-					<img src="https://i.ibb.co/NCQnvfY/image.png" alt="Material educactivo para pacientes desarrollo por la Función Venezolana para la Educación e Investigación contra el Cáncer de Mama.">
+					<div data-src="multimedia/vectores/imagen-1.1-herramientas-informe.svg"></div>
 					<p class="text text--justify"><i>Material educativo para pacientes, desarrollado por la Fundación Venezolana para la Educación e Investigación contra el Cáncer de Mama (FUVEICAM)</i></p>
 				</div>
 			</li>
