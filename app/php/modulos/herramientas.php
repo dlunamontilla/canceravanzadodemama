@@ -200,8 +200,6 @@ HTML;
 </div>
 HTML;
 
-    // Cuando el usuario se encuentre el módulo nosotros 
-  // sin más parámetros:
   $atras = <<<HTML
 <a href="?nosotros" class="navegar__enlace">
   <span>Inicio</span>
@@ -226,11 +224,25 @@ HTML;
   <h2 class="text text--right">Clasificación en Subtipos Moleculares</h2>
 
   <p class="text text--justify">El cáncer de mama puede clasificarse de acuerdo con parámetros moleculares en subtipos: Luminal A, Luminal B, Her2+ y Basal, que en la práctica clínica se traducen por las características morfológicas e inmunohistoquímicas reportadas en la biopsia. Distinguir entre subtipos es importante para optimizar las estrategias de tratamiento.</p>
-  
   <div data-src="multimedia/vectores/imagen-1.2-herramientas-subtipos.svg"></div>
+  <p>&nbsp;</p>
 </div>
 HTML;
 
+      $atras = <<<HTML
+<a href="?nosotros" class="navegar__enlace">
+  <span>Informe de Anatomía</span>
+  <span data-src="multimedia/vectores/atras.svg"></span>
+</a>
+HTML;
+
+
+      $avanzar = <<<HTML
+<a href="?estadificacion" class="navegar__enlace">
+  <span data-src="multimedia/vectores/adelante.svg"></span>
+  <span>Estadificación</span>
+</a>
+HTML;
 
     }
 ?>
