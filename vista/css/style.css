@@ -377,25 +377,25 @@ h6 {
   --background-color: #00aff0;
 }
 
-.vinnetas {
+.listas {
   --separacion: 15px;
-  --separacion-vertical: var(--separacion);
+  --separacion-vertical: 5px;
   --size: 6px;
   --color: #4d4d4d;
   list-style-type: none;
   padding-left: var(--separacion);
 }
-.vinnetas li {
+.listas li {
   position: relative;
   padding-left: calc(var(--size) + var(--separacion));
 }
-.vinnetas li:first-of-type {
+.listas li:first-of-type {
   margin-top: var(--separacion-vertical);
 }
-.vinnetas li:not(:last-of-type) {
+.listas li:not(:last-of-type) {
   margin-bottom: var(--separacion-vertical);
 }
-.vinnetas li::before {
+.listas li::before {
   content: "";
   display: block;
   position: absolute;
@@ -409,23 +409,20 @@ h6 {
   border-radius: 10px;
   background-color: var(--color);
 }
-.vinnetas--base {
+.listas--base {
   --color: #4d4d4d;
 }
-.vinnetas--secundario {
+.listas--secundario {
   --color: #f97ca9;
 }
-.vinnetas--secundario-2 {
+.listas--secundario-2 {
   --color: #00b7b7;
 }
-.vinnetas--secundario-3 {
+.listas--secundario-3 {
   --color: #00b7b7;
 }
-.vinnetas--secundario-4 {
+.listas--secundario-4 {
   --color: #60c160;
-}
-.vinnetas--normal {
-  --separacion-vertical: 5px;
 }
 
 .header {

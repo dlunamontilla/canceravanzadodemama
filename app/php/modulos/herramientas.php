@@ -28,7 +28,7 @@
 			En general el Informe de Anatomía Patológica, además del tipo de muestra, resumen de la historia clínica y el diagnóstico clínico, incluye las siguientes partes fundamentales:
 		</p>
 
-		<ul class="vinnetas vinnetas--secundario-3 vinnetas--normal">
+		<ul class="listas listas--secundario-3">
 			<li class="text text--justify">
 				Descripción general o macroscópica que describe como se ve la muestra a simple vista y el lugar de dónde procede. Además, puede incluir descripción del tamaño, el peso y el color. Seguidamente, 
 			</li>

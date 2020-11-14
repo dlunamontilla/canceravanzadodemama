@@ -129,9 +129,9 @@
 
 
 // Viñetas de colores:
-.vinnetas {
+.listas {
 	--separacion: 15px;
-	--separacion-vertical: var(--separacion);
+	--separacion-vertical: 5px;
 	--size: 6px;
 	--color: #{$color-base};
 
@@ -183,9 +183,4 @@
 	&--secundario-4 {
 		--color: #{$color-secundario-4};
 	}
-
-	&--normal {
-		--separacion-vertical: 5px;
-	}
-	
 }
