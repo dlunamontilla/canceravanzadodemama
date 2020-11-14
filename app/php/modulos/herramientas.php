@@ -271,10 +271,91 @@ HTML;
       <p class="text text--justify">
         <strong>M</strong> se refiere a metástasis, es decir, propagación a partes distantes del cuerpo.
       </p>
-
-      <small>Esta imagen es temporal:</small>
-      <img src="https://i.ibb.co/KLBC6bx/Estadificaci-n-pag.png" alt="Imagen temporal">
       
+      <br>
+      <!-- Tarjetas | Etapas -->
+      <div class="t-etapas">
+        <div class="t-etapas__item">
+          <div class="t-etapas__header t-etapas__color t-etapas__color--1">
+            <div>
+              <span>T.</span>
+              <span>Tumor</span>
+            </div>
+          </div>
+
+          <div class="t-etapas__content t-etapas__color t-etapas__color--1">
+            <ul>
+              <li><strong>Tx:</strong> No se puede evaluar el tumor primario.</li>
+              <li><strong>T0:</strong> No hay evidencia de tumor primario en la mama.</li>
+              <li><strong>Tis:</strong> Carcinoma in situ. No se ha diseminado al tejido circundante de la mama. Hay dos tipos Carcinoma Ductal In situ y Enfermedad de Paget del Pezón.</li>
+              <li><strong>T1:</strong> Tumor en la mama mide ≤ 2 cm.</li>
+
+              <li>
+                <strong>T1</strong> mic ≤ 1mm
+
+                <ul type="none" class="lista-anidada">
+                  <li><strong>T1a:</strong> El tumor mide <code>1 mm</code> pero <code> ≤ 5 mm</code> en su diámetromayor.</li>
+                  <li><strong>T1b:</strong> El tumor mide <code>5 mm</code> pero <code>≤ 1 cm</code> en su diámetro mayor.</li>
+                  <li><strong>T1c:</strong> El tumor mide <code>1 cm</code> pero <code>≤ 2 cm</code> en su diámetro mayor.</li>
+                </ul>
+              </li>
+
+
+              <li><strong>T2:</strong> Tumor en la mama mide <code>2 cm</code> pero <code>≤ 5 cm</code> en su diámetro mayor.</li>
+              <li><strong>T3:</strong> Tumor en la mama es mayor de 5 cm.</li>
+
+              <li>
+                <strong>T4:</strong> Tumor de cualquier tamaño, que se ha extendido a pared torácica o a piel.
+
+                <ul type="none" class="lista-anidada">
+                  <li><strong>T4a:</strong> Extensión a la pared torácica.</li>
+                  <li><strong>T4b:</strong> Extensión a la piel.</li>
+                  <li><strong>T4c:</strong> Extensión a piel y pared torácica.</li>
+                  <li><strong>T4d:</strong> Carcinoma Inflamatorio.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="t-etapas__item">
+          <div class="t-etapas__header t-etapas__color t-etapas__color--2">
+            <div>
+              <span>N.</span>
+              <span>Ganglios</span>
+            </div>
+          </div>
+
+          <div class="t-etapas__content t-etapas__color t-etapas__color--2">
+            <ul>
+              <li><strong>Nx:</strong> No se pudo evaluar los ganglios linfáticos.</li>
+              <li><strong>N0:</strong> Sin metástasis en ganglios linfáticos o los ganglios linfáticos presentan áreas de cáncer inferiores a los 0.2 mm.</li>
+              <li><strong>N1:</strong> extensión a ganglios linfáticos en la axila (de 1 a 3 ganglios) o a ganglios linfáticos situados cerca del esternón (cadena mamaria interna).</li>
+              <li><strong>N2:</strong> extensión a ganglios linfáticos en la axila (de 4 a 9 ganglios) o bien a ganglios linfáticos situados cerca del esternón (cadena mamaria interna), pero no a los ganglios linfáticos axilares.</li>
+              <li><strong>N3:</strong> extensión a ganglios linfáticos en la axila (10 o más); o bien ganglios linfáticos situados por debajo de la clavícula (infraclaviculares) o por encima de la clavícula (supraclaviculares); o ganglios linfáticos mamarios internos.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="t-etapas__item">
+          <div class="t-etapas__header t-etapas__color t-etapas__color--3">
+            <div>
+              <span>M.</span>
+              <span>Metástasis</span>
+            </div>
+          </div>
+
+          <div class="t-etapas__content t-etapas__color t-etapas__color--3">
+            <ul>
+              <li><strong>Mx:</strong> No se puede evaluar diseminación a distancia.</li>
+              <li><strong>M0:</strong> Sin evidencia clínica o radiológica de diseminación a distancia.</li>
+              <li><strong>M0:</strong> (i+): Sin evidencia clínica o radiológica de diseminación a distancia. La evidencia microscópica de células tumorales se encuentra en la sangre, la médula ósea u otros ganglios linfáticos que midan más de 0.2 mm.</li>
+              <li><strong>M1:</strong> Evidencia de metástasis a distancia. ternos.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- Estadios -->
       <h3 class="text text--right">
           Estadios
