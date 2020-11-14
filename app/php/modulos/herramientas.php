@@ -384,11 +384,11 @@ HTML;
       </h4>
       
       <!-- Estadio IA -->
-      <p class="frontal frontal--secundario-2"><strong>Estadio IA (T1 N0 M0)</strong></p>
+      <p class="frontal frontal--secundario-2 text text--right"><strong>Estadio IA (T1 N0 M0)</strong></p>
       <p class="text text--justify">Tumor invasivo, pequeño (igual o inferior a 2 cm), que no se ha extendido a los ganglios linfáticos.</p>
       
       <!-- Estadio IB -->
-      <p class="frontal frontal--secundario-2"><strong>Estadio IB (T0 o T1 N1mic M0)</strong></p>
+      <p class="frontal frontal--secundario-2 text text--right"><strong>Estadio IB (T0 o T1 N1mic M0)</strong></p>
       <p class="text text--justify">
       Tumor pequeño (igual o inferior a 2 cm) o sin evidencia del tumor en mama, con extensión a ganglios linfáticos axilares, aunque estas metástasis son de pequeño tamaño (micrometástasis), que  miden más de 0.2 mm, pero menos de 2 mm.
       </p>
