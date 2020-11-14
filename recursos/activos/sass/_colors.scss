@@ -11,6 +11,21 @@
 		color: $color-secundario;
 	}
 
+	&--secundario-2,
+	&--secundario-hover-2 {
+		color: darken($color-secundario-2, 20);
+	}
+
+	&--secundario-3,
+	&--secundario-hover-3 {
+		color: $color-secundario-3;
+	}
+
+	&--secundario-4,
+	&--secundario-hover-4 {
+		color: $color-secundario-4;
+	}
+
 	&--whatsapp,
 	&--whatsapp-hover:hover {
 		color: $color-whatsapp;
@@ -110,4 +125,67 @@
 	// Propiedades CSS aplicados únicamente
 	// a elementos SVG:
 
+}
+
+
+// Viñetas de colores:
+.vinnetas {
+	--separacion: 15px;
+	--separacion-vertical: var(--separacion);
+	--size: 6px;
+	--color: #{$color-base};
+
+	list-style-type: none;
+	padding-left: var(--separacion);
+
+	li {
+		position: relative;
+		padding-left: calc(var(--size) + var(--separacion));
+		
+		&:first-of-type {
+			margin-top: var(--separacion-vertical);
+		}
+
+		&:not(:last-of-type) {
+			margin-bottom: var(--separacion-vertical);
+		}
+
+		&::before {
+			content: "";
+			display: block;
+			position: absolute;
+			margin: auto;
+			left: 0; right: auto;
+			top: 8px; bottom: auto;
+			width: var(--size);
+			height: var(--size);
+			border-radius: 10px;
+			background-color: var(--color);
+		}
+	}
+
+	&--base {
+		--color: #{$color-base};
+	}
+
+	&--secundario {
+		--color: #{$color-secundario};
+	}
+
+	&--secundario-2 {
+		--color: #{$color-secundario-3};
+	}
+
+	&--secundario-3 {
+		--color: #{$color-secundario-3};
+	}
+
+	&--secundario-4 {
+		--color: #{$color-secundario-4};
+	}
+
+	&--normal {
+		--separacion-vertical: 5px;
+	}
+	
 }

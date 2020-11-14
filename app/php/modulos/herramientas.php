@@ -11,15 +11,14 @@
 		<h2 class="text text--right">Informe de Anatomía</h2>
 		<p class="text text--justify">Es el reporte emitido por un médico patólogo de los hallazgos de cada tejido que es extraído como muestra o espécimen de una zona sospechosa para ser analizado en el microscopio y determinar la presencia o no de cáncer. Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
 
-		<h3 class="text text--right">Tipos de biopsias</h3>
+		<h3 class="text text--right frontal frontal--secundario-3">*Tipos de biopsias</h3>
 		<p class="text text--justify">La biopsia puede ser tomada por el cirujano, si se trata de una lesión palpable, en caso contrario, el médico radiólogo podrá realizar la toma guiada por una técnica de imagen. Existen diversos tipos de biopsia, no obstante la elección del procedimiento dependerá del objetivo y del tipo de información que se desea obtener.</p>
 
 		<p class="text text--justify">
 			La biopsia puede efectuarse con una aguja a través de la piel de la mama para extraer la muestra de tejido. Para ello existen diferentes tipos de biopsia con aguja,  dependiendo de su grosor, tal como: la Punción Aspiración con Aguja Fina (PAAF), que es un método citológico; la biopsia por Punción con Aguja Gruesa (BAG); y la Biopsia con Aguja Gruesa Asistida por Vacío (BAV). No obstante, la biopsia puede ser también un procedimiento quirúrgico para extraer la totalidad (biopsia excisional) o parte de la lesión de sospecha (biopsia incisional).
 		</p>
 
-		<h3 class="text text--right">
-		Secciones del Informe de Anatomía</h3>
+		<h3 class="text text--right frontal frontal--secundario-3">*Secciones del Informe de Anatomía</h3>
 
 		<p class="text text--justify">
 			El informe emitido posteriormente a la toma de la biopsia es el informe de inicio. El informe definitivo, más detallado se obtiene posterior a la cirugía con la extracción de la pieza quirúrgica.
@@ -29,7 +28,7 @@
 			En general el Informe de Anatomía Patológica, además del tipo de muestra, resumen de la historia clínica y el diagnóstico clínico, incluye las siguientes partes fundamentales:
 		</p>
 
-		<ul>
+		<ul class="vinnetas vinnetas--secundario-3 vinnetas--normal">
 			<li class="text text--justify">
 				Descripción general o macroscópica que describe como se ve la muestra a simple vista y el lugar de dónde procede. Además, puede incluir descripción del tamaño, el peso y el color. Seguidamente, 
 			</li>
@@ -51,8 +50,8 @@
 			Para la paciente la lectura e interpretación del informe es un evento confuso e intimidante. Es importante tener en cuenta que la información que éste aporta se interpreta como un todo, por lo que se debe evitar mantener el foco en un solo aspecto.  El informe patológico, no se entrega de inmediato, debe esperar. El procesamiento lleva su tiempo, en la mayoría de los casos de una a dos semanas, aunque algunos resultados pueden tardar más que otros.
 		</p>
 
-		<h3 class="text text--right">
-				Información contenida en el Informe de Anatomía Patológica
+		<h3 class="text text--right frontal frontal--secundario-3">
+				*Información contenida en el Informe de Anatomía Patológica
 		</h3>
 
 		<p class="text text--justify">
@@ -61,7 +60,7 @@
 
 		<ol type="a">
 			<li class="text text--justify">
-				<strong>Características del tumor: el tipo de cáncer de mama y si es infiltrante o no.</strong>
+				<strong class="frontal frontal--secundario-2">Características del tumor: el tipo de cáncer de mama y si es infiltrante o no.</strong>
 
 				<p class="text text--justify">
 				El tipo de carcinoma de mama depende de la localización de las células en la que se desarrolla. Generalmente se origina a partir de las células epiteliales y recibe el nombre de adenocarcinoma. Existen otros tipos menos frecuentes de cáncer de mama que se desarrollan a partir del tejido conectivo, músculo o grasa que reciben el nombre de sarcomas. Para diferenciar si el tumor es ductal o lobulillar se utiliza una prueba llamada E-cadherina. Las células de los carcinomas lobulillares invasivos son negativas para E-cadherina.
@@ -78,7 +77,7 @@
 			</li>
 
 			<li class="text text--justify">
-				<strong>Grado de Diferenciación Celular</strong>
+				<strong class="frontal frontal--secundario-2">Grado de Diferenciación Celular</strong>
 
         <p class="text text--justify">
           Existen tres grados histológicos dependiendo de cuán diferente son las células tumorales en relación a las células normales o sanas de la mama: 
@@ -118,7 +117,7 @@
 			</li>
 
       <li>
-        <strong> Otros Parámetros</strong>
+        <strong class="frontal frontal--secundario-2"> Otros Parámetros</strong>
 
         <ol type="i">
           <li>
@@ -149,7 +148,7 @@
 
       <!-- d. -->
       <li>
-        <strong>Receptores Hormonales</strong>
+        <strong class="frontal frontal--secundario-2">Receptores Hormonales</strong>
 
         <p class="text text--justify">
           Los receptores hormonales son proteínas, que como toda proteína su producción es controlada por genes. Las células cancerosas pueden ser receptores de estrógeno positivas, si tienen receptores para el estrógeno y receptores de progesterona positivas, si tienen receptores para la progesterona, estas señales hormonales favorecen el crecimiento tumoral. Si las células tumorales no tienen receptores para ambas hormonas se denominan receptores hormonales negativas. 
@@ -173,9 +172,9 @@
 
             <!-- Lista desordenada anidada -->
             <ul type="none">
-              <li>Análisis por hibridación fluorescente in situ (FISH), Análisis de HER2 mediante hibridación cromogénica in situ con tecnología de sonda por sustracción (CISH) SPoT- Light o Análisis de HER2 mediante hibridación in situ (ISH) dual: Estas pruebas indican si hay demasiadas copias del gen HER2 en las células cancerígenas,  pueden ser positivas (amplificación del gen HER2) o negativas (sin amplificación del gen HER2).</li>
+              <li class="text text--justify margin margin--bottom">Análisis por hibridación fluorescente in situ (FISH), Análisis de HER2 mediante hibridación cromogénica in situ con tecnología de sonda por sustracción (CISH) SPoT- Light o Análisis de HER2 mediante hibridación in situ (ISH) dual: Estas pruebas indican si hay demasiadas copias del gen HER2 en las células cancerígenas,  pueden ser positivas (amplificación del gen HER2) o negativas (sin amplificación del gen HER2).</li>
 
-              <li>Es importante saber qué prueba para el receptor del HER2 se realizó. En general, sólo los casos de cáncer de mama que tienen resultados IHQ 3+, FISH positivo, SPoT-Light HER2 CISH positivo o HER2 ISH dual positivo responden a la terapia dirigida contra receptores HER2 positivos. Un resultado de análisis IHQ 2+ se denomina indeterminado o ambiguo. De ser así, se debe analizar la muestra mediante un análisis de HER2 más preciso, tal como el análisis por hibridación fluorescente in situ (FISH), el análisis de HER2 mediante hibridación cromogénica in situ (CISH) SPoT-Light o el análisis de HER2 mediante hibridación in situ (ISH) dual.</li>
+              <li class="text text--justify">Es importante saber qué prueba para el receptor del HER2 se realizó. En general, sólo los casos de cáncer de mama que tienen resultados IHQ 3+, FISH positivo, SPoT-Light HER2 CISH positivo o HER2 ISH dual positivo responden a la terapia dirigida contra receptores HER2 positivos. Un resultado de análisis IHQ 2+ se denomina indeterminado o ambiguo. De ser así, se debe analizar la muestra mediante un análisis de HER2 más preciso, tal como el análisis por hibridación fluorescente in situ (FISH), el análisis de HER2 mediante hibridación cromogénica in situ (CISH) SPoT-Light o el análisis de HER2 mediante hibridación in situ (ISH) dual.</li>
             </ul>
           </li>
         </ul>
@@ -187,8 +186,8 @@
       <li>
         <strong>Informe de Anatomía Patológica de la Pieza Quirúrgica</strong>
 
-        <p>Se reporta el tamaño tumoral en centímetros y se analiza el tejido normal que lo rodea,  lo que se denomina margen quirúrgico o  de resección. Según la presencia o no de células tumorales en el margen,  se define como margen negativo a la no presencia de células tumorales, y como margen positivo a la presencia de células tumorales en el borde del tejido, por lo que con frecuencia se lleva a cabo otra cirugía de ampliación de márgenes.</p>
-        <p>De igual manera  se reporta si existe afectación de los ganglios linfáticos y si esta llegase a existir, cuántos de  estos ganglios presentan tumor.</p>
+        <p class="text text--justify">Se reporta el tamaño tumoral en centímetros y se analiza el tejido normal que lo rodea,  lo que se denomina margen quirúrgico o  de resección. Según la presencia o no de células tumorales en el margen,  se define como margen negativo a la no presencia de células tumorales, y como margen positivo a la presencia de células tumorales en el borde del tejido, por lo que con frecuencia se lleva a cabo otra cirugía de ampliación de márgenes.</p>
+        <p class="text text--justify">De igual manera  se reporta si existe afectación de los ganglios linfáticos y si esta llegase a existir, cuántos de  estos ganglios presentan tumor.</p>
       </li>
 		</ol>
 </div>

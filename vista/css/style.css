@@ -211,6 +211,25 @@ h6 {
   font-size: 0.7rem;
 }
 
+.margin {
+  --margin: 14px;
+}
+.margin--bottom {
+  margin-bottom: var(--margin);
+}
+.margin--top {
+  margin-top: var(--margin);
+}
+.margin--left {
+  margin-left: var(--margin);
+}
+.margin--right {
+  margin-right: var(--margin);
+}
+.margin--all {
+  margin: var(--margin);
+}
+
 .frontal {
   transition: 300ms ease;
 }
@@ -219,6 +238,15 @@ h6 {
 }
 .frontal--secundario, .frontal--secundario-hover:hover {
   color: #f97ca9;
+}
+.frontal--secundario-2, .frontal--secundario-hover-2 {
+  color: #f85b94;
+}
+.frontal--secundario-3, .frontal--secundario-hover-3 {
+  color: #00b7b7;
+}
+.frontal--secundario-4, .frontal--secundario-hover-4 {
+  color: #60c160;
 }
 .frontal--whatsapp, .frontal--whatsapp-hover:hover {
   color: #00e676;
@@ -347,6 +375,57 @@ h6 {
 }
 .fondo--skype, .fondo--skype-hover:hover {
   --background-color: #00aff0;
+}
+
+.vinnetas {
+  --separacion: 15px;
+  --separacion-vertical: var(--separacion);
+  --size: 6px;
+  --color: #4d4d4d;
+  list-style-type: none;
+  padding-left: var(--separacion);
+}
+.vinnetas li {
+  position: relative;
+  padding-left: calc(var(--size) + var(--separacion));
+}
+.vinnetas li:first-of-type {
+  margin-top: var(--separacion-vertical);
+}
+.vinnetas li:not(:last-of-type) {
+  margin-bottom: var(--separacion-vertical);
+}
+.vinnetas li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: auto;
+  top: 8px;
+  bottom: auto;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 10px;
+  background-color: var(--color);
+}
+.vinnetas--base {
+  --color: #4d4d4d;
+}
+.vinnetas--secundario {
+  --color: #f97ca9;
+}
+.vinnetas--secundario-2 {
+  --color: #00b7b7;
+}
+.vinnetas--secundario-3 {
+  --color: #00b7b7;
+}
+.vinnetas--secundario-4 {
+  --color: #60c160;
+}
+.vinnetas--normal {
+  --separacion-vertical: 5px;
 }
 
 .header {

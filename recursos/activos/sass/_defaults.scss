@@ -250,3 +250,27 @@ $size: 2.2;
 
   $size: $size - 0.3;
 }
+
+.margin {
+  --margin: 14px;
+
+  &--bottom {
+    margin-bottom: var(--margin);
+  }
+
+  &--top {
+    margin-top: var(--margin);
+  }
+
+  &--left {
+    margin-left: var(--margin);
+  }
+
+  &--right {
+    margin-right: var(--margin);
+  }
+
+  &--all {
+    margin: var(--margin);
+  }
+}
