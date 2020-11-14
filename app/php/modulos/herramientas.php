@@ -223,7 +223,9 @@ HTML;
   <h2 class="text text--right">Clasificación en Subtipos Moleculares</h2>
 
   <p class="text text--justify">El cáncer de mama puede clasificarse de acuerdo con parámetros moleculares en subtipos: Luminal A, Luminal B, Her2+ y Basal, que en la práctica clínica se traducen por las características morfológicas e inmunohistoquímicas reportadas en la biopsia. Distinguir entre subtipos es importante para optimizar las estrategias de tratamiento.</p>
-  <div data-src="multimedia/vectores/imagen-1.2-herramientas-subtipos.svg"></div>
+  
+  <div class="subtipos" data-src="multimedia/vectores/imagen-1.2-herramientas-subtipos.svg"></div>
+  
   <p>&nbsp;</p>
 </div>
 HTML;
@@ -356,8 +358,8 @@ HTML;
       </div>
 
       <!-- Estadios -->
-      <h3 class="text text--right">
-          Estadios
+      <h3 class="text text--right frontal frontal--secundario-3">
+          *Estadios
       </h3>
 
       <p class="text text--justify">
@@ -377,68 +379,68 @@ HTML;
       </p>
       
       <!-- Estadio 1 -->
-      <h4 class="text text--right">
+      <h4 class="text text--right frontal frontal--secundario-2">
           ESTADIO I
       </h4>
       
       <!-- Estadio IA -->
-      <p class="text text--right"><strong>Estadio IA (T1 N0 M0)</strong></p>
+      <p class="frontal frontal--secundario-2"><strong>Estadio IA (T1 N0 M0)</strong></p>
       <p class="text text--justify">Tumor invasivo, pequeño (igual o inferior a 2 cm), que no se ha extendido a los ganglios linfáticos.</p>
       
       <!-- Estadio IB -->
-      <p class="text text--right"><strong>Estadio IB (T0 o T1 N1mic M0)</strong></p>
+      <p class="frontal frontal--secundario-2"><strong>Estadio IB (T0 o T1 N1mic M0)</strong></p>
       <p class="text text--justify">
       Tumor pequeño (igual o inferior a 2 cm) o sin evidencia del tumor en mama, con extensión a ganglios linfáticos axilares, aunque estas metástasis son de pequeño tamaño (micrometástasis), que  miden más de 0.2 mm, pero menos de 2 mm.
       </p>
 
-      <h4 class="text text--right">
+      <h4 class="text text--right frontal frontal--secundario-2">
           ESTADIO II
       </h4>
       
       <!-- Estadio IIA -->
-      <p class="text text--right"><strong>Estadio IIA</strong></p>
+      <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIA</strong></p>
 
-      <p>Cualquiera de las siguientes situaciones:</p>
-      <ul>
+      <p class="margin margin--bottom">Cualquiera de las siguientes situaciones:</p>
+      <ul class="listas listas--secundario-2">
         <li>
-          T0 o T1 N1 M0: No hay evidencia del tumor en la mama o bien el tumor mide menos de 2 cm; con metástasis en ganglios linfáticos axilares en número de 1 a 3.
+          <strong>T0 o T1 N1 M0:</strong> No hay evidencia del tumor en la mama o bien el tumor mide menos de 2 cm; con metástasis en ganglios linfáticos axilares en número de 1 a 3.
         </li>
 
         <li>
-          T2 N0 M0: El  tumor en la mama mide más de 2 cm pero igual o menos de 5 cm, y no hay extensión a los ganglios linfáticos axilares.
+          <strong>T2 N0 M0:</strong> El  tumor en la mama mide más de 2 cm pero igual o menos de 5 cm, y no hay extensión a los ganglios linfáticos axilares.
         </li>
       </ul>
 
       <!-- Estadio IIB -->
-      <p><strong>Estadio IIB</strong></p>
+      <p class="frontal frontal--secundario-2 text text--right"><strong>Estadio IIB</strong></p>
       <p>Cualquiera de las siguientes situaciones:</p>
 
-      <ul>
-        <li>T2 N1 M0: El tumor en la mama mide más de  2 cm pero igual o  menos de 5 cm, con extensión a los ganglios linfáticos axilares en número de 1 a 3.</li>
-        <li>T3 N0 M0: El tumor en la mama mide más de 5 cm, sin extensión a ganglios linfáticos axilares.</li>
+      <ul class="listas listas--secundario-2">
+        <li><strong>T2 N1 M0:</strong> El tumor en la mama mide más de  2 cm pero igual o  menos de 5 cm, con extensión a los ganglios linfáticos axilares en número de 1 a 3.</li>
+        <li><strong>T3 N0 M0:</strong> El tumor en la mama mide más de 5 cm, sin extensión a ganglios linfáticos axilares.</li>
       </ul>
 
       <!-- Estadio III -->
-      <h4 class="text text--right">ESTADIO III</h4>
+      <h4 class="text text--right frontal frontal--secundario-2">ESTADIO III</h4>
 
       <!-- Estadio IIIA -->
-      <p><strong>Estadio IIIA</strong></p>
+      <p class="frontal frontal--secundario-2 text text--right"><strong>Estadio IIIA</strong></p>
 
       <p>Cualquiera de las siguientes situaciones:</p>
 
-      <ul>
-        <li>T0 – T3 N2 M0: Tumor en la mama de cualquier tamaño o incluso en algunos casos no se detecta el tumor de la mama, con una extensión a 4 a 9 ganglios linfáticos axilares  o a ganglios linfáticos mamarios internos.</li>
-        <li>T3 N1 M0: Tumor en la mama mide más de 5 cm, con extensión a ganglios linfáticos axilares en número 1 a 3.</li>
+      <ul class="listas listas--secundario-2">
+        <li><strong>T0 – T3 N2 M0:</strong> Tumor en la mama de cualquier tamaño o incluso en algunos casos no se detecta el tumor de la mama, con una extensión a 4 a 9 ganglios linfáticos axilares  o a ganglios linfáticos mamarios internos.</li>
+        <li><strong>T3 N1 M0:</strong> Tumor en la mama mide más de 5 cm, con extensión a ganglios linfáticos axilares en número 1 a 3.</li>
       </ul>
 
       <!-- Estadio IIIB -->
-      <p class="text text--right"><strong>Estadio IIIB</strong></p>
-      <ul>
-        <li>T0 – T4 N3 M0: Tumor en la mama de cualquier tamaño que se ha diseminado a 10 o más ganglios linfáticos axilares, los ganglios linfáticos mamarios internos o los ganglios linfáticos debajo o por encima de la clavícula (ganglios supra e infraclaviculares).</li>
+      <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIIB</strong></p>
+      <ul class="listas listas--secundario-2">
+        <li><strong>T0 – T4 N3 M0:</strong> Tumor en la mama de cualquier tamaño que se ha diseminado a 10 o más ganglios linfáticos axilares, los ganglios linfáticos mamarios internos o los ganglios linfáticos debajo o por encima de la clavícula (ganglios supra e infraclaviculares).</li>
       </ul>
 
       <!-- Estadio IV -->
-      <h4 class="text text--right">ESTADIO IV</h4>
+      <h4 class="text text--right frontal frontal--secundario-2">ESTADIO IV</h4>
 
       <p><strong>Cualquier T cualquier N M1:</strong></p>
       <p class="text text--justify">Tumor en la mama de cualquier tamaño o con cualquier grado de extensión a los ganglios linfáticos próximos, que se ha diseminado a otros órganos, como huesos, pulmones, cerebro e hígado.</p>

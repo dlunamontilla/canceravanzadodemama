@@ -87,6 +87,21 @@
 		--background-color: #{$color-secundario};
 	}
 
+	&--secundario-2,
+	&--secundario-hover-2 {
+		--background-color: #{$color-secundario-2};
+	}
+
+	&--secundario-3,
+	&--secundario-hover-3 {
+		--background-color: #{$color-secundario-3};
+	}
+
+	&--secundario-4,
+	&--secundario-hover-4 {
+		--background-color: #{$color-secundario-4};
+	}
+	
 	&--whatsapp,
 	&--whatsapp-hover:hover {
 		--background-color: #{$color-whatsapp};
@@ -173,7 +188,7 @@
 	}
 
 	&--secundario-2 {
-		--color: #{$color-secundario-3};
+		--color: #{darken($color-secundario-2, 20)};
 	}
 
 	&--secundario-3 {

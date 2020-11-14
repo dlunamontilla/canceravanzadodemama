@@ -1319,3 +1319,17 @@
     }
   }
 }
+
+// Subtipos: ubicado en la página de subtipos de herramientas:
+.subtipos {
+  transition: 300ms ease;
+  background-color: rgba($color-secundario-4, 0.5);
+
+  @media screen and (max-width: 799px) {
+    padding: 50px 10px;
+  }
+
+  @media screen and (min-width: 800px) {
+    padding: 50px;
+  }
+}
