@@ -1298,7 +1298,6 @@ h6 {
 }
 
 .t-etapas {
-  --columnas: 3;
   --radius: 20px;
   --gap: 5px;
   display: grid;
@@ -1306,11 +1305,28 @@ h6 {
   grid-gap: var(--gap);
   gap: var(--gap);
 }
+@media screen and (min-width: 1101px) {
+  .t-etapas {
+    --columnas: 3;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .t-etapas {
+    --columnas: 2;
+  }
+}
+@media screen and (max-width: 799px) {
+  .t-etapas {
+    --columnas: 1;
+    --radius: 0;
+  }
+}
 .t-etapas__item {
   border: 1px solid white;
 }
 .t-etapas__header, .t-etapas__content {
   padding: 10px;
+  transition: 300ms ease;
 }
 .t-etapas__header {
   display: flex;
