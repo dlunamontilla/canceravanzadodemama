@@ -20,6 +20,10 @@ $min-height: 100vh !default;
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -35,7 +39,7 @@ body {
 // Enlaces
 a {
   text-decoration: none;
-  color: $color-base;
+  color: $color-secundario-4;
 
   &:not([class]) {
     &:hover {
@@ -81,7 +85,7 @@ hr {
 }
 
 // pre y code
-pre, code {
+pre {
   word-wrap: break-word;
   white-space: pre-wrap;
   background-color: lighten($color-base, 56);
@@ -245,4 +249,28 @@ $size: 2.2;
   }
 
   $size: $size - 0.3;
+}
+
+.margin {
+  --margin: 14px;
+
+  &--bottom {
+    margin-bottom: var(--margin);
+  }
+
+  &--top {
+    margin-top: var(--margin);
+  }
+
+  &--left {
+    margin-left: var(--margin);
+  }
+
+  &--right {
+    margin-right: var(--margin);
+  }
+
+  &--all {
+    margin: var(--margin);
+  }
 }

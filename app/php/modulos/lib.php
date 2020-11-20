@@ -25,7 +25,7 @@
     $get->cadena("nosotros", "Fuveicam"),
     $get->cadena("sparc-uicc", "Sparc - UICC"),
     $get->cadena("abc-global", "ABC Global Alliance"),
-    $get->cadena("herramientas", "Entienda su diagnóstico"),
+    $get->cadena("herramientas", "Entienda su<br>diagnóstico"),
     $get->cadena("conozca", "Cáncer Avanzado de Mama. <br>Cáncer de Mama Localmente <br> Avanzado"),
     $get->cadena("paciente", "Emociones de la Paciente<br> a través del Proceso de su <br>Enfermedad")
   ]);
@@ -39,12 +39,6 @@
   ]);
 
   $title = (empty($title)) ? "Cáncer Avanzado de Mama" : $title . " | Cáncer Avanzado de Mama";
-
-  // Figura de los senos:
-  
-  if ( $get->distribuirEnModulos() ) {
-
-  }
 
   $senosCabecera = cadena([
     $get->cadena("nosotros", "multimedia/vectores/teta-cabecera.svg"),

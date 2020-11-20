@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -20,7 +24,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #4d4d4d;
+  color: #60c160;
 }
 a:not([class]):hover {
   text-decoration: underline;
@@ -55,7 +59,7 @@ hr {
   border-bottom: 1px solid #9a9a9a;
 }
 
-pre, code {
+pre {
   word-wrap: break-word;
   white-space: pre-wrap;
   background-color: gainsboro;
@@ -207,6 +211,25 @@ h6 {
   font-size: 0.7rem;
 }
 
+.margin {
+  --margin: 14px;
+}
+.margin--bottom {
+  margin-bottom: var(--margin);
+}
+.margin--top {
+  margin-top: var(--margin);
+}
+.margin--left {
+  margin-left: var(--margin);
+}
+.margin--right {
+  margin-right: var(--margin);
+}
+.margin--all {
+  margin: var(--margin);
+}
+
 .frontal {
   transition: 300ms ease;
 }
@@ -215,6 +238,15 @@ h6 {
 }
 .frontal--secundario, .frontal--secundario-hover:hover {
   color: #f97ca9;
+}
+.frontal--secundario-2, .frontal--secundario-hover-2 {
+  color: #f85b94;
+}
+.frontal--secundario-3, .frontal--secundario-hover-3 {
+  color: #00b7b7;
+}
+.frontal--secundario-4, .frontal--secundario-hover-4 {
+  color: #60c160;
 }
 .frontal--whatsapp, .frontal--whatsapp-hover:hover {
   color: #00e676;
@@ -323,6 +355,15 @@ h6 {
 .fondo--secundario, .fondo--secundario-hover:hover {
   --background-color: #f97ca9;
 }
+.fondo--secundario-2, .fondo--secundario-hover-2 {
+  --background-color: #fcbdd4;
+}
+.fondo--secundario-3, .fondo--secundario-hover-3 {
+  --background-color: #00b7b7;
+}
+.fondo--secundario-4, .fondo--secundario-hover-4 {
+  --background-color: #60c160;
+}
 .fondo--whatsapp, .fondo--whatsapp-hover:hover {
   --background-color: #00e676;
 }
@@ -343,6 +384,54 @@ h6 {
 }
 .fondo--skype, .fondo--skype-hover:hover {
   --background-color: #00aff0;
+}
+
+.listas {
+  --separacion: 15px;
+  --separacion-vertical: 5px;
+  --size: 6px;
+  --color: #4d4d4d;
+  list-style-type: none;
+  padding-left: var(--separacion);
+}
+.listas li {
+  position: relative;
+  padding-left: calc(var(--size) + var(--separacion));
+}
+.listas li:first-of-type {
+  margin-top: var(--separacion-vertical);
+}
+.listas li:not(:last-of-type) {
+  margin-bottom: var(--separacion-vertical);
+}
+.listas li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: auto;
+  top: 8px;
+  bottom: auto;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 10px;
+  background-color: var(--color);
+}
+.listas--base {
+  --color: #4d4d4d;
+}
+.listas--secundario {
+  --color: #f97ca9;
+}
+.listas--secundario-2 {
+  --color: #f85b94;
+}
+.listas--secundario-3 {
+  --color: #00b7b7;
+}
+.listas--secundario-4 {
+  --color: #60c160;
 }
 
 .header {
@@ -1228,6 +1317,172 @@ h6 {
   padding-left: 20px;
   padding-bottom: var(--padding);
   padding-right: var(--padding);
+}
+
+.glosario {
+  overflow: auto;
+  padding-bottom: 20px;
+}
+.glosario__tabla {
+  width: 100%;
+  border-collapse: collapse;
+}
+.glosario__tabla th:first-of-type, .glosario__tabla td:first-of-type {
+  width: 34%;
+}
+.glosario__tabla th {
+  height: 50px;
+  border: 1px solid white;
+  font-weight: normal;
+}
+.glosario__tabla th:first-of-type {
+  background-color: #60c160;
+  color: white;
+}
+.glosario__tabla th:last-of-type {
+  background-color: #fcbdd4;
+  color: #810633;
+}
+.glosario__tabla td {
+  border: 1px solid white;
+  min-height: 40px;
+  padding: 10px;
+  transition: 300ms ease;
+}
+.glosario__tabla td:first-of-type {
+  background-color: rgba(96, 193, 96, 0.05);
+  color: #348734;
+}
+.glosario__tabla tbody tr {
+  transition: 300ms ease;
+}
+.glosario__tabla tbody tr:nth-of-type(even) {
+  background-color: rgba(77, 77, 77, 0.03);
+}
+.glosario__tabla tbody tr:hover {
+  background-color: rgba(0, 183, 183, 0.05);
+}
+.glosario__tabla tbody tr:hover td:last-of-type {
+  color: rgba(0, 50, 50, 0.8);
+}
+
+.estadificacion {
+  background-color: rgba(96, 193, 96, 0.5);
+  padding: 40px 10px;
+}
+.estadificacion__img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--width);
+  padding: 10px;
+  background-color: white;
+}
+.estadificacion__img--mediana {
+  --width: 500px;
+}
+
+.t-etapas {
+  --radius: 20px;
+  --gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(var(--columnas), 1fr);
+  grid-gap: var(--gap);
+  gap: var(--gap);
+}
+@media screen and (min-width: 1101px) {
+  .t-etapas {
+    --columnas: 3;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+  .t-etapas {
+    --columnas: 2;
+  }
+}
+@media screen and (max-width: 799px) {
+  .t-etapas {
+    --columnas: 1;
+    --radius: 0;
+  }
+}
+.t-etapas__item {
+  border: 1px solid white;
+}
+.t-etapas__header, .t-etapas__content {
+  padding: 10px;
+  transition: 300ms ease;
+}
+.t-etapas__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: var(--gap);
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.t-etapas__header span:first-of-type {
+  font-weight: bold;
+  font-size: 2.3rem;
+}
+.t-etapas__header span:last-of-type {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.t-etapas__content {
+  border-radius: 0 0 var(--radius) var(--radius);
+  padding: 10px 15px;
+}
+.t-etapas__content ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+.t-etapas__content ul.lista-anidada {
+  padding-left: 15px;
+}
+.t-etapas__content li {
+  padding: 0;
+  line-height: 1.3;
+  font-size: 0.95rem;
+}
+.t-etapas__content ul li:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+.t-etapas__content ul li:first-of-type {
+  margin-top: 10px;
+}
+.t-etapas__color {
+  color: var(--color);
+}
+.t-etapas__color--1 {
+  background-color: #00a3a3;
+  color: #005151;
+  color: white;
+}
+.t-etapas__color--2 {
+  background-color: rgba(252, 189, 212, 0.6);
+  color: #ca0950;
+}
+.t-etapas__color--3 {
+  background-color: #40a440;
+  color: #348734;
+  color: white;
+}
+
+.subtipos {
+  transition: 300ms ease;
+  background-color: rgba(96, 193, 96, 0.5);
+}
+@media screen and (max-width: 799px) {
+  .subtipos {
+    padding: 50px 10px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .subtipos {
+    padding: 50px;
+  }
 }
 
 [type="search"],
