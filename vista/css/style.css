@@ -4,7 +4,10 @@
 }
 
 :root {
+  --font-size: 1rem;
   font-family: 'Roboto', sans-serif;
+  font-size: var(--font-size);
+  --line-height: 1.6;
 }
 
 img {
@@ -391,10 +394,17 @@ h6 {
   --separacion-vertical: 5px;
   --size: 6px;
   --color: #4d4d4d;
+  --simbolo: ". ";
+  --tipo: decimal;
+  --positionY: calc(var(--font-size) * 0.05);
+  --negrita: normal;
+  --font-size: 0.95em;
   list-style-type: none;
   padding-left: var(--separacion);
+  counter-reset: lista 0;
 }
 .listas li {
+  counter-increment: lista 1;
   position: relative;
   padding-left: calc(var(--size) + var(--separacion));
 }
@@ -405,18 +415,21 @@ h6 {
   margin-bottom: var(--separacion-vertical);
 }
 .listas li::before {
-  content: "";
+  content: counter(lista,var(--tipo)) var(--simbolo);
   display: block;
   position: absolute;
   margin: auto;
   left: 0;
   right: auto;
-  top: 8px;
-  bottom: auto;
-  width: var(--size);
-  height: var(--size);
-  border-radius: 10px;
-  background-color: var(--color);
+  top: var(--positionY);
+  bottom: 0;
+  font-size: var(--font-size);
+  color: var(--color);
+  padding: 0;
+  font-weight: var(--negrita);
+}
+.listas--bold {
+  --negrita: bold;
 }
 .listas--base {
   --color: #4d4d4d;
@@ -432,6 +445,55 @@ h6 {
 }
 .listas--secundario-4 {
   --color: #60c160;
+}
+.listas--circulo {
+  --tipo: circle;
+  --font-size: 2em;
+  --simbolo: "";
+  --positionY: calc(var(--font-size) * (-0.2));
+}
+.listas--disco {
+  --tipo: disc;
+  --font-size: 2.2em;
+  --simbolo: "";
+  --positionY: calc(var(--font-size) * (-0.2));
+}
+.listas--cuadrado {
+  --tipo: square;
+  --font-size: 0.90em;
+  --simbolo: "";
+  --positionY: calc(var(--font-size) * (-0.03));
+}
+.listas--decimal {
+  --tipo: decimal;
+}
+.listas--romano {
+  --tipo: lower-roman;
+}
+.listas--romano-mayuscula {
+  --tipo: upper-roman;
+}
+.listas--alfabetico {
+  --tipo: lower-alpha;
+}
+.listas--alfabetico-mayuscula {
+  --tipo: upper-alpha;
+}
+.listas--armenio {
+  --tipo: lower-armenian;
+}
+.listas--armenio-mayuscula {
+  --tipo: upper-armenian;
+}
+.listas--none {
+  --tipo: none;
+  --simbolo: "";
+  --list-style: none;
+}
+
+::selection {
+  background-color: #60c160;
+  color: white;
 }
 
 .header {

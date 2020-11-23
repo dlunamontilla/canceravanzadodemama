@@ -149,14 +149,22 @@
 	--separacion-vertical: 5px;
 	--size: 6px;
 	--color: #{$color-base};
+	--simbolo: ". ";
+	--tipo: decimal;
+	--positionY: calc(var(--font-size) * 0.05);
+	--negrita: normal;
+	--font-size: 0.95em;
 
 	list-style-type: none;
 	padding-left: var(--separacion);
 
+	counter-reset: lista 0;
+	
 	li {
+		counter-increment: lista 1;
 		position: relative;
 		padding-left: calc(var(--size) + var(--separacion));
-		
+
 		&:first-of-type {
 			margin-top: var(--separacion-vertical);
 		}
@@ -166,17 +174,22 @@
 		}
 
 		&::before {
-			content: "";
+			content: counter(lista, var(--tipo)) var(--simbolo);
 			display: block;
 			position: absolute;
 			margin: auto;
 			left: 0; right: auto;
-			top: 8px; bottom: auto;
-			width: var(--size);
-			height: var(--size);
-			border-radius: 10px;
-			background-color: var(--color);
+			top: var(--positionY); bottom: 0;
+			font-size: var(--font-size);
+			color: var(--color);
+			padding: 0;
+
+			font-weight: var(--negrita);
 		}
+	}
+
+	&--bold {
+		--negrita: bold;
 	}
 
 	&--base {
@@ -198,4 +211,66 @@
 	&--secundario-4 {
 		--color: #{$color-secundario-4};
 	}
+
+	// Tipo de viñetas personalizadas:
+	&--circulo {
+		--tipo: circle;
+		--font-size: 2em;
+		--simbolo: "";
+		--positionY: calc(var(--font-size) * (-0.2));
+	}
+
+	&--disco {
+		--tipo: disc;
+		--font-size: 2.2em;
+		--simbolo: "";
+		--positionY: calc(var(--font-size) * (-0.2));
+	}
+
+	&--cuadrado {
+		--tipo: square;
+		--font-size: 0.90em;
+		--simbolo: "";
+		--positionY: calc(var(--font-size) * (-0.03));
+	}
+
+	&--decimal {
+		--tipo: decimal;
+	}
+
+	&--romano {
+		--tipo: lower-roman;
+
+		&-mayuscula {
+			--tipo: upper-roman;
+		}
+	}
+
+	&--alfabetico {
+		--tipo: lower-alpha;
+
+		&-mayuscula {
+			--tipo: upper-alpha;
+		}
+	}
+
+	&--armenio {
+		--tipo: lower-armenian;
+
+		&-mayuscula {
+			--tipo: upper-armenian;
+		}
+	}
+
+	&--none {
+		--tipo: none;
+		--simbolo: "";
+		--list-style: none;
+	}
+}
+
+// Selecciones:
+::selection {
+	background-color: rgba($color-secundario-4, 1);
+	color: white;
 }

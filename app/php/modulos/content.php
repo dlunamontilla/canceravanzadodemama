@@ -14,6 +14,9 @@ if ( $get->distribuirEnModulos([
   "herramientas-subtipos-moleculares",
   "estadificacion",
   "glosario",
+
+  // Segunda parte de herramientas:
+  "quimioterapia",
   
   // Conozca su enfermedad:
   "conozca",

@@ -28,7 +28,7 @@
 			En general el Informe de Anatomía Patológica, además del tipo de muestra, resumen de la historia clínica y el diagnóstico clínico, incluye las siguientes partes fundamentales:
 		</p>
 
-		<ul class="listas listas--secundario-3">
+		<ul class="listas listas--disco listas--secundario-3">
 			<li class="text text--justify">
 				Descripción general o macroscópica que describe como se ve la muestra a simple vista y el lugar de dónde procede. Además, puede incluir descripción del tamaño, el peso y el color. Seguidamente, 
 			</li>
@@ -58,7 +58,7 @@
 			La información contenida en el informe, permite determinar qué clase de células se encuentran en la muestra (benignas o malignas), es decir si la lesión es cancerosa o no. En el caso de ser cáncer, además el informe permite conocer:
 		</p>
 
-		<ol type="a">
+		<ol class="listas listas--alfabetico listas--secundario-2 listas--bold">
 			<li class="text text--justify">
 				<strong class="frontal frontal--secundario-2">Características del tumor: el tipo de cáncer de mama y si es infiltrante o no.</strong>
 
@@ -83,7 +83,7 @@
           Existen tres grados histológicos dependiendo de cuán diferente son las células tumorales en relación a las células normales o sanas de la mama: 
         </p>
 
-        <ul type="none">
+        <ul class="listas listas--none">
           <li class="text text--justify">
             <p class="text text--justify"><strong>Grado 1:</strong> Bajo grado o bien diferenciado. Las células cancerosas lucen sólo un poco diferente a las células normales.</p>
           </li>
@@ -119,7 +119,7 @@
       <li>
         <strong class="frontal frontal--secundario-2"> Otros Parámetros</strong>
 
-        <ol type="i">
+        <ol class="listas listas--romano listas--bold">
           <li>
             <strong>Índice de Proliferación Tumoral</strong>
 
@@ -164,14 +164,14 @@
 
         <p class="text text--left"><strong>Existen  cuatro pruebas para el HER2:</strong></p>
 
-        <ul type="disc">
+        <ul class="listas listas--disco">
           <li>
             <p class="text text--justify">
             Análisis inmunohistoquímico (IHQ): Indica si hay demasiada proteína HER2 en las células cancerígenas. Los resultados del análisis de IHQ pueden ser: 0 (negativo), 1+ (también negativo), 2+ (ambiguo), o 3+ (positivo - sobreexpresión de la proteína HER2-).
             </p>
 
             <!-- Lista desordenada anidada -->
-            <ul type="none">
+            <ul class="listas listas--none">
               <li class="text text--justify margin margin--bottom">Análisis por hibridación fluorescente in situ (FISH), Análisis de HER2 mediante hibridación cromogénica in situ con tecnología de sonda por sustracción (CISH) SPoT- Light o Análisis de HER2 mediante hibridación in situ (ISH) dual: Estas pruebas indican si hay demasiadas copias del gen HER2 en las células cancerígenas,  pueden ser positivas (amplificación del gen HER2) o negativas (sin amplificación del gen HER2).</li>
 
               <li class="text text--justify">Es importante saber qué prueba para el receptor del HER2 se realizó. En general, sólo los casos de cáncer de mama que tienen resultados IHQ 3+, FISH positivo, SPoT-Light HER2 CISH positivo o HER2 ISH dual positivo responden a la terapia dirigida contra receptores HER2 positivos. Un resultado de análisis IHQ 2+ se denomina indeterminado o ambiguo. De ser así, se debe analizar la muestra mediante un análisis de HER2 más preciso, tal como el análisis por hibridación fluorescente in situ (FISH), el análisis de HER2 mediante hibridación cromogénica in situ (CISH) SPoT-Light o el análisis de HER2 mediante hibridación in situ (ISH) dual.</li>
@@ -184,7 +184,7 @@
 
       <!-- Opción e -->
       <li>
-        <strong>Informe de Anatomía Patológica de la Pieza Quirúrgica</strong>
+        <strong class="frontal frontal--secundario-2">Informe de Anatomía Patológica de la Pieza Quirúrgica</strong>
 
         <p class="text text--justify">Se reporta el tamaño tumoral en centímetros y se analiza el tejido normal que lo rodea,  lo que se denomina margen quirúrgico o  de resección. Según la presencia o no de células tumorales en el margen,  se define como margen negativo a la no presencia de células tumorales, y como margen positivo a la presencia de células tumorales en el borde del tejido, por lo que con frecuencia se lleva a cabo otra cirugía de ampliación de márgenes.</p>
         <p class="text text--justify">De igual manera  se reporta si existe afectación de los ganglios linfáticos y si esta llegase a existir, cuántos de  estos ganglios presentan tumor.</p>
@@ -401,7 +401,7 @@ HTML;
       <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIA</strong></p>
 
       <p class="margin margin--bottom">Cualquiera de las siguientes situaciones:</p>
-      <ul class="listas listas--secundario-2">
+      <ul class="listas listas--disco listas--secundario-2">
         <li>
           <strong>T0 o T1 N1 M0:</strong> No hay evidencia del tumor en la mama o bien el tumor mide menos de 2 cm; con metástasis en ganglios linfáticos axilares en número de 1 a 3.
         </li>
@@ -415,7 +415,7 @@ HTML;
       <p class="frontal frontal--secundario-2 text text--right"><strong>Estadio IIB</strong></p>
       <p>Cualquiera de las siguientes situaciones:</p>
 
-      <ul class="listas listas--secundario-2">
+      <ul class="listas listas--disco listas--secundario-2">
         <li><strong>T2 N1 M0:</strong> El tumor en la mama mide más de  2 cm pero igual o  menos de 5 cm, con extensión a los ganglios linfáticos axilares en número de 1 a 3.</li>
         <li><strong>T3 N0 M0:</strong> El tumor en la mama mide más de 5 cm, sin extensión a ganglios linfáticos axilares.</li>
       </ul>
@@ -428,14 +428,14 @@ HTML;
 
       <p>Cualquiera de las siguientes situaciones:</p>
 
-      <ul class="listas listas--secundario-2">
+      <ul class="listas listas--disco listas--secundario-2">
         <li><strong>T0 – T3 N2 M0:</strong> Tumor en la mama de cualquier tamaño o incluso en algunos casos no se detecta el tumor de la mama, con una extensión a 4 a 9 ganglios linfáticos axilares  o a ganglios linfáticos mamarios internos.</li>
         <li><strong>T3 N1 M0:</strong> Tumor en la mama mide más de 5 cm, con extensión a ganglios linfáticos axilares en número 1 a 3.</li>
       </ul>
 
       <!-- Estadio IIIB -->
       <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIIB</strong></p>
-      <ul class="listas listas--secundario-2">
+      <ul class="listas listas--disco listas--secundario-2">
         <li><strong>T0 – T4 N3 M0:</strong> Tumor en la mama de cualquier tamaño que se ha diseminado a 10 o más ganglios linfáticos axilares, los ganglios linfáticos mamarios internos o los ganglios linfáticos debajo o por encima de la clavícula (ganglios supra e infraclaviculares).</li>
       </ul>
 

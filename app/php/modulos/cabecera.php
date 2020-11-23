@@ -9,7 +9,16 @@
   "nosotros",
   "sparc-uicc",
   "abc-global",
+
+  // Herramientas, primera parte:
   "herramientas",
+  "herramientas-subtipos-moleculares",
+  "estadificacion",
+  "glosario",
+
+  // Herramientas, segunda parte:
+  "quimioterapia",
+
   "conozca",
   "paciente"
 ]) ) {

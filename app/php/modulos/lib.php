@@ -58,6 +58,12 @@
 
     // Herramientas:
     $get->cadena("herramientas", "multimedia/fotos/herramientas/1.1. herramientas-anatomia-patologica.jpg"),
+    $get->cadena("herramientas-subtipos-moleculares", "multimedia/fotos/herramientas/1.2. herramientas-subtipos.jpg"),
+    $get->cadena("estadificacion", "multimedia/fotos/herramientas/1.3. herramientas-estadificacion.jpg"),
+    $get->cadena("glosario", "multimedia/fotos/herramientas/1.4. herramientas-glosario.jpg"),
+    
+    // Herramientas - Parte 2:
+    $get->cadena("quimioterapia", "multimedia/fotos/herramientas/2.1. herramientas-quimioterapias.jpg"),
 
     // Conozca su enfermedad:
     $get->cadena("conozca", "multimedia/fotos/conozca-su-enfermedad/FotoCabecera.jpeg"),
