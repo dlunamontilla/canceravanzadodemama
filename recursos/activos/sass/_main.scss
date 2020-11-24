@@ -1530,3 +1530,20 @@
     --diametro: 50px;
   }
 }
+
+.imagen {
+  background-color: var(--fondo);
+  padding: 15px;
+
+  img, svg {
+    background-color: white;
+  }
+
+  img {
+    padding: 10px;
+  }
+
+  &--verde {
+    --fondo: #{rgba($color-secundario-4, 0.7)};
+  }
+}

@@ -3,27 +3,7 @@
 
 $content = "";
 
-if ( $get->distribuirEnModulos([
-  // Página de Nosotros:
-  "nosotros",
-  "sparc-uicc",
-  "abc-global",
-
-  // Herramientas:
-  "herramientas",
-  "herramientas-subtipos-moleculares",
-  "estadificacion",
-  "glosario",
-
-  // Segunda parte de herramientas:
-  "quimioterapia",
-  
-  // Conozca su enfermedad:
-  "conozca",
-
-  // La pacidnte:
-  "paciente"
-]) ) {
+if ( $get->distribuirEnModulos($modulos) ) {
   $content = <<<HTML
 <div class="modulo modulo--fuveicam">
   <aside class="modulo__item modulo__item--sidebar">

@@ -5,23 +5,7 @@
 
   $cabecera = "";
 
-  if ( $get->distribuirEnModulos([
-  "nosotros",
-  "sparc-uicc",
-  "abc-global",
-
-  // Herramientas, primera parte:
-  "herramientas",
-  "herramientas-subtipos-moleculares",
-  "estadificacion",
-  "glosario",
-
-  // Herramientas, segunda parte:
-  "quimioterapia",
-
-  "conozca",
-  "paciente"
-]) ) {
+  if ( $get->distribuirEnModulos($modulos) ) {
     $cabecera = <<<HTML
   
   <div class="banner banner--fuveicam">

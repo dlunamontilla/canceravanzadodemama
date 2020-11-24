@@ -2,6 +2,32 @@
   if ( ! isset($get) )
     exit;
 
+  // Módulos en los que se distribuye la estructura 
+  // de contenido de la páginas, incluyendo su cabecera:
+  $modulos = [
+    // Página de Nosotros:
+    "nosotros",
+    "sparc-uicc",
+    "abc-global",
+  
+    // Herramientas:
+    "herramientas",
+    "herramientas-subtipos-moleculares",
+    "estadificacion",
+    "glosario",
+  
+    // Segunda parte de herramientas:
+    "quimioterapia",
+    "terapia-dirigida",
+    "hormonoterapia",
+    
+    // Conozca su enfermedad:
+    "conozca",
+  
+    // La pacidnte:
+    "paciente"
+  ];
+
   function cadena(Array $array = []) : string {
     $string = "";
 
