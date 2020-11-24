@@ -1,4 +1,5 @@
 import { elementos } from "./elementos.js";
+import { limpiarSVG } from "./limpiarSVG.js";
 
 const imagenSVG = () => {
   const _elementos = elementos( "[data-src$='.svg']");
@@ -9,7 +10,7 @@ const imagenSVG = () => {
         return respuesta.text();
       })
       .then(function( datos ) {
-        _elemento.innerHTML = datos;
+        _elemento.innerHTML = limpiarSVG(datos);
         _elemento.removeAttribute("data-src");
       })
   });
