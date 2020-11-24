@@ -171,6 +171,8 @@ pre {
 
 .title {
   text-align: var(--align);
+  line-height: 1.5;
+  max-width: 600px;
 
   &:not([class*="title--justify"]):not([class*="title--center"]):not([class*="title--right"]) {
     --align: left;
@@ -279,5 +281,29 @@ $size: 2.2;
 
   &--all {
     margin: var(--margin);
+  }
+}
+
+.padding {
+  --padding: 10px;
+
+  &--left {
+    padding-left: var(--padding);
+  }
+
+  &--right {
+    padding-right: var(--padding);
+  }
+
+  &--top {
+    padding-top: var(--padding);
+  }
+
+  &--bottom {
+    padding-bottom: var(--padding);
+  }
+
+  &--all {
+    padding: var(--padding);
   }
 }

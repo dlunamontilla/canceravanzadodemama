@@ -1,6 +1,11 @@
 .frontal {
 	transition: 300ms ease;
 
+	&--blanco,
+	&--blanco-hover:hover {
+		color: white;
+	}
+
 	&--base,
 	&--base-hover:hover {
 		color: $color-base;
