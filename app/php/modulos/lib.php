@@ -20,6 +20,8 @@
     "quimioterapia",
     "terapia-dirigida",
     "hormonoterapia",
+    "cirugia",
+    "radioterapia",
     
     // Conozca su enfermedad:
     "conozca",
