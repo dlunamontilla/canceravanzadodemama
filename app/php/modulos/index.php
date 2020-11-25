@@ -22,6 +22,7 @@
   include __DIR__ . "/hormonoterapia.php";
   include __DIR__ . "/cirugia.php";
   include __DIR__ . "/radioterapia.php";
+  include __DIR__ . "/conozca-su-enfermedad.php";
   include __DIR__ . "/content.php";
   include __DIR__ . "/footer.php";
 ?>
