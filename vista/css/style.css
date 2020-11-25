@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* cyrillic-ext */
 @font-face {
   font-family: 'Roboto';
@@ -2487,6 +2488,29 @@ h6 {
 }
 .imagen--verde {
   --fondo: rgba(96, 193, 96, 0.7);
+}
+.imagen--indicador {
+  height: 250px;
+  position: relative;
+  background-color: #f2f2f2;
+}
+.imagen--indicador::before {
+  content: "Aquí va una imagen";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #60c160;
+  background-color: #e6e6e6;
+  font-variant: small-caps;
+  font-size: 2rem;
+  clip-path: polygon(10% 0%, 100% 0, 90% 100%, 0% 100%);
 }
 
 [type="search"],

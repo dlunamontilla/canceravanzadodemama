@@ -25,9 +25,12 @@
     
     // Conozca su enfermedad:
     "conozca",
+    "cancer-mama-metastasico",
+    "cuidados-paliativos",
   
     // La pacidnte:
-    "paciente"
+    "paciente",
+    "actitudes"
   ];
 
   function cadena(Array $array = []) : string {

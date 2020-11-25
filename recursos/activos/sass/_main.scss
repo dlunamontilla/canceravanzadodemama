@@ -1546,4 +1546,34 @@
   &--verde {
     --fondo: #{rgba($color-secundario-4, 0.7)};
   }
+
+  &--indicador {
+    height: 250px;
+    position: relative;
+    background-color: darken(white, 5);
+    
+    &::before {
+      content: "Aquí va una imagen";
+      display: block;
+      position: absolute;
+      margin: auto;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $color-secundario-4;
+      background-color: darken(white, 10);
+
+      font: {
+        variant: small-caps;
+        size: 2rem;
+      }
+
+      // Apariencia:
+      $separacion: 10%;
+
+      clip-path: polygon($separacion 0%, 100% 0, 100% - $separacion 100%, 0% 100%);
+    }
+  }
 }
