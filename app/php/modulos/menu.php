@@ -19,19 +19,19 @@ $border = "";
 $selectInicio = $selectNosotros = $selectHerramientas = $selectConozca = $selectPaciente = "";
 
 switch( true ) {
-  case $get -> distribuirEnModulos(["nosotros","sparc-uicc","abc-global"]):
+  case $get -> distribuirEnModulos($menuNosotros):
     $selectNosotros = " menu__item--select";
     break;
 
-  case $get -> modulo("herramientas"):
+  case $get -> distribuirEnModulos($menuHerramientas):
     $selectHerramientas = " menu__item--select";
     break;
 
-  case $get -> modulo("conozca"):
+  case $get -> distribuirEnModulos($menuConozcaSuEnfermedad):
     $selectConozca = " menu__item--select";
     break;
 
-  case $get -> modulo("paciente"):
+  case $get -> distribuirEnModulos($menuLaPaciente):
     $selectPaciente = " menu__item--select";
     break;
 }

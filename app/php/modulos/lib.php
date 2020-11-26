@@ -2,38 +2,52 @@
   if ( ! isset($get) )
     exit;
 
-  // Módulos en los que se distribuye la estructura 
-  // de contenido de la páginas, incluyendo su cabecera:
-  $modulos = [
-    // Página de Nosotros:
+  // Nosotros:
+  $menuNosotros = [
     "nosotros",
     "sparc-uicc",
-    "abc-global",
-  
-    // Herramientas:
+    "abc-global"
+  ];
+
+  // Herramientas:
+  $menuHerramientas = [
+    // Primera parte
     "herramientas",
     "herramientas-subtipos-moleculares",
     "estadificacion",
     "glosario",
-  
-    // Segunda parte de herramientas:
+    
+    // Segunda parte
     "quimioterapia",
     "terapia-dirigida",
     "hormonoterapia",
     "cirugia",
-    "radioterapia",
-    
-    // Conozca su enfermedad:
+    "radioterapia"
+  ];
+
+  // Conozca su enfermedad:
+  $menuConozcaSuEnfermedad = [
     "conozca",
     "cancer-mama-metastasico",
-    "cuidados-paliativos",
-  
-    // La pacidnte:
+    "cuidados-paliativos"
+  ];
+
+  // La Paciente:
+  $menuLaPaciente = [
     "paciente",
     "actitudes",
     "su-entorno",
     "herramientas-comunicacion"
   ];
+
+
+  $modulos = array_merge(
+    $menuNosotros,
+    $menuHerramientas,
+    $menuConozcaSuEnfermedad,
+    $menuLaPaciente
+  );
+
 
   function cadena(Array $array = []) : string {
     $string = "";
