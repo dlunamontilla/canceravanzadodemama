@@ -46,6 +46,9 @@
 
   // La paciente:
   include __DIR__ . "/la-paciente.php";
+  include __DIR__ . "/actitudes.php";
+  include __DIR__ . "/su-entorno.php";
+  include __DIR__ . "/herramientas-comunicacion.php";
   
   // Contenido y pie de página:
   include __DIR__ . "/content.php";

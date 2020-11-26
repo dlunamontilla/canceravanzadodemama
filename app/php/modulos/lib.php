@@ -30,7 +30,9 @@
   
     // La pacidnte:
     "paciente",
-    "actitudes"
+    "actitudes",
+    "su-entorno",
+    "herramientas-comunicacion"
   ];
 
   function cadena(Array $array = []) : string {
