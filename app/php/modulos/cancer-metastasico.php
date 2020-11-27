@@ -249,7 +249,7 @@ HTML;
     $avanzar = <<<HTML
     <a href="?cuidados-paliativos" class="navegar__enlace">
       <span data-src="multimedia/vectores/adelante.svg"></span>
-      <span>Cuidados Paliativos</span>
+      <span>Recursos para Sobrellevar el tratamiento</span>
     </a>
 HTML;
   }
