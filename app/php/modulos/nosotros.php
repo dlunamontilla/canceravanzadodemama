@@ -144,11 +144,17 @@ HTML;
 </a>
 HTML;
 
-
   $avanzar = <<<HTML
-  <a href="./" class="navegar__enlace">
-    <span data-src="multimedia/vectores/inicio.svg"></span>
-    <span>Inicio</span>
+  <a href="?herramientas" class="navegar__enlace">
+    <span data-src="multimedia/vectores/adelante.svg"></span>
+    <span>Herramientas</span>
+  </a>
+HTML;
+
+  $volver = <<<HTML
+  <a href="?nosotros" class="navegar__enlace">
+    <span data-src="multimedia/vectores/volver.svg"></span>
+    <span>Volver</span>
   </a>
 HTML;
     

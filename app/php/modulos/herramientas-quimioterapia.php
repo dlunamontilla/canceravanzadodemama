@@ -145,7 +145,7 @@ En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimiot
       </p>
 
       <!-- Recuendo de las plaquetas | Diagrama -->
-      <div class="plaquetas">
+      <div class="imagen imagen--verde" data-src="/multimedia/vectores/imagen-2.1-herramientas-quimioterapia.svg">
         <!-- Header -->
         <div class="plaquetas__item plaquetas__item--header">
           <div class="plaquetas__header plaquetas__header--morado">Recuento de Células Sanguíneas durante la Quimioterapia</div>

@@ -333,9 +333,9 @@ HTML;
 
 
     $avanzar = <<<HTML
-    <a href="?radioterapia" class="navegar__enlace">
-      <span data-src="multimedia/vectores/inicio.svg"></span>
-      <span>Inicio</span>
+    <a href="?paciente" class="navegar__enlace">
+      <span data-src="multimedia/vectores/adelante.svg"></span>
+      <span>La Paciente</span>
     </a>
 HTML;
   }

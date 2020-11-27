@@ -494,9 +494,9 @@ HTML;
     
     
     $avanzar = <<<HTML
-    <a href="./" class="navegar__enlace">
+    <a href="?quimioterapia" class="navegar__enlace">
       <span data-src="multimedia/vectores/adelante.svg"></span>
-      <span>Inicio</span>
+      <span>Modalidades del Tratamiento</span>
     </a>
 HTML;
   }

@@ -22,6 +22,7 @@ if ( $get->distribuirEnModulos($modulos) ) {
 <nav class="navegar">
   $atras
   $avanzar
+  $volver
 </nav>
 HTML;
 }

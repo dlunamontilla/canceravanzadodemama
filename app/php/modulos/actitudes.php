@@ -117,7 +117,7 @@ HTML;
     // Botones de atrás y avanzar:
     $atras = <<<HTML
     <a href="?paciente" class="navegar__enlace">
-      <span>La Paciente</span>
+      <span>Emociones de la paciente</span>
       <span data-src="multimedia/vectores/atras.svg"></span>
     </a>
 HTML;

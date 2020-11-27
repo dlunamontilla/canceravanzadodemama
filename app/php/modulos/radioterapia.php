@@ -249,9 +249,9 @@ HTML;
     
     
     $avanzar = <<<HTML
-    <a href="./" class="navegar__enlace">
-      <span data-src="multimedia/vectores/inicio.svg"></span>
-      <span>Inicio</span>
+    <a href="?conozca" class="navegar__enlace">
+      <span data-src="multimedia/vectores/adelante.svg"></span>
+      <span>Conozca su enfermedad</span>
     </a>
 HTML;
   }

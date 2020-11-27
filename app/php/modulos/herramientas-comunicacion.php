@@ -112,9 +112,9 @@ HTML;
 
 
     $avanzar = <<<HTML
-    <a href="./" class="navegar__enlace">
-      <span data-src="multimedia/vectores/adelante.svg"></span>
-      <span>Inicio</span>
+    <a href="?paciente" class="navegar__enlace">
+      <span data-src="multimedia/vectores/volver.svg"></span>
+      <span>Volver</span>
     </a>
     HTML;
   }

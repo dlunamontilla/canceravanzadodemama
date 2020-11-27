@@ -94,9 +94,9 @@ HTML;
 
 // Botones de atrás y avanzar:
     $atras = <<<HTML
-    <a href="./" class="navegar__enlace">
-      <span>Inicio</span>
-      <span data-src="multimedia/vectores/inicio.svg"></span>
+    <a href="?cuidados-paliativos" class="navegar__enlace">
+      <span>Recursos para sobrellevar el tratamiento</span>
+      <span data-src="multimedia/vectores/atras.svg"></span>
     </a>
 HTML;
 
