@@ -71,13 +71,46 @@
     </div>
 HTML;
 
-    $adicionales = <<<HTML
-    <div class="adicionales adicionales--verde">
-      <h3 class="frontal frontal--secundario-4">
-        Pendiente por completar
-      </h3>
 
-      <p>Esta parte está en construcción</p>
+    $url = "https://www.cancer.org/es/tratamiento/como-comprender-su-diagnostico/cancer-avanzado/que-es.html";
+    $datos = get_meta_tags($url);
+
+    $imagen = $datos["twitter:image"];
+    $titleCard = $datos["twitter:title"];
+    $description = $datos["description"];
+
+    $adicionales = <<<HTML
+    <div class="adicionales">
+
+      <div class="enlaces-externos">
+        <h3 class="frontal frontal--secundario-3">American Cancer Society</h3>
+
+        <div class="bibliograficas">
+          <a href="$url" target="_blank" class="bibliograficas__item">
+            <div class="bibliograficas__imagen">
+              <img src="$imagen" alt="$description">
+            </div>
+
+            <div class="bibliograficas__caption">
+              <h6 class="frontal frontal--secundario-3">Cáncer de Mama Avanzado y Metastásico</h6>
+              <p class="text text--justify frontal frontal--base">$titleCard</p>
+            </div>
+          </a>
+
+          <div class="bibliograficas__item">
+
+          </div>
+
+          <div class="bibliograficas__item">
+
+          </div>
+
+          <div class="bibliograficas__item">
+
+          </div>
+        </div>
+      </div>
+
     </div>
 HTML;
 

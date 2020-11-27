@@ -11,14 +11,14 @@
 		<h2 class="text text--right">Informe de Anatomía</h2>
 		<p class="text text--justify">Es el reporte emitido por un médico patólogo de los hallazgos de cada tejido que es extraído como muestra o espécimen de una zona sospechosa para ser analizado en el microscopio y determinar la presencia o no de cáncer. Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
 
-		<h3 class="text text--right frontal frontal--secundario-3">*Tipos de biopsias</h3>
+		<h3 class="text text--right frontal frontal--secundario-3">Tipos de biopsias</h3>
 		<p class="text text--justify">La biopsia puede ser tomada por el cirujano, si se trata de una lesión palpable, en caso contrario, el médico radiólogo podrá realizar la toma guiada por una técnica de imagen. Existen diversos tipos de biopsia, no obstante la elección del procedimiento dependerá del objetivo y del tipo de información que se desea obtener.</p>
 
 		<p class="text text--justify">
 			La biopsia puede efectuarse con una aguja a través de la piel de la mama para extraer la muestra de tejido. Para ello existen diferentes tipos de biopsia con aguja,  dependiendo de su grosor, tal como: la Punción Aspiración con Aguja Fina (PAAF), que es un método citológico; la biopsia por Punción con Aguja Gruesa (BAG); y la Biopsia con Aguja Gruesa Asistida por Vacío (BAV). No obstante, la biopsia puede ser también un procedimiento quirúrgico para extraer la totalidad (biopsia excisional) o parte de la lesión de sospecha (biopsia incisional).
 		</p>
 
-		<h3 class="text text--right frontal frontal--secundario-3">*Secciones del Informe de Anatomía</h3>
+		<h3 class="text text--right frontal frontal--secundario-3">Secciones del Informe de Anatomía</h3>
 
 		<p class="text text--justify">
 			El informe emitido posteriormente a la toma de la biopsia es el informe de inicio. El informe definitivo, más detallado se obtiene posterior a la cirugía con la extracción de la pieza quirúrgica.
@@ -51,7 +51,7 @@
 		</p>
 
 		<h3 class="text text--right frontal frontal--secundario-3">
-				*Información contenida en el Informe de Anatomía Patológica
+			Información contenida en el Informe de Anatomía Patológica
 		</h3>
 
 		<p class="text text--justify">
@@ -251,7 +251,7 @@ HTML;
   if ($get->modulo("estadificacion")) {
     $contenido = <<<HTML
     <div class="content__item">
-      <h2 class="text text--right">+ Estadificación</h2>
+      <h2 class="text text--right">Estadificación</h2>
 
       <p class="text text--justify">
       El estadio o etapa de un cáncer es una medida de la extensión y propagación del tumor, que indica la fase o etapa en la que se encuentra el cáncer, es decir cuánto ha crecido, si se ha diseminado y para dónde lo ha hecho.  Es importante conocer el estadio de la paciente para establecer el pronóstico y determinar el plan de tratamiento óptimo.
@@ -359,7 +359,7 @@ HTML;
 
       <!-- Estadios -->
       <h3 class="text text--right frontal frontal--secundario-3">
-          *Estadios
+        Estadios
       </h3>
 
       <p class="text text--justify">
@@ -477,7 +477,7 @@ HTML;
   if ( $get->modulo("glosario") ) {
     $contenido = <<<HTML
     <div class="content__item">
-      <h2 class="text text--right">+ Glosario</h2>
+      <h2 class="text text--right">Glosario</h2>
 
       <div class="glosario">
         $tablaGlosario

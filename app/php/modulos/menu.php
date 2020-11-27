@@ -19,7 +19,7 @@ $border = "";
 $selectInicio = $selectNosotros = $selectHerramientas = $selectConozca = $selectPaciente = "";
 
 switch( true ) {
-  case $get -> distribuirEnModulos($menuNosotros):
+  case $get -> distribuirEnModulos($menuNosotros ):
     $selectNosotros = " menu__item--select";
     break;
 

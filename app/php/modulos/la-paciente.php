@@ -14,7 +14,7 @@
         El cáncer de mama puede ser desafiante tanto emocionalmente como físicamente, por el hecho de conllevar a un cambio. El diagnóstico de cáncer, los hallazgos de las biopsias y de los exámenes radiológicos, la preocupación por resultados del tratamiento, la ansiedad por seguimiento de la superviviente, así como la desesperanza, tristeza y enojo por la aparición de recidiva o progresión hasta el cuidado al final de la vida conlleva a retos emocionales a todo lo largo de la enfermedad.  El bienestar emocional es un indicador clave de calidad de vida en las pacientes con cáncer de mama avanzado.
       </p>
 
-      <div class="imagen imagen--indicador"></div>
+      <div class="imagen imagen--verde" data-src="multimedia/vectores/imagen-1-lapaciente-emociones.svg"></div>
 
       <p class="text text--justify">
         La paciente puede experimentar no sólo con emociones negativas y sino también con emociones positivas que pueden ser expresadas como esperanza, paz, y aprecio por la vida cuando tiene claridad de los objetivos del tratamiento, cuando mantienen un papel activo en su terapéutica, y cuando es capaz de afrontar los efectos colaterales. Es posible que se dé cuenta de que tiene la fuerza que nunca pensó que tenía. Sin embargo, tenga en consideración  que su reacción ante su proceso es única. Mantener el equilibrio, en  el caso de pacientes con cáncer de mama metastásico que afrontan la experiencia de la enfermedad recurrente, es fundamental.  Se deben encontrar  recursos internos y externos para enfrentar los desafíos de la situación,  para recuperar el control, aprovechar sus miedos, luchar por mantener la normalidad y crear la estabilidad y continuidad en su vida.

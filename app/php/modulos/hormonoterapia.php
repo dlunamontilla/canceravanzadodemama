@@ -5,7 +5,7 @@
   if ( $get->modulo("hormonoterapia") ) {
     $contenido = <<<HTML
     <div class="content__item">
-      <h2 class="text text--right">+ Terapia Hormonal. Hormonoterapia</h2>
+      <h2 class="text text--right">Terapia Hormonal. Hormonoterapia</h2>
 
       <p class="text text--justify">
         La terapia hormonal, hormonoterapia o terapia endocrina son tratamientos contra el cáncer de mama con receptores hormonales positivos, que retardan o detienen el crecimiento del cáncer que utiliza hormonas para proliferar. La determinación del tipo y duración de la terapia hormonal va a depender del estado menstrual de la paciente (pre o postmenopáusica) y del estadio. La hormonoterapia se puede administrar antes, durante o después de otras modalidades de tratamiento contra el cáncer de mama.

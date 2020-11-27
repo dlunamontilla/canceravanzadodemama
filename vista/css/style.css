@@ -2530,16 +2530,16 @@ h6 {
 
 .adicionales {
   --padding: 40px;
-  --fondo: #e6e6e6;
+  --fondo: whitesmoke;
   --color: #4d4d4d;
-  --border-color: rgba(black, 0.2);
+  --border-color: rgba(0, 183, 183, 0.6);
   padding: var(--padding);
   background-color: var(--fondo);
   color: var(--color);
   width: 100%;
 }
 .adicionales:first-of-type {
-  border-top: 1px solid var(--border--color);
+  border-top: 1px solid rgba(0, 183, 183, 0.3);
 }
 .adicionales:not(:first-of-type) {
   margin-top: 20px;
@@ -2548,6 +2548,66 @@ h6 {
   --fondo: rgba(96, 193, 96, 0.15);
   --color: #348734;
   --border-color: rgba(96, 193, 96, 0.7);
+}
+
+.enlaces-externos h1, .enlaces-externos h2, .enlaces-externos h3, .enlaces-externos h4, .enlaces-externos h5, .enlaces-externos h6 {
+  margin-bottom: 20px;
+}
+
+.bibliograficas {
+  --columnas: 6;
+  display: grid;
+  grid-template-columns: repeat(var(--columnas), 1fr);
+  gap: 10px;
+}
+.bibliograficas h1, .bibliograficas h2, .bibliograficas h3, .bibliograficas h4, .bibliograficas h5, .bibliograficas h6 {
+  margin-top: 0;
+}
+.bibliograficas__item {
+  background-color: #fafafa;
+  border: 1px solid rgba(77, 77, 77, 0.2);
+  border-radius: 4px;
+  transition: 300ms;
+  overflow: hidden;
+  outline: medium none;
+}
+.bibliograficas__item:hover, .bibliograficas__item:focus {
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 183, 183, 0.2);
+  border: 1px solid #00b7b7;
+}
+.bibliograficas__item:active {
+  box-shadow: 0 0 20px rgba(96, 193, 96, 0.2);
+  border: 1px solid #60c160;
+  transition: none;
+}
+.bibliograficas__imagen {
+  background-color: #666666;
+  position: relative;
+  background-color: #f2f2f2;
+  padding-top: 42%;
+}
+.bibliograficas__imagen img {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  --diametro: 100%;
+  width: var(--diametro);
+  height: var(--diametro);
+  object-fit: scale-down;
+  object-position: center;
+}
+.bibliograficas__caption {
+  padding: 10px 10px;
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+.bibliograficas__caption h6 {
+  font-size: inherit;
 }
 
 [type="search"],

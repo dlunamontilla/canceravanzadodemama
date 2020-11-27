@@ -6,7 +6,7 @@
   if ( $get->modulo("quimioterapia") ) {
     $contenido = <<<HTML
     <div class="content__item">
-      <h2 class="text text--right">+ Quimioterapia</h2>
+      <h2 class="text text--right">Quimioterapia</h2>
 
       <p class="text text--justify">La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.  La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado.
 En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimioterapia puede ser:</p>
