@@ -150,8 +150,7 @@ En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimiot
         <div class="plaquetas__item plaquetas__item--header">
           <div class="plaquetas__header plaquetas__header--morado">Recuento de Células Sanguíneas durante la Quimioterapia</div>
           <div class="plaquetas__content text text--center">
-          Entre la culminación de un ciclo y el inicio del siguiente, el médico oncólogo solicitará una prueba de laboratorio: la hematología completa y química
-sanguínea. La química sanguínea, permite conocer cómo está funcionando su hígado y los riñones. La hematología completa o recuento sanguíneo da la información respecto a la cantidad de células sanguíneas: glóbulos rojos o eritrocitos, a través de la hemoglobina y el hematocrito; glóbulos blancos o leucocitos a través de la cuenta blanca y fórmula y plaquetas.
+            Entre la culminación de un ciclo y el inicio del siguiente, el médico oncólogo solicitará una prueba de laboratorio: la hematología completa y química sanguínea. La química sanguínea, permite conocer cómo está funcionando su hígado y los riñones. La hematología completa o recuento sanguíneo da la información respecto a la cantidad de células sanguíneas: glóbulos rojos o eritrocitos, a través de la hemoglobina y el hematocrito; glóbulos blancos o leucocitos a través de la cuenta blanca y fórmula y plaquetas.
           </div>
         </div>
 
