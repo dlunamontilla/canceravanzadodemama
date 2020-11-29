@@ -3,7 +3,7 @@
   if ( !isset($get) )
     exit;
 
-  if ( $get->modulo("conozca") ) {
+  if ( $get->modulo("conozca") ) { 
     $contenido = <<<HTML
     <div class="content__item">
       <h2 class="text text--right">
@@ -283,12 +283,11 @@ HTML;
 
     // Botones de atrás y avanzar:
     $atras = <<<HTML
-    <a href="./" class="navegar__enlace">
-      <span>Inicio</span>
-      <span data-src="multimedia/vectores/inicio.svg"></span>
+    <a href="?radioterapia" class="navegar__enlace">
+      <span>Modalidades de Tratamiento</span>
+      <span data-src="multimedia/vectores/atras.svg"></span>
     </a>
 HTML;
-    
     
     $avanzar = <<<HTML
     <a href="?cancer-mama-metastasico" class="navegar__enlace">

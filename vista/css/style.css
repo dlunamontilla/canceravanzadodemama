@@ -775,6 +775,7 @@ html, body {
   padding: 0;
   color: #606060;
   background-color: whitesmoke;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -1269,6 +1270,25 @@ h6 {
   --tipo: none;
   --simbolo: "";
   --list-style: none;
+  padding-left: 0;
+}
+.listas__item {
+  --separacion-vertical: 0;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30px;
+  border-bottom: 1px solid white;
+}
+.listas__item:hover {
+  background-color: rgba(0, 183, 183, 0.05);
+}
+.listas__enlace {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: #2d742d;
+  transition: 300ms ease;
 }
 
 ::selection {
@@ -2611,6 +2631,43 @@ h6 {
 }
 .bibliograficas__caption h6 {
   font-size: inherit;
+}
+
+.indice {
+  background-color: rgba(96, 193, 96, 0.03);
+  border: 1px solid rgba(96, 193, 96, 0.2);
+  border-radius: 5px;
+  position: sticky;
+  top: 100px;
+}
+.indice__header {
+  background-color: #00b7b7;
+  color: white;
+  padding: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.indice__header h1, .indice__header h2, .indice__header h3, .indice__header h4, .indice__header h5, .indice__header h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+.indice__content {
+  --padding: 10px;
+  padding: calc(var(--padding) / 2) var(--padding) var(--padding) var(--padding);
+}
+.indice__content h1, .indice__content h2, .indice__content h3, .indice__content h4, .indice__content h5, .indice__content h6 {
+  --padding: 20px;
+  padding: 20px 10px;
+  font-size: 1rem;
+  margin: 0;
+}
+.indice__content ul {
+  margin: 0;
+}
+.indice__content ul:not(:last-of-type) {
+  border-bottom: 1px solid rgba(77, 77, 77, 0.2);
 }
 
 [type="search"],

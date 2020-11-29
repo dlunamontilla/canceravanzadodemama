@@ -1700,3 +1700,51 @@
     }
   }
 }
+
+// Indice | Apariencia
+
+.indice {
+  background-color: rgba($color-secundario-4, 0.03);
+  border: 1px solid rgba($color-secundario-4, 0.2);
+  border-radius: 5px;
+
+  position: sticky;
+  top: 100px;
+
+
+  &__header {
+    background-color: $color-secundario-3;
+    color: white;
+    padding: 10px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__content {
+    --padding: 10px;
+    padding: calc(var(--padding) / 2) var(--padding) var(--padding) var(--padding);
+
+    h1, h2, h3, h4, h5, h6 {
+      --padding: 20px;
+      padding: 20px 10px;
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+
+      &:not(:last-of-type) {
+        border-bottom: 1px solid rgba($color-base, 0.2);
+      }
+    }
+  }
+}

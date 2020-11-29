@@ -247,7 +247,13 @@ HTML;
     </a>
 HTML;
     
-    
+    // Botones de atrás y avanzar:
+    $volver = <<<HTML
+    <a href="?quimioterapia" class="navegar__enlace">
+      <span>Volver</span>
+      <span data-src="multimedia/vectores/volver.svg"></span>
+    </a>
+HTML;
     $avanzar = <<<HTML
     <a href="?conozca" class="navegar__enlace">
       <span data-src="multimedia/vectores/adelante.svg"></span>

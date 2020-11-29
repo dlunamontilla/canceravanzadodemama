@@ -177,4 +177,12 @@
     $get->cadena("su-entorno", "multimedia/fotos/la-paciente/imagen-cabecera-2.jpeg"),
     $get->cadena("herramientas-comunicacion", "multimedia/fotos/la-paciente/imagen-cabecera-2.jpeg")
   ]);
+
+  // Solución temporal:
+  // $ruta = "Herramientas/indice.html";
+
+  // if ( file_exists( $ruta ) ) {
+  //   if ( $get->distribuirEnModulos($menuHerramientas))
+  //     $sidebar = file_get_contents($ruta);
+  // }
   ?>

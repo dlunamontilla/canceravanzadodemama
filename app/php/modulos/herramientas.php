@@ -11,14 +11,14 @@
 		<h2 class="text text--right">Informe de Anatomía</h2>
 		<p class="text text--justify">Es el reporte emitido por un médico patólogo de los hallazgos de cada tejido que es extraído como muestra o espécimen de una zona sospechosa para ser analizado en el microscopio y determinar la presencia o no de cáncer. Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
 
-		<h3 class="text text--right frontal frontal--secundario-3">Tipos de biopsias</h3>
+		<h3 class="text text--right frontal frontal--secundario-3" id="tipos-de-biopsias">Tipos de biopsias</h3>
 		<p class="text text--justify">La biopsia puede ser tomada por el cirujano, si se trata de una lesión palpable, en caso contrario, el médico radiólogo podrá realizar la toma guiada por una técnica de imagen. Existen diversos tipos de biopsia, no obstante la elección del procedimiento dependerá del objetivo y del tipo de información que se desea obtener.</p>
 
 		<p class="text text--justify">
 			La biopsia puede efectuarse con una aguja a través de la piel de la mama para extraer la muestra de tejido. Para ello existen diferentes tipos de biopsia con aguja,  dependiendo de su grosor, tal como: la Punción Aspiración con Aguja Fina (PAAF), que es un método citológico; la biopsia por Punción con Aguja Gruesa (BAG); y la Biopsia con Aguja Gruesa Asistida por Vacío (BAV). No obstante, la biopsia puede ser también un procedimiento quirúrgico para extraer la totalidad (biopsia excisional) o parte de la lesión de sospecha (biopsia incisional).
 		</p>
 
-		<h3 class="text text--right frontal frontal--secundario-3">Secciones del Informe de Anatomía</h3>
+		<h3 class="text text--right frontal frontal--secundario-3" id="secciones-anatomia">Secciones del Informe de Anatomía</h3>
 
 		<p class="text text--justify">
 			El informe emitido posteriormente a la toma de la biopsia es el informe de inicio. El informe definitivo, más detallado se obtiene posterior a la cirugía con la extracción de la pieza quirúrgica.
@@ -50,7 +50,7 @@
 			Para la paciente la lectura e interpretación del informe es un evento confuso e intimidante. Es importante tener en cuenta que la información que éste aporta se interpreta como un todo, por lo que se debe evitar mantener el foco en un solo aspecto.  El informe patológico, no se entrega de inmediato, debe esperar. El procesamiento lleva su tiempo, en la mayoría de los casos de una a dos semanas, aunque algunos resultados pueden tardar más que otros.
 		</p>
 
-		<h3 class="text text--right frontal frontal--secundario-3">
+		<h3 class="text text--right frontal frontal--secundario-3" id="informacion-anatomia">
 			Información contenida en el Informe de Anatomía Patológica
 		</h3>
 
@@ -67,11 +67,11 @@
 				</p>
 
 				<p class="text text--justify">
-				Cuando las células del carcinoma siguen confinadas a los conductos mamarios, sin escaparse ni crecer en el tejido circundante, se considera carcinoma in situ.  Una vez que las células del carcinoma han crecido y han salido de los conductos o lobulillos, es lo que se conoce como carcinoma invasivo o infiltrante. En el carcinoma invasivo, las células tumorales pueden propagarse a otras partes del cuerpo a través de la sangre o del sistema linfático.
+				  Cuando las células del carcinoma siguen confinadas a los conductos mamarios, sin escaparse ni crecer en el tejido circundante, se considera carcinoma in situ.  Una vez que las células del carcinoma han crecido y han salido de los conductos o lobulillos, es lo que se conoce como carcinoma invasivo o infiltrante. En el carcinoma invasivo, las células tumorales pueden propagarse a otras partes del cuerpo a través de la sangre o del sistema linfático.
 				</p>
 
 				<div>
-					<div data-src="multimedia/vectores/imagen-1.1-herramientas-informe.svg"></div>
+					<div data-sr="multimedia/vectores/imagen-1.1-herramientas-informe.svg"></div>
 					<p class="text text--justify"><i>Material educativo para pacientes, desarrollado por la Fundación Venezolana para la Educación e Investigación contra el Cáncer de Mama (FUVEICAM)</i></p>
 				</div>
 			</li>
@@ -193,16 +193,10 @@
 </div>
 HTML;
 
-	$sidebar = <<<HTML
-<div class="sidebar__item">
-	<h2>Sidebar</h2>
-</div>
-HTML;
-
   $atras = <<<HTML
-<a href="./" class="navegar__enlace">
-  <span>Inicio</span>
-  <span data-src="multimedia/vectores/inicio.svg"></span>
+<a href="?abc-global" class="navegar__enlace">
+  <span>ABC Global Alliance</span>
+  <span data-src="multimedia/vectores/atras.svg"></span>
 </a>
 HTML;
 
@@ -492,7 +486,14 @@ HTML;
     </a>
 HTML;
     
-    
+    // Botones de atrás y avanzar:
+    $volver = <<<HTML
+    <a href="?herramientas" class="navegar__enlace">
+      <span>Volver</span>
+      <span data-src="multimedia/vectores/volver.svg"></span>
+    </a>
+HTML;
+
     $avanzar = <<<HTML
     <a href="?quimioterapia" class="navegar__enlace">
       <span data-src="multimedia/vectores/adelante.svg"></span>

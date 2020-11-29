@@ -8,8 +8,7 @@
     <div class="content__item">
       <h2 class="text text--right">Quimioterapia</h2>
 
-      <p class="text text--justify">La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.  La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado.
-En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimioterapia puede ser:</p>
+      <p class="text text--justify">La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.  La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado. En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimioterapia puede ser:</p>
 
       <ul class="listas listas--disco listas--secundario-3">
         <li class="text text--justify">Administrada como primera opción terapéutica (antes de la cirugía), por lo que recibe el nombre de quimioterapia neoadyuvante, primaria, de inducción o preoperatoria. La quimioterapia neoadyuvante tiene como objetivos principales: (1) mejorar la resecabilidad quirúrgica de los tumores que no son susceptibles a cirugía de entrada; (2) aumentar las tasas de cirugía conservadora o preservadora de la mama; (3) disminuir el estadio; (4) seleccionar terapias individualizadas, mediante la identificación temprana de la respuesta al tratamiento.</li>
@@ -145,7 +144,7 @@ En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimiot
       </p>
 
       <!-- Recuendo de las plaquetas | Diagrama -->
-      <div class="imagen imagen--verde" data-src="/multimedia/vectores/imagen-2.1-herramientas-quimioterapia.svg">
+      <div class="imagen imagen--verde" data-src="multimedia/vectores/imagen-2.1-herramientas-quimioterapia.svg">
         <!-- Header -->
         <div class="plaquetas__item plaquetas__item--header">
           <div class="plaquetas__header plaquetas__header--morado">Recuento de Células Sanguíneas durante la Quimioterapia</div>
@@ -304,9 +303,9 @@ En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimiot
 HTML;
     // Botones de atrás y avanzar:
     $atras = <<<HTML
-    <a href="./" class="navegar__enlace">
-      <span>Inicio</span>
-      <span data-src="multimedia/vectores/inicio.svg"></span>
+    <a href="?glosario" class="navegar__enlace">
+      <span>Glosario</span>
+      <span data-src="multimedia/vectores/atras.svg"></span>
     </a>
 HTML;
     
