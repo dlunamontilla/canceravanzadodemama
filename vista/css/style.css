@@ -2596,6 +2596,31 @@ h6 {
   grid-template-columns: repeat(var(--columnas), 1fr);
   gap: 10px;
 }
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .bibliograficas {
+    --columnas: 5;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1023px) {
+  .bibliograficas {
+    --columnas: 4;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 899px) {
+  .bibliograficas {
+    --columnas: 3;
+  }
+}
+@media screen and (min-width: 461px) and (max-width: 649px) {
+  .bibliograficas {
+    --columnas: 2;
+  }
+}
+@media screen and (max-width: 460px) {
+  .bibliograficas {
+    --columnas: 1;
+  }
+}
 .bibliograficas h1, .bibliograficas h2, .bibliograficas h3, .bibliograficas h4, .bibliograficas h5, .bibliograficas h6 {
   margin-top: 0;
 }

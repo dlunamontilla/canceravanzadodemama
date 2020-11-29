@@ -1642,6 +1642,27 @@
   grid-template-columns: repeat(var(--columnas), 1fr);
   gap: 10px;
 
+
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    --columnas: 5;
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1023px) {
+    --columnas: 4;
+  }
+
+  @media screen and (min-width: 650px) and (max-width: 899px) {
+    --columnas: 3;
+  }
+
+  @media screen and (min-width: 461px) and (max-width: 649px) {
+    --columnas: 2;
+  }
+
+  @media screen and (max-width: 460px) {
+    --columnas: 1;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
   }
