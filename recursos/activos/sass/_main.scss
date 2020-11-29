@@ -1741,6 +1741,8 @@
 
     ul {
       margin: 0;
+      border-top: 1px solid rgba($color-secundario-4, 0.2);
+      padding-top: 10px;
 
       &:not(:last-of-type) {
         border-bottom: 1px solid rgba($color-base, 0.2);

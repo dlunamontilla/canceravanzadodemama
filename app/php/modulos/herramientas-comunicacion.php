@@ -7,7 +7,7 @@
     $contenido = <<<HTML
     <div class="content__item">
       <h2 class="text text--right">
-        Herramientas De Comunicación
+        Herramientas de Comunicación
       </h2>
 
       <p class="text text--justify">

@@ -1278,9 +1278,19 @@ h6 {
   flex-wrap: wrap;
   min-height: 30px;
   border-bottom: 1px solid white;
+  transition: 300ms ease;
+  padding: 2px 10px;
+}
+.listas__item:nth-of-type(2n + 1) {
+  background-color: rgba(0, 183, 183, 0.03);
+  border-bottom: 1px solid white;
+}
+.listas__item:not(:last-of-type) {
+  border-bottom: 1px solid white;
 }
 .listas__item:hover {
   background-color: rgba(0, 183, 183, 0.05);
+  transition: none;
 }
 .listas__enlace {
   display: flex;
@@ -1289,6 +1299,9 @@ h6 {
   height: 100%;
   color: #2d742d;
   transition: 300ms ease;
+}
+.listas__enlace:hover {
+  color: #183d18;
 }
 
 ::selection {
@@ -2665,6 +2678,8 @@ h6 {
 }
 .indice__content ul {
   margin: 0;
+  border-top: 1px solid rgba(96, 193, 96, 0.2);
+  padding-top: 10px;
 }
 .indice__content ul:not(:last-of-type) {
   border-bottom: 1px solid rgba(77, 77, 77, 0.2);
