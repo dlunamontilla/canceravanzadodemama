@@ -56,4 +56,8 @@
   // Contenido y pie de página:
   include __DIR__ . "/content.php";
   include __DIR__ . "/footer.php";
+
+  // Ventanas Modales:
+  include __DIR__ . "/modalContent.php";
+  include __DIR__ . "/ventanasModales.php";
   ?>

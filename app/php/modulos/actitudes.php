@@ -71,13 +71,37 @@
     </div>
 HTML;
 
+// Solución temporal para evitar errores:
+    function tarjetas( string $url ) : Array {
+      // $url = "https://www.cancer.org/es/tratamiento/como-comprender-su-diagnostico/cancer-avanzado/que-es.html";
+      $datos = get_meta_tags($url);
+
+      if ( !is_array($datos) && !count($datos) > 0 )
+        return [
+          "twitter:image" => "",
+          "twitter:title" => "",
+          "description" => "No se encontraron datos",
+          "title" => ""
+        ];
+
+      // Si faltan estos índices, agregarlos:
+      if ( !isset($datos["twitter:image"]) ) $datos["twitter:image"] = "";
+      if ( !isset($datos["twitter:title"]) ) $datos["twitter:image"] = "";
+      if ( !isset($datos["twitter:description"]) ) $datos["twitter:description"] = "";
+
+      return $datos;
+    }
 
     $url = "https://www.cancer.org/es/tratamiento/como-comprender-su-diagnostico/cancer-avanzado/que-es.html";
-    $datos = get_meta_tags($url);
+    $datos = tarjetas( $url );
 
-    $imagen = $datos["twitter:image"];
-    $titleCard = $datos["twitter:title"];
-    $description = $datos["description"];
+    $imagen = @$datos["twitter:image"];
+    $titleCard = @$datos["twitter:title"];
+    $description = @$datos["description"];
+
+
+
+
 
     $adicionales = <<<HTML
     <div class="adicionales">

@@ -91,6 +91,8 @@ if ( count($_GET) < 1 ) {
 
     <?= $footer; ?>
   </main>
+
+  <?= $ventanasModales; ?>
 </body>
 
 </html>

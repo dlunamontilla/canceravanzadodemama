@@ -2647,6 +2647,8 @@ h6 {
   position: relative;
   background-color: #f2f2f2;
   padding-top: 42%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .bibliograficas__imagen img {
   display: block;
@@ -2708,6 +2710,119 @@ h6 {
 }
 .indice__content ul:not(:last-of-type) {
   border-bottom: 1px solid rgba(77, 77, 77, 0.2);
+}
+
+.modal {
+  --display: none;
+  display: var(--display);
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 20, 34, 0.7);
+  transition: 300ms ease;
+  overflow: auto;
+  z-index: 1000;
+}
+.modal hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+.modal p {
+  line-height: 1.5;
+}
+.modal--show {
+  padding-top: 20px;
+  --display: block;
+}
+.modal__wrapper {
+  --initial-size: 100px;
+  margin: 0 auto;
+  background-color: rgba(0, 183, 183, 0.8);
+  color: white;
+  padding: 20px;
+  min-height: var(--initial-size);
+  min-width: var(--initial-size);
+  backdrop-filter: blur(4px);
+  max-width: 980px;
+  width: calc(100% - 20px);
+  border-radius: 10px;
+}
+.modal__header {
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+}
+.modal__header h1, .modal__header h2, .modal__header h3, .modal__header h4, .modal__header h5, .modal__header h6 {
+  padding: 0;
+  margin: 0;
+}
+.modal__listas {
+  display: var(--display);
+}
+.modal__listas--grid {
+  --display: grid;
+  --gap: 20px;
+  grid-template-columns: repeat(var(--columnas), 1fr);
+  grid-gap: var(--gap);
+  gap: var(--gap);
+}
+.modal__listas--block {
+  --display: block;
+}
+@media screen and (min-width: 650px) {
+  .modal__listas {
+    --columnas: 2;
+  }
+}
+@media screen and (max-width: 649px) {
+  .modal__listas {
+    --columnas: 1;
+  }
+}
+.modal__listas li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.modal__salir {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  background-image: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  --diametro: 40px;
+  outline: medium none;
+  height: var(--diametro);
+  width: var(--diametro);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 300ms ease;
+  font-size: 1.5rem;
+}
+.modal__salir:hover {
+  background-color: rgba(255, 0, 0, 0.836);
+}
+.modal__salir:active {
+  background-color: rgba(255, 0, 0, 0.7);
+  transition: none;
+}
+.modal__enlace {
+  color: white;
+  text-decoration: none;
+  transition: 300ms ease;
+  outline: medium none;
+}
+.modal__enlace:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 [type="search"],
