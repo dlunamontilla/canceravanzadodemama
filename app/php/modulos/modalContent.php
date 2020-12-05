@@ -3,7 +3,14 @@
 if ( !isset($get) )
     exit;
 
-$modalTitle = $modalContent = $mostrar = "";
+$modalTitle = $modalContent = $mostrar = $overflow = "";
+
+if ( $get->distribuirEnModulos([
+    "herramientas",
+    "conozca"
+])) {
+    $overflow = " style=\"overflow: hidden;\"";
+}
 
 // Ventana Modal | Herramientas:
 if ( $get->modulo("herramientas") ) {

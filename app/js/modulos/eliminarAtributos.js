@@ -26,8 +26,6 @@ const eliminarAtributo = selector => {
 
     // Instanciar el observador de cambios en el DOM:
     destinos.forEach(destino => {
-        console.log( destino );
-
         observador.observe( destino, opciones );
     });
 }

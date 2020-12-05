@@ -67,7 +67,7 @@ if ( count($_GET) < 1 ) {
   <script src="app/js/main.js?v12" type="module" defer></script>
 </head>
 
-<body>
+<body<?= $overflow; ?>>
   <main id="app">
     <header class="header header--fondo">
       <div<?= $border; ?>>

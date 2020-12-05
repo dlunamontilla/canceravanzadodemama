@@ -1910,4 +1910,9 @@
       color: rgba(white, 0.9);
     }
   }
+
+  &__content {
+    background-color: rgba(black, 0.1);
+    padding: 10px;
+  }
 }
