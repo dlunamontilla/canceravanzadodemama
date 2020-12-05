@@ -2827,6 +2827,8 @@ h6 {
 .modal__content {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 0 0 5px 5px;
 }
 
 [type="search"],
