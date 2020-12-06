@@ -780,7 +780,6 @@ html, body {
 
 body {
   min-height: 100vh;
-  background-color: rgba(0, 128, 212, 0.1);
 }
 
 a {
@@ -2843,6 +2842,29 @@ h6 {
 .panel__header {
   min-height: 100px;
   background-color: rgba(96, 193, 96, 0.3);
+}
+
+.sesion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.sesion__content {
+  max-width: 600px;
+}
+.sesion__logo {
+  max-width: 350px;
+}
+.sesion__form {
+  min-height: 50px;
+  background-color: silver;
+}
+.sesion__label {
+  display: block;
+}
+.sesion__label:last-of-type {
+  margin-top: 10px;
 }
 
 [type="search"],

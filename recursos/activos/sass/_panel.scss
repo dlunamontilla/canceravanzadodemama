@@ -19,3 +19,31 @@
     background-color: rgba($color-secundario-4, 0.3);
   }
 }
+
+.sesion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__logo {
+    max-width: 350px;
+  }
+
+  &__form {
+    min-height: 50px;
+    background-color: silver;
+  }
+
+  &__label {
+    display: block;
+    
+    &:last-of-type {
+      margin-top: 10px;
+    }
+  }
+}

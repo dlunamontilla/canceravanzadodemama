@@ -21,10 +21,6 @@
   <script src="js/main.js?v20" type="module" defer></script>
 </head>
 <body>
-  <main id="app">
-    <div class="panel">
-      <header class="panel__header"></header>
-    </div>
-  </main>
+  <main id="app"><?= $content;?></main>
 </body>
 </html>
