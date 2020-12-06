@@ -55,6 +55,9 @@
   background-color: var(--background-color);
   outline: medium none;
   border: 0;
+  transition: 300ms ease;
+
+  border-radius: var(--radio);
 
   &--buscar {
     display: (--display);
@@ -62,12 +65,26 @@
     height: var(--height);
     width: var(--height);
 
-    border-radius: calc(var(--height) / 2 );
+    --radio: calc(var(--height) / 2 );
     left: auto; right: 5px;
     top: 0; bottom: 0;
 
     svg {
       height: calc(var(--height) / 1.7 );
+    }
+  }
+
+  &--success {
+    --background-color: #{$color-secundario-3};
+    --radio: 4px;
+
+    color: white;
+    height: 30px;
+    padding: 0 20px;
+
+
+    &:hover {
+      --background-color: #{lighten($color-secundario-3, 5)}
     }
   }
 }

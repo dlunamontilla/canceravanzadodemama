@@ -2857,7 +2857,7 @@ h6 {
   padding: 20px;
   background-color: #f7f7f7;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 .sesion__form {
   min-height: 50px;
@@ -2897,6 +2897,9 @@ h6 {
 .sesion__caption {
   --size: 0.9rem;
   font-size: var(--size);
+}
+.sesion__buttons {
+  margin-top: 30px;
 }
 
 [type="search"],
@@ -2947,13 +2950,15 @@ h6 {
   background-color: var(--background-color);
   outline: medium none;
   border: 0;
+  transition: 300ms ease;
+  border-radius: var(--radio);
 }
 .button--buscar {
   display: --display;
   position: absolute;
   height: var(--height);
   width: var(--height);
-  border-radius: calc(var(--height) / 2 );
+  --radio: calc(var(--height) / 2 );
   left: auto;
   right: 5px;
   top: 0;
@@ -2961,6 +2966,16 @@ h6 {
 }
 .button--buscar svg {
   height: calc(var(--height) / 1.7 );
+}
+.button--success {
+  --background-color: #00b7b7;
+  --radio: 4px;
+  color: white;
+  height: 30px;
+  padding: 0 20px;
+}
+.button--success:hover {
+  --background-color: #00d1d1 ;
 }
 
 /*# sourceMappingURL=style.css.map */

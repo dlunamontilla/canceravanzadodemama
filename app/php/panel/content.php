@@ -26,8 +26,8 @@ $form = <<<HTML
         <input class="sesion__input" type="password" name="password" id="password">
       </label>
 
-      <div class="group-button">
-        <button type="submit" class="button button--success">Iniciar Sesión</button>
+      <div class="sesion__buttons">
+        <button type="submit" class="button button--success">Ingresar</button>
       </div>
     </form>
 
