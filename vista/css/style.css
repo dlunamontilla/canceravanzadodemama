@@ -2872,8 +2872,9 @@ h6 {
 }
 .sesion__content {
   position: relative;
-  width: 100%;
+  width: calc(100% - 20px);
   max-width: 400px;
+  min-width: 225px;
   padding: 20px;
   background-color: rgba(247, 247, 247, 0.95);
   box-shadow: 0 0 20px rgba(0, 183, 183, 0.3);

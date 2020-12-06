@@ -51,8 +51,9 @@
 
   &__content {
     position: relative;
-    width: 100%;
+    width: $width;
     max-width: 400px;
+    min-width: 225px;
     padding: 20px;
     $color: darken(white, 3);
     background-color: rgba($color, 0.95);
