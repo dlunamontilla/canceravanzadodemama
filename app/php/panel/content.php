@@ -1,8 +1,14 @@
 <?php
 
-if ( !isset( $get ) )
+if ( !isset( $get ) || !isset( $user ) || !isset( $hash ) )
   exit;
 
 $content = "";
 
-$content = $form;
+// Si el usuario ha iniciado sesión:
+if ( ! $user->autenticado($hash) )
+  $content = $form;
+
+// Panel de administración
+if ( $user->autenticado($hash))
+  $content = $panel;

@@ -47,11 +47,11 @@ onkeydown = (e) => {
 }
 
 // Evitar que se envíen los formularios:
-const formularios = elementos( "form" );
+// const formularios = elementos( "form" );
 
-if ( formularios.length > 0 )
-  formularios.forEach(formulario => {
-    formulario.addEventListener("submit", e => {
-      e.preventDefault();
-    }, false);
-  });
+// if ( formularios.length > 0 )
+//   formularios.forEach(formulario => {
+//     formulario.addEventListener("submit", e => {
+//       e.preventDefault();
+//     }, false);
+//   });
