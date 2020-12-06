@@ -2850,11 +2850,12 @@ h6 {
   justify-content: center;
   min-height: 100vh;
   background-color: #ededed;
+  background-size: cover;
   padding-top: 20px;
   padding-bottom: 20px;
   --forma: ellipse(100% 100% at 50% 0%);
 }
-.sesion::before {
+.sesion::before, .sesion::after {
   content: "";
   display: block;
   position: absolute;
@@ -2862,12 +2863,18 @@ h6 {
   left: 0;
   right: 0;
   top: 0;
+}
+.sesion::before {
   bottom: auto;
   height: 50%;
   width: 100%;
-  background-color: #00b7b7;
-  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.3), transparent);
+  background-color: rgba(0, 132, 132, 0.9);
   clip-path: var(--forma);
+  z-index: 1;
+}
+.sesion::after {
+  bottom: 0;
+  background-color: rgba(234, 255, 255, 0.9);
   z-index: 0;
 }
 .sesion__content {
@@ -3040,14 +3047,14 @@ h6 {
   height: calc(var(--height) / 1.7 );
 }
 .button--success {
-  --background-color: #00b7b7;
+  --background-color: #005151;
   --radio: 4px;
   color: white;
   height: 30px;
   padding: 0 20px;
 }
-.button--success:hover {
-  --background-color: #00d1d1;
+.button--success:hover, .button--success:focus {
+  --background-color: #006b6b;
 }
 .button--success:active {
   transition: none;

@@ -25,26 +25,43 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
   background-color: darken(white, 7);
+  // background-image: url("../../multimedia/fotos/foto-recursos.jpeg");
+  background-size: cover;
+
   padding-top: 20px;
   padding-bottom: 20px;
   --forma: ellipse(100% 100% at 50% 0%);
 
-  &::before {
+  &::before,
+  &::after {
     content: "";
-
     display: block;
     position: absolute;
     margin: auto;
     left: 0; right: 0;
-    top: 0; bottom: auto;
+    top: 0;
+  }
+  &::before {
+    bottom: auto;
     height: 50%;
     width: 100%;
 
-    background-color: $color-secundario-3;
-    background-image: linear-gradient(-180deg, rgba(black, 0.3), transparent);
-
+    $fondo: $color-secundario-3;
+    $fondo: darken($fondo, 10);
+    background-color: rgba($fondo, 0.9);
+    // background-image: linear-gradient(-180deg, rgba(black, 0.3), transparent);
     clip-path: var(--forma);
+
+    z-index: 1;
+  }
+
+  &::after {
+    bottom: 0;
+    $fondo: rgba($color-secundario-3, 0.9);
+    $fondo: lighten($fondo, 60);
+    background-color: $fondo; 
 
     z-index: 0;
   }
