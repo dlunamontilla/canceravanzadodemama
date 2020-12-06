@@ -8,5 +8,8 @@ uploads
 .well-known
 cgi-bin
 
+# Base de datos:
+config.php
+
 # Ignorado temporalmente:
 sitemap.xml
