@@ -5,6 +5,9 @@ include __DIR__ . "/textos.php";
 include __DIR__ . "/perfil.php";
 include __DIR__ . "/estadisticas.php";
 
+// Formularios
+include __DIR__ . "/form-sesion.php";
+
 // Estructura de contenido
 include __DIR__ . "/content.php";
 

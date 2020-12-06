@@ -15,10 +15,10 @@
   <link rel="icon" href="../multimedia/favicon/favicon.png" type="image/png" />
 
    <!-- Estilos -->
-   <link rel="stylesheet" href="../vista/css/style.css?v20" />
+   <link rel="stylesheet" href="../vista/css/style.css?v22" />
 
    <!-- JavaScript -->
-  <script src="js/main.js?v20" type="module" defer></script>
+  <script src="js/main.js?v22" type="module" defer></script>
 </head>
 <body>
   <main id="app"><?= $content;?></main>
