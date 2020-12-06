@@ -2849,22 +2849,54 @@ h6 {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: silver;
 }
 .sesion__content {
-  max-width: 600px;
-}
-.sesion__logo {
-  max-width: 350px;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 .sesion__form {
   min-height: 50px;
-  background-color: silver;
+  margin-top: 20px;
 }
 .sesion__label {
   display: block;
+  position: relative;
+  height: 50px;
+  margin: 0 auto;
+  width: 100%;
 }
 .sesion__label:last-of-type {
   margin-top: 10px;
+}
+.sesion__input {
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-image: none;
+  outline: none;
+  background-color: transparent;
+  font: inherit;
+  color: inherit;
+  --border: 0;
+  border-bottom: 1px solid;
+  border-left: var(--border);
+  border-top: var(--border);
+  border-right: var(--border);
+}
+.sesion__caption {
+  --size: 0.9rem;
+  font-size: var(--size);
 }
 
 [type="search"],
