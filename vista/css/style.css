@@ -2852,6 +2852,7 @@ h6 {
   background-color: #ededed;
   padding-top: 20px;
   padding-bottom: 20px;
+  --forma: ellipse(100% 100% at 50% 0%);
 }
 .sesion::before {
   content: "";
@@ -2866,7 +2867,6 @@ h6 {
   width: 100%;
   background-color: #00b7b7;
   background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.3), transparent);
-  --forma: ellipse(100% 100% at 50% 0%);
   clip-path: var(--forma);
   z-index: 0;
 }
@@ -2876,18 +2876,35 @@ h6 {
   max-width: 400px;
   padding: 20px;
   background-color: rgba(247, 247, 247, 0.95);
-  border: 1px solid white;
   box-shadow: 0 0 20px rgba(0, 183, 183, 0.3);
   border-radius: 5px;
   z-index: 1;
 }
+.sesion__content::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  height: 33%;
+  width: 100%;
+  background-color: rgba(0, 183, 183, 0.1);
+  clip-path: var(--forma);
+  z-index: 0;
+}
 .sesion__logo {
+  position: relative;
   margin: 0 auto;
   max-width: 300px;
+  z-index: 1;
 }
 .sesion__form {
   min-height: 50px;
   margin-top: 20px;
+  z-index: 1;
 }
 .sesion__label {
   display: block;
@@ -2914,12 +2931,16 @@ h6 {
   background-color: transparent;
   font: inherit;
   color: inherit;
-  transition: 300ms ease;
+  transition: 300ms ease color;
   --border: 0;
   border-bottom: 1px solid rgba(0, 183, 183, 0.5);
   border-left: var(--border);
   border-top: var(--border);
   border-right: var(--border);
+}
+.sesion__input:focus {
+  color: #3c993c;
+  border-bottom: 2px solid rgba(60, 153, 60, 0.5);
 }
 .sesion__input--password {
   font-size: 2rem;
@@ -2928,10 +2949,28 @@ h6 {
   --size: 0.9rem;
   font-size: var(--size);
 }
+.sesion__info {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-top: 10px;
+  transition: 300ms ease;
+  padding: 0 10px;
+  background-color: transparent;
+  color: #4d4d4d;
+}
+.sesion__info--success {
+  color: #3c993c;
+  background-color: rgba(96, 193, 96, 0.1);
+}
+.sesion__info--error {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.1);
+}
 .sesion__buttons {
   display: flex;
   justify-content: flex-end;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 [type="search"],
