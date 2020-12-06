@@ -1,0 +1,21 @@
+// Panel de administración:
+.panel {
+  // Valores predeterminados:
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+
+  &__header {
+    min-height: 100px;
+
+    // Colores temporales:
+    background-color: rgba($color-secundario-4, 0.3);
+  }
+}

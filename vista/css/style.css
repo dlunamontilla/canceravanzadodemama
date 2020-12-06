@@ -779,7 +779,8 @@ html, body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  background-color: rgba(0, 128, 212, 0.1);
 }
 
 a {
@@ -2829,6 +2830,19 @@ h6 {
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 0 0 5px 5px;
+}
+
+.panel h1:first-of-type,
+.panel h2:first-of-type,
+.panel h3:first-of-type,
+.panel h4:first-of-type,
+.panel h5:first-of-type,
+.panel h6:first-of-type {
+  margin-top: 0;
+}
+.panel__header {
+  min-height: 100px;
+  background-color: rgba(96, 193, 96, 0.3);
 }
 
 [type="search"],

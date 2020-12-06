@@ -41,7 +41,8 @@ html, body {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  background-color: rgba(#0080d4, 0.1);
 }
 
 // Enlaces
