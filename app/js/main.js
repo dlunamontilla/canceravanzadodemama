@@ -3,6 +3,7 @@ import { redesSociales } from "./modulos/redesSociales.js";
 import { menuHeader } from "./modulos/scrolling.js";
 import { eliminarAtributo } from "./modulos/eliminarAtributos.js";
 import { ventanasModales } from "./modulos/ventanasModales.js";
+import { elementos } from "./modulos/elementos.js";
 
 imagenSVG();
 redesSociales();
@@ -44,3 +45,13 @@ onkeydown = (e) => {
       break;
   }
 }
+
+// Evitar que se envíen los formularios:
+const formularios = elementos( "form" );
+
+if ( formularios.length > 0 )
+  formularios.forEach(formulario => {
+    formulario.addEventListener("submit", e => {
+      e.preventDefault();
+    }, false);
+  });

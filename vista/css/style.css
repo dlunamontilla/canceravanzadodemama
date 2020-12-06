@@ -2848,16 +2848,42 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: silver;
+  min-height: 100vh;
+  background-color: #ededed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.sesion::before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+  height: 50%;
+  width: 100%;
+  background-color: #00b7b7;
+  background-image: linear-gradient(-180deg, rgba(0, 0, 0, 0.3), transparent);
+  --forma: ellipse(100% 100% at 50% 0%);
+  clip-path: var(--forma);
+  z-index: 0;
 }
 .sesion__content {
+  position: relative;
   width: 100%;
   max-width: 400px;
   padding: 20px;
-  background-color: #f7f7f7;
+  background-color: rgba(247, 247, 247, 0.95);
   border: 1px solid white;
-  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 183, 183, 0.3);
+  border-radius: 5px;
+  z-index: 1;
+}
+.sesion__logo {
+  margin: 0 auto;
+  max-width: 300px;
 }
 .sesion__form {
   min-height: 50px;
@@ -2888,17 +2914,23 @@ h6 {
   background-color: transparent;
   font: inherit;
   color: inherit;
+  transition: 300ms ease;
   --border: 0;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid rgba(0, 183, 183, 0.5);
   border-left: var(--border);
   border-top: var(--border);
   border-right: var(--border);
+}
+.sesion__input--password {
+  font-size: 2rem;
 }
 .sesion__caption {
   --size: 0.9rem;
   font-size: var(--size);
 }
 .sesion__buttons {
+  display: flex;
+  justify-content: flex-end;
   margin-top: 30px;
 }
 
@@ -2975,7 +3007,11 @@ h6 {
   padding: 0 20px;
 }
 .button--success:hover {
-  --background-color: #00d1d1 ;
+  --background-color: #00d1d1;
+}
+.button--success:active {
+  transition: none;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
 }
 
 /*# sourceMappingURL=style.css.map */

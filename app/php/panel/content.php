@@ -23,7 +23,7 @@ $form = <<<HTML
 
       <label class="sesion__label" for="password">
         <span class="sesion__caption">Contraseña:</span>
-        <input class="sesion__input" type="password" name="password" id="password">
+        <input class="sesion__input sesion__input--password" type="password" name="password" id="password">
       </label>
 
       <div class="sesion__buttons">
