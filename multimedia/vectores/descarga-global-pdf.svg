@@ -8,11 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 85.058044 166.36555"
+   viewBox="0 0 71.519966 131.09147"
    version="1.1"
    id="svg-descarga-global"
    sodipodi:docname="descarga-global-pdf.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="71.519966"
+   height="131.09148">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,13 +29,17 @@
      id="namedview511"
      showgrid="false"
      inkscape:zoom="2.3071565"
-     inkscape:cx="-8.4959578"
-     inkscape:cy="78.008339"
+     inkscape:cx="-94.3039"
+     inkscape:cy="54.665869"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg-descarga-global"
-     showguides="false" />
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs17252">
     <mask
@@ -1716,12 +1722,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <rect
-     transform="matrix(0.29662868,0,0,0.29662868,-39.99325,452.23952)"
+     transform="matrix(0.29662868,0,0,0.29662868,-49.083379,438.57417)"
      y="-1466"
      x="178"
      height="305.99982"
@@ -1729,24 +1735,24 @@
      id="rect18311"
      style="opacity:0.5;fill:#0069af;fill-opacity:1;stroke:#f97ca9;stroke-width:0.54360324;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter18884)" />
   <text
-     y="115.97418"
-     x="22.788052"
+     y="102.30883"
+     x="13.697923"
      id="text436"
      style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.44170713px;font-family:Verdana;-inkscape-font-specification:Verdana-Bold;writing-mode:lr-tb;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.29662868">
     <tspan
        style="stroke-width:0.29662868"
        id="tspan432"
-       y="115.97418"
-       x="22.788052 27.304667 30.91794 34.144871 37.344589 40.979656 43.684181 47.48793 51.122997 52.984058 57.206821 61.353405 65.293205">Descarga ABC</tspan>
+       y="102.30883"
+       x="13.697923 18.214537 21.82781 25.054741 28.254459 31.889526 34.594051 38.3978 42.032867 43.893929 48.116692 52.263275 56.203075">Descarga ABC</tspan>
     <tspan
        style="stroke-width:0.29662868"
        id="tspan434"
-       y="123.70687"
-       x="13.879971 17.819754 21.454819 25.258564 27.119656 29.601051 33.475548 35.336597 39.072338 40.933403 45.34663 47.207695 50.943428 54.747169 58.382244 60.243298 63.198151 67.0019 70.805656 73.102058">Capítulo Global(pdf)</tspan>
+       y="110.04152"
+       x="4.7898412 8.7296247 12.36469 16.168434 18.029526 20.510921 24.385418 26.246468 29.982208 31.843273 36.2565 38.117565 41.853298 45.65704 49.292114 51.153168 54.108021 57.91177 61.715527 64.011932">Capítulo Global(pdf)</tspan>
   </text>
   <g
      id="g19258"
-     transform="matrix(0.5038746,0,0,0.50387488,99.564632,-17.424915)"
+     transform="matrix(0.5038746,0,0,0.50387488,90.474503,-31.090264)"
      style="stroke-width:1.28523135">
     <path
        inkscape:connector-curvature="0"
@@ -1776,10 +1782,10 @@
   </g>
   <g
      id="g19831"
-     transform="matrix(0.84083721,0,0,0.84083721,134.78086,-114.74582)" />
+     transform="matrix(0.84083721,0,0,0.84083721,125.69073,-128.41117)" />
   <g
      id="g45128"
-     transform="translate(1.4264767)">
+     transform="translate(-7.6636524,-13.665349)">
     <path
        d="M 75.54361,106.81542 H 11.471814 V 16.047047 H 75.54361 Z"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.29662868"

@@ -328,7 +328,7 @@
 	min-height: 100px;
 	width: max-content;
 	max-width: 600px;
-	padding: 25px 20px;
+	padding: 18px 20px;
 	margin: 20px auto;
 	
 	font: {
@@ -361,6 +361,11 @@
 
 	&--secundario-4 {
 		--fondo: #{$color-secundario-4};
+		--primer-plano: white;
+	}
+
+	&--morado {
+		--fondo: #bb5996;
 		--primer-plano: white;
 	}
 

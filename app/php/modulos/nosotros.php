@@ -61,16 +61,22 @@ HTML;
 // Módulo SPARCS UICC
 if ($get->modulo("sparc-uicc")) {
   $sidebar = <<<HTML
-  <div class="sidebar__item sidebar__item--uicc" data-src="multimedia/vectores/uicc.svg"></div>
+  <div class="pegajoso pegajoso--flex">
+    <div class="pegajoso__inner sidebar__item--uicc" data-src="multimedia/vectores/uicc.svg"></div>
+  </div>
 
   <!-- Foto -->
-  <div class="sidebar__item">
-    <img class="sidebar__img" src="multimedia/fotos/nosotros-sparc-sidebar.jpg" alt="">
+  <div class="pegajoso pegajoso--flex">
+    <div class="pegajoso__inner">
+      <img class="sidebar__img" src="multimedia/fotos/nosotros-sparc-sidebar.jpg" alt="">
+    </div>
   </div>
 
   <!-- Enlace de descarga -->
-  <div class="sidebar__item sidebar__item--descarga">
-    <a href="#" target="_blank" data-src="multimedia/vectores/descarga-pdf.svg"></a>
+  <div class="pegajoso pegajoso--flex">
+    <div class="pegajoso__inner">
+      <a href="#" target="_blank" class="descargas" data-src="multimedia/vectores/descarga-pdf.svg"></a>
+    </div>
   </div>
 HTML;
 
@@ -123,7 +129,7 @@ if ($get->modulo("abc-global")) {
   $sidebar = <<<HTML
 <div class="sidebar__item" data-src="multimedia/vectores/abcglobalalliance.svg"></div>
 <div class="sidebar__item sidebar__item--descarga">
-  <a href="#" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank"></a>
+  <a href="#" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank" class="descargas"></a>
 </div>
 HTML;
 

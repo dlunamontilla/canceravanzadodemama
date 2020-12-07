@@ -1924,13 +1924,21 @@
 }
 
 .pegajoso {
+  transform-origin: center left;
+  perspective: 300px;
+  
+  &:not(:first-of-type) {
+    margin-top: 30px;
+  }
+
   &--largo {
     min-height: 300vh;
   }
 
   &--flex {
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
+    flex-grow: 0;
   }
 
   &:not(:first-of-type) {
@@ -1952,4 +1960,30 @@
   }
 
   z-index: 10;
+}
+
+.descargas {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  --size: 160px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+  max-width: var(--size);
+  transition: 300ms ease;
+  outline: medium none;
+  transform-style: flat;
+
+  &:hover,
+  &:focus {
+    transform: rotateY(10deg);
+  }
+
+  &:active {
+    transform: scale(0.98);
+    transition: none;
+  }
 }

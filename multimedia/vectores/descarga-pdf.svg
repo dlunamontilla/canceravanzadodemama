@@ -10,9 +10,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="descarga-pdf"
    version="1.1"
-   viewBox="0 0 94.773254 173.1223"
+   viewBox="0 0 73.112579 131.93173"
    sodipodi:docname="descarga-pdf.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="73.112579"
+   height="131.93173">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,12 +29,16 @@
      id="namedview62"
      showgrid="false"
      inkscape:zoom="3.0060826"
-     inkscape:cx="85.668823"
-     inkscape:cy="76.977783"
+     inkscape:cx="14.295551"
+     inkscape:cy="81.936112"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <defs
      id="defs3294">
     <mask
@@ -81,12 +87,12 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.83681838,0,0,0.83681838,179.59895,-14.959259)"
+     transform="matrix(0.83681838,0,0,0.83681838,167.1063,-35.826084)"
      id="layer1">
     <rect
        style="opacity:0.5;fill:#0069af;fill-opacity:1;stroke:#f97ca9;stroke-width:0.54360324;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter18884-3)"

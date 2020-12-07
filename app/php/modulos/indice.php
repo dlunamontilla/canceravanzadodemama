@@ -4,7 +4,7 @@
 
   if ( $get->distribuirEnModulos($menuHerramientas) ) {
     $sidebar = <<<HTML
-    <div class="pegajoso pegajoso--largo">
+    <div class="pegajoso">
         <div class="indice pegajoso__inner">
             <div class="indice__header">
                 <h3>Herramientas para la toma de decisiones</h3>
