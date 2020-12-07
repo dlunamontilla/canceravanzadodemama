@@ -1309,6 +1309,63 @@ h6 {
   color: white;
 }
 
+.destacado {
+  position: relative;
+  background-color: var(--fondo);
+  color: var(--primer-plano);
+  min-height: 100px;
+  width: max-content;
+  max-width: 600px;
+  padding: 25px 20px;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  font-style: oblique;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+}
+.destacado h1, .destacado h2, .destacado h3, .destacado h4, .destacado h5, .destacado p {
+  margin: 0;
+}
+.destacado--secundario {
+  --fondo: #f97ca9;
+  --primer-plano: white;
+}
+.destacado--secundario-2 {
+  --fondo: #fcbdd4;
+  --primer-plano: white;
+}
+.destacado--secundario-3 {
+  --fondo: #00b7b7;
+  --primer-plano: white;
+}
+.destacado--secundario-4 {
+  --fondo: #60c160;
+  --primer-plano: white;
+}
+.destacado__imagen {
+  --diametro: 100px;
+  --separacion: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  left: auto;
+  top: auto;
+  bottom: var(--separacion);
+  right: var(--separacion);
+  opacity: 1;
+  width: var(--diametro);
+  height: var(--diametro);
+  max-height: 80%;
+  z-index: 0;
+}
+.destacado__imagen svg {
+  width: var(--diametro);
+  height: var(--diametro);
+  opacity: 0.25;
+  fill: white;
+}
+
 .header {
   position: fixed;
   margin: auto;
@@ -1992,9 +2049,16 @@ h6 {
 }
 .modulo__item--sidebar {
   flex-grow: 3;
+  display: flex;
+  flex-direction: column;
   position: relative;
   max-width: 400px;
   padding: 20px;
+}
+.modulo__item--sidebar > * {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 @media screen and (max-width: 700px) {
   .modulo__item--sidebar {
@@ -2677,8 +2741,6 @@ h6 {
   background-color: rgba(96, 193, 96, 0.03);
   border: 1px solid rgba(96, 193, 96, 0.2);
   border-radius: 5px;
-  position: sticky;
-  top: 100px;
 }
 .indice__header {
   background-color: #00b7b7;
@@ -2829,6 +2891,31 @@ h6 {
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 0 0 5px 5px;
+}
+
+.pegajoso {
+  z-index: 10;
+}
+.pegajoso--largo {
+  min-height: 300vh;
+}
+.pegajoso--flex {
+  display: flex;
+  flex-direction: column;
+}
+.pegajoso:not(:first-of-type) {
+  margin-top: 0;
+}
+.pegajoso__inner {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.pegajoso__inner h1, .pegajoso__inner h2, .pegajoso__inner h3, .pegajoso__inner h4, .pegajoso__inner h5, .pegajoso__inner h6 {
+  margin: 0;
 }
 
 .panel h1:first-of-type,

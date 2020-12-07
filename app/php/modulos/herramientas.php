@@ -6,6 +6,7 @@
   // Herramientas primera página:
   // Página 1.1:
 	if ( $get->modulo("herramientas") ) {
+
 		$contenido = <<<HTML
 <div class="content__item">
 		<h2 class="text text--right">Informe de Anatomía</h2>
@@ -13,6 +14,12 @@
 
 		<h3 class="text text--right frontal frontal--secundario-3" id="tipos-de-biopsias">Tipos de biopsias</h3>
 		<p class="text text--justify">La biopsia puede ser tomada por el cirujano, si se trata de una lesión palpable, en caso contrario, el médico radiólogo podrá realizar la toma guiada por una técnica de imagen. Existen diversos tipos de biopsia, no obstante la elección del procedimiento dependerá del objetivo y del tipo de información que se desea obtener.</p>
+
+    <div class="destacado destacado--secundario">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quaerat beatae mollitia sed, ut quos consectetur quas adipisci quod ex alias quisquam corrupti laborum ratione reiciendis aspernatur fuga. Dolor, veniam.</p>
+
+      <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+    </div>
 
 		<p class="text text--justify">
 			La biopsia puede efectuarse con una aguja a través de la piel de la mama para extraer la muestra de tejido. Para ello existen diferentes tipos de biopsia con aguja,  dependiendo de su grosor, tal como: la Punción Aspiración con Aguja Fina (PAAF), que es un método citológico; la biopsia por Punción con Aguja Gruesa (BAG); y la Biopsia con Aguja Gruesa Asistida por Vacío (BAV). No obstante, la biopsia puede ser también un procedimiento quirúrgico para extraer la totalidad (biopsia excisional) o parte de la lesión de sospecha (biopsia incisional).
@@ -71,7 +78,7 @@
 				</p>
 
 				<div>
-					<div data-sr="multimedia/vectores/imagen-1.1-herramientas-informe.svg"></div>
+					<div data-src="multimedia/vectores/imagen-1.1-herramientas-informe.svg" class="imagen imagen--verde"></div>
 					<p class="text text--justify"><i>Material educativo para pacientes, desarrollado por la Fundación Venezolana para la Educación e Investigación contra el Cáncer de Mama (FUVEICAM)</i></p>
 				</div>
 			</li>

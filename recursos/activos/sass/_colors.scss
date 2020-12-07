@@ -319,3 +319,73 @@
 	background-color: rgba($color-secundario-4, 1);
 	color: white;
 }
+
+// Textos destacados:
+.destacado {
+	position: relative;
+	background-color: var(--fondo);
+	color: var(--primer-plano);
+	min-height: 100px;
+	width: max-content;
+	max-width: 600px;
+	padding: 25px 20px;
+	margin: 20px auto;
+	
+	font: {
+		size: 1.5rem;
+		style: oblique;
+		weight: 600;
+	}
+
+	line-height: 1.4;
+	text-align: center;
+
+	h1, h2, h3, h4, h5, p {
+		margin: 0;
+	}
+
+	&--secundario {
+		--fondo: #{$color-secundario};
+		--primer-plano: white;
+	}
+
+	&--secundario-2 {
+		--fondo: #{$color-secundario-2};
+		--primer-plano: white;
+	}
+
+	&--secundario-3 {
+		--fondo: #{$color-secundario-3};
+		--primer-plano: white;
+	}
+
+	&--secundario-4 {
+		--fondo: #{$color-secundario-4};
+		--primer-plano: white;
+	}
+
+	&__imagen {
+		--diametro: 100px;
+		--separacion: 0;
+
+		display: block;
+		position: absolute;
+		margin: auto;
+		left: auto; top: auto;
+		bottom: var(--separacion);
+		right: var(--separacion);
+		opacity: 1;
+		width: var(--diametro);
+		height: var(--diametro);
+		max-height: 80%;
+
+		z-index: 0;
+
+		svg {
+			width: var(--diametro);
+			height: var(--diametro);
+			opacity: 0.25;
+			fill: white;
+		}
+	}
+}

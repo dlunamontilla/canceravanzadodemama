@@ -859,7 +859,15 @@
 
     &--sidebar {
       flex-grow: 3;
+      display: flex;
+      flex-direction: column;
 
+
+      & > * {
+        width: 100%;
+        flex-grow: 1;
+        flex-shrink: 1;
+      }
 
       @media screen and (max-width: 700px) {
         display: none;
@@ -1730,10 +1738,6 @@
   border: 1px solid rgba($color-secundario-4, 0.2);
   border-radius: 5px;
 
-  position: sticky;
-  top: 100px;
-
-
   &__header {
     background-color: $color-secundario-3;
     color: white;
@@ -1917,4 +1921,35 @@
     border: 1px solid rgba(white, 0.3);
     border-radius: 0 0 5px 5px;
   }
+}
+
+.pegajoso {
+  &--largo {
+    min-height: 300vh;
+  }
+
+  &--flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &:not(:first-of-type) {
+    margin-top: 0;
+  }
+
+  &__inner {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    width: 100%;
+
+    padding: 10px;
+    background-color: rgba(white, 0.8);
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+  }
+
+  z-index: 10;
 }

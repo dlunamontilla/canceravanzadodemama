@@ -15,6 +15,10 @@
   // Índice de contenido:
   include __DIR__ . "/indice.php";
   
+  // Barra lateral
+  include __DIR__ . "/sidebar.php";
+  include __DIR__ . "/sidebar-content.php";
+
   // Clases:
   include __DIR__ . "/css-class.php";
   
