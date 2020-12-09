@@ -27,3 +27,6 @@ if ( $get->modulo("terapia-dirigida") )
 
 if ( $get->modulo("cirugia") )
   $sidebar .= $cirugia;
+
+if ( $get->modulo("radioterapia") )
+  $sidebar .= $radioterapia;

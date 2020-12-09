@@ -63,3 +63,10 @@ $cirugia = <<<HTML
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.4.c-cirugia.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
+
+// Descargas | Radioterapia:
+$radioterapia = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.5-radioterapia.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;

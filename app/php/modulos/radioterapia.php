@@ -10,9 +10,14 @@
         Radioterapia
       </h2>
 
-      <p class="text textg--justify">
+      <p class="text text--justify">
         La Radioterapia es el uso de radiaciones ionizantes para destruir células cancerosas dónde se aplica la radiación (tratamiento local) impidiendo que crezcan y se reproduzcan, intentando afectar lo menos posible a los tejidos vecinos normales. La radiación que se utiliza para  el tratamiento del cáncer es completamente planificada, altamente  dirigida lo que determina que sea un tratamiento eficaz y relativamente seguro.
       </p>
+
+      <div class="destacado destacado--secundario-3">
+        <p>La Radioterapia es el uso de radiaciones ionizantes, para destruir células cancerosas dónde se aplica la radiación, impidiendo que crezcan y se reproduzcan, intentando afectar lo menos posible a los tejidos vecinos normales. La radiación que se utiliza para  el tratamiento del cáncer de mama es completamente planificada y altamente  dirigida.</p>
+        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+      </div>
 
       <h3 class="text text--right frontal frontal--secundario-3">
         Consideraciones a tener en cuenta por parte de la Paciente con Cáncer de Mama  Avanzado antes de iniciar la Radioterapia
@@ -93,6 +98,10 @@
             <li>Mejorar la obstrucción de las vías áreas.</li>
           </ul>
 
+          <div class="destacado destacado--morado">
+            <p>La Radioterapia para pacientes con Cáncer de Mama Localmente Avanzado, su uso es terapéutico, impide que el cáncer regrese. La Radioterapia para pacientes con Cáncer de Mama Metastásico, trata de aliviar y controlar los síntomas de las metástasis en la localización específica en la que ésta se encuentre.</p>
+            <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+          </div>
           <p class="text text--justify">
             La dosis y la programación de la radiación para tratar las metástasis dependen de varios factores, incluidos los siguientes:
           </p>
