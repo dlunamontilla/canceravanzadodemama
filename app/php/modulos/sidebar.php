@@ -70,3 +70,14 @@ $radioterapia = <<<HTML
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.5-radioterapia.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
+
+// Descargas | Conozca su enfermedad:
+$conozcaSuEnfermedad = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1.a-infografia.svg" class="descargas descargas--3d"></a>
+</div>
+
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1y2.b-guia .svg" class="descargas descargas--3d"></a>
+</div>
+HTML;

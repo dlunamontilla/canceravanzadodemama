@@ -20,6 +20,11 @@
         El cáncer localmente avanzado de mama inoperable de inicio, se define como el cáncer que se ha extendido a tejidos o ganglios linfáticos cercanos a la mama, pero no se ha diseminado a distancia por el cuerpo. Abarca la enfermedad en estadio IIIB-IIIC, que implica tumor en mama con extensión a la pared torácica o la piel independientemente del estado ganglionar (T4). En este grupo se incluye el <strong>Cáncer de Mama Inflamatorio (T4d)</strong>, caracterizado por inflamación, dolor y enrojecimiento (en más de un tercio de la mama), de rápida evolución (no más de 6 meses), que puede o no estar asociado clínicamente a una masa, adenopatías axilares o retracción del pezón; en el que histopatológicamente debe evidenciarse la presencia de carcinoma invasivo. El cáncer inflamatorio  de  mama se produce cuando las células cancerosas bloquean los vasos linfáticos de la piel que recubre la mama, lo que hace que la mama adopte una apariencia de piel de naranja.
       </p>
 
+      <div class="destacado destacado--secundario-3">
+        <p>El cáncer de mama avanzado compromete al cáncer de mama localmente avanzado inoperable de inicio y el cáncer de mama metastásico.El cáncer localmente avanzado de mama inoperable de inicio,abarca la enfermedad en estadio IIIB-IIIC, que implica tumor en mama con extensión a la pared torácica o la piel,  en este grupo se incluye el Cáncer de Mama Inflamatorio.</p>
+        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+      </div>
+
       <h3 class="text text--right frontal frontal--secundario-3">
         Metas del Tratamiento en Pacientes con Cáncer de Mama Localmente Avanzado
       </h3>
@@ -278,6 +283,11 @@
 
         </li>
       </ol>
+
+      <div class="destacado destacado--morado">
+        <p>Haga un seguro, sustentable y apropiado plan. Un excelente punto de partida es aprender tanto como pueda respecto a su enfermedad y sus opciones terapéuticas. Elabore su plan  en conjunto con su equipo médico y su entorno haciendo uso de fuentes confiables. Entre más sepa y se involucre, más cómoda se sentirá al momento tomar decisiones importantes.</p>
+        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+      </div>
     </div>
 HTML;
 

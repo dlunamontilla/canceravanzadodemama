@@ -30,3 +30,6 @@ if ( $get->modulo("cirugia") )
 
 if ( $get->modulo("radioterapia") )
   $sidebar .= $radioterapia;
+
+if ( $get->modulo("conozca") )
+  $sidebar .= $conozcaSuEnfermedad;
