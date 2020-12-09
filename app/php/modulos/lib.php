@@ -164,7 +164,7 @@
     $get->cadena("terapia-dirigida", "multimedia/fotos/herramientas/2.2.herramientas-hormonoterapia.jpg"),
     $get->cadena("hormonoterapia", "multimedia/fotos/herramientas/2.3.herrramientas-terapia-dirigida.jpg"),
     $get->cadena("cirugia", "multimedia/fotos/herramientas/2.4herramientas-cirugia.jpg"),
-    $get->cadena("radioterapia", "/multimedia/fotos/herramientas/2.5.herramientas-radioterapias.jpg"),
+    $get->cadena("radioterapia", "multimedia/fotos/herramientas/2.5.herramientas-radioterapias.jpg"),
 
     // Conozca su enfermedad:
     $get->cadena("conozca", "multimedia/fotos/conozca-su-enfermedad/FotoCabecera.jpeg"),
@@ -177,12 +177,3 @@
     $get->cadena("su-entorno", "multimedia/fotos/la-paciente/imagen-cabecera-2.jpeg"),
     $get->cadena("herramientas-comunicacion", "multimedia/fotos/la-paciente/imagen-cabecera-2.jpeg")
   ]);
-
-  // Solución temporal:
-  // $ruta = "Herramientas/indice.html";
-
-  // if ( file_exists( $ruta ) ) {
-  //   if ( $get->distribuirEnModulos($menuHerramientas))
-  //     $sidebar = file_get_contents($ruta);
-  // }
-  ?>
