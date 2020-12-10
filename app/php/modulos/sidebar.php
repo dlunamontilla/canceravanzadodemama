@@ -81,3 +81,10 @@ $conozcaSuEnfermedad = <<<HTML
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1y2.b-guia .svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
+
+// Descargas |  Cáncer de Mama Metastásico :
+$cancerMatastasico = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/" class="descargas descargas--3d"></a>
+</div>
+HTML;

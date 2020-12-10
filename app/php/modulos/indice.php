@@ -49,7 +49,7 @@ HTML;
                 <ul class="listas listas--none">
                     <li class="listas__item"><a href="?conozca" class="listas__enlace">Cáncer de Mama Avanzado.<br>Cáncer de Mama Localmente Avanzado</a></li>
                     <li class="listas__item"><a href="?cancer-mama-metastasico" class="listas__enlace">Cáncer de Mama Avanzado.<br>Cáncer De Mama Metastásico.</a></li>
-                    <li class="listas__item"><a href="?cuidados-paliativos" class="listas__enlace">Cuidados Paliativos.</a></li>
+                    <li class="listas__item"><a href="?cuidados-paliativos" class="listas__enlace">Recursos para sobrellevar el tratamiento</a></li>
                 </ul>
             </div>
         </div>

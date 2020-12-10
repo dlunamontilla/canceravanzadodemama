@@ -33,3 +33,9 @@ if ( $get->modulo("radioterapia") )
 
 if ( $get->modulo("conozca") )
   $sidebar .= $conozcaSuEnfermedad;
+
+if ( $get->modulo("cancer-mama-metastasico") )
+  $sidebar .= $cancerMatastasico;
+
+if ( $get->modulo("cuidados-paliativos") )
+  $sidebar .= $cuidadosPaliativos;
