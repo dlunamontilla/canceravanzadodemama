@@ -8,7 +8,7 @@ $form = "";
 $form = <<<HTML
   <div class="sesion">
     <div class="sesion__content">
-      <div class="sesion__logo" data-src="../multimedia/vectores/logotipo-slogan.svg"></div>
+      <div class="sesion__logo" data-src="multimedia/vectores/logotipo-slogan.svg"></div>
       
       <form class="sesion__form" action="" method="post">
         <label class="sesion__label" for="usuario">

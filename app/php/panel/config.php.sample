@@ -6,4 +6,6 @@
 
 # INSTANCIAR EL OBJETO PDO:
 // $pdo = new PDO( $dsn, $usuario, $contraseña );
+// $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+// $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 ?> 

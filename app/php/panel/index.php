@@ -24,7 +24,11 @@ include __DIR__ . "/estadisticas.php";
 // Formularios
 include __DIR__ . "/form-sesion.php";
 
+// Módulos:
+include __DIR__ . "/modulos.php";
+
 // Panel de administración:
+include __DIR__ . "/panelHerramientas.php";
 include __DIR__ . "/panel.php";
 
 // Estructura de contenido

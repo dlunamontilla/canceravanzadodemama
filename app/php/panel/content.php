@@ -12,3 +12,5 @@ if ( ! $user->autenticado($hash) )
 // Panel de administración
 if ( $user->autenticado($hash))
   $content = $panel;
+
+  
