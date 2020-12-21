@@ -123,4 +123,7 @@ La biblioteca se libera bajo la licencia MIT.
 
 #### Descripción del archivo que se encuentran dentro del directorio **`modulo`**
 
-* **`content.php`:** el archivo contiene la estructura general del sitio Web. 
+* **[`content.php`][content-fuente]:** el archivo contiene la estructura general del sitio Web.
+
+
+[content-fuente]: https://github.com/dlunamontilla/canceravanzadodemama/blob/development/app/php/modulos/content.php "Ver código fuente"
