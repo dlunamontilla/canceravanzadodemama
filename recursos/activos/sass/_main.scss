@@ -588,7 +588,7 @@
   &--recursos {
     --padding: 100px;
 
-    background-image: url("../../../multimedia/fotos/foto-recursos.jpeg");
+    background-image: url("../../multimedia/fotos/foto-recursos.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -1805,6 +1805,10 @@
   &--show {
     padding-top: 20px;
     --display: block;
+
+    .modal__wrapper {
+      animation: 300ms ease fadeIn 1;
+    }
   }
 
   &__wrapper {

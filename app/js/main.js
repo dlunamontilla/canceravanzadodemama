@@ -4,6 +4,7 @@ import { menuHeader } from "./modulos/scrolling.js";
 import { eliminarAtributo } from "./modulos/eliminarAtributos.js";
 import { ventanasModales } from "./modulos/ventanasModales.js";
 import { elementos } from "./modulos/elementos.js";
+import {encuestas} from "./modulos/encuestas.js";
 
 imagenSVG();
 redesSociales();
@@ -55,3 +56,5 @@ onkeydown = (e) => {
 //       e.preventDefault();
 //     }, false);
 //   });
+
+encuestas( "#encuestas" );

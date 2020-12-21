@@ -1835,7 +1835,7 @@ h6 {
 }
 .directorio--recursos {
   --padding: 100px;
-  background-image: url("../../../multimedia/fotos/foto-recursos.jpeg");
+  background-image: url("../../multimedia/fotos/foto-recursos.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -2809,6 +2809,9 @@ h6 {
   padding-top: 20px;
   --display: block;
 }
+.modal--show .modal__wrapper {
+  animation: 300ms ease fadeIn 1;
+}
 .modal__wrapper {
   --initial-size: 100px;
   margin: 0 auto;
@@ -3403,6 +3406,7 @@ h6 {
   outline: medium none;
   border: 0;
   transition: 300ms ease;
+  color: inherit;
   border-radius: var(--radio);
 }
 .button--buscar {
@@ -3432,6 +3436,36 @@ h6 {
 .button--success:active {
   transition: none;
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+}
+.button--encuestas {
+  display: block;
+  width: 100%;
+  height: 60px;
+  background-color: #43ab43;
+  color: white;
+  transition: 300ms ease;
+  border-radius: 4px;
+  font-size: 1.3rem;
+}
+.button--encuestas:hover, .button--encuestas:focus {
+  background-color: #3c993c;
+}
+.button--encuestas:active {
+  transition: none;
+  background-color: #43ab43;
+}
+
+.encuestas-button {
+  margin-top: 40px;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: scale(0.97);
+    opacity: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

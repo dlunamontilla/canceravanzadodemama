@@ -68,6 +68,9 @@ if ( count($_GET) < 1 ) {
 </head>
 
 <body<?= $overflow; ?>>
+  <!-- Plantilla para la ventana Modal -->
+  <template id="plantillaModal"><?= $plantillaModal; ?></template>
+
   <main id="app">
     <header class="header header--fondo">
       <div<?= $border; ?>>
