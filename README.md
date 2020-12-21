@@ -124,32 +124,3 @@ La biblioteca se libera bajo la licencia MIT.
 #### Descripción del archivo que se encuentran dentro del directorio **`modulo`**
 
 * **`content.php`:** el archivo contiene la estructura general del sitio Web. 
-
-  
-
-``` php
-  $content = "";
-
-  if ( $get->distribuirEnModulos($modulos) ) {
-    $content = <<<HTML
-  <div class="modulo modulo--fuveicam">
-    <aside class="modulo__item modulo__item--sidebar">
-      $sidebar
-    </aside>
-
-    <section class="modulo__item modulo__item--content">
-      $contenido
-    </section>
-
-    $adicionales
-  </div>
-
-  <!-- Botones de avanzar o regresar -->
-  <nav class="navegar">
-    $atras
-    $avanzar
-    $volver
-  </nav>
-  HTML;
-  }
-  ```
