@@ -128,7 +128,7 @@ La biblioteca se libera bajo la licencia MIT.
   
 
 ``` php
-  content = "";
+  $content = "";
 
   if ( $get->distribuirEnModulos($modulos) ) {
     $content = <<<HTML
