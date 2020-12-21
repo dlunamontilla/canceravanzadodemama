@@ -111,3 +111,6 @@ La biblioteca se libera bajo la licencia MIT.
 
 **`modulos`** es parte esencial del sitio Web. Utiliza la biblioteca **DLTools.** Su estructura está basado en componentes que estará utilizando en función de qué parte del sitio Web se encuentre navegando el usuario. 
 
+
+### Descripción del archivo que se encuentran dentro del directorio **`modulo`**
+
