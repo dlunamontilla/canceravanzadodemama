@@ -1,6 +1,4 @@
 <?php
-  if ( ! isset($get) )
-    exit;
 
   // Nosotros:
   $menuNosotros = [
