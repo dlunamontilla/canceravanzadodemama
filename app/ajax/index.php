@@ -13,10 +13,12 @@ $datos = ["Primer dato"];
 $enlaces = [
     "nosotros" => $menuNosotros,
     "herramientas" => $menuHerramientas,
-    "su-enfermedad" => $menuConozcaSuEnfermedad,
-    "la-paciente" => $menuLaPaciente
+    "suEnfermedad" => $menuConozcaSuEnfermedad,
+    "laPaciente" => $menuLaPaciente
 ];
 
 $datos = $enlaces;
 
-echo json_encode($datos);
+$datos = obtenerDatos($menuNosotros, "param" );
+
+echo json_encode($modulos);

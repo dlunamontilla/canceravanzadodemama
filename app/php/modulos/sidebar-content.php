@@ -14,10 +14,8 @@ if ( $get->modulo("herramientas-subtipos-moleculares") )
 if ( $get->modulo("estadificacion") )
   $sidebar .= $estadificacion;
 
-
 if ( $get->modulo("quimioterapia") )
   $sidebar .= $quimioterapia;
-
 
 if ( $get->modulo("hormonoterapia") )
   $sidebar .= $hormonoterapia;

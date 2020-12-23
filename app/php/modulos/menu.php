@@ -19,19 +19,19 @@ $border = "";
 $selectInicio = $selectNosotros = $selectHerramientas = $selectConozca = $selectPaciente = "";
 
 switch( true ) {
-  case $get -> distribuirEnModulos($menuNosotros ):
+  case $get -> distribuirEnModulos( obtenerDatos($menuNosotros, "param") ):
     $selectNosotros = " menu__item--select";
     break;
 
-  case $get -> distribuirEnModulos($menuHerramientas):
+  case $get -> distribuirEnModulos( obtenerDatos($menuHerramientas, "param") ):
     $selectHerramientas = " menu__item--select";
     break;
 
-  case $get -> distribuirEnModulos($menuConozcaSuEnfermedad):
+  case $get -> distribuirEnModulos( obtenerDatos($menuConozcaSuEnfermedad, "param") ):
     $selectConozca = " menu__item--select";
     break;
 
-  case $get -> distribuirEnModulos($menuLaPaciente):
+  case $get -> distribuirEnModulos( obtenerDatos($menuLaPaciente, "param") ):
     $selectPaciente = " menu__item--select";
     break;
 }

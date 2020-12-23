@@ -2,7 +2,7 @@
   if ( !isset($get) )
     exit;
 
-  if ( $get->distribuirEnModulos($menuHerramientas) ) {
+  if ( $get->distribuirEnModulos( obtenerDatos($menuHerramientas, "param") ) ) {
     $sidebar = <<<HTML
     <div class="pegajoso">
         <div class="indice pegajoso__inner">
@@ -36,7 +36,7 @@ HTML;
   }
 
 
-  if ( $get->distribuirEnModulos($menuConozcaSuEnfermedad) ) {
+  if ( $get->distribuirEnModulos( obtenerDatos($menuConozcaSuEnfermedad, "param" ) ) ) {
     $sidebar = <<<HTML
     <div class="pegajoso">
         <div class="indice pegajoso__inner">
@@ -57,7 +57,7 @@ HTML;
 HTML;
   }
 
-  if ( $get->distribuirEnModulos($menuLaPaciente) ) {
+  if ( $get->distribuirEnModulos( obtenerDatos($menuLaPaciente, "param") ) ) {
     $sidebar = <<<HTML
     <div class="pegajoso">
         <div class="pegajoso__inner">

@@ -5,6 +5,8 @@ if ( !isset($get) )
 
 $modalTitle = $modalContent = $mostrar = $overflow = "";
 
+// Quitar la barra de desplazamiento del cuerpo del
+// documento mientras se muestra la ventana modal
 if ( $get->distribuirEnModulos([
     "herramientas",
     "conozca"
@@ -12,9 +14,13 @@ if ( $get->distribuirEnModulos([
     $overflow = " style=\"overflow: hidden;\"";
 }
 
+// Mostrar ventana modal:
+$mostrar = ( $get-> distribuirEnModulos([
+    "herramientas", "conozca"
+]) ) ? " modal--show" : "";
+
 // Ventana Modal | Herramientas:
 if ( $get->modulo("herramientas") ) {
-    $mostrar = " modal--show";
     $modalTitle = "Herramientas para la toma de decisiones";
 
     $modalContent = <<<HTML
@@ -36,7 +42,6 @@ HTML;
 
 // Ventana Modal | Conozca su Enfermedad:
 if ( $get->modulo("conozca") ) {
-    $mostrar = " modal--show";
     $modalTitle = "Cáncer de Mama Avanzado";
 
     $modalContent = <<<HTML

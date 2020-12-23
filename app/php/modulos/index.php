@@ -7,6 +7,8 @@
   $get = new DLPeticiones("get");
   $post = new DLPeticiones("post");
   
+  
+  include __DIR__ . "/vars.php";
   include __DIR__ . "/lib.php";
   
   // Glosario de términmos:
