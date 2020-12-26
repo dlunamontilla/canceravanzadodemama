@@ -21,4 +21,4 @@ $datos = $enlaces;
 
 $datos = obtenerDatos($menuNosotros, "param" );
 
-echo json_encode($modulos);
+echo json_encode($enlaces);
