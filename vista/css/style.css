@@ -1386,6 +1386,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+.centrado {
+  text-align: center;
+}
+
 .main-admin {
   background-color: #526565;
   color: white;
