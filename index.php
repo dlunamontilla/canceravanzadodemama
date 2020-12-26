@@ -1,6 +1,5 @@
 <?php
-include __DIR__ . "/app/php/DLTools/index.php";
-include __DIR__ . "/app/php/modulos/index.php";
+include __DIR__ . "/app/php/DLTools/DLTools.php";
 
 $protocolo = new DLProtocolo([
   "canceravanzadodemama.com",
@@ -8,14 +7,6 @@ $protocolo = new DLProtocolo([
 ]);
 
 $protocolo -> https();
-
-$idNavigation = $idLogotipo = "";
-
-if ( count($_GET) < 1 ) {
-  $idNavigation = "nav-header";
-  $idLogotipo = "logotipo-header";
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -24,19 +15,19 @@ if ( count($_GET) < 1 ) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title><?= $title; ?></title>
+  <title>Sitio Web en Matenimiento</title>
 
   <!-- Palabras claves -->
-  <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama, Cáncer de Mama, tratamientos">
-  <meta name="description" content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones.">
+  <!-- <meta name="keywords" content="Cáncer Avanzado de Mama, Cáncer, Mama, Cáncer de Mama, tratamientos">
+  <meta name="description" content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones."> -->
   
   <!-- Protocolo OpenGraph -->
-  <meta property="og:title" content="Cáncer Avanzado de Mama" />
+  <!-- <meta property="og:title" content="Cáncer Avanzado de Mama" />
   <meta property="og:description"
     content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canceravanzadodemama.com/">
-  <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/fotos/FotoSparc1.jpg" />
+  <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/fotos/FotoSparc1.jpg" /> -->
   <!-- <meta property="og:video" content="https://canceravanzadodemama.com/video" /> -->
 
   <!-- Favicon -->
@@ -51,7 +42,7 @@ if ( count($_GET) < 1 ) {
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?v23" />
+  <link rel="stylesheet" href="vista/css/style.css?v30" />
 
   <!-- jQuery -->
   <!--
@@ -64,38 +55,16 @@ if ( count($_GET) < 1 ) {
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
 
   <!-- JavaScript -->
-  <script src="app/js/main.js?v23" type="module" defer></script>
+  <script src="app/js/main.js?v30" type="module" defer></script>
 </head>
 
-<body<?= $overflow; ?>>
-  <!-- Plantilla para la ventana Modal -->
-  <template id="plantillaModal"><?= $plantillaModal; ?></template>
-
+<body>
   <main id="app">
-    <header class="header header--fondo">
-      <div<?= $border; ?>>
-        <nav class="navigation flex flex--between default" id="<?= $idNavigation; ?>">
-          <div id="<?= $idLogotipo; ?>" class="logotipo logotipo--header flex__item">
-            <a href="./" data-src="multimedia/vectores/logotipo.svg"></a>
-          </div>
-
-          <?= $menu; ?>
-          <?= $buscador; ?>
-        </nav>
-      </div>
-    </header>
-
-    <div class="content<?= $classContent; ?>">
-      <?= $cabecera; ?>
-      <?= $content; ?>
-      <?= $portada; ?>
-      <?= $recursos; ?>
+    <div>
+      <span data-src="multimedia/vectores/logotipo-slogan.svg"></span>
+      <h1>Sitio Web en mantenimiento</h1>
     </div>
-
-    <?= $footer; ?>
   </main>
-
-  <?= $ventanasModales; ?>
 </body>
 
 </html>
