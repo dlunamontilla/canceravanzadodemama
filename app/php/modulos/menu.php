@@ -85,12 +85,10 @@ if (count($_GET) < 1) {
   <ul class="menu menu--portada flex__item">
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->inicio">Inicio</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->nosotros">Nosotros</a></li>
-    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la
-        Toma de Decisiones</a></li>
+    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la Toma de Decisiones</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su Enfermedad</a>
     </li>
-    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->paciente">La paciente y su
-        proceso</a></li>
+    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->paciente">La paciente y su Proceso</a></li>
   </ul>
 HTML;
 
