@@ -45,11 +45,17 @@ HTML;
             </div>
 
             <div class="indice__content">
-                <h4>Entienda su diagnóstico</h4>
+                <h4>Conozca su Enfermedad</h4>
                 <ul class="listas listas--none">
                     <li class="listas__item"><a href="?conozca" class="listas__enlace">Cáncer de Mama Avanzado<br>Cáncer de Mama Localmente Avanzado</a></li>
                     <li class="listas__item"><a href="?cancer-mama-metastasico" class="listas__enlace">Cáncer de Mama Avanzado<br>Cáncer De Mama Metastásico</a></li>
-                    <li class="listas__item"><a href="?cuidados-paliativos" class="listas__enlace">Recursos para sobrellevar el tratamiento</a></li>
+                </ul>
+            </div>
+
+            <div class="indice__content">
+                <h4>Recursos para sobrellevar el tratamiento</h4>
+                <ul class="listas listas--none">
+                    <li class="listas__item"><a href="?cuidados-paliativos" class="listas__enlace">Cuidados Paliativos.<br>Tratamiento del Dolor.<br>Terapia Integrativa</a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +86,7 @@ HTML;
 
             <!-- Otros elementos -->
             <div class="encuestas-button">
-                <button id="encuestas" class="button button--encuestas">Encuestas</button>
+                <button id="encuestas" class="button button--encuestas">Encuesta</button>
             </div>
         </div>
     </div>

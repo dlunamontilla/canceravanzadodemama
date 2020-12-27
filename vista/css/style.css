@@ -3473,5 +3473,9 @@ p, li {
     opacity: 0;
   }
 }
+.fadeIn {
+  animation: 300ms ease fadeIn 1;
+  animation-delay: 300ms;
+}
 
 /*# sourceMappingURL=style.css.map */
