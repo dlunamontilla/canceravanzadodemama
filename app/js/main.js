@@ -15,7 +15,6 @@ onscroll = () => {
 }
 
 eliminarAtributo( "[data-src]" );
-eliminarAtributo( "#modal" );
 
 if ( typeof salir !== "undefined" )
   salir.onclick = () => {

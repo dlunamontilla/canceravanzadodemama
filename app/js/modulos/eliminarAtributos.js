@@ -9,22 +9,28 @@ const eliminarAtributo = selector => {
 
     // Opciones para observar cambios en los elementos:
     var opciones = {
-        attributes: true,
+        attributes: false,
         childList: true,
-        characterData: true
+        characterData: false
     };
 
+    var numero = 0;
     var observador = new MutationObserver(function(cambios) {
+        numero++;
+
         cambios.forEach(cambio => {
             let svgs = elementos( "svg" );
-            imagenSVG();
-            
+
             svgs.forEach(svg => {
                 if ( typeof svg.height !== "undefined" ) svg.removeAttribute("height");
                 if ( typeof svg.width !== "undefined" ) svg.removeAttribute("width");
             });
+
         });
+        
     });
+    
+    console.log( numero );
 
     // Instanciar el observador de cambios en el DOM:
     destinos.forEach(destino => {
