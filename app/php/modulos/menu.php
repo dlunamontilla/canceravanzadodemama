@@ -62,14 +62,14 @@ $menuHOME = <<<HTML
   <li class="menu__item menu__item--inner$selectConozca">
     <a class="menu__enlace menu__enlace--inner flex" href="$enlace->conozca">
       <div class="menu__icon" data-src="multimedia/vectores/conozca-su-enfermedad.svg"></div>
-      <div class="menu__icon">Conozca su enfermedad</div>
+      <div class="menu__icon">Conozca su Enfermedad</div>
     </a>
   </li>
 
   <li class="menu__item menu__item--inner$selectPaciente">
     <a class="menu__enlace menu__enlace--inner flex" href="$enlace->paciente">
       <div class="menu__icon" data-src="multimedia/vectores/la-paciente.svg"></div>
-      <div class="menu__icon">La paciente y su proceso</div>
+      <div class="menu__icon">La Paciente y su Proceso</div>
     </a>
   </li>
 
@@ -87,7 +87,7 @@ if (count($_GET) < 1) {
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->nosotros">Nosotros</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la
         Toma de Decisiones</a></li>
-    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su enfermedad</a>
+    <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su Enfermedad</a>
     </li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->paciente">La paciente y su
         proceso</a></li>
@@ -104,7 +104,7 @@ $footerMenu = <<<HTML
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->nosotros">Nosotros</a></li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->herramientas">Herramientas para la
       Toma de Decisiones</a></li>
-  <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->conozca">Conozca su enfermedad</a>
+  <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->conozca">Conozca su Enfermedad</a>
   </li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->paciente">La paciente y su
       proceso</a></li>
