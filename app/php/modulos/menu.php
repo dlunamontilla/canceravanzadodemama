@@ -55,7 +55,7 @@ $menuHOME = <<<HTML
   <li class="menu__item menu__item--inner$selectHerramientas">
     <a class="menu__enlace menu__enlace--inner flex" href="$enlace->herramientas">
       <div class="menu__icon" data-src="multimedia/vectores/herramientas.svg"></div>
-      <div class="menu__icon">Herramientas para la toma de desiciones</div>
+      <div class="menu__icon">Herramientas para la Toma de Decisiones</div>
     </a>
   </li>
 
@@ -86,7 +86,7 @@ if (count($_GET) < 1) {
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->inicio">Inicio</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->nosotros">Nosotros</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->herramientas">Herramientas para la
-        toma de desiciones</a></li>
+        Toma de Decisiones</a></li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->conozca">Conozca su enfermedad</a>
     </li>
     <li class="menu__item"><a class="menu__enlace flex" href="$enlace->paciente">La paciente y su
@@ -103,7 +103,7 @@ $footerMenu = <<<HTML
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->inicio">Inicio</a></li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->nosotros">Nosotros</a></li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->herramientas">Herramientas para la
-      toma de desiciones</a></li>
+      Toma de Decisiones</a></li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->conozca">Conozca su enfermedad</a>
   </li>
   <li class="menu__item"><a class="menu__enlace flex text--small" href="$enlace->paciente">La paciente y su
