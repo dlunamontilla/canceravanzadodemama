@@ -37,3 +37,15 @@ if ( $get->modulo("cancer-mama-metastasico") )
 
 if ( $get->modulo("cuidados-paliativos") )
   $sidebar .= $cuidadosPaliativos;
+
+if ( $get->modulo("paciente") )
+  $sidebar .= $emociones;
+
+if ( $get->modulo("actitudes") )
+  $sidebar .= $actitudes;
+
+if ( $get->modulo("su-entorno") )
+  $sidebar .= $suEntorno;
+
+if ( $get->modulo("herramientas-comunicacion") )
+  $sidebar .= $comunicacion;

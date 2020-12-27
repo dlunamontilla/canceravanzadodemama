@@ -1016,6 +1016,10 @@ h6 {
   padding: var(--padding);
 }
 
+p, li {
+  text-align: justify;
+}
+
 .frontal {
   transition: 300ms ease;
 }
@@ -2397,6 +2401,7 @@ h6 {
 }
 .t-etapas__item {
   border: 1px solid white;
+  text-align: justify;
 }
 .t-etapas__header, .t-etapas__content {
   padding: 10px;

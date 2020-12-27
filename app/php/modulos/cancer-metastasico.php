@@ -38,7 +38,7 @@
         </li>
 
         <li class="text text--justify">
-          Aún no ha agotado su reserva emocional, la de su familia y amigos. Tanto la paciente como su grupo de apoyo, pueden estar mejor preparados, que en el primer episodio, para abordar una segunda vez. Además puede encontrar el apoyo en otras pacientesqueviven la vida a plenitud mientras reciben tratamiento para el cáncer metástasico.
+          Aún no ha agotado su reserva emocional, la de su familia y amigos. Tanto la paciente como su grupo de apoyo, pueden estar mejor preparados, que en el primer episodio, para abordar una segunda vez. Además puede encontrar el apoyo en otras pacientes que viven la vida a plenitud mientras reciben tratamiento para el cáncer metástasico.
         </li>
       </ul>
 
@@ -154,7 +154,7 @@
             </li>
 
             <li class="text text--justify">
-              <strong>MRI</strong>. La Resonancia Magnética permite identificar la presencia de metástasis cerebral. Generalmente se utiliza contraste endovenoso para identificar más claramente las áreas de captación anormal.
+              MRI. La Resonancia Magnética permite identificar la presencia de metástasis cerebral. Generalmente se utiliza contraste endovenoso para identificar más claramente las áreas de captación anormal.
             
               <p><i><strong>BIOPSIA DE LA METÁSTASIS</strong>, si es accesible y clínicamente factible su realización para confirmar el diagnóstico y los marcadores tumorales.</i></p>
             </li>
@@ -206,18 +206,6 @@
                 </li>
               </ul>
             </li>
-
-            <!-- ii. -->
-            <li>
-              <p><strong>Tratamiento Local</strong></p>
-
-              <ul class="listas listas--disco">
-                <li class="text text--justify">Mastectomía, para tratar síntoma de control  local.</li>
-                <li class="text text--justify">Cirugía Traumatológica, para la estabilización de alguna fractura ósea.</li>
-                <li class="text text--justify"><strong>Radioterapia:</strong> De huesos, mama, pared costal y cerebro para aliviar síntomas y mejorar la calidad de vida.</li>
-                <li class="text text--justify">Otros tratamientos incluyen la aspiración de líquido a nivel de pulmón, pericardio o cavidad peritoneal.</li>
-              </ul>
-            </li>
           </ol>
         </li>
       </ol>
@@ -242,6 +230,10 @@
           <p class="text text--justify">
             Cuando las opciones de tratamiento del cáncer de mama metastásico se vuelven muy limitadas y el cáncer es difícil de controlar, las pacientes pueden elegir detener el tratamiento.Las pacientes  con cáncer de mama metastásico, que tengan enfermedad oncológica progresiva; sin respuesta al tratamiento; con síntomas intensos, múltiples y cambiantes; y con  un pronóstico vital limitado de menos de 6 meses, se definen como pacientes terminales. Es extremadamente importante en este punto asegurarse que la paciente se sienta cómoda, que no tenga dolor y que reciba el adecuado apoyo emocional. Debe mantenerse un diálogo abierto y constante con su equipo de atención médica, a fin de expresar sus sentimientos, preferencias y posibles dudas respecto a los cuidados terminales. El equipo de atención médica tiene experiencia y  el conocimiento para brindar apoyo a las pacientes terminales y a sus cuidadores.
           </p>
+
+          <div class="">
+            <img src="multimedia/img/hoja-informativa-estudios-diagnostico.webp" alt="">
+          </div>
         </li>
       </ol>
     </div>

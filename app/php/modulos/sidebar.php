@@ -82,9 +82,44 @@ $conozcaSuEnfermedad = <<<HTML
 </div>
 HTML;
 
+// Cuidados Paliativos |  Cáncer de Mama Metastásico :
+$cuidadosPaliativos = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-3-diario.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;
+
 // Descargas |  Cáncer de Mama Metastásico :
 $cancerMatastasico = <<<HTML
 <div class="pegajoso pegajoso--flex">
-  <a href="#" target="_blank" data-src="multimedia/vectores/" class="descargas descargas--3d"></a>
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-2.a-hoja-informativa.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;
+
+// MÓDULO LA PACIENTE:
+
+// Emociones
+$emociones = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-1.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;
+
+// Actitudes
+$actitudes = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-2.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;
+
+$suEntorno = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-3.svg" class="descargas descargas--3d"></a>
+</div>
+HTML;
+
+$comunicacion = <<<HTML
+<div class="pegajoso pegajoso--flex">
+  <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-4.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;

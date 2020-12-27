@@ -38,8 +38,6 @@
             </li>
           </ul>
 
-          <div class="imagen imagen--mediana" data-src="multimedia/vectores/imagen-3-lapaciente y su entorno.svg"></div>
-
           <!-- Romanos -->
           <ol class="listas listas--romano listas--bold">
             <!-- i. -->
@@ -109,6 +107,8 @@
           <p class="text text--justify">
             La paciente una vez diagnosticada debe encontrar información confiable y buscar apoyo. El soporte en las pacientes con cáncer está asociado con la esperanza, emocionalmente el apoyo aumenta su moral, les ayuda a mantenerse positivas, aunque realistas, a ser fuertes y a expresar las emociones, preocupaciones y miedos que sienten durante su proceso. Es importante buscar un confidente, una persona a quien acudir, alguien con quien pueda hablar de sus preocupaciones y miedos más profundos, como también de sus expectativas e ilusiones. Es posible que esa persona sea su cónyuge, su pareja, un pariente o un amigo. Si no puede hacerlo, piense en salir del círculo habitual de familiares y amigos para buscar a alguien con quien pueda hablar, para sobrellevar la situación, manteniendo su propio espacio. Esta persona puede ser: un médico o enfermero, un trabajador social, otra paciente con diagnóstico o superviviente de cáncer de mama, un líder espiritual o miembro de su iglesia, un psicólogo u otro profesional de la salud mental. El bienestar espiritual de los pacientes con cáncer tiene un efecto positivo en su estado de ánimo, y como resultado incorporan la espiritualidad y la fé como una forma para compartir sus pensamientos y elaborar un sentido de esperanza.
           </p>
+
+          <div class="imagen imagen--mediana" data-src="multimedia/vectores/imagen-3-lapaciente y su entorno.svg"></div>
         </li>
       </ol>
 

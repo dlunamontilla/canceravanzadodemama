@@ -60,7 +60,7 @@ if ( $get->modulo("conozca") ) {
     </p>
 
     <p>
-        <a class="modal__enlace" href="https://www.uicc.org/resources/access-all-resources/cancer-and-coronavirus-resources">
+        <a class="modal__enlace" href="https://www.uicc.org/resources/access-all-resources/cancer-and-coronavirus-resources" target="_blank">
             Cáncer y Coronavirus. Recursos Disponibles<br>https://www.uicc.org/resources/access-all-resources/cancer-and-coronavirus-resources
         </a>
     </p>

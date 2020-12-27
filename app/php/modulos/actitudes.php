@@ -19,10 +19,6 @@
             Cada institución de salud que visite tendrá su propia historia médica sobre su caso. Aunque su plan terapéutico se discute entre las personas del equipo médico en las reuniones multidisciplinarias, no siempre ocurre así, por lo que resulta adecuado que tenga sus propios expedientes completos y actualizados, con la debida información sobre su atención médica durante el proceso de diagnóstico, tratamiento y seguimiento del cáncer de mama, que permita brindarle la información precisa a cada médico tratante. De esta manera, usted se involucra con un rol activo con la debida información de su enfermedad y se garantiza recibir la mejor atención posible.
           </p>
 
-          <div class="imagen">
-            <img src="https://i.ibb.co/YWQ8SMW/imagen1la-paciente-2.png" alt="">
-          </div>
-
           <p>Los médicos que forman parte de su equipo deben:</p>
           <ul class="listas listas--disco listas--secundario-3">
             <li class="text text--justify">

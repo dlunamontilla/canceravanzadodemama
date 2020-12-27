@@ -216,7 +216,56 @@
         <img src="https://i.ibb.co/V9CXHRs/imagen-2-4-a-herramientas.png" alt="">
       </div>
 
+      <h3 class="text text--right frontal frontal--secundario-3">Técnicas de Reconstrucción Mamaria</h3>
 
+      <p class="text text--justify">La reconstrucción mamaria es una opción. Recuerde que es su cuerpo y usted puede tomar la decisión que la haga sentir más confortable, por lo que aprenda lo más que pueda de las opciones y piense cual le haría sentir más cómoda al respecto. Si está siendo sometida a una mastectomía en estadio localmente avanzado, excepto en caso de carcinoma inflamatorio, usted y su doctor pueden discutir la posibilidad de reconstrucción inmediata (durante la mastectomía) o tardía varios meses después, incluso años.  El cirujano plástico trabajará con usted para establecer las expectativas de como lucirá la nueva mama reconstruida. Tenga en mente que igualmente con la reconstrucción, la mama no lucirá ni se sentirá como antes.</p>
+
+      <ol class="listas listas--alfabetico listas--secundario-2 listas--bold">
+        <!-- a. -->
+        <li>
+          <p class="text text--left frontal frontal--secundario"><strong>Implantes</strong></p>
+
+          <p class="text text--justify">
+            Las opciones pueden ser reconstrucción con implantes y/o expansores.
+          </p>
+          
+        </li>
+        
+        <!-- b. -->
+        <li>
+          <p class="text text--left frontal frontal--secundario"><strong>Procedimientos de Colgajo de Tejido</strong></p>
+
+          <p class="text text--justify">
+            La reconstrucción con colgajos de tejido, usualmente con piel, grasa, posiblemente con músculo y vasos sanguíneos de alguna parte del cuerpo para reconstruir la mama. Esta cirugía puede realizarse con un colgajo pediculado, lo que supone trasladar tejido de la espalda o abdomen al tórax con sus vasos sanguíneos aferentes (pedículo), o con un colgajo libre, en el que por procedimientos de microcirugía se restituye la irrigación.
+          </p>
+          
+          <p class="text text--left"><strong>Existen varios procedimientos:</strong></p>
+          <ul class="listas listas--romano">
+            <li>
+              Colgajo Miocutáneo de Recto Transverso o Colgajo TRAM (un acrónimo por sus siglas en inglés de Músculo Abdominal Recto Transverso). Puede ser libre o pediculado. Se emplea como colgajo de tejido el músculo de la parte inferior del abdomen, que se llama recto abdominal, junto con la piel, la grasa y los vasos sanguíneos que se trasladan hasta el tórax. Si se unen  los vasos sanguíneos del colgajo a los vasos sanguíneos del tórax mediante microcirugía, es libre. Si los vasos sanguíneos  o pedículo (arteria y vena) del colgajo se dejan unidos al colgajo, entonces éste es pediculado. La zona donante o pared abdominal se refuerza con una malla que se mantiene de manera permanente. La realización de un colgajo TRAM significa que el abdomen quedará más plano y más firme, como si se hubiese sometido a una dermolipectomía, con la cicatriz por debajo de la línea del bikini, de un hueso ilíaco al otro y una nueva cicatriz umbilical. Si bien este procedimiento de reconstrucción es el más empleado, no debe recomendarse en pacientes con escaso tejido adiposo, cirugías abdominales previas o pacientes con deseos de embarazo posterior al tratamiento.
+            </li>
+
+            <li>
+              Colgajo de Músculo Dorsal Ancho. Emplea como colgajo tejido y músculo de la parte superior de la espalda, el músculo dorsal ancho, junto con la piel, la grasa y los vasos sanguíneos que se trasladan a través de un túnel debajo de la piel hasta el tórax.
+            </li>
+
+            <li>Colgajo de Perforantes de la Arteria Epigástrica Profunda  (DIEP, por sus siglas en inglés). Es un colgajo en el  que se extirpan tejido del abdomen inferior, piel y grasa, con los vasos sanguíneos llamados perforantes epigástricos inferiores profundos. Es similar al colgajo TRAM, con las mismas cicatrices, pero el músculo se mantiene en su lugar, por lo que no es necesario el uso de malla en la pared abdominal.</li>
+            <li>Colgajo de Arteria Epigástrica Superficial Inferior o Colgajo SIEA. Es similar al colgajo DIEP, pero se utiliza otros vasos sanguíneos del abdomen.</li>
+            <li>Colgajo de Perforante de la Arteria Glútea Superior, o Colgajo de Perforante Glútea de la cadera o Colgajo SGAP. Se utiliza este vaso sanguíneo y una porción de la piel y grasa extraída de la parte superior de las nalgas o la cadera, que se unen por microcirugía a los vasos sanguíneos del tórax. No utiliza músculo. Este colgajo deja una cicatriz cerca de la parte superior de las nalgas, pero casi siempre queda cubierta por la ropa interior o bikini.</li>
+            <li>Colgajo Transversal del Músculo Recto Interno (TUG). Utiliza un colgajo de piel, grasa, músculo y vasos sanguíneos de la parte superior del muslo para reconstruir la mama, uniendo para ello los vasos sanguíneos del colgajo a los vasos sanguíneos del tórax mediante microcirugía. El músculo recto interno comienza en el pubis y termina a lo largo del interior de la parte superior de la pierna. Es el músculo responsable de llevar la pierna hacia el cuerpo, por lo que su uso como colgajo imposibilitará este movimiento. El procedimiento deja una cicatriz en la parte superior interna del muslo, que en la mayoría de los casos es de difícil cicatrización.</li>
+          </ul>
+
+          <p class="text text--justify"><strong><i>En los procedimientos con colgajos es necesaria la correcta irrigación, por lo que no se recomiendan en pacientes con diabetes, enfermedades del colágeno, ni en pacientes con hábitos tabáquicos.</i></strong></p>
+        </li>
+
+        <!-- c. -->
+        <li>
+          <p class="text text--left frontal frontal--secundario"><strong>Opciones no quirúrgicas: Prótesis Mamarias Externas</strong></p>
+          <p class="text text--justify">Las prótesis externas de mama son opciones no quirúrgicas para proporcionar una apariencia natural y simétrica, para las pacientes que no desean o no esté indicado someterse a una cirugía reconstructiva. Estas pueden ser de silicona o material blando, pueden usarse adheridas a piel o bien insertarse dentro de un bolsillo del sostén.</p>
+
+          <div class="imagen" data-src="multimedia/vectores/imagen-2.4-b-herramientas-cirugia.svg"></div>   
+        </li>
+      </ol>
     </div>
 HTML;
 

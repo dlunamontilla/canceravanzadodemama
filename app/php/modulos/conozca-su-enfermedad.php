@@ -180,7 +180,7 @@
                     <li>Dolor articular y neuropatías.</li>
 
                     <li class="text text--justify">
-                      Ciertas afecciones cardíacas que podrían aparecer posterior a ciertos tratamientos, lo que se conoce como toxicidad cardíaca, que está vinculada a ciertos tratamientos como quimioterapia con  antraciclinas; radioterapia de pared torácica; y a ciertos tipos de terapia dirigida, incluyendo bevacizumab (nombre comercial Avastin), trastuzumab (nombre comercial Herceptin) ylapatinib (nombre comercial Tykerb).
+                      Ciertas afecciones cardíacas que podrían aparecer posterior a ciertos tratamientos, lo que se conoce como toxicidad cardíaca, que está vinculada a ciertos tratamientos como quimioterapia con  antraciclinas; radioterapia de pared torácica; y a ciertos tipos de terapia dirigida, incluyendo bevacizumab (nombre comercial Avastin), trastuzumab (nombre comercial Herceptin) y la apatinib (nombre comercial Tykerb).
                     </li>
 
                     <li class="text text--justify">
@@ -221,7 +221,7 @@
 
             <!-- ii. -->
             <li>
-              <p><strong>Signos y Síntomas de la Recurrencia o RecidivaLocal</strong></p>
+              <p><strong>Signos y Síntomas de la Recurrencia o Recidiv/Local</strong></p>
 
               <p class="text text--justify">
                 La recidiva o recurrencia puede ser local, significa que el cáncer crece nuevamente en el mismo lugar que estaba el cáncer que fue removido, es decir en la mama o en la pared torácica. Puede presentarse como:

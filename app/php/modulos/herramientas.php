@@ -262,7 +262,7 @@ HTML;
       </p>
 
       <p class="text text--justify">
-        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American JointCommitte (AJCC) y la <a href="https://www.uicc.org/resources/tnm" target="_blank">Unión Internacional de Control de Cáncer (UICC).</a>
+        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American Joint Committe (AJCC) y la <a href="https://www.uicc.org/resources/tnm" target="_blank">Unión Internacional de Control de Cáncer (UICC).</a>
       </p>
 
       <p class="text text--justify">
@@ -299,7 +299,7 @@ HTML;
                 <strong>T1</strong> mic ≤ 1mm
 
                 <ul type="none" class="lista-anidada">
-                  <li><strong>T1a:</strong> El tumor mide <code>1 mm</code> pero <code> ≤ 5 mm</code> en su diámetromayor.</li>
+                  <li><strong>T1a:</strong> El tumor mide <code>1 mm</code> pero <code> ≤ 5 mm</code> en su diámetro mayor.</li>
                   <li><strong>T1b:</strong> El tumor mide <code>5 mm</code> pero <code>≤ 1 cm</code> en su diámetro mayor.</li>
                   <li><strong>T1c:</strong> El tumor mide <code>1 cm</code> pero <code>≤ 2 cm</code> en su diámetro mayor.</li>
                 </ul>
@@ -355,7 +355,7 @@ HTML;
               <li><strong>Mx:</strong> No se puede evaluar diseminación a distancia.</li>
               <li><strong>M0:</strong> Sin evidencia clínica o radiológica de diseminación a distancia.</li>
               <li><strong>M0:</strong> (i+): Sin evidencia clínica o radiológica de diseminación a distancia. La evidencia microscópica de células tumorales se encuentra en la sangre, la médula ósea u otros ganglios linfáticos que midan más de 0.2 mm.</li>
-              <li><strong>M1:</strong> Evidencia de metástasis a distancia. ternos.</li>
+              <li><strong>M1:</strong> Evidencia de metástasis a distancia.</li>
             </ul>
           </div>
         </div>

@@ -20,7 +20,7 @@
         En general, funcionan mejor cuando se inician poco después del diagnóstico de cáncer y pueden continuar recibiéndolos a lo largo de su tratamiento y de su seguimiento. Pueden ser administrados por su equipo de atención médica, pero además se pueden incluir: un trabajador social que le apoya para afrontar sus tareas cotidianas; un psicólogo que le ayuda con las necesidades emocionales o de salud mental y con sus problemas familiares; y un consejero espiritual (pastor, capellán u otra guía espiritual), que constituyen una guía y soporte emocional. Igualmente, dentro de este equipo se incluye el nutricionista y el fisioterapeuta.
        </p>
 
-       <h3 class="text text--right frontal frontal--secundario-2">
+       <h3 class="text text--right">
         Tratamiento del Dolor
        </h3>
 
@@ -150,7 +150,7 @@
 
         <!-- d. -->
         <li>
-          <p><strong class="frontal frontal--secundario-2">Evaluación Del Dolor</strong></p>
+          <p><strong class="frontal frontal--secundario-2">Evaluación del Dolor</strong></p>
 
           <p class="text text--justify">
             No dude en referir el dolor a su médico. Informar sobre su presencia e intensidad le permitirá recibir ayuda y de esta manera logrará que el plan de tratamiento se cumpla y sea tolerable. Además del examen físico por parte del médico tratante, debe establecerse por parte de la paciente una descripción detallada de qué siente, cuándo lo siente, dónde lo siente, cuánto tiempo dura, su intensidad, qué lo aumenta y qué lo alivia.
@@ -245,7 +245,7 @@
                   <li class="text text--justify">Automonitoreo. Descripción cronológica que la paciente mantiene para describir ciertas características asociadas al dolor.</li>
 
                   <li>
-                    <p>Relagación.</p>
+                    <p>Relajación.</p>
 
                     <ul class="listas listas--circulo">
                       <li class="text text--justify">Ejercicios de respiración: Los ejercicios de respiración puede realizarlos sentada o acostada, relajando los brazos con suavidad a cada lado. Inhale mientras cuenta hasta tres mentalmente y con lentitud. Luego, exhale por la boca, otra vez contando en silencio hasta tres. Hágalo durante cinco minutos y aumente gradualmente hasta llegar a 20 minutos.</li>

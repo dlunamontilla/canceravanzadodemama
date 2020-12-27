@@ -21,7 +21,6 @@ EOT;
     <!-- Ablación o supresión ovárica -->
     <tr>
       <td>ABLACIÓN O SUPRESIÓN OVÁRICA</td>
-
       <td>
         Consiste en la detención o disminución de la cantidad de estrógeno producido en los ovarios. Los tipos de tratamiento que producen ablación ovárica incluyen la cirugía u ooforectomía bilateral, la radioterapia y la quimioterapia.También se conoce con el nombre de supresión ovárica.
       </td>
