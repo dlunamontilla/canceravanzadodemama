@@ -718,7 +718,7 @@
 
 .banner {
   position: relative;
-  height: var(--height);
+  height: auto;
   display: flex;
   align-items: center;
 
@@ -726,17 +726,18 @@
     content: "";
   }
 
-  &::before {
-    display: block;
-    position: absolute;
-    margin: auto;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    background-color: rgba( $color-secundario-3, 0.7 );
-    z-index: 1;
+  // Eliminar esto:
+  // &::before {
+  //   display: block;
+  //   position: absolute;
+  //   margin: auto;
+  //   left: 0; right: 0;
+  //   top: 0; bottom: 0;
+  //   background-color: rgba( $color-secundario-3, 0.7 );
+  //   z-index: 1;
 
-    overflow: hidden;
-  }
+  //   overflow: hidden;
+  // }
 
   &--fuveicam {
     --height: 200px;
@@ -745,11 +746,7 @@
 
   &__img {
     display: block;
-    position: absolute;
-    margin: auto;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
-    height: 100%;
+    margin: 0 auto;
     width: 100%;
 
     --object-fit: cover;
@@ -781,7 +778,13 @@
   }
 
   &__title {
-    position: relative;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+
+    display: flex;
+    align-items: center;
     color: white;
     padding-left: 40px;
 

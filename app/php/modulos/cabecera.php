@@ -15,7 +15,7 @@
 
     <img class="banner__img" src="$imgCabecera" />
 
-    <div class="banner__teta" data-src="$senosCabecera"></div>
+    <!-- <div class="banner__teta" data-src="$senosCabecera"></div> -->
   </div>
 
   <div class="redes-sociales redes-sociales--compartir">

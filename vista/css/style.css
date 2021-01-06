@@ -1945,24 +1945,12 @@ p, li {
 
 .banner {
   position: relative;
-  height: var(--height);
+  height: auto;
   display: flex;
   align-items: center;
 }
 .banner::before {
   content: "";
-}
-.banner::before {
-  display: block;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(0, 183, 183, 0.7);
-  z-index: 1;
-  overflow: hidden;
 }
 .banner--fuveicam {
   --height: 200px;
@@ -1970,13 +1958,7 @@ p, li {
 }
 .banner__img {
   display: block;
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: 100%;
+  margin: 0 auto;
   width: 100%;
   --object-fit: cover;
   --object-position: center top;
@@ -2002,7 +1984,14 @@ p, li {
   height: 100%;
 }
 .banner__title {
-  position: relative;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
   color: white;
   padding-left: 40px;
   z-index: 2;
