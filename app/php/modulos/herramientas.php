@@ -262,7 +262,7 @@ HTML;
       </p>
 
       <p class="text text--justify">
-        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American Joint Committe (AJCC) y la <a href="https://www.uicc.org/resources/tnm" target="_blank">Unión Internacional de Control de Cáncer (UICC).</a>
+        El sistema de estadificación más frecuentemente utilizado para el cáncer de mama es el TNM, aceptado por la American Joint Committee (AJCC) y la <a href="https://www.uicc.org/resources/tnm" target="_blank">Unión Internacional de Control de Cáncer (UICC).</a>
       </p>
 
       <p class="text text--justify">
@@ -479,13 +479,13 @@ HTML;
 
   // Glosario:
   if ( $get->modulo("glosario") ) {
+    // $tablaGlosario
+
     $contenido = <<<HTML
     <div class="content__item">
       <h2 class="text text--right">Glosario</h2>
 
-      <div class="glosario">
-        $tablaGlosario
-      </div>
+      <div class="glosario" id="glosario"></div>
     </div>
 HTML;
     // Botones de atrás y avanzar:

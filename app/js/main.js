@@ -3,8 +3,9 @@ import { redesSociales } from "./modulos/redesSociales.js";
 import { menuHeader } from "./modulos/scrolling.js";
 import { eliminarAtributo } from "./modulos/eliminarAtributos.js";
 import { ventanasModales } from "./modulos/ventanasModales.js";
-import { elementos } from "./modulos/elementos.js";
 import {encuestas} from "./modulos/encuestas.js";
+import { csvToJSON } from "./modulos/csvToJSON.js";
+import { csvToTable } from "./modulos/csvToTable.js";
 
 imagenSVG();
 redesSociales();
@@ -58,3 +59,18 @@ onkeydown = (e) => {
 //   });
 
 encuestas( "#encuestas" );
+
+// Probar el funcionamiento del intérprete:
+const probar = url => {
+  fetch( url )
+  .then( texto => texto.text() )
+  .then( data => {
+    let datos = csvToJSON( data, ";" );
+
+    console.log( datos );
+  });
+}
+
+// probar( "recursos/csv/glosario.csv" );
+
+csvToTable( "recursos/csv/glosario.csv", "#glosario" );

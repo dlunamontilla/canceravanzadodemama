@@ -18,7 +18,7 @@ HTML;
     <div class="recursos__item">
       <div class="recursos__icon recursos__icon--consejos" data-src="multimedia/vectores/cuaderno.svg"></div>
       <div class="recursos__caption">
-        <h3>Consejos durantes el tratamiento</h3>
+        <h3>Consejos Durante el Tratamiento</h3>
       </div>
   
       $options
@@ -27,7 +27,7 @@ HTML;
     <div class="recursos__item">
       <div class="recursos__icon recursos__icon--paciente" data-src="multimedia/vectores/la-paciente.svg"></div>
       <div class="recursos__caption">
-        <h3>Manejo de efectos colaterales</h3>
+        <h3>Manejo de Efectos Colaterales</h3>
       </div>
   
       $options
@@ -36,7 +36,7 @@ HTML;
     <div class="recursos__item">
       <div class="recursos__icon recursos__icon--recursos" data-src="multimedia/vectores/recurso.svg"></div>
       <div class="recursos__caption">
-        <h3>Recursos para sobrellevar el tratamiento</h3>
+        <h3>Recursos para Sobrellevar el Tratamiento</h3>
       </div>
   
       $options
