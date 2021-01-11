@@ -50,6 +50,8 @@
           <p class="text text--justify">
             El dolor puede afectarle no sólo física sino mental y emocionalmente. Sin embargo, la capacidad de la paciente de hacerle frente dependerá de la efectividad del tratamiento médico, del apoyo social y familiar, y de su capacidad de confrontación. Prevenir su instalación, así como su agravamiento es una de las formas más efectivas para manejarlo. Por lo que debe asumir el control al informar a su equipo tratante, familiares, cuidadores y amigos respecto a lo que está experimentando. De igual forma, debe solicitarle al equipo médico el asesoramiento para realizar un enfoque terapéutico objetivo.
           </p>
+
+          <div class="imagen imagen--verde imagen--mediana"><img src="multimedia/img/conozca-su-enfermedad/graficos fuveicam-02.png" alt=""></div>
         </li>
 
         <!-- c. -->
@@ -106,7 +108,7 @@
                     <li>Dolor óseo y articular.</li>
                     <li>Dolor muscular.</li>
                     <li class="text text--justify">
-                      <strong>Flebitis:</strong> Inflamación de la vena causada por la presencia de un coágulo. Se caracteriza por calor, rubor y dolor alrededor de una vena.  Debe notificarlo de inmediato a su médico, en especial si está tomando Moduladores Selectivos de los Receptores de Estrógeno como el Tamoxifeno. 
+                      Flebitis: Inflamación de la vena causada por la presencia de un coágulo. Se caracteriza por calor, rubor y dolor alrededor de una vena.  Debe notificarlo de inmediato a su médico, en especial si está tomando Moduladores Selectivos de los Receptores de Estrógeno como el Tamoxifeno. 
                     </li>
                   </ul>
                 </li>
@@ -164,7 +166,7 @@
           <ul class="listas listas--disco listas--secundario-3">
             <li>Cuándo: La fecha y la hora.</li>
             <li class="text text--justify">
-              <strong>Dónde:</strong> Lugar del cuerpo donde se localiza. Permanece allí o se traslada a otra localización.
+              Dónde: Lugar del cuerpo donde se localiza. Permanece allí o se traslada a otra localización.
             </li>
             <li class="text text--justify">Características del Dolor: El tipo (punzante, espasmódico, sordo o agudo).</li>
             <li class="text text--justify">La intensidad en una escala del 0 a 10 (0 significa ausencia de dolor y 10 dolor insoportable), ésta se denomina ESCALA VISUAL ANALÓGICA (EVA). Es un método unidimensional que mide la intensidad del dolor. Consiste en una línea recta de 10 centímetros que tiene en cada extremo señalado la menor (sin dolor) y la mayor intensidad del dolor (máximo dolor). El paciente indica en la línea el punto que identifica la intensidad del dolor y esté será el valor o resultado EVA para la paciente. Se considera Dolor Leve (EVA de 1 a 3), Dolor Moderado (EVA de 4 a 6) y Dolor Severo (EVA de 7 a 10).</li>
@@ -175,7 +177,7 @@
             <li class="text text--justify">Uso de alguna otra estrategia para aliviar el dolor y reporte que efecto tuvo.</li>
             <li class="text text--justify">Aparición de algún otro síntoma.</li>
             <li class="text text--justify">
-              <strong>Notas:</strong> Algunas consideraciones que crea pertinente. En líneas generales informe si el plan está funcionando o no.
+              Notas: Algunas consideraciones que crea pertinente. En líneas generales informe si el plan está funcionando o no.
             </li>
           </ul>
         </li>
@@ -187,6 +189,8 @@
           <p class="text text--justify">Luego de la evaluación del dolor, se elabora el plan de tratamiento, que permite controlarlo. Algunos centros cuentan con especialistas en dolor y en cuidados paliativos. Estos especialistas se dedican al tratamiento de los efectos secundarios físicos y psicológicos del cáncer.</p>
           <p class="text text--justify">El dolor relacionado con el cáncer debe tratarse su causa y/o manejarse empleando estrategias diferentes a través de un enfoque multidimensional, con el uso simultáneo de terapias psicológicas y las terapias somáticas, ya que las variables psicológicas tienen un profundo impacto emocional y social en la percepción del dolor y a su vez la terapéutica farmacológica tiene un efecto en el bienestar la paciente.</p>
 
+          <div class="imagen imagen--verde imagen--mediana"><img src="multimedia/img/conozca-su-enfermedad/graficos fuveicam-04.jpg" alt=""></div>
+
           <!-- Listas | Romano -->
           <ol class="listas listas--romano listas--bold">
             <!-- i. -->
@@ -194,6 +198,8 @@
               <p><strong>Farmacoterapia o Medicamentos para el Dolor.</strong></p>
               
               <p class="text text--justify">Diferentes medicamentos se encuentran disponibles para aliviar el dolor, y a estos se les conoce como analgésicos, que pueden ser administrados por vía oral, endovenosa o bien como parches transdérmicos. La Organización Mundial de la Salud ha diseñado pautas para el tratamiento analgésico del dolor por cáncer. Estas pautas, son conocidas como la escalera analgésica de la Organización Mundial de la Salud. Este enfoque secuencial discrimina la selección de analgésicos, con eficacia demostrada y seguridad probada, en función de la gravedad del dolor.</p>
+
+              <div class="imagen imagen--verde imagen--mediana"><img src="multimedia/img/conozca-su-enfermedad/graficos fuveicam-01.png" alt=""></div>
 
               <!-- Listas | Disco -->
               <ul class="listas listas--disco listas--secundario-3">

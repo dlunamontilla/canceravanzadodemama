@@ -1323,11 +1323,11 @@ p, li {
   background-color: var(--fondo);
   color: var(--primer-plano);
   min-height: 100px;
-  width: max-content;
+  width: 100%;
   max-width: 600px;
   padding: 18px 20px;
   margin: 20px auto;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: oblique;
   font-weight: 600;
   line-height: 1.4;
@@ -2050,7 +2050,7 @@ p, li {
   padding: 10px;
 }
 .modulo__item--sidebar {
-  flex-grow: 3;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -2910,6 +2910,9 @@ p, li {
 }
 .pegajoso--largo {
   min-height: 300vh;
+}
+.pegajoso--corto {
+  flex-grow: 0;
 }
 .pegajoso--flex {
   display: flex;

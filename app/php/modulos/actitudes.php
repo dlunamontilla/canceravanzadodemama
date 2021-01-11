@@ -134,6 +134,8 @@ HTML;
     </div>
 HTML;
 
+    $adicionales = "";
+
     // Botones de atrás y avanzar:
     $atras = <<<HTML
     <a href="?paciente" class="navegar__enlace">

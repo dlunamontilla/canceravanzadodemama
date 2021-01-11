@@ -15,11 +15,6 @@
 		<h3 class="text text--right frontal frontal--secundario-3" id="tipos-de-biopsias">Tipos de biopsias</h3>
 		<p class="text text--justify">La biopsia puede ser tomada por el cirujano, si se trata de una lesión palpable, en caso contrario, el médico radiólogo podrá realizar la toma guiada por una técnica de imagen. Existen diversos tipos de biopsia, no obstante la elección del procedimiento dependerá del objetivo y del tipo de información que se desea obtener.</p>
 
-    <div class="destacado destacado--secundario-3">
-      <p>Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
-      <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-    </div>
-
 		<p class="text text--justify">
 			La biopsia puede efectuarse con una aguja a través de la piel de la mama para extraer la muestra de tejido. Para ello existen diferentes tipos de biopsia con aguja,  dependiendo de su grosor, tal como: la Punción Aspiración con Aguja Fina (PAAF), que es un método citológico; la biopsia por Punción con Aguja Gruesa (BAG); y la Biopsia con Aguja Gruesa Asistida por Vacío (BAV). No obstante, la biopsia puede ser también un procedimiento quirúrgico para extraer la totalidad (biopsia excisional) o parte de la lesión de sospecha (biopsia incisional).
 		</p>
@@ -56,10 +51,6 @@
 			Para la paciente la lectura e interpretación del informe es un evento confuso e intimidante. Es importante tener en cuenta que la información que éste aporta se interpreta como un todo, por lo que se debe evitar mantener el foco en un solo aspecto.  El informe patológico, no se entrega de inmediato, debe esperar. El procesamiento lleva su tiempo, en la mayoría de los casos de una a dos semanas, aunque algunos resultados pueden tardar más que otros.
 		</p>
     
-    <div class="destacado destacado--morado">
-      <p>Para la paciente la lectura e interpretación del informe es un evento confuso e intimidante. Es importante tener en cuenta que la información que éste aporta se interpreta como un todo, por lo que se debe evitar mantener el foco en un solo aspecto.</p>
-      <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-    </div>
 		<h3 class="text text--right frontal frontal--secundario-3" id="informacion-anatomia">
 			Información contenida en el Informe de Anatomía Patológica
 		</h3>

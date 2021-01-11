@@ -861,7 +861,7 @@
     padding: 10px;
 
     &--sidebar {
-      flex-grow: 3;
+      flex-grow: 1;
       display: flex;
       flex-direction: column;
 
@@ -1942,6 +1942,10 @@
 
   &--largo {
     min-height: 300vh;
+  }
+
+  &--corto {
+    flex-grow: 0;
   }
 
   &--flex {

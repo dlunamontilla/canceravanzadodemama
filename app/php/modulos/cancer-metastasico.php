@@ -27,11 +27,6 @@
         El diagnóstico de cáncer de mama metástasico constituye para la paciente un evento abrumador. En algunos casos, el diagnóstico metastásico es el primer diagnóstico de cáncer de mama que recibe la paciente. En otras, se diagnostican por una recurrencia o una recidiva a distancia, lo que desencadena nuevamente un impacto emocional, dado que asumían que la enfermedad estaba bajo control y había sido superada luego del tratamiento. Es posible que algunas mujeres expresen emociones tales como ira, sobrecarga emocional, depresión y ansiedad. Otras tal vez expresen culpa con ellas mismas por no haber derrotado la enfermedad,  cuestionando los tratamientos que han recibido, o tal vez trasladen su ira a sus médicos o al personal de salud. Aunque, algunas pacientes pueden reaccionar como si fuese un evento más de su enfermedad. No existen fórmulas para afrontar este diagnóstico. Permítase expresar sus sentimientos libremente porque estar emocionalmente saludable le ayudará a enfrentar mejor la situación. Es importante que tenga presente:
       </p>
 
-      <div class="destacado destacado--secundario-3">
-        <p>El diagnóstico de cáncer de mama metástasico constituye para la paciente un evento abrumador. En algunos casos, el diagnóstico metastásico es el primer diagnóstico que recibe la paciente. En otras, se diagnostican por una recurrencia o una recidiva a distancia.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
-
       <ul class="listas listas--disco listas--secundario-3">
         <li class="text text--justify">
           Existen una variedad de opciones terapéuticas disponibles para tratar el cáncer metástasico. El hecho que la enfermedad haya vuelto no significa que no haya nada por hacer. El tratamiento permitirá mantener la enfermedad bajo control, prolongar la calidad de vida y disminuir los síntomas.
@@ -41,11 +36,6 @@
           Aún no ha agotado su reserva emocional, la de su familia y amigos. Tanto la paciente como su grupo de apoyo, pueden estar mejor preparados, que en el primer episodio, para abordar una segunda vez. Además puede encontrar el apoyo en otras pacientes que viven la vida a plenitud mientras reciben tratamiento para el cáncer metástasico.
         </li>
       </ul>
-
-      <div class="destacado destacado--morado">
-        <p>Existen una variedad de opciones terapéuticas disponibles para tratar el cáncer metástasico. El hecho que la enfermedad haya vuelto no significa que no haya nada por hacer. El tratamiento permitirá mantener la enfermedad bajo control, prolongar la calidad de vida y disminuir los síntomas.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
 
       <h3 class="text text--right frontal frontal--secundario-3">
         Metas del Tratamiento en Pacientes con Cáncer de Mama Metastásico
@@ -204,6 +194,17 @@
                     <li class="text text--justify">Bifosfonato  o terapia antiosteoclástica, reduce el dolor y complicaciones óseas para las metástasis óseas.</li>
                   </ul>
                 </li>
+              </ul>
+            </li>
+
+            <li>
+              <p><strong>Tratamiento Local</strong></p>
+
+              <ul class="listas listas--circulo listas--secundario-3">
+                <li>Mastectomía, para tratar síntoma de control  local.</li>
+                <li>Cirugía Traumatológica, para la estabilización de alguna fractura ósea.</li>
+                <li>Radioterapia: De huesos, mama, pared costal y cerebro para aliviar síntomas y mejorar la calidad de vida.</li>
+                <li>Otros tratamientos incluyen la aspiración de líquido a nivel de pulmón, pericardio o cavidad peritoneal.</li>
               </ul>
             </li>
           </ol>

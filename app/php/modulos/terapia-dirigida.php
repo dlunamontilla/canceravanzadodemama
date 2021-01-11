@@ -13,22 +13,12 @@
         La terapia dirigida es un tratamiento en el que se actúa de manera selectiva sobre una estructura molecular concreta o diana de las células malignas deteniendo su crecimiento y proliferación. Al impedir la proliferación de las células malignas tienen una acción citostática, a diferencia de la  quimioterapia que tiene una acción citotóxica, es decir destruye las células sobre las que está actuando. Las terapias dirigidas tienen un mecanismo de acción directo contra las células malignas,  a diferencia de la quimioterapia que puede afectar también a células normales, sobre todo aquellas que se multiplican más rápidamente.
       </p>
 
-      <div class="destacado destacado--secundario-3">
-        <p>La terapia dirigida es un tratamiento en el que se actúa de manera selectiva sobre una estructura molecular concreta o diana de las células malignas deteniendo su crecimiento y proliferación.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
-
       <p>Las terapias biológicas actúan de 3 maneras:</p>
       <ul class="listas listas--disco listas--secundario-3">
         <li>Bloquean o desaceleran el crecimiento tumoral, al desactivar las señales de crecimiento en las células cancerígenas.</li>
         <li>Impiden que la célula tumoral sobreviva más tiempo de lo normal.</li>
         <li>Estimulan al sistema inmunitario para que reconozca y  destruya las células cancerosas, lo que se conoce como Inmunoterapia.</li>
       </ul>
-
-      <div class="destacado destacado--morado">
-        <p>Las terapias dirigidas tienen un mecanismo de acción directo contra las células malignas,  a diferencia de la quimioterapia que puede afectar también a células normales, sobre todo aquellas que se multiplican más rápidamente.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
 
       <h3 class="text text--right frontal frontal--secundario-3">Tipos de Terapia Dirigida</h3>
       <p>En el tratamiento de cáncer de mama existen diversos tipos de terapia dirigida:</p>

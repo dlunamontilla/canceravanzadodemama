@@ -11,19 +11,9 @@
       La terapia hormonal, hormonoterapia o terapia endocrina son tratamientos contra el cáncer de mama con receptores hormonales positivos, que retardan o detienen el crecimiento del cáncer que utiliza hormonas para proliferar.
       </p>
 
-      <div class="destacado destacado--secundario-3">
-        <p>La terapia hormonal, hormonoterapia o terapia endocrina son tratamientos contra el cáncer de mama con receptores hormonales positivos, que retardan o detienen el crecimiento del cáncer que utiliza hormonas para proliferar. </p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
-
       <p class="text text--justify">
         En general, se recomienda la terapia hormonal para todos los pacientes con cáncer de mama receptores hormonales positivos. La hormonoterapia se emplea para reducir el riesgo de recurrencia del cáncer de mama con receptores de hormonas positivos en estadio temprano posterior al tratamiento quirúrgico (cirugía), o para reducir o desacelerar el crecimiento del cáncer de mama con receptores de hormonas positivos en estadios  avanzado o metastásico.
       </p>
-
-      <div class="destacado destacado--morado">
-        <p>La determinación del tipo y duración de la terapia hormonal va a depender del estado menstrual de la paciente (pre o post-menopáusica) y del estadio. La hormonoterapia se puede administrar antes, durante o después de otras modalidades de tratamiento contra el cáncer de mama.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
 
       <p class="text text--justify">
         La hormonoterapia en pacientes con cáncer de mama estadio IV, dependerá de si está o no en menopausia, el tipo de tratamiento que ya recibió, y si presenta o no síntomas.

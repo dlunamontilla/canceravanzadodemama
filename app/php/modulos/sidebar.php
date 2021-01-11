@@ -5,6 +5,18 @@ if ( !isset($get) )
 
   // Descargas | Página principal de herramientas:
 $herramientas = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>Sólo la biopsia permite dar el diagnóstico definitivo. En caso que se reporte como cáncer se precisa el tipo, el grado de diferenciación y algunos otros parámetros de interés que permiten distinguir la mejor opción terapéutica.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>Para la paciente la lectura e interpretación del informe es un evento confuso e intimidante. Es importante tener en cuenta que la información que éste aporta se interpreta como un todo, por lo que se debe evitar mantener el foco en un solo aspecto.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" data-src="multimedia/vectores/descarga-herramientas-1.1 informe.svg" target="_blank" class="descargas descargas--3d"></a>
 </div>
@@ -12,6 +24,7 @@ HTML;
 
 // Descargas | Subtipos moleculares:
 $subtiposMoleculares = <<<HTML
+<div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-1.2-subtipos.svg" class="descargas descargas--3d"></a>
 </div>
@@ -19,6 +32,7 @@ HTML;
 
 // Descargas | Estadificación:
 $estadificacion = <<<HTML
+<div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-1.3-estadios.svg" class="descargas"></a>
 </div>
@@ -26,6 +40,18 @@ HTML;
 
 // Descargas | Quimioterapia
 $quimioterapia = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.1-quimioterapia.svg" class="descargas descargas--3d"></a>
 </div>
@@ -37,6 +63,18 @@ HTML;
 
 // Descargas | Hormonoterapia | Hormonoterapia
 $hormonoterapia = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>La terapia hormonal, hormonoterapia o terapia endocrina son tratamientos contra el cáncer de mama con receptores hormonales positivos, que retardan o detienen el crecimiento del cáncer que utiliza hormonas para proliferar. </p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>La determinación del tipo y duración de la terapia hormonal va a depender del estado menstrual de la paciente (pre o post-menopáusica) y del estadio. La hormonoterapia se puede administrar antes, durante o después de otras modalidades de tratamiento contra el cáncer de mama.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.2.-hormonoterapia.svg" class="descargas descargas--3d"></a>
 </div>
@@ -44,6 +82,18 @@ HTML;
 
 // Descargas | Terapia Dirigida:
 $terapiaDirigida = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>La terapia dirigida es un tratamiento en el que se actúa de manera selectiva sobre una estructura molecular concreta o diana de las células malignas deteniendo su crecimiento y proliferación.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>Las terapias dirigidas tienen un mecanismo de acción directo contra las células malignas,  a diferencia de la quimioterapia que puede afectar también a células normales, sobre todo aquellas que se multiplican más rápidamente.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.3.-terapia dirigida.svg" class="descargas descargas--3d"></a>
 </div>
@@ -51,6 +101,19 @@ HTML;
 
 // Descargas | Cirugía:
 $cirugia = <<<HTML
+
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>En las pacientes con diagnóstico de Cáncer Localmente Avanzado de Mama, la cirugía generalmente se realiza posterior al tratamiento neoadyuvante. En los casos de cáncer de mama metastásico, la cirugía sólo está recomendada para hacer control local de la enfermedad en pacientes o lesiones vegetantes, sangrantes o infectadas.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>Verifique el procesamiento de la biopsia quirúrgica, así como el día y la forma de entrega de los resultados. Estos resultados deben ser vistos por el cirujano quien evaluará y discutirá con usted los pasos a seguir.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.4.a-cirugia.svg" class="descargas descargas--3d"></a>
 </div>
@@ -66,6 +129,18 @@ HTML;
 
 // Descargas | Radioterapia:
 $radioterapia = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>La Radioterapia es el uso de radiaciones ionizantes, para destruir células cancerosas dónde se aplica la radiación, impidiendo que crezcan y se reproduzcan, intentando afectar lo menos posible a los tejidos vecinos normales. La radiación que se utiliza para  el tratamiento del cáncer de mama es completamente planificada y altamente  dirigida.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>La Radioterapia para pacientes con Cáncer de Mama Localmente Avanzado, su uso es terapéutico, impide que el cáncer regrese. La Radioterapia para pacientes con Cáncer de Mama Metastásico, trata de aliviar y controlar los síntomas de las metástasis en la localización específica en la que ésta se encuentre.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.5-radioterapia.svg" class="descargas descargas--3d"></a>
 </div>
@@ -73,6 +148,21 @@ HTML;
 
 // Descargas | Conozca su enfermedad:
 $conozcaSuEnfermedad = <<<HTML
+
+<div class="pegajoso">
+  <div>
+    <div class="destacado destacado--secundario-3">
+      <p>El cáncer de mama avanzado compromete al cáncer de mama localmente avanzado inoperable de inicio y el cáncer de mama metastásico.El cáncer localmente avanzado de mama inoperable de inicio,abarca la enfermedad en estadio IIIB-IIIC, que implica tumor en mama con extensión a la pared torácica o la piel,  en este grupo se incluye el Cáncer de Mama Inflamatorio.</p>
+      <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+    </div>
+
+    <div class="destacado destacado--morado">
+      <p>Haga un seguro, sustentable y apropiado plan. Un excelente punto de partida es aprender tanto como pueda respecto a su enfermedad y sus opciones terapéuticas. Elabore su plan  en conjunto con su equipo médico y su entorno haciendo uso de fuentes confiables. Entre más sepa y se involucre, más cómoda se sentirá al momento tomar decisiones importantes.</p>
+      <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+    </div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1.a-infografia.svg" class="descargas descargas--3d"></a>
 </div>
@@ -84,6 +174,8 @@ HTML;
 
 // Cuidados Paliativos |  Cáncer de Mama Metastásico :
 $cuidadosPaliativos = <<<HTML
+<div class="pegajoso"></div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-3-diario.svg" class="descargas descargas--3d"></a>
 </div>
@@ -91,6 +183,18 @@ HTML;
 
 // Descargas |  Cáncer de Mama Metastásico :
 $cancerMatastasico = <<<HTML
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>El diagnóstico de cáncer de mama metástasico constituye para la paciente un evento abrumador. En algunos casos, el diagnóstico metastásico es el primer diagnóstico que recibe la paciente. En otras, se diagnostican por una recurrencia o una recidiva a distancia.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>Existen una variedad de opciones terapéuticas disponibles para tratar el cáncer metástasico. El hecho que la enfermedad haya vuelto no significa que no haya nada por hacer. El tratamiento permitirá mantener la enfermedad bajo control, prolongar la calidad de vida y disminuir los síntomas.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-2.a-hoja-informativa.svg" class="descargas descargas--3d"></a>
 </div>
@@ -100,6 +204,8 @@ HTML;
 
 // Emociones
 $emociones = <<<HTML
+<div class="pegajoso"></div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-1.svg" class="descargas descargas--3d"></a>
 </div>
@@ -107,18 +213,23 @@ HTML;
 
 // Actitudes
 $actitudes = <<<HTML
+<div class="pegajoso"></div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-2.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
 
 $suEntorno = <<<HTML
+<div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-3.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
 
 $comunicacion = <<<HTML
+<div class="pegajoso"></div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-4.svg" class="descargas descargas--3d"></a>
 </div>

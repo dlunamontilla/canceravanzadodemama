@@ -81,8 +81,6 @@ const  csvToTable = ( URL, elementoHTML ) => {
         let tabla = parsearTabla( json );
         const glosario = elemento( elementoHTML );
 
-        console.log( json );
-        
         if ( glosario !== null )
             glosario.appendChild( tabla );
     });

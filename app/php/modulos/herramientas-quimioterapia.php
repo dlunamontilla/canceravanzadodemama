@@ -10,24 +10,11 @@
 
       <p class="text text--justify">La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.  La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado.</p>
 
-      <div class="destacado destacado--secundario-3">
-        <p>
-          La quimioterapia, terapia citotóxica, o “quimio” consiste en la administración de medicamentos que destruyen las células tumorales e impiden su rápida replicación, al alterar la síntesis de los ácidos nucleicos (ADN o ARN) de las células. Es una terapia sistémica, lo cual significa que afecta a todo el cuerpo a través del torrente sanguíneo.
-        </p>
-
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
-      
       <p>En el caso de las pacientes con cáncer de mama localmente avanzado,  la quimioterapia puede ser:</p>
       <ul class="listas listas--disco listas--secundario-3">
         <li class="text text--justify">Administrada como primera opción terapéutica (antes de la cirugía), por lo que recibe el nombre de quimioterapia neoadyuvante, primaria, de inducción o preoperatoria. La quimioterapia neoadyuvante tiene como objetivos principales: (1) mejorar la resecabilidad quirúrgica de los tumores que no son susceptibles a cirugía de entrada; (2) aumentar las tasas de cirugía conservadora o preservadora de la mama; (3) disminuir el estadio; (4) seleccionar terapias individualizadas, mediante la identificación temprana de la respuesta al tratamiento.</li>
         <li class="text text--justif">Administrada  posterior al tratamiento quirúrgico, recibe el nombre de quimioterapia adyuvante o quimioterapia secundaria, para ayudar a combatir las células cancerosas que persistan.</li>
       </ul>
-
-      <div class="destacado destacado--morado">
-        <p>La quimioterapia afecta a las células que tienen un rápido crecimiento, como las células cancerosas, pero también las del cabello, la sangre y del tracto gastrointestinal, que se recuperan por sí solas. Los objetivos de la quimioterapia dependen del tipo de cáncer y de cuánto se haya diseminado.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
 
       <p class="text text--justify">
         La quimioterapia antes  o después de la cirugía tiene un objetivo sistémico, es decir destruir las células de cáncer de mama que pueden estar “escondidas u ocultas” en otros órganos tales como hígado, pulmón, hueso o cerebro. Estas células ocultas son llamadas micrometástasis, las cuales son usualmente tan pequeñas que no son detectadas por los exámenes de laboratorio ni por los estudios de imágenes. Por lo que, la completa eliminación de las micrometástasis es un aliado extremadamente importante a la cirugía para la erradicación de la enfermedad.

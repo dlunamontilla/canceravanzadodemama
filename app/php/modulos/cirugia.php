@@ -24,11 +24,6 @@
         En los casos de cáncer de mama metastásico, la cirugía sólo está recomendada para hacer control local de la enfermedad en pacientes o lesiones vegetantes, sangrantes y/o infectadas.
       </p>
 
-      <div class="destacado destacado--secundario-3">
-        <p>En las pacientes con diagnóstico de Cáncer Localmente Avanzado de Mama, la cirugía generalmente se realiza posterior al tratamiento neoadyuvante. En los casos de cáncer de mama metastásico, la cirugía sólo está recomendada para hacer control local de la enfermedad en pacientes o lesiones vegetantes, sangrantes o infectadas.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
-
       <h3 class="text text--right frontal frontal--secundario-3">
         Consideraciones a tener en cuenta por parte de la paciente con Cáncer de Mama  Avanzado antes de la Cirugía
       </h3>
@@ -97,7 +92,7 @@
         </li>
       </ol>
       
-      <h3 class="text text--right frontal fronta--secundario-3">
+      <h3 class="text text--right frontal frontal--secundario-3">
         Consideraciones a tener en cuenta por parte de la paciente con Cáncer de Mama  Avanzado durante la Cirugía
       </h3>
 
@@ -122,11 +117,6 @@
           </p>
         </li>
       </ol>
-
-      <div class="destacado destacado--morado">
-        <p>Verifique el procesamiento de la biopsia quirúrgica, así como el día y la forma de entrega de los resultados. Estos resultados deben ser vistos por el cirujano quien evaluará y discutirá con usted los pasos a seguir.</p>
-        <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
-      </div>
 
       <h3 class="text text--right frontal frontal--secundario-3">
         Consideraciones a tener en cuenta por parte de la paciente con Cáncer de Mama  Avanzado después de la Cirugía

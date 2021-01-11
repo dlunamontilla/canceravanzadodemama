@@ -59,18 +59,4 @@ onkeydown = (e) => {
 //   });
 
 encuestas( "#encuestas" );
-
-// Probar el funcionamiento del intérprete:
-const probar = url => {
-  fetch( url )
-  .then( texto => texto.text() )
-  .then( data => {
-    let datos = csvToJSON( data, ";" );
-
-    console.log( datos );
-  });
-}
-
-// probar( "recursos/csv/glosario.csv" );
-
 csvToTable( "recursos/csv/glosario.csv", "#glosario" );
