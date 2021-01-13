@@ -878,7 +878,6 @@
 
       position: relative;
       max-width: 400px;
-      padding: 20px;
     
       img {
         width: 100%;
@@ -887,7 +886,9 @@
 
     &--content {
       flex-grow: 9;
-
+      border-left: 1px solid rgba( $color-secundario-3, 0.2 );
+      padding: 20px 30px;
+      
       @media screen and (min-width: 701px) {
         max-width: 65%;
       }
