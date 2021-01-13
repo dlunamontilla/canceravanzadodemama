@@ -2347,6 +2347,9 @@ p, li {
 .glosario__tabla tbody tr:hover td:last-of-type {
   color: rgba(0, 50, 50, 0.8);
 }
+.glosario__tabla tr td:nth-of-type(2) {
+  text-align: justify;
+}
 
 .estadificacion {
   background-color: rgba(96, 193, 96, 0.5);

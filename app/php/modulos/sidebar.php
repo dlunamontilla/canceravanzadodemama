@@ -174,7 +174,17 @@ HTML;
 
 // Cuidados Paliativos |  Cáncer de Mama Metastásico :
 $cuidadosPaliativos = <<<HTML
-<div class="pegajoso"></div>
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>Nunca debe aceptar el dolor como algo normal de su enfermedad. Debe saber que el tratamiento dolor es parte de la terapéutica de pacientes con cáncer y éste a su vez, puede ser manejado de manera satisfactoria en la mayoría de las personas.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>El manejo del dolor es mucho más efectivo si empieza lo más antes posible. Saber cómo informar y describir el dolor puede ayudar a su equipo de atención médica a encontrar la combinación perfecta y el tipo correcto de tratamiento para afrontarlo de manera aceptable.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
 
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-Conozca-3-diario.svg" class="descargas descargas--3d"></a>
@@ -204,7 +214,12 @@ HTML;
 
 // Emociones
 $emociones = <<<HTML
-<div class="pegajoso"></div>
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>Las necesidades de la paciente y  sus  experiencias con la enfermedad son diversas y muy personales. El bienestar emocional es un componente de la calidad de vida, por lo tanto, resulta importante que pueda reconocer y definir sus emociones.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
 
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-1.svg" class="descargas descargas--3d"></a>
@@ -213,7 +228,12 @@ HTML;
 
 // Actitudes
 $actitudes = <<<HTML
-<div class="pegajoso"></div>
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>Tenga sus propios expedientes completos y actualizados, con la debida información sobre su atención médica durante el proceso de diagnóstico, tratamiento y seguimiento del cáncer de mama, que permita brindarle la información precisa a cada médico tratante.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
 
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-2.svg" class="descargas descargas--3d"></a>
@@ -221,14 +241,30 @@ $actitudes = <<<HTML
 HTML;
 
 $suEntorno = <<<HTML
-<div class="pegajoso"></div>
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>La enfermedad no debe entenderse como un hecho aislado, sino como una serie de múltiples e interconectadas capas de transiciones psicosociales, por lo que debe comprender cuál es el impacto que este cambio tiene en la forma de relacionarse con su entorno.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+
+  <div class="destacado destacado--morado">
+    <p>La paciente con cáncer avanzado de mama debe encontrar un balance interno y externo que le permita afrontar los cambios que produce su nueva realidad, recuperar el control sobre su cotidianidad, mantener su estabilidad emocional y continuar con su vida.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
+
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-3.svg" class="descargas descargas--3d"></a>
 </div>
 HTML;
 
 $comunicacion = <<<HTML
-<div class="pegajoso"></div>
+<div class="pegajoso">
+  <div class="destacado destacado--secundario-3">
+    <p>Establecer metas para la buena comunicación entre las pacientes de cáncer avanzado de mama, los familiares que los cuidan y el equipo de atención de salud es fundamental para su bienestar psicosocial, ya que mejora la comprensión del proceso, promueve la adherencia al tratamiento y ayuda a mejorar su calidad de vida.</p>
+    <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
+  </div>
+</div>
 
 <div class="pegajoso pegajoso--flex">
   <a href="#" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-4.svg" class="descargas descargas--3d"></a>
