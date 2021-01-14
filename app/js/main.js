@@ -4,8 +4,8 @@ import { menuHeader } from "./modulos/scrolling.js";
 import { eliminarAtributo } from "./modulos/eliminarAtributos.js";
 import { ventanasModales } from "./modulos/ventanasModales.js";
 import {encuestas} from "./modulos/encuestas.js";
-import { csvToJSON } from "./modulos/csvToJSON.js";
 import { csvToTable } from "./modulos/csvToTable.js";
+import { descargas } from "./modulos/descargas.js";
 
 imagenSVG();
 redesSociales();
@@ -33,8 +33,6 @@ if ( typeof modal !== "undefined" )
         ventanasModales( "#modal", "modal--show" );
         break;
     }
-
-    console.log( e.target );
   }
 
 // Teclado:
@@ -60,3 +58,16 @@ onkeydown = (e) => {
 
 encuestas( "#encuestas" );
 csvToTable( "recursos/csv/glosario.csv", "#glosario" );
+
+// Probar la función descargas:
+descargas({
+  selector: ".recursos__options",
+  clase: "clase",
+
+  // Modos:
+  opciones: {
+    clase: "recursos__enlace",
+    vista: "--view",
+    descarga: "--download"
+  }
+});

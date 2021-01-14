@@ -1890,6 +1890,10 @@ p, li {
     --columnas: 1;
   }
 }
+.recursos__item {
+  display: flex;
+  flex-direction: column;
+}
 .recursos__icon {
   --diametro: 120px;
   --fondo: rgba(249, 124, 169, 0.7);
@@ -1919,11 +1923,22 @@ p, li {
   color: white;
   text-align: center;
   width: var(--diametro);
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding-top: 10px;
+}
+.recursos__caption h1, .recursos__caption h2, .recursos__caption h3, .recursos__caption h4, .recursos__caption h5, .recursos__caption h6 {
+  margin: 0;
+  font-weight: medium;
+  font-size: 1.3rem;
 }
 .recursos__options {
+  --separacion: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: var(--separacion);
+  margin-top: var(--separacion);
 }
 .recursos__enlace {
   --diametro: 40px;
@@ -2902,6 +2917,13 @@ p, li {
   padding: 10px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 0 0 5px 5px;
+}
+.modal__document {
+  position: relative;
+  margin: 0 auto;
+  border: 0;
+  width: 100%;
+  height: calc(100vh - 200px);
 }
 
 .pegajoso {
