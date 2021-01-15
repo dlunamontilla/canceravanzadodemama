@@ -11,8 +11,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar las nauseas y vomitos?"
         },
 
         {
@@ -21,8 +21,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar los trastornos gastrointestinales?"
         },
 
         {
@@ -31,8 +31,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar la caida del cabello?"
         },
 
         {
@@ -41,8 +41,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar la fatiga?"
         },
 
         {
@@ -51,8 +51,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar la pérdida ósea?"
         },
 
         {
@@ -61,8 +61,8 @@
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
-            "title" : "Titulo de la tarjeta",
-            "caption" : "Texto de la tarjeta"
+            "title" : "Hoja Informativa",
+            "caption" : "¿Como afrontar la menopausia y síntomas menopáusicos?"
         }
     ]
 }
