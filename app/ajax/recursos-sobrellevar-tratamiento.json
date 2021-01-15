@@ -7,12 +7,32 @@
     "cuerpo" : [
         {
             "icons" : {
-                "identificador" : "ruta",
+                "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/1-cuidado-boca-diente.svg",
                 "descarga" : "multimedia/vectores/descarga.svg"
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "Texto de la tarjeta"
+            "caption" : "¿Cuidados de la Boca y los Dientes?"
+        },
+
+        {
+            "icons" : {
+                "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/2-cuidado-piel-unna.svg",
+                "descarga" : "multimedia/vectores/descarga.svg"
+            },
+
+            "title" : "Hoja Informativa",
+            "caption" : "¿Cuidados de Piel y Uñas?"
+        },
+
+        {
+            "icons" : {
+                "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/3-ejercicios-durante-tratamiento.svg",
+                "descarga" : "multimedia/vectores/descarga.svg"
+            },
+
+            "title" : "Hoja Informativa",
+            "caption" : "¿Ejercicios durante el Tratamiento?"
         }
     ]
 }
