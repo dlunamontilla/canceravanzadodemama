@@ -19,7 +19,12 @@ const descargas = () => {
     const modal = elemento("#modal"),
         modalTitle = elemento("#modalTitle"),
         modalContent = elemento(".modal__content"),
-        iframe = crearHTML("iframe");
+        iframe = crearHTML("iframe"),
+        div = crearHTML("div");
+
+    const documentos = () => {
+        
+    };
 
     iframe.classList.add("modal__document");
 

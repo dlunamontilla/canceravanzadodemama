@@ -13,9 +13,15 @@ if ( count($_GET) < 1 ) {
   </div>
 HTML;
 
-  $downloadPage = <<<HTML
+  $manejoEfectosColaterales = <<<HTML
   <div class="recursos__options">
-    <a href="?descargas" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Página de descargas"></a>
+    <a href="?descargas" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Manejo de Efectos Colaterales"></a>
+  </div>
+HTML;
+
+  $recursosParaSobrellevarTratamiento = <<<HTML
+  <div class="recursos__options">
+    <a href="?descargas" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Recursos para Sobrellevar el Tratamiento"></a>
   </div>
 HTML;
   
@@ -36,7 +42,7 @@ HTML;
         <h3>Manejo de Efectos Colaterales</h3>
       </div>
   
-      $downloadPage
+      $manejoEfectosColaterales
     </div>
   
     <div class="recursos__item">
@@ -45,7 +51,7 @@ HTML;
         <h3>Recursos para Sobrellevar el Tratamiento</h3>
       </div>
   
-      $downloadPage
+      $recursosParaSobrellevarTratamiento
     </div>
   </div>
 HTML;

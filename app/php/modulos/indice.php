@@ -86,7 +86,10 @@ HTML;
 
             <!-- Otros elementos -->
             <div class="encuestas-button">
-                <button id="encuestas" class="button button--encuestas">Encuesta</button>
+                <button id="encuestas" class="button button--encuestas">
+                    <span data-src="multimedia/vectores/icono-encuesta.svg"></span>
+                    <span>¿Qué sabes del<br>Cáncer de Mama?</span>
+                </button>
             </div>
         </div>
     </div>

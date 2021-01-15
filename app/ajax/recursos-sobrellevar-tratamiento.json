@@ -1,0 +1,18 @@
+{
+    "header": {
+        "icon": "multimedia/vectores/recurso.svg",
+        "title": "Recursos para Sobrellevar el Tratamiento"
+    },
+
+    "cuerpo" : [
+        {
+            "icons" : {
+                "identificador" : "ruta",
+                "descarga" : "multimedia/vectores/descarga.svg"
+            },
+
+            "title" : "Hoja Informativa",
+            "caption" : "Texto de la tarjeta"
+        }
+    ]
+}
