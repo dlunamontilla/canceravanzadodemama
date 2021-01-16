@@ -2044,9 +2044,8 @@
 
   &__header {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-
+    padding-left: 7px;
     --svg-size: 60px;
 
     font: {
@@ -2055,13 +2054,14 @@
     }
     
     border: 2px solid var(--color);
-    border-radius: 10px;
+    border-radius: 30px;
+    overflow: hidden;
 
     min-height: 60px;
 
     svg {
-      width: var(--svg-size);
       height: var(--svg-size);
+      width: var(--svg-size);
     }
 
     path {
@@ -2080,20 +2080,29 @@
   &__icon,
   &__title {
     flex-shrink: 1;
+
+    display: flex;
+    align-items: center;
   }
 
   &__icon {
     flex-grow: 0;
+    padding: 5px 20px;
+    justify-content: center;
   }
 
   &__title {
     padding: 0 10px;
-    background-color: rgba(white, 0.2);
+    background-color: var(--color);
     flex-grow: 1;
+
+    --radio: 20px;
+    border-radius: var(--radio) 0 0 var(--radio); 
   }
 
   &__cuerpo {
     padding: 10px;
+    margin-top: 25px;
   }
 }
 
@@ -2129,6 +2138,7 @@
     &:focus {
       opacity: 0.75;
       --color-shadow: #{$color-secundario-3};
+      --color: var(--color-shadow);
 
       color: $color-secundario-3;
     }
@@ -2148,6 +2158,11 @@
       margin: 0 auto;
       width: var(--diametro);
       height: var(--diametro);
+    }
+
+    path {
+      fill: var(--color);
+      transition: 300ms ease;
     }
   }
 
@@ -2186,6 +2201,7 @@
   &__leyenda {
     width: 100%;
     text-align: center;
+    margin-bottom: 10px;
   }
 
   &__titulo {

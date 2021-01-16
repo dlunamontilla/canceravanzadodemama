@@ -2991,18 +2991,19 @@ p, li {
 }
 .documentos__header {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
+  padding-left: 7px;
   --svg-size: 60px;
   font-size: 1.35rem;
   font-weight: bold;
   border: 2px solid var(--color);
-  border-radius: 10px;
+  border-radius: 30px;
+  overflow: hidden;
   min-height: 60px;
 }
 .documentos__header svg {
-  width: var(--svg-size);
   height: var(--svg-size);
+  width: var(--svg-size);
 }
 .documentos__header path {
   fill: var(--color);
@@ -3015,17 +3016,24 @@ p, li {
 }
 .documentos__icon, .documentos__title {
   flex-shrink: 1;
+  display: flex;
+  align-items: center;
 }
 .documentos__icon {
   flex-grow: 0;
+  padding: 5px 20px;
+  justify-content: center;
 }
 .documentos__title {
   padding: 0 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: var(--color);
   flex-grow: 1;
+  --radio: 20px;
+  border-radius: var(--radio) 0 0 var(--radio);
 }
 .documentos__cuerpo {
   padding: 10px;
+  margin-top: 25px;
 }
 
 .tarjetas {
@@ -3050,6 +3058,7 @@ p, li {
 .tarjetas__item:hover, .tarjetas__item:focus {
   opacity: 0.75;
   --color-shadow: #00b7b7;
+  --color: var(--color-shadow);
   color: #00b7b7;
 }
 .tarjetas__item:active {
@@ -3065,6 +3074,10 @@ p, li {
   margin: 0 auto;
   width: var(--diametro);
   height: var(--diametro);
+}
+.tarjetas__descarga path {
+  fill: var(--color);
+  transition: 300ms ease;
 }
 .tarjetas__contenedor-grafico {
   --diametro: 150px;
@@ -3092,6 +3105,7 @@ p, li {
 .tarjetas__leyenda {
   width: 100%;
   text-align: center;
+  margin-bottom: 10px;
 }
 .tarjetas__titulo {
   padding: 10px;

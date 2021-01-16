@@ -8,7 +8,7 @@
         {
             "icons" : {
                 "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/1-cuidado-boca-diente.svg",
-                "descarga" : "multimedia/vectores/descarga.svg"
+                "descarga" : "multimedia/vectores/descargar-documentos.svg"
             },
 
             "title" : "Hoja Informativa",
@@ -19,7 +19,7 @@
         {
             "icons" : {
                 "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/2-cuidado-piel-unna.svg",
-                "descarga" : "multimedia/vectores/descarga.svg"
+                "descarga" : "multimedia/vectores/descargar-documentos.svg"
             },
 
             "title" : "Hoja Informativa",
@@ -30,7 +30,7 @@
         {
             "icons" : {
                 "identificador" : "multimedia/vectores/descargas/sobrellevar-tratamiento/3-ejercicios-durante-tratamiento.svg",
-                "descarga" : "multimedia/vectores/descarga.svg"
+                "descarga" : "multimedia/vectores/descargar-documentos.svg"
             },
 
             "title" : "Hoja Informativa",
