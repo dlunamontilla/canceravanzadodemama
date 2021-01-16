@@ -1,3 +1,4 @@
+import { imagenSVG } from "./imagenSVG.js";
 import { elemento, elementos } from "./elementos.js";
 import { crearHTML } from "./crearHTML.js";
 
@@ -108,6 +109,7 @@ const descargas = () => {
             
             // Incorporar la url al enlace:
             tarjeta.setAttribute("href", href);
+            tarjeta.setAttribute("download", caption);
 
             // Agregando contenido:
             tituloTarjeta.textContent = title;
@@ -169,7 +171,7 @@ const descargas = () => {
 
                 // Abrir la ventana modal:
                 modal.classList.add("modal--show");
-
+                document.body.setAttribute("style", "overflow: hidden");
 
                 // Cargar el archivo JSON en la ventana modal
                 // si lo es:
@@ -184,6 +186,9 @@ const descargas = () => {
                     .then( respuesta => respuesta.json() )
                     .then( data => {
                         modalContent.appendChild( documentos( data ) );
+
+                        // Implementar los gráficos vectoriales en la ventana modal:
+                        imagenSVG();
                     });
 
                     return;
@@ -192,9 +197,6 @@ const descargas = () => {
                 // Cargar un documento en formato PDF en la ventana modal:
                 iframe.setAttribute("src", this.href);
                 modalContent.appendChild(iframe);
-
-
-
             }
         }, false);
     })
