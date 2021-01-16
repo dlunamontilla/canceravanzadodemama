@@ -88,6 +88,7 @@ const descargas = () => {
 
             // Implementación de clases:
             tarjeta.classList.add( "tarjetas__item" );
+            tarjeta.setAttribute("title", `Presione para descargar "${caption}"`)
             
             // Aplicar clases al contenedor gráfico con sus elementos:
             contenedorGrafico.classList.add("tarjetas__contenedor-grafico");

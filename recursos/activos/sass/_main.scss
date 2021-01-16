@@ -2101,19 +2101,43 @@
 .tarjetas {
   display: grid;
   grid-template-columns: repeat( 4, 1fr );
-  gap: 10px;
+  color: $color-base;
+  outline: medium none;
+
+
+  --gap: 15px;
+
+  // Separación entre columnas:
+  grid-column-gap: var(--gap);
+  column-gap: var(--gap);
+
+  // Separación entre filas:
+  grid-row-gap: calc(var(--gap) * 2 );
+  row-gap: calc(var(--gap) * 2 );
 
   &__item {
-    padding: 10px;
     min-height: 150px;
+    color: inherit;
 
-    // Colores temporales:
-    border: 1px solid $color-secundario-4;
-
-    // Propiedad temporal:
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    transition: 300ms ease;
+
+    &:hover,
+    &:focus {
+      opacity: 0.75;
+      --color-shadow: #{$color-secundario-3};
+
+      color: $color-secundario-3;
+    }
+
+    &:active {
+      transition: none;
+      color: darken($color-secundario-3, 20);
+      opacity: 1;
+    }
   }
 
   &__descarga {
@@ -2130,6 +2154,8 @@
   &__contenedor-grafico {
     --diametro: 150px;
 
+    transition: 300ms ease;
+
     padding: 10px;
     background-color: white;
     border-top-left-radius: 10px;
@@ -2143,15 +2169,15 @@
       height: calc(var(--diametro) * 1.3);
     }
 
-    box-shadow: 2px 2px 0px 2px var(--color-shadow);
+    box-shadow: 2px 2px 2px 0px var(--color-shadow);
   }
 
   &__descripcion {
-    margin-top: 20px;
-    border: 1px solid;
+    margin-top: 10px;
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     flex-shrink: 1;
     flex-grow: 1;
