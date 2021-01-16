@@ -1,7 +1,7 @@
 {
     "header": {
         "icon": "multimedia/vectores/recurso.svg",
-        "title": "Recursos para Sobrellevar el Tratamiento"
+        "headerTitle": "Recursos para Sobrellevar el Tratamiento"
     },
 
     "cuerpo" : [
@@ -12,7 +12,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Cuidados de la Boca y los Dientes?"
+            "caption" : "¿Cuidados de la Boca y los Dientes?",
+            "href" : ""
         },
 
         {
@@ -22,7 +23,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Cuidados de Piel y Uñas?"
+            "caption" : "¿Cuidados de Piel y Uñas?",
+            "href" : ""
         },
 
         {
@@ -32,7 +34,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Ejercicios durante el Tratamiento?"
+            "caption" : "¿Ejercicios durante el Tratamiento?",
+            "href" : ""
         }
     ]
 }

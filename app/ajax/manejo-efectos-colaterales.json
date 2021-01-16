@@ -1,7 +1,7 @@
 {
     "header": {
         "icon": "multimedia/vectores/la-paciente.svg",
-        "title": "Manejo de Efectos Colaterales"
+        "headerTitle": "Manejo de Efectos Colaterales"
     },
 
     "cuerpo" : [
@@ -12,7 +12,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar las nauseas y vomitos?"
+            "caption" : "¿Como afrontar las nauseas y vomitos?",
+            "href" : ""
         },
 
         {
@@ -22,7 +23,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar los trastornos gastrointestinales?"
+            "caption" : "¿Como afrontar los trastornos gastrointestinales?",
+            "href" : ""
         },
 
         {
@@ -32,7 +34,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar la caida del cabello?"
+            "caption" : "¿Como afrontar la caida del cabello?",
+            "href" : ""
         },
 
         {
@@ -42,7 +45,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar la fatiga?"
+            "caption" : "¿Como afrontar la fatiga?",
+            "href" : ""
         },
 
         {
@@ -52,7 +56,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar la pérdida ósea?"
+            "caption" : "¿Como afrontar la pérdida ósea?",
+            "href" : ""
         },
 
         {
@@ -62,7 +67,8 @@
             },
 
             "title" : "Hoja Informativa",
-            "caption" : "¿Como afrontar la menopausia y síntomas menopáusicos?"
+            "caption" : "¿Como afrontar la menopausia y síntomas menopáusicos?",
+            "href" : ""
         }
     ]
 }

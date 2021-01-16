@@ -20,10 +20,23 @@ const descargas = () => {
         modalTitle = elemento("#modalTitle"),
         modalContent = elemento(".modal__content"),
         iframe = crearHTML("iframe"),
-        div = crearHTML("div");
 
-    const documentos = () => {
-        
+        // Preparando tipos de elementos para las tarjetas:
+        div = crearHTML("div"),
+        cabecera = crearHTML("header"),
+        seccion = crearHTML("section"),
+        enlace = crearHTML("a");
+
+
+    const documentos = ( data ) => {
+        let { icon, headerTitle } = data.header;
+        // let { icons, title, caption, href } = cuerpo;
+
+        for ( let cuerpo of data.cuerpo ) {
+            let { icons, title, caption, href } = cuerpo;
+
+            
+        }
     };
 
     iframe.classList.add("modal__document");

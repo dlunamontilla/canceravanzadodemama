@@ -15,13 +15,13 @@ HTML;
 
   $manejoEfectosColaterales = <<<HTML
   <div class="recursos__options">
-    <a href="?descargas" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Manejo de Efectos Colaterales"></a>
+    <a href="app/ajax/manejo-efectos-colaterales.json" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Manejo de Efectos Colaterales"></a>
   </div>
 HTML;
 
   $recursosParaSobrellevarTratamiento = <<<HTML
   <div class="recursos__options">
-    <a href="?descargas" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Recursos para Sobrellevar el Tratamiento"></a>
+    <a href="app/ajax/recursos-sobrellevar-tratamiento.json" class="recursos__enlace recursos__enlace--view" data-src="multimedia/vectores/vista.svg" target="_blank"  data-title="Recursos para Sobrellevar el Tratamiento"></a>
   </div>
 HTML;
   
