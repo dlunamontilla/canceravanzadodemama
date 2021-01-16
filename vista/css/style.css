@@ -2981,6 +2981,52 @@ p, li {
   transition: none;
 }
 
+.documentos {
+  position: relative;
+  margin: 0 auto;
+}
+.documentos__header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-size: 1.35rem;
+  font-weight: bold;
+  --color: #4d4d4d;
+  background-color: var(--color);
+  color: white;
+  min-height: 60px;
+}
+.documentos__header--secundario-3 {
+  --color: #00b7b7;
+}
+.documentos__header--secundario-2 {
+  --color: #fcbdd4;
+}
+.documentos__icon {
+  background-color: white;
+}
+.documentos__title {
+  padding: 0 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.documentos__cuerpo {
+  background-color: white;
+  padding: 10px;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.tarjetas__item {
+  padding: 10px;
+  min-height: 150px;
+  background-color: #f7f7f7;
+  border: 1px solid #60c160;
+}
+
 .main-admin {
   background-color: #526565;
   color: white;

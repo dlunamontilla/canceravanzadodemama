@@ -2030,3 +2030,67 @@
     transition: none;
   }
 }
+
+// Aplicación de estilos para documentos de descargas:
+.documentos {
+  position: relative;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 10px;
+
+    font: {
+      size: 1.35rem;
+      weight: bold;
+    }
+
+    --color: #{$color-base};
+
+    background-color: var(--color);
+    color: white;
+    min-height: 60px;
+
+    &--secundario-3 {
+      --color: #{$color-secundario-3};
+    }
+
+    &--secundario-2 {
+      --color: #{$color-secundario-2};
+    }
+  }
+
+  &__icon {
+    background-color: white;
+
+  }
+
+  &__title {
+    padding: 0 10px;
+    background-color: rgba(white, 0.2);
+  }
+
+  &__cuerpo {
+    background-color: white;
+    padding: 10px;
+  }
+}
+
+// Tarjeta de documentos:first-child
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat( 3, 1fr );
+  gap: 20px;
+
+  &__item {
+    padding: 10px;
+    min-height: 150px;
+
+    // Colores temporales:
+    background-color: darken(white, 3);
+    border: 1px solid $color-secundario-4;
+  }
+}
