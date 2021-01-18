@@ -75,7 +75,7 @@ if ($get->modulo("sparc-uicc")) {
   <!-- Enlace de descarga -->
   <div class="pegajoso pegajoso--flex">
     <div class="pegajoso__inner">
-      <a href="#" target="_blank" class="descargas" data-src="multimedia/vectores/descarga-pdf.svg"></a>
+      <a href="descargas/nosotros/Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" target="_blank" download="Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" class="descargas" data-src="multimedia/vectores/descarga-pdf.svg"></a>
     </div>
   </div>
 HTML;
@@ -129,7 +129,7 @@ if ($get->modulo("abc-global")) {
   $sidebar = <<<HTML
 <div class="sidebar__item" data-src="multimedia/vectores/abcglobalalliance.svg"></div>
 <div class="sidebar__item sidebar__item--descarga">
-  <a href="#" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank" class="descargas"></a>
+  <a href="descargas/nosotros/ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank" class="descargas" download="ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf"></a>
 </div>
 HTML;
 
