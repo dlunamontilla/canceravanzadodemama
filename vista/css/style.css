@@ -818,6 +818,10 @@ a:not([class]):hover {
   min-height: 100vh;
 }
 
+.none {
+  display: none;
+}
+
 hr {
   margin: 20px auto 30px;
   border: 0;
