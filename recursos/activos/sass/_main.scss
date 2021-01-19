@@ -2042,11 +2042,39 @@
 
   background-color: rgba(white, 0.98);
 
+  &--secundario {
+    --color: #{$color-secundario};
+    --color-shadow: #{rgba($color-secundario, 0.3)};
+  }
+
+  &--secundario-2 {
+    --color: #{$color-secundario-2};
+    --color-shadow: #{rgba($color-secundario-2, 0.3)};
+  }
+
+  &--secundario-3 {
+    --color: #{$color-secundario-3};
+    --color-shadow: #{rgba($color-secundario-3, 0.3)};
+  }
+
+  &--secundario-4 {
+    --color: #{$color-secundario-4};
+    --color-shadow: #{rgba($color-secundario-4, 0.3)};
+  }
+
   &__header {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 7px;
+    --padding: 7px;
     --svg-size: 60px;
+
+    transition: 300ms ease;
+
+    display: flex;
+    padding-left: var(--padding);
+
+    @media screen and ( max-width: 580px ) {
+      flex-wrap: wrap;
+      --padding: 0;
+    }
 
     font: {
       size: 1.35rem;
@@ -2083,33 +2111,56 @@
 
     display: flex;
     align-items: center;
+
+    transition: 300ms ease;
   }
 
   &__icon {
     flex-grow: 0;
     padding: 5px 20px;
     justify-content: center;
+
+    @media screen and ( max-width: 580px ) {
+      flex-grow: 1;
+    }
   }
 
   &__title {
-    padding: 0 30px;
+    --padding: 30px;
+
+    padding: 0 var(--padding);
     background-color: var(--color);
     flex-grow: 1;
 
     --radio: 20px;
-    border-radius: var(--radio) 0 0 var(--radio); 
+    border-radius: var(--radio) 0 0 var(--radio);
+    min-height: 50px;
+
+
+    @media screen and ( max-width: 580px ) {
+      font-size: 1rem;
+      --padding: 10px;
+      --radio: 0;
+
+      padding-top: calc( var(--padding) / 2 );
+      padding-bottom: calc( var(--padding) / 2 );
+    }
   }
 
   &__cuerpo {
     padding: 10px;
     margin-top: 25px;
+
+    overflow: hidden;
   }
 }
 
 // Tarjeta de documentos:first-child
 .tarjetas {
   display: grid;
-  grid-template-columns: repeat( 4, 1fr );
+  // grid-template-columns: repeat( 4, 1fr );
+  grid-template-columns: repeat( auto-fill, minmax(200px, 1fr) );
+
   color: $color-base;
   outline: medium none;
 

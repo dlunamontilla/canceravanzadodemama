@@ -170,7 +170,7 @@ HTML;
       <div class="infografia">
         <div class="infografia__item infografia__item--1 frontal frontal--infografia-1">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-1.svg">1</div>
-          <div class="infografia__right">Ayudar a los pacientes con CAM a vivir más tiempo duplicando la mediana de superviviencia global para el año 2025.</div>
+          <div class="infografia__right">Ayudar a los pacientes con CAM a vivir más tiempo duplicando la mediana de supervivencia global para el año 2025.</div>
         </div>
         
         <div class="infografia__item infografia__item--2 frontal frontal--infografia-2">
@@ -205,7 +205,7 @@ HTML;
         
         <div class="infografia__item infografia__item--8 frontal frontal--infografia-8">
           <div class="infografia__left" data-src="multimedia/vectores/infografia-8.svg">8</div>
-          <div class="infografia__right">Contrarestar el estigma y el aislamiento asociados con el CAM al aumentar el conocimiento público de la enfermedad.</div>
+          <div class="infografia__right">Contrarrestar el estigma y el aislamiento asociados con el CAM al aumentar el conocimiento público de la enfermedad.</div>
         </div>
         
         <div class="infografia__item infografia__item--9 frontal frontal--infografia-9">
