@@ -91,7 +91,7 @@
 
           <ul class="listas listas--disco listas--secundario-3">
             <li>Música y audífonos. Es tentativo algunas personas prefieren recostarse y mantenerse tranquilas.</li>
-            <li>Algún tipo de lectura como un libro, crucigramas u otro pasatiempo (computadora portátil, teléfono inteligente, cónsola de videojuegos, juego de cartas o un cuaderno de dibujo o escritura). Puede usarlo o no, muchas veces pierde la capacidad de mantener la de concentración o atención fija en algo,  por lo que ir acompañada es importante para compartir una conversación.</li>
+            <li>Algún tipo de lectura como un libro, crucigramas u otro pasatiempo (computadora portátil, teléfono inteligente, cónsola de videojuegos, juego de cartas o un cuaderno de dibujo o escritura). Puede usarlo o no, muchas veces pierde la capacidad de mantener la concentración o atención fija en algo,  por lo que ir acompañada es importante para compartir una conversación.</li>
             <li>Una almohada pequeña o reposa cabeza.</li>
             <li>Una manta pequeña y medias, generalmente los sitios donde se administra la quimioterapia son fríos.</li>
             <li>Agua Mineral para hidratarse. Beba mucha agua. Los medicamentos de la quimioterapia se eliminan por la orina, en la cual se concentran. La orina puede volverse anaranjada, roja o más amarilla, o tener un fuerte olor a medicina.</li>

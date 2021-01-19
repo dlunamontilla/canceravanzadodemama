@@ -362,7 +362,7 @@ HTML;
       </p>
 
       <p class="text text--justify">
-        La determinación del estadio puede ser clínica o patológica. El estadio clínico está basado en el examen físico y los resultados de las pruebas imagenológicas que se realizan antes de iniciar el tratamiento.La determinación del estadio patológico se realiza a través del informe de biopsia de la pieza quirúrgica.
+        La determinación del estadio puede ser clínica o patológica. El estadio clínico está basado en el examen físico y los resultados de las pruebas imagenológicas que se realizan antes de iniciar el tratamiento. La determinación del estadio patológico se realiza a través del informe de biopsia de la pieza quirúrgica.
       </p>
 
       <p class="text text--justify">
@@ -430,6 +430,12 @@ HTML;
 
       <!-- Estadio IIIB -->
       <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIIB</strong></p>
+      <ul class="listas listas--disco listas--secundario-2">
+        <li><strong>T4N 0 – N2 M0:</strong> Tumor en la mama de cualquier tamaño extendido a la piel de la mama, apareciendo nódulos o ulceraciones, y/o a la pared torácica, o ser un carcinoma inflamatorio, que se acompaña o no de afectación de los ganglios linfáticos axilares (máximo de 9 ganglios) o ganglios linfáticos mamarios internos.</li>
+      </ul>
+
+      <!-- Estadio IIIC -->
+      <p class="text text--right frontal frontal--secundario-2"><strong>Estadio IIIC</strong></p>
       <ul class="listas listas--disco listas--secundario-2">
         <li><strong>T0 – T4 N3 M0:</strong> Tumor en la mama de cualquier tamaño que se ha diseminado a 10 o más ganglios linfáticos axilares, los ganglios linfáticos mamarios internos o los ganglios linfáticos debajo o por encima de la clavícula (ganglios supra e infraclaviculares).</li>
       </ul>
