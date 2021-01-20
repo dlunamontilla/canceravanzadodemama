@@ -88,7 +88,7 @@
 
                   <ul class="listas listas--circulo">
                     <li class="text text--justify">
-                      Síndrome de pies y manos también denominado eritrodisestesiapalmoplantar El síndrome de pies y manos es una reacción cutánea causada por ciertos medicamentos: Capecitabina, 5-Fluorouracilo, Doxorrubicina y el Lapatinib, que se produce cuando una pequeña cantidad de medicamento se filtra desde los capilares de las palmas de las manos y las plantas de los pies, dañándolos tejidos circundantes. Se caracteriza por adormecimiento, molestia o hipersensibilidad en manos y pies, acompañado de sensación de hormigueo, ardor o comezón, enrojecimiento e inflamación. Si presenta este síndrome intente mantener sus manos y pies hidratados, mantener cubiertos sus pies, así como evitar la exposición de sus manos a productos químicos irritantes como los detergentes. Puede colocar hielo local en zona afectada para aliviar la sensación de ardor.
+                      Síndrome de pies y manos también denominado eritrodisestesia palmoplantar El síndrome de pies y manos es una reacción cutánea causada por ciertos medicamentos: Capecitabina, 5-Fluorouracilo, Doxorrubicina y el Lapatinib, que se produce cuando una pequeña cantidad de medicamento se filtra desde los capilares de las palmas de las manos y las plantas de los pies, dañándolos tejidos circundantes. Se caracteriza por adormecimiento, molestia o hipersensibilidad en manos y pies, acompañado de sensación de hormigueo, ardor o comezón, enrojecimiento e inflamación. Si presenta este síndrome intente mantener sus manos y pies hidratados, mantener cubiertos sus pies, así como evitar la exposición de sus manos a productos químicos irritantes como los detergentes. Puede colocar hielo local en zona afectada para aliviar la sensación de ardor.
                     </li>
 
                     <li class="text text--justify">Dolor en boca y garganta, debido a úlceras en la boca (mucositis).</li>
@@ -118,7 +118,7 @@
                   <p><strong>Terapia Dirigida:</strong></p>
 
                   <ul class="listas listas--circulo">
-                    <li class="text text--justify">Síndrome de pies y manos también denominado eritrodisestesiapalmoplantar.</li>
+                    <li class="text text--justify">Síndrome de pies y manos también denominado eritrodisestesia palmoplantar.</li>
                     <li class="text text--justify">Dolor en boca y garganta, debido a úlceras en la boca (mucositis).</li>
                     <li class="text text--justify">Dolor Muscular o mialgias.</li>
                     <li class="text text--justify">Neuropatía.</li>

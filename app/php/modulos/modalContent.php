@@ -47,7 +47,7 @@ if ( $get->modulo("conozca") ) {
     $modalContent = <<<HTML
     <ol class="modal__listas modal__listas--block listas listas--decimal listas--bold">
         <li class="text text--justify">El  cáncer  de  mama  avanzado  compromete  al  cáncer  de  mama  localmente  avanzado inoperable de inicio (Cáncer de Mama Estadio IIIB-C) y el cáncer de mama metastásico (Cáncer de Mama Estadio IV).</li>
-        <li class="text text--justify">El cáncer localmente avanzado de mama inoperable de inicio, se dene como el  cáncer  que  se  ha  extendido  a  tejidos  o  ganglios  linfáticos  cercanos  a  la  mama,  pero  no  se  ha  diseminado  a  distancia  por  el  cuerpo.  Abarca la enfermedad en estadio IIIB-IIIC, que implica tumor en mama con extensión a la pared torácica o la piel independientemente del estado ganglionar (T4). En este grupo se incluye el Cáncer de Mama Inflamatorio (T4d).</li>
+        <li class="text text--justify">El cáncer localmente avanzado de mama inoperable de inicio, se define como el  cáncer  que  se  ha  extendido  a  tejidos  o  ganglios  linfáticos  cercanos  a  la  mama,  pero  no  se  ha  diseminado  a  distancia  por  el  cuerpo.  Abarca la enfermedad en estadio IIIB-IIIC, que implica tumor en mama con extensión a la pared torácica o la piel independientemente del estado ganglionar (T4). En este grupo se incluye el Cáncer de Mama Inflamatorio (T4d).</li>
         <li class="text text--justify">El cáncer de mama metastásico o secundario, es aquel que se ha expandido a otras partes del cuerpo. Las localizaciones más comunes en las que se puede detectar  el  cáncer  de  mama  metastásico  son  los  huesos,  los  pulmones,  el  hígado y el cerebro.</li>
     </ol>
 
