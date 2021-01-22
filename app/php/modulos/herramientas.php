@@ -73,7 +73,6 @@
 
 				<div>
 					<div data-src="multimedia/vectores/imagen-1.1-herramientas-informe.svg" class="imagen imagen--verde"></div>
-					<p class="text text--justify"><i>Material educativo para pacientes, desarrollado por la Fundación Venezolana para la Educación e Investigación contra el Cáncer de Mama (FUVEICAM)</i></p>
 				</div>
 			</li>
 

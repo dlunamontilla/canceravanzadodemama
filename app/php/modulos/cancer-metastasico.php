@@ -149,6 +149,10 @@
               <p><i><strong>BIOPSIA DE LA METÁSTASIS</strong>, si es accesible y clínicamente factible su realización para confirmar el diagnóstico y los marcadores tumorales.</i></p>
             </li>
           </ul>
+
+          <div class="imagen imagen--verde">
+            <img src="multimedia/img/hoja-informativa-estudios-diagnostico.webp" alt="">
+          </div>
         </li>
 
         <!-- c. -->
@@ -229,12 +233,8 @@
           <p><strong class="frontal frontal--secundario-2">Criterios de Terminalidad</strong></p>
 
           <p class="text text--justify">
-            Cuando las opciones de tratamiento del cáncer de mama metastásico se vuelven muy limitadas y el cáncer es difícil de controlar, las pacientes pueden elegir detener el tratamiento.Las pacientes  con cáncer de mama metastásico, que tengan enfermedad oncológica progresiva; sin respuesta al tratamiento; con síntomas intensos, múltiples y cambiantes; y con  un pronóstico vital limitado de menos de 6 meses, se definen como pacientes terminales. Es extremadamente importante en este punto asegurarse que la paciente se sienta cómoda, que no tenga dolor y que reciba el adecuado apoyo emocional. Debe mantenerse un diálogo abierto y constante con su equipo de atención médica, a fin de expresar sus sentimientos, preferencias y posibles dudas respecto a los cuidados terminales. El equipo de atención médica tiene experiencia y  el conocimiento para brindar apoyo a las pacientes terminales y a sus cuidadores.
+            Cuando las opciones de tratamiento del cáncer de mama metastásico se vuelven muy limitadas y el cáncer es difícil de controlar, las pacientes pueden elegir detener el tratamiento. Las pacientes  con cáncer de mama metastásico, que tengan enfermedad oncológica progresiva; sin respuesta al tratamiento; con síntomas intensos, múltiples y cambiantes; y con  un pronóstico vital limitado de menos de 6 meses, se definen como pacientes terminales. Es extremadamente importante en este punto asegurarse que la paciente se sienta cómoda, que no tenga dolor y que reciba el adecuado apoyo emocional. Debe mantenerse un diálogo abierto y constante con su equipo de atención médica, a fin de expresar sus sentimientos, preferencias y posibles dudas respecto a los cuidados terminales. El equipo de atención médica tiene experiencia y  el conocimiento para brindar apoyo a las pacientes terminales y a sus cuidadores.
           </p>
-
-          <div class="">
-            <img src="multimedia/img/hoja-informativa-estudios-diagnostico.webp" alt="">
-          </div>
         </li>
       </ol>
     </div>
