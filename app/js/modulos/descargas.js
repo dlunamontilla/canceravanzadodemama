@@ -176,7 +176,7 @@ const descargas = () => {
 
                 // Cargar el archivo JSON en la ventana modal
                 // si lo es:
-                if ( isJSON.test( this.href ) ){
+                if ( isJSON.test( this.href ) ) {
                     // Vaciar elementos:s
                     modalContent.innerHTML = "";
 
