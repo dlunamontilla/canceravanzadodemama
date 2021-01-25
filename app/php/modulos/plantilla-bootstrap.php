@@ -28,10 +28,10 @@ $bootstrap =<<<HTML
       <img src="multimedia/img/carousel/imagen2.jpeg" class="d-block w-100" alt="...">
      
       <div class="carousel-caption d-none d-md-block">
-      <div class="carousel-caption-text">
+        <a href="?quimioterapia" class="carousel-caption-text">
             <h5>¿Cómo empezar?</h5>
             <p>Obtenga Información para la Toma de Decisiones</p>
-        </div>
+        </a>
       </div>
     </div>
 
@@ -39,10 +39,10 @@ $bootstrap =<<<HTML
       <img src="multimedia/img/carousel/imagen3.jpeg" class="d-block w-100" alt="...">
       
       <div class="carousel-caption d-none d-md-block">
-      <div class="carousel-caption-text">
+        <a href="?conozca" class="carousel-caption-text">
             <h5>Seguir es el plan</h5>
             <p>Conozca sus Opciones y Metas de Tratamiento en el Cáncer Avanzado de Mama</p>
-        </div>
+        </a>
       </div>
     </div>
 
@@ -50,10 +50,10 @@ $bootstrap =<<<HTML
       <img src="multimedia/img/carousel/imagen4.jpeg" class="d-block w-100" alt="...">
       
       <div class="carousel-caption d-none d-md-block">
-          <div class="carousel-caption-text">
+          <a href="?paciente" class="carousel-caption-text">
             <h5>Saber Vivir</h5>
             <p>Navegue a través de su enfermedad</p>
-          </div>
+          </a>
       </div>
     </div>
   </div>
