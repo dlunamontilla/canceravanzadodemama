@@ -16,9 +16,9 @@ $bootstrap =<<<HTML
       <div class="carousel-caption d-none d-md-block">
         <div class="carousel-caption-text">
             <div class="carousel-icon icon">
-                <div data-src="multimedia/vectores/fuveicam.svg"></div>
-                <div data-src="multimedia/vectores/uicc.svg"></div>
-                <div data-src="multimedia/vectores/abcglobalalliance.svg"></div>
+                <a href="?nosotros" data-src="multimedia/vectores/fuveicam.svg"></a>
+                <a href="https://www.uicc.org/" target="_blank" data-src="multimedia/vectores/uicc.svg"></a>
+                <a href="https://www.abcglobalalliance.org/" target="_blank" data-src="multimedia/vectores/abcglobalalliance.svg"></a>
             </div>
         </div>
       </div>

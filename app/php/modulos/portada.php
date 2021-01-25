@@ -17,7 +17,7 @@ if ( count($_GET) < 1 ) {
           <!-- Iconos -->
           <div class="icon">
             <div class="icon__item icon__item--left">
-              <a href="#" target="_blank" data-src="multimedia/vectores/fuveicam.svg"></a>
+              <a href="?nosotros" target="_blank" data-src="multimedia/vectores/fuveicam.svg"></a>
             </div>
   
             <div class="icon__item icon__item--center">
