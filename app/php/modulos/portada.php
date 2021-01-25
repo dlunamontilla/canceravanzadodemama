@@ -36,3 +36,16 @@ if ( count($_GET) < 1 ) {
     </div>
 HTML;
 }
+
+$portada = "";
+
+
+if ( count($_GET) < 1 ) {
+  $portada = <<<HTML
+  <div class="portada">
+    <!-- <img src="multimedia/img/carousel/imagen1.jpeg" alt=""> -->
+    $bootstrap
+  </div>
+
+HTML;
+}

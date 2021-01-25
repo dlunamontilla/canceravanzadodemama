@@ -344,6 +344,12 @@
   &--home {
     min-height: calc(100vh - 110px);
   }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 }
 
 // Decoraciones:

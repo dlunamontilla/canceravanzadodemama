@@ -1,0 +1,183 @@
+.carousel {
+    // Tiempo de animación:
+    --animation: 400ms ease;
+    --separacion: 10%;
+
+    position: relative;
+
+    // Color temporal:
+    background-color: darken(white, 50);
+
+    &-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 20px;
+        gap: 10px;
+        --diametro: 80px;
+
+        svg {
+            height: var(--diametro);
+        }
+
+        &:last-of-type {
+            svg {
+                width: calc(var(--diametro) * 1.7);
+            }
+        }
+    }
+
+    &-item {
+        --active: none;
+        --opacidad: 1;
+
+        --position: relative;
+
+        display: var(--active);
+        position: var(--position);
+        
+        background-color: white;
+        transition: var(--animation);
+
+        opacity: var(--opacidad);
+
+        &-start,
+        &-end {
+            // animation: var(--animation) fadeIn 1;    
+            display: none;
+        }
+
+        &-next,
+        &-prev {
+            // animation: var(--animation) fadeOut 1;   
+            display: block;
+        }
+
+        z-index: 0;
+    }
+
+    &-indicators {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        
+        position: absolute;
+        margin: auto;
+        left: 0; right: 0;
+        top: auto; bottom: 0;
+
+        // Por si llegan a proporcionar muchas imágenes:
+        flex-wrap: wrap;
+
+        // Colores temporales:
+        height: 40px;
+
+        // Quitar los números:
+        list-style-type: none;
+
+        // Estilos para las listas para que puedan ser
+        // alcanzado por la clase active:
+        --fondo: #{$color-secundario-4};
+        --proporciones: 4px;
+        --borde: white;
+        z-index: 10;
+
+
+        li {
+            // Cuando esté activo tomará el fondo
+            // especificado en la clase active:
+            background-color: var(--fondo);
+            border: 1px solid var(--borde);
+            width: calc(var(--proporciones) * 6);
+            height: var(--proporciones);
+            transition: 300ms ease;
+        }
+    }
+
+    &-control {
+        &-prev,
+        &-next {
+            --color: #{$color-secundario-2};
+            --diametro: 40px;
+
+            position: absolute;
+            margin: auto;
+            top: 0; bottom: 0;
+            padding: 10px;
+            min-width: 100px;
+            width: var(--separacion);
+            
+            background-color: rgba( black, 0 );
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            z-index: 10;
+
+            svg {
+                height: var(--diametro);
+                width: var(--diametro);
+            }
+
+            path {
+                fill: var(--color);
+            }
+            
+            transition: 300ms ease;
+
+            &:hover {
+                background-color: rgba( black, 0.1);
+            }
+        }
+
+        &-prev {
+            left: 0; right: auto;
+        }
+
+        &-next {
+            left: auto; right: 0;
+        }
+    }
+
+    &-caption {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        margin: auto;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        padding-top: 20px;
+
+        padding-left: var(--separacion);
+
+        h5 {
+            font-size: 2.7rem;
+            color: $color-morado;
+            text-shadow: 2px 2px 0px darken(white, 30);
+        }
+
+        p {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        &-text {
+            width: 50%;
+            text-align: center;
+        }
+    }
+
+}
+
+.active {
+    --opacidad: 1;
+    --position: relative;
+    --active: block;
+    --fondo: white;
+    --borde: #{$color-secundario-4};
+
+    z-index: 1;
+}
