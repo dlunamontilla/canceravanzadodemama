@@ -51,7 +51,7 @@ if ( count($_GET) < 1 ) {
 
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?b8" />
+  <link rel="stylesheet" href="vista/css/style.css?b9" />
 
   <!-- jQuery -->
   <!--
@@ -67,7 +67,7 @@ if ( count($_GET) < 1 ) {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   <!-- JavaScript -->
-  <script src="app/js/main.js?b8" type="module" defer></script>
+  <script src="app/js/main.js?b9" type="module" defer></script>
 </head>
 
 <body<?= $overflow; ?>>
