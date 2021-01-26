@@ -36,7 +36,7 @@
 
         display: var(--active);
         position: var(--position);
-        
+
         background-color: white;
         transition: var(--animation);
 
@@ -44,13 +44,13 @@
 
         &-start,
         &-end {
-            // animation: var(--animation) fadeIn 1;    
+            // animation: var(--animation) fadeIn 1;
             display: none;
         }
 
         &-next,
         &-prev {
-            // animation: var(--animation) fadeOut 1;   
+            // animation: var(--animation) fadeOut 1;
             display: block;
         }
 
@@ -62,11 +62,13 @@
         justify-content: center;
         align-items: center;
         gap: 5px;
-        
+
         position: absolute;
         margin: auto;
-        left: 0; right: 0;
-        top: auto; bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+        bottom: 0;
 
         // Por si llegan a proporcionar muchas imágenes:
         flex-wrap: wrap;
@@ -83,7 +85,6 @@
         --proporciones: 4px;
         --borde: white;
         z-index: 10;
-
 
         li {
             // Cuando esté activo tomará el fondo
@@ -104,12 +105,13 @@
 
             position: absolute;
             margin: auto;
-            top: 0; bottom: 0;
+            top: 0;
+            bottom: 0;
             padding: 10px;
             min-width: 100px;
             width: var(--separacion);
-            
-            background-color: rgba( black, 0 );
+
+            background-color: rgba(black, 0);
 
             display: flex;
             align-items: center;
@@ -125,37 +127,53 @@
             path {
                 fill: var(--color);
             }
-            
+
             transition: 300ms ease;
 
             &:hover {
-                background-color: rgba( black, 0.1);
+                background-color: rgba(black, 0.1);
             }
         }
 
         &-prev {
-            left: 0; right: auto;
+            left: 0;
+            right: auto;
         }
 
         &-next {
-            left: auto; right: 0;
+            left: auto;
+            right: 0;
         }
     }
 
     &-caption {
+        --separacion: calc(33% - 641px / 2);
+
         display: flex;
         align-items: center;
+        justify-content: center;
         position: absolute;
         margin: auto;
-        left: 0; right: 0;
-        top: 0; bottom: 0;
-        padding-top: 20px;
 
-        padding-left: var(--separacion);
+        left: var(--separacion);
+        right: auto;
+
+        // Posición vertical:
+        top: 37%;
+        bottom: auto;
+
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+
+        width: 100%;
+        max-width: 645px;
+        padding-bottom: 10px;
+        text-align: center;
 
         h5 {
             font-size: 2.7rem;
-            color: $color-morado;
+            color: darken($color-morado, 5);
             text-shadow: 2px 2px 0px darken(white, 30);
         }
 
@@ -170,6 +188,19 @@
         }
     }
 
+    &-enlace {
+        transition: 300ms ease;
+        color: darken($color-base, 10);
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 1;
+            transition: none;
+        }
+    }
 }
 
 .active {
@@ -180,4 +211,8 @@
     --borde: #{$color-secundario-4};
 
     z-index: 1;
+
+    .carousel-caption {
+        // animation: 300ms ease fadeIn 1;
+    }
 }

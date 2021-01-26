@@ -34,7 +34,9 @@ HTML;
 $estadificacion = <<<HTML
 <div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/1.3-infografia-estadios-(DESCARGA).pdf" download="1.3-infografia-estadios-(DESCARGA).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-1.3-estadios.svg" class="descargas"></a>
+  <a href="descargas/herramientas/1.3-infografia-estadios-(DESCARGA).pdf" download="1.3-infografia-estadios-(DESCARGA).pdf" target="_blank" class="descargas">
+    <img src="multimedia/img/descarga-herramientas-1.3-estadios.jpeg" alt="Estadios">
+  </a>
 </div>
 HTML;
 
