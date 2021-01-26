@@ -7,10 +7,14 @@
   $get = new DLPeticiones("get");
   $post = new DLPeticiones("post");
   
-  
+
   include __DIR__ . "/vars.php";
   include __DIR__ . "/lib.php";
-  
+
+  // Plantillas Bootstrap
+  include __DIR__ . "/datos-bootstrap.php";
+  include __DIR__ . "/plantilla-bootstrap.php";
+
   // Glosario de términmos:
   include __DIR__ . "/tablaGlosario.php";
   

@@ -5,7 +5,19 @@
     }
 }
 
+@keyframes fadeOut {
+    to {
+        transform: scale(0.97);
+        opacity: 0;
+    }
+}
+
 .fadeIn {
     animation: 300ms ease fadeIn 1;
+    animation-delay: 300ms;
+}
+
+.fadeOut {
+    animation: 300ms ease fadeOut 1;
     animation-delay: 300ms;
 }

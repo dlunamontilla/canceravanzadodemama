@@ -17,7 +17,7 @@ if ( count($_GET) < 1 ) {
           <!-- Iconos -->
           <div class="icon">
             <div class="icon__item icon__item--left">
-              <a href="#" target="_blank" data-src="multimedia/vectores/fuveicam.svg"></a>
+              <a href="?nosotros" target="_blank" data-src="multimedia/vectores/fuveicam.svg"></a>
             </div>
   
             <div class="icon__item icon__item--center">
@@ -34,5 +34,18 @@ if ( count($_GET) < 1 ) {
       </div>
   
     </div>
+HTML;
+}
+
+$portada = "";
+
+
+if ( count($_GET) < 1 ) {
+  $portada = <<<HTML
+  <div class="portada">
+    <!-- <img src="multimedia/img/carousel/imagen1.jpeg" alt=""> -->
+    $bootstrap
+  </div>
+
 HTML;
 }
