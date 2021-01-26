@@ -142,7 +142,7 @@ $cirugia = <<<HTML
 
 <div class="pegajoso pegajoso--flex">
   <a href="descargas/herramientas/2.4 Infografia cirugia (descarga).pdf" download="2.4 Infografia cirugia (descarga).pdf" target="_blank" class="descargas descargas--3d">
-    <img src="multimedia/vectores/descarga-herramientas-2.4.b-cirugia.svg" alt="Descargue Cirugía | Parte 3">
+    <img src="multimedia/vectores/descarga-herramientas-2.4.c-cirugia.svg" alt="Descargue Cirugía | Parte 3">
   </a>
 </div>
 HTML;
