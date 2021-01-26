@@ -1,8 +1,10 @@
 .header {
   position: fixed;
   margin: auto;
-  left: 0; right: 0;
-  top: 0; bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
   background-color: var(--fondo);
 
   z-index: 100;
@@ -32,7 +34,7 @@
     --separacion: 0;
 
     width: 100%;
-    background-color: rgba( $color-secundario-4, 0.5 );
+    background-color: rgba($color-secundario-4, 0.5);
 
     --padding: 40px;
     padding-left: var(--padding);
@@ -150,7 +152,7 @@
       flex-shrink: 0;
       width: 20%;
       min-width: 100px;
-    }    
+    }
   }
 
   &--between {
@@ -251,7 +253,7 @@
 
     &--inner {
       &:hover {
-        background-color: lighten( $color-secundario-2, 2 );
+        background-color: lighten($color-secundario-2, 2);
       }
     }
 
@@ -259,7 +261,7 @@
       background-color: $color-secundario-3;
 
       &:hover {
-        background-color: darken($color-secundario-3, 3 );
+        background-color: darken($color-secundario-3, 3);
       }
 
       .menu__enlace--inner {
@@ -417,7 +419,7 @@
   }
 
   @media screen and (max-width: 800px) {
-    background-color: rgba( $color, 0.7 );
+    background-color: rgba($color, 0.7);
   }
 }
 
@@ -436,26 +438,25 @@
 
   grid-gap: var(--gap);
   gap: var(--gap);
-  
+
   // A partir de 801px 4 columnas:
-  @media screen and ( min-width: 801px) {
+  @media screen and (min-width: 801px) {
     --columnas: repeat(2, 1fr) 2fr 1fr;
   }
 
   // A partir de 501 hasta 800px 2 columnas:
-  @media screen and ( min-width: 501px ) and ( max-width: 800px ) {
+  @media screen and (min-width: 501px) and (max-width: 800px) {
     --columnas: repeat(2, 1fr);
   }
 
   // Hasta 500 px 1 columna:
-  @media screen and ( max-width: 500px ) {
+  @media screen and (max-width: 500px) {
     --columnas: 1fr;
   }
 
   @media screen and (max-width: 800px) {
     --gap: 1px;
   }
-
 
   &__item {
     padding: 10px;
@@ -467,7 +468,7 @@
       width: auto;
       height: 100px;
     }
-    
+
     transition: 300ms ease;
 
     @media screen and (max-width: 800px) {
@@ -505,7 +506,6 @@
   display: flex;
   list-style-type: none;
 
-
   padding-top: var(--padding);
 
   &__item {
@@ -520,7 +520,7 @@
   svg {
     width: var(--diametro);
     height: var(--diametro);
-    
+
     &:not(:hover) {
       fill: white;
     }
@@ -528,7 +528,7 @@
     &:hover {
       fill: rgba(white, 0.6);
     }
-    
+
     &:active {
       fill: white;
       transition: none;
@@ -550,7 +550,7 @@
 // Manipulación de archivos SVG:
 .nosotros {
   --diametro: 100px;
-  
+
   width: var(--diametro) !important;
   height: var(--diametro) !important;
 
@@ -610,8 +610,10 @@
       display: block;
       position: absolute;
       margin: auto;
-      left: 0; right: 0;
-      top: 0; bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
       background-color: rgba(black, 0.5);
 
       z-index: 0;
@@ -631,7 +633,7 @@
   gap: var(--gap);
   // mix-blend-mode: hard-light;
 
-  grid-template-columns: repeat( var(--columnas), 1fr );
+  grid-template-columns: repeat(var(--columnas), 1fr);
 
   z-index: 1;
 
@@ -643,7 +645,7 @@
     --columnas: 2;
   }
 
-  @media screen and ( ma-width: 449px) {
+  @media screen and (ma-width: 449px) {
     --columnas: 1;
   }
 
@@ -656,7 +658,7 @@
     $opacity: 70;
 
     --diametro: 120px;
-    --fondo: #{rgba($color-secundario, $opacity/100 )};
+    --fondo: #{rgba($color-secundario, $opacity/100)};
 
     display: flex;
     margin: 0 auto;
@@ -666,8 +668,7 @@
     width: calc(var(--diametro) * 1.9);
     background-color: var(--fondo);
     border-radius: 20px;
-    
-    
+
     svg {
       width: var(--diametro);
       height: var(--diametro);
@@ -697,7 +698,12 @@
 
     // background-color: rgba( white, 0.3 );
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin: 0;
       font-weight: medium;
       font-size: 1.3rem;
@@ -786,15 +792,17 @@
   &__teta {
     position: absolute;
     margin: auto;
-    left: auto; right: 0;
-    top: 0; bottom: 0;
+    left: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
 
     z-index: 2;
 
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
+
     svg {
       height: 100%;
     }
@@ -803,8 +811,10 @@
   &__title {
     position: absolute;
     margin: auto;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 
     display: flex;
     align-items: center;
@@ -864,7 +874,6 @@
       }
     }
   }
-
 }
 
 // Contenedores en todos los módulos:
@@ -878,7 +887,6 @@
   max-width: $max-width;
   background-color: white;
 
-
   &__item {
     flex-shrink: 12;
     padding: 10px;
@@ -887,7 +895,6 @@
       flex-grow: 1;
       display: flex;
       flex-direction: column;
-
 
       & > * {
         width: 100%;
@@ -901,7 +908,7 @@
 
       position: relative;
       max-width: 400px;
-    
+
       img {
         width: 100%;
       }
@@ -909,7 +916,7 @@
 
     &--content {
       flex-grow: 9;
-      border-left: 1px solid rgba( $color-secundario-3, 0.2 );
+      border-left: 1px solid rgba($color-secundario-3, 0.2);
       padding: 20px 30px;
 
       @media screen and (min-width: 701px) {
@@ -1034,7 +1041,6 @@
   width: $width;
   max-width: $max-width;
   margin: 0 auto;
-  
 
   // Cantidad de columnas en función del espacio disponible:
   @media screen and (min-width: 781px) {
@@ -1064,7 +1070,7 @@
 
     &:active {
       transform-origin: center bottom;
-      transform: rotateX( 10deg );
+      transform: rotateX(10deg);
       transition: none;
     }
 
@@ -1114,7 +1120,6 @@
       grid-row: 4;
     }
 
-
     // Línea inferior delimitadora de la infografía:
     min-height: calc(var(--size) * 0.05);
 
@@ -1126,12 +1131,13 @@
       &::before,
       &::after {
         content: "";
-  
+
         display: block;
         position: absolute;
         margin: auto;
         right: auto;
-        top: 0; bottom: 0;
+        top: 0;
+        bottom: 0;
         z-index: 1;
       }
 
@@ -1172,10 +1178,9 @@
     }
 
     @media screen and (max-width: 780px) {
-      
     }
   }
-  
+
   &__left {
     position: relative;
     width: var(--size);
@@ -1197,7 +1202,8 @@
       position: absolute;
       margin: auto;
       left: calc(var(--size) / 2 - var(--size) * 0.127272727);
-      top: calc(var(--size) * 0.7272727273); bottom: 0;
+      top: calc(var(--size) * 0.7272727273);
+      bottom: 0;
       width: calc(var(--size) * 0.05);
       background-color: var(--color);
       transition: 300ms ease;
@@ -1222,7 +1228,8 @@
     width: 100%;
     border-collapse: collapse;
 
-    th, td {
+    th,
+    td {
       &:first-of-type {
         width: 34%;
       }
@@ -1251,20 +1258,19 @@
       transition: 300ms ease;
 
       &:first-of-type {
-        background-color: rgba( $color-secundario-4, 0.05 );
-        color: darken($color-secundario-4, 20); 
+        background-color: rgba($color-secundario-4, 0.05);
+        color: darken($color-secundario-4, 20);
       }
     }
 
     tbody {
-
-      tr{
+      tr {
         transition: 300ms ease;
 
         &:nth-of-type(even) {
           background-color: rgba($color-base, 0.03);
         }
-        
+
         &:hover {
           background-color: rgba($color-secundario-3, 0.05);
 
@@ -1305,7 +1311,7 @@
 
   display: grid;
   grid-template-columns: repeat(var(--columnas), 1fr);
-  
+
   grid-gap: var(--gap);
   gap: var(--gap);
 
@@ -1395,19 +1401,19 @@
     color: var(--color);
 
     &--1 {
-      background-color: rgba( darken($color-secundario-3, 4), 1 );
+      background-color: rgba(darken($color-secundario-3, 4), 1);
       color: darken($color-secundario-3, 20);
       color: white;
     }
-    
+
     &--2 {
-      background-color: rgba( $color-secundario-2, 0.6 );
+      background-color: rgba($color-secundario-2, 0.6);
       color: darken($color-secundario-2, 45);
       // color: white;
     }
-    
+
     &--3 {
-      background-color: rgba( darken($color-secundario-4, 12), 1);
+      background-color: rgba(darken($color-secundario-4, 12), 1);
       color: darken($color-secundario-4, 20);
       color: white;
     }
@@ -1430,14 +1436,14 @@
 
 // Recuento de las plaquetas | Diagrama:
 .plaquetas {
-  background-color: rgba( $color-secundario-4, 0.5);
+  background-color: rgba($color-secundario-4, 0.5);
   min-height: 100px;
   padding: 10px;
   font-size: 0.7rem;
   transition: 300ms ease;
 
   &:hover {
-    background-color: rgba( $color-secundario-4, 0.2);
+    background-color: rgba($color-secundario-4, 0.2);
   }
 
   --ratio: 10px;
@@ -1592,7 +1598,8 @@
   background-color: var(--fondo);
   padding: 15px;
 
-  img, svg {
+  img,
+  svg {
     background-color: white;
   }
 
@@ -1608,14 +1615,16 @@
     height: 250px;
     position: relative;
     background-color: darken(white, 5);
-    
+
     &::before {
       content: "Aquí va una imagen";
       display: block;
       position: absolute;
       margin: auto;
-      left: 0; right: 0;
-      top: 0; bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1670,7 +1679,12 @@
 }
 
 .enlaces-externos {
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-bottom: 20px;
   }
 }
@@ -1681,7 +1695,6 @@
   display: grid;
   grid-template-columns: repeat(var(--columnas), 1fr);
   gap: 10px;
-
 
   @media screen and (min-width: 1024px) and (max-width: 1200px) {
     --columnas: 5;
@@ -1703,7 +1716,12 @@
     --columnas: 1;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     margin-top: 0;
   }
 
@@ -1721,7 +1739,7 @@
       box-shadow: 0 0 20px rgba($color-secundario-3, 0.2);
       border: 1px solid $color-secundario-3;
     }
-    
+
     &:active {
       box-shadow: 0 0 20px rgba($color-secundario-4, 0.2);
       border: 1px solid $color-secundario-4;
@@ -1741,9 +1759,11 @@
       display: block;
       position: absolute;
       margin: auto;
-      left: 0; right: 0;
-      top: 0; bottom: 0;
-      
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
       --diametro: 100%;
 
       width: var(--diametro);
@@ -1779,7 +1799,12 @@
     display: flex;
     align-items: center;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin: 0;
       padding: 0;
       font-size: 1.2rem;
@@ -1790,7 +1815,12 @@
     --padding: 10px;
     padding: calc(var(--padding) / 2) var(--padding) var(--padding) var(--padding);
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       --padding: 20px;
       padding: 20px 10px;
       font-size: 1rem;
@@ -1816,12 +1846,14 @@
   display: var(--display);
   position: fixed;
   margin: auto;
-  left: 0; right: 0;
-  top: 0; bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
-  $color: darken( #0080d4, 35 );
-  background-color: rgba( $color, 0.7);
+  $color: darken(#0080d4, 35);
+  background-color: rgba($color, 0.7);
   transition: 300ms ease;
   overflow: auto;
   z-index: 1000;
@@ -1829,9 +1861,9 @@
   hr {
     border-top: 1px solid rgba(white, 0.5);
   }
-  
+
   p {
-    line-height: 1.5
+    line-height: 1.5;
   }
 
   &--show {
@@ -1845,7 +1877,7 @@
 
   &__wrapper {
     --initial-size: 100px;
-    $color: darken( $color-secundario-3, 13 );
+    $color: darken($color-secundario-3, 13);
 
     margin: 0 auto;
     background-color: #{rgba($color, 0.8)};
@@ -1867,7 +1899,12 @@
     justify-content: space-between;
     align-items: center;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       padding: 0;
       margin: 0;
     }
@@ -1971,7 +2008,7 @@
 .pegajoso {
   transform-origin: center left;
   perspective: 300px;
-  
+
   &:not(:first-of-type) {
     margin-top: 30px;
   }
@@ -2003,9 +2040,21 @@
     padding: 10px;
     background-color: rgba(white, 0.8);
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin: 0;
     }
+  }
+
+  img,
+  a {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
   }
 
   z-index: 10;
@@ -2077,7 +2126,7 @@
     display: flex;
     padding-left: var(--padding);
 
-    @media screen and ( max-width: 580px ) {
+    @media screen and (max-width: 580px) {
       flex-wrap: wrap;
       --padding: 0;
     }
@@ -2086,7 +2135,7 @@
       size: 1.35rem;
       weight: bold;
     }
-    
+
     border: 2px solid var(--color);
     border-radius: 30px;
     overflow: hidden;
@@ -2126,7 +2175,7 @@
     padding: 5px 20px;
     justify-content: center;
 
-    @media screen and ( max-width: 580px ) {
+    @media screen and (max-width: 580px) {
       flex-grow: 1;
     }
   }
@@ -2142,14 +2191,13 @@
     border-radius: var(--radio) 0 0 var(--radio);
     min-height: 50px;
 
-
-    @media screen and ( max-width: 580px ) {
+    @media screen and (max-width: 580px) {
       font-size: 1rem;
       --padding: 10px;
       --radio: 0;
 
-      padding-top: calc( var(--padding) / 2 );
-      padding-bottom: calc( var(--padding) / 2 );
+      padding-top: calc(var(--padding) / 2);
+      padding-bottom: calc(var(--padding) / 2);
     }
   }
 
@@ -2165,11 +2213,10 @@
 .tarjetas {
   display: grid;
   // grid-template-columns: repeat( 4, 1fr );
-  grid-template-columns: repeat( auto-fill, minmax(200px, 1fr) );
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 
   color: $color-base;
   outline: medium none;
-
 
   --gap: 15px;
 
@@ -2178,8 +2225,8 @@
   column-gap: var(--gap);
 
   // Separación entre filas:
-  grid-row-gap: calc(var(--gap) * 2 );
-  row-gap: calc(var(--gap) * 2 );
+  grid-row-gap: calc(var(--gap) * 2);
+  row-gap: calc(var(--gap) * 2);
 
   &__item {
     min-height: 150px;

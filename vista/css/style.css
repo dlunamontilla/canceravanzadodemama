@@ -1936,7 +1936,12 @@ p, li {
   flex-shrink: 1;
   padding-top: 10px;
 }
-.recursos__caption h1, .recursos__caption h2, .recursos__caption h3, .recursos__caption h4, .recursos__caption h5, .recursos__caption h6 {
+.recursos__caption h1,
+.recursos__caption h2,
+.recursos__caption h3,
+.recursos__caption h4,
+.recursos__caption h5,
+.recursos__caption h6 {
   margin: 0;
   font-weight: medium;
   font-size: 1.3rem;
@@ -2334,7 +2339,8 @@ p, li {
   width: 100%;
   border-collapse: collapse;
 }
-.glosario__tabla th:first-of-type, .glosario__tabla td:first-of-type {
+.glosario__tabla th:first-of-type,
+.glosario__tabla td:first-of-type {
   width: 34%;
 }
 .glosario__tabla th {
@@ -2621,7 +2627,8 @@ p, li {
   background-color: var(--fondo);
   padding: 15px;
 }
-.imagen img, .imagen svg {
+.imagen img,
+.imagen svg {
   background-color: white;
 }
 .imagen img {
@@ -2681,7 +2688,12 @@ p, li {
   --border-color: rgba(96, 193, 96, 0.7);
 }
 
-.enlaces-externos h1, .enlaces-externos h2, .enlaces-externos h3, .enlaces-externos h4, .enlaces-externos h5, .enlaces-externos h6 {
+.enlaces-externos h1,
+.enlaces-externos h2,
+.enlaces-externos h3,
+.enlaces-externos h4,
+.enlaces-externos h5,
+.enlaces-externos h6 {
   margin-bottom: 20px;
 }
 
@@ -2716,7 +2728,12 @@ p, li {
     --columnas: 1;
   }
 }
-.bibliograficas h1, .bibliograficas h2, .bibliograficas h3, .bibliograficas h4, .bibliograficas h5, .bibliograficas h6 {
+.bibliograficas h1,
+.bibliograficas h2,
+.bibliograficas h3,
+.bibliograficas h4,
+.bibliograficas h5,
+.bibliograficas h6 {
   margin-top: 0;
 }
 .bibliograficas__item {
@@ -2781,7 +2798,12 @@ p, li {
   display: flex;
   align-items: center;
 }
-.indice__header h1, .indice__header h2, .indice__header h3, .indice__header h4, .indice__header h5, .indice__header h6 {
+.indice__header h1,
+.indice__header h2,
+.indice__header h3,
+.indice__header h4,
+.indice__header h5,
+.indice__header h6 {
   margin: 0;
   padding: 0;
   font-size: 1.2rem;
@@ -2790,7 +2812,12 @@ p, li {
   --padding: 10px;
   padding: calc(var(--padding) / 2) var(--padding) var(--padding) var(--padding);
 }
-.indice__content h1, .indice__content h2, .indice__content h3, .indice__content h4, .indice__content h5, .indice__content h6 {
+.indice__content h1,
+.indice__content h2,
+.indice__content h3,
+.indice__content h4,
+.indice__content h5,
+.indice__content h6 {
   --padding: 20px;
   padding: 20px 10px;
   font-size: 1rem;
@@ -2854,7 +2881,12 @@ p, li {
   align-items: center;
   padding-bottom: 10px;
 }
-.modal__header h1, .modal__header h2, .modal__header h3, .modal__header h4, .modal__header h5, .modal__header h6 {
+.modal__header h1,
+.modal__header h2,
+.modal__header h3,
+.modal__header h4,
+.modal__header h5,
+.modal__header h6 {
   padding: 0;
   margin: 0;
 }
@@ -2964,8 +2996,19 @@ p, li {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-.pegajoso__inner h1, .pegajoso__inner h2, .pegajoso__inner h3, .pegajoso__inner h4, .pegajoso__inner h5, .pegajoso__inner h6 {
+.pegajoso__inner h1,
+.pegajoso__inner h2,
+.pegajoso__inner h3,
+.pegajoso__inner h4,
+.pegajoso__inner h5,
+.pegajoso__inner h6 {
   margin: 0;
+}
+.pegajoso img,
+.pegajoso a {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
 }
 
 .descargas {
@@ -3075,8 +3118,8 @@ p, li {
     font-size: 1rem;
     --padding: 10px;
     --radio: 0;
-    padding-top: calc( var(--padding) / 2 );
-    padding-bottom: calc( var(--padding) / 2 );
+    padding-top: calc(var(--padding) / 2);
+    padding-bottom: calc(var(--padding) / 2);
   }
 }
 .documentos__cuerpo {
@@ -3093,8 +3136,8 @@ p, li {
   --gap: 15px;
   grid-column-gap: var(--gap);
   column-gap: var(--gap);
-  grid-row-gap: calc(var(--gap) * 2 );
-  row-gap: calc(var(--gap) * 2 );
+  grid-row-gap: calc(var(--gap) * 2);
+  row-gap: calc(var(--gap) * 2);
 }
 .tarjetas__item {
   min-height: 150px;
