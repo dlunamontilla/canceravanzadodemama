@@ -268,8 +268,8 @@ $actitudes = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/relacionados/3.1.Enlaces-paginas-relacionadas-interes.docx" download="2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" target="_blank" class="descargas descargas--3d">
-    <img src="multimedia/vectores/la-paciente/svg/descarga-lapaciente-5.svg" alt="Descargue Plan de Tratamiento">
+  <a href="descargas/relacionados/3.1.Enlaces-paginas-relacionadas-interes.docx" download="Recursos Adicionales de Interés para el Cáncer de Mama.docx" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/la-paciente/svg/descarga-lapaciente-5.svg" alt="Recursos adicionales de interés para el Cáncer de Mama">
   </a>
 </div>
 
