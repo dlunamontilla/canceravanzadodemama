@@ -295,7 +295,7 @@ $suEntorno = <<<HTML
 
 <div class="pegajoso pegajoso--flex">
   <!-- Enlace externo -->
-  <a href="http://www.cimafundacion.org/tanto-por-hacer/" target="_blank" class="button button--enlace ">
+  <a href="https://www.cimafundacion.org/tanto-por-hacer/" target="_blank" class="button button--enlace ">
     <span data-src="multimedia/vectores/enlace.svg"></span>
     <span>Tanto por hacer</span>
   </a>
