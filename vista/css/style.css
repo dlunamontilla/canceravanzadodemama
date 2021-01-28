@@ -3006,7 +3006,6 @@ p, li {
 }
 .pegajoso img,
 .pegajoso a {
-  max-width: 180px;
   width: 100%;
   height: auto;
 }
@@ -3791,9 +3790,9 @@ p, li {
   border: 2px solid #f97ca9;
   width: var(--width);
   height: 100%;
-  border-radius: calc(var(--height) / 2 );
+  border-radius: calc(var(--height) / 2);
   padding-left: calc(var(--height) / 2);
-  padding-right: calc(var(--height) / 1.1 );
+  padding-right: calc(var(--height) / 1.1);
   transition: 300ms ease;
   color: #f51a69;
 }
@@ -3815,14 +3814,14 @@ p, li {
   position: absolute;
   height: var(--height);
   width: var(--height);
-  --radio: calc(var(--height) / 2 );
+  --radio: calc(var(--height) / 2);
   left: auto;
   right: 5px;
   top: 0;
   bottom: 0;
 }
 .button--buscar svg {
-  height: calc(var(--height) / 1.7 );
+  height: calc(var(--height) / 1.7);
 }
 .button--success {
   --background-color: #005151;
@@ -3845,27 +3844,9 @@ p, li {
   text-align: left;
   background-color: #bb5996;
   color: white;
-  transition: 300ms ease;
   border-radius: 10px;
   box-shadow: 0 0 8px 2px rgba(142, 58, 110, 0.5);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  --padding: 10px;
-  padding-left: 7px;
-  padding-right: 10px;
-  padding-top: var(--padding);
-  padding-bottom: var(--padding);
-  font-family: inherit;
-  font-size: 1.1rem;
-  font-weight: bold;
-  --size: 50px;
-}
-.button--encuestas svg {
-  width: var(--size);
-  height: var(--size);
-  margin-right: 8px;
-}
-.button--encuestas path {
-  fill: white;
 }
 .button--encuestas:hover, .button--encuestas:focus {
   background-color: #008484;
@@ -3874,6 +3855,46 @@ p, li {
 .button--encuestas:active {
   transition: none;
   background-color: #43ab43;
+}
+.button--encuestas, .button--enlace {
+  --padding: 10px;
+  --size: 50px;
+  padding-left: 7px;
+  padding-right: 10px;
+  padding-top: var(--padding);
+  padding-bottom: var(--padding);
+  color: white;
+  transition: 300ms ease;
+  font-family: inherit;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.button--encuestas svg, .button--enlace svg {
+  width: var(--size);
+  height: var(--size);
+  margin-right: 8px;
+}
+.button--encuestas path, .button--enlace path {
+  fill: white;
+}
+.button--enlace {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  text-decoration: none;
+  background-color: #00b7b7;
+  border-radius: 10px;
+  max-width: 200px;
+}
+.button--enlace:hover {
+  background-color: #00d1d1;
+}
+.button--enlace:active {
+  background-color: #00b7b7;
+  transition: none;
+}
+.button--enlace:focus {
+  background-color: #009e9e;
 }
 
 .encuestas-button {

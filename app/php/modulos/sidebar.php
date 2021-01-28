@@ -253,7 +253,7 @@ $emociones = <<<HTML
 
 <div class="pegajoso pegajoso--flex">
   <a href="descargas/la-paciente/1. la paciente y su proceso emociones (descargable).pdf" download="1. la paciente y su proceso emociones (descargable).pdf" target="_blank" class="descargas descargas--3d">
-    <img src="multimedia/vectores/la-paciente/descarga-lapaciente-3.png" alt="Descargue La Paciente Emociones">
+    <img src="multimedia/vectores/descarga-lapaciente-3.svg" alt="Descargue La Paciente Emociones">
   </a>
 </div>
 HTML;
@@ -265,6 +265,12 @@ $actitudes = <<<HTML
     <p>Tenga sus propios expedientes completos y actualizados, con la debida información sobre su atención médica durante el proceso de diagnóstico, tratamiento y seguimiento del cáncer de mama, que permita brindarle la información precisa a cada médico tratante.</p>
     <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
   </div>
+</div>
+
+<div class="pegajoso pegajoso--flex">
+  <a href="descargas/relacionados/3.1.Enlaces-paginas-relacionadas-interes.docx" download="2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/la-paciente/svg/descarga-lapaciente-5.svg" alt="Descargue Plan de Tratamiento">
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
@@ -285,6 +291,14 @@ $suEntorno = <<<HTML
     <p>La paciente con cáncer avanzado de mama debe encontrar un balance interno y externo que le permita afrontar los cambios que produce su nueva realidad, recuperar el control sobre su cotidianidad, mantener su estabilidad emocional y continuar con su vida.</p>
     <div class="destacado__imagen" data-src="multimedia/vectores/guia-icon.svg"></div>
   </div>
+</div>
+
+<div class="pegajoso pegajoso--flex">
+  <!-- Enlace externo -->
+  <a href="http://www.cimafundacion.org/tanto-por-hacer/" target="_blank" class="button button--enlace ">
+    <span data-src="multimedia/vectores/enlace.svg"></span>
+    <span>Tanto por hacer</span>
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
