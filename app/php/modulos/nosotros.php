@@ -75,7 +75,9 @@ if ($get->modulo("sparc-uicc")) {
   <!-- Enlace de descarga -->
   <div class="pegajoso pegajoso--flex">
     <div class="pegajoso__inner">
-      <a href="descargas/nosotros/Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" target="_blank" download="Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" class="descargas" data-src="multimedia/vectores/descarga-pdf.svg"></a>
+      <a href="descargas/nosotros/Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" target="_blank" download="Reframing advanced breast cancer_ from expectations to facts _ UICC.pdf" class="descargas">
+        <img src="multimedia/vectores/nosotros/spac-uicc.png" alt="UICC">
+      </a>
     </div>
   </div>
 HTML;
@@ -127,9 +129,14 @@ HTML;
 // Módulo Abc Global Alliance:
 if ($get->modulo("abc-global")) {
   $sidebar = <<<HTML
-<div class="sidebar__item" data-src="multimedia/vectores/abcglobalalliance.svg"></div>
+<div class="sidebar__item" data-src="multimedia/vectores/abcglobalalliance.svg">
+  <img src="multimedia/vectores/abcglobalalliance.svg" alt="ABC Global Alliance">
+</div>
+
 <div class="sidebar__item sidebar__item--descarga">
-  <a href="descargas/nosotros/ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf" data-src="multimedia/vectores/descarga-global-pdf.svg" target="_blank" class="descargas" download="ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf"></a>
+  <a href="descargas/nosotros/ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf" target="_blank" class="descargas" download="ABC-GlobalBooklet-A5_Spanish-final-SCREEN.pdf">
+    <img src="multimedia/vectores/nosotros/abc-global.png" alt="Descarga">
+  </a>
 </div>
 HTML;
 

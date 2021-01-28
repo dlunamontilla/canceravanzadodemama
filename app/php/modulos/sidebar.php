@@ -18,7 +18,9 @@ $herramientas = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/1.1-Informe-de-Anatomía(DESCARGA).pdf" download="1.1-Informe-de-Anatomía(DESCARGA).pdf" data-src="multimedia/vectores/descarga-herramientas-1.1 informe.svg" target="_blank" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/1.1-Informe-de-Anatomía(DESCARGA).pdf" download="1.1-Informe-de-Anatomía(DESCARGA).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-1.1 informe.svg" alt="Informe">
+  </a>
 </div>
 HTML;
 
@@ -26,7 +28,9 @@ HTML;
 $subtiposMoleculares = <<<HTML
 <div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/1.2-Infografia-subtipos-molecular.pdf" download="1.2-Infografia-subtipos-molecular.pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-1.2-subtipos.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/1.2-Infografia-subtipos-molecular.pdf" download="1.2-Infografia-subtipos-molecular.pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-1.2-subtipos.svg" alt="Descargue Subtipos Moleculares">
+  </a>
 </div>
 HTML;
 
@@ -35,7 +39,7 @@ $estadificacion = <<<HTML
 <div class="pegajoso"></div>
 <div class="pegajoso pegajoso--flex">
   <a href="descargas/herramientas/1.3-infografia-estadios-(DESCARGA).pdf" download="1.3-infografia-estadios-(DESCARGA).pdf" target="_blank" class="descargas">
-    <img src="multimedia/img/descarga-herramientas-1.3-estadios.jpeg" alt="Estadios">
+    <img src="multimedia/img/descarga-herramientas-1.3-estadios.jpeg" alt="Descargue Estadificación">
   </a>
 </div>
 HTML;
@@ -55,11 +59,15 @@ $quimioterapia = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.1-Quimioterapia-en-Pacientes-con-Cáncer-de-Mama-Avanzado-(descarga).pdf" download="2.1 Quimioterapia en Pacientes con Cáncer de Mama Avanzado (descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.1-quimioterapia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.1-Quimioterapia-en-Pacientes-con-Cáncer-de-Mama-Avanzado-(descarga).pdf" download="2.1 Quimioterapia en Pacientes con Cáncer de Mama Avanzado (descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.1-quimioterapia.svg" alt="Descargue Quimioterapia">
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.1-Infografia-quimioterapia-(descarga).pdf" download="2.1 Infografia quimioterapia (descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.1.b-recuento.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.1-Infografia-quimioterapia-(descarga).pdf" download="2.1 Infografia quimioterapia (descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.1.b-recuento.svg" alt="Descargue Recuento">
+  </a>
 </div>
 HTML;
 
@@ -78,7 +86,9 @@ $hormonoterapia = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.-3-hoja-informativa-hormonoterapia-(descarga).pdf" download="2.-3-hoja-informativa-hormonoterapia-(descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.2.-hormonoterapia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.-3-hoja-informativa-hormonoterapia-(descarga).pdf" download="2.-3-hoja-informativa-hormonoterapia-(descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.2.-hormonoterapia.svg" alt="Descargue Hormonoterapia">
+  </a>
 </div>
 HTML;
 
@@ -97,7 +107,9 @@ $terapiaDirigida = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.2-Infografia-terapia-Dirigida-(descarga).pdf" download="2.2 Infografia terapia Dirigida (descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.3.-terapia dirigida.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.2-Infografia-terapia-Dirigida-(descarga).pdf" download="2.2 Infografia terapia Dirigida (descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.3.-terapia dirigida.svg" alt="Descargue Terapia Dirigida">
+  </a>
 </div>
 HTML;
 
@@ -117,15 +129,21 @@ $cirugia = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.4 hoja informativa cirugia (descarga).pdf" download="2.4 hoja informativa cirugia (descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.4.a-cirugia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.4 hoja informativa cirugia (descarga).pdf" download="2.4 hoja informativa cirugia (descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.4.a-cirugia.svg" alt="Descargue Cirugía">
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.4 Cirugia en Pacientes con Cancer de Mama Avanzado(descarga).pdf" download="2.4 Cirugia en Pacientes con Cancer de Mama Avanzado(descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.4.b-cirugia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.4 Cirugia en Pacientes con Cancer de Mama Avanzado(descarga).pdf" download="2.4 Cirugia en Pacientes con Cancer de Mama Avanzado(descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.4.b-cirugia.svg" alt="Descargue Cirugía | Parte 2">
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.4 Infografia cirugia (descarga).pdf" download="2.4 Infografia cirugia (descarga).pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.4.c-cirugia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.4 Infografia cirugia (descarga).pdf" download="2.4 Infografia cirugia (descarga).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.4.c-cirugia.svg" alt="Descargue Cirugía | Parte 3">
+  </a>
 </div>
 HTML;
 
@@ -144,7 +162,9 @@ $radioterapia = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/herramientas/2.5 radioterapia.pdf" download="2.5 radioterapia.pdf" target="_blank" data-src="multimedia/vectores/descarga-herramientas-2.5-radioterapia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/herramientas/2.5 radioterapia.pdf" download="2.5 radioterapia.pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-herramientas-2.5-radioterapia.svg" alt="Descargue Radioterapia">
+  </a>
 </div>
 HTML;
 
@@ -166,11 +186,15 @@ $conozcaSuEnfermedad = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/conozca-su-enfermedad/1.a.signos de alarma infografia (descargable).pdf" download="1.a.signos de alarma infografia (descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1.a-infografia.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/conozca-su-enfermedad/1.a.signos de alarma infografia (descargable).pdf" download="1.a.signos de alarma infografia (descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-Conozca-1.a-infografia.svg" alt="Descargue Signos de Alarma">
+  </a>
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/conozca-su-enfermedad/1.b. Guia para el cancer avanzado (descargable).pdf" download="1.b. Guia para el cancer avanzado (descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-Conozca-1y2.b-guia .svg" class="descargas descargas--3d"></a>
+  <a href="descargas/conozca-su-enfermedad/1.b. Guia para el cancer avanzado (descargable).pdf" download="1.b. Guia para el cancer avanzado (descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-Conozca-1y2.b-guia .svg" alt="Descarga Guía Cáncer Avanzado">
+  </a>
 </div>
 HTML;
 
@@ -189,7 +213,9 @@ $cuidadosPaliativos = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/conozca-su-enfermedad/3. Ficha del dolor (descargable).docx" download="3. Ficha del dolor (descargable).docx" target="_blank" data-src="multimedia/vectores/descarga-Conozca-3-diario.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/conozca-su-enfermedad/3. Ficha del dolor (descargable).docx" download="3. Ficha del dolor (descargable).docx" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-Conozca-3-diario.svg" alt="Descargue Diario del Dolor">
+  </a>
 </div>
 HTML;
 
@@ -208,7 +234,9 @@ $cancerMatastasico = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/conozca-su-enfermedad/2. Hoja informativa Estudios Diagnóstico para la Estadificación a Distancia.(descargable).pdf" download="2. Hoja informativa Estudios Diagnóstico para la Estadificación a Distancia.(descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-Conozca-2.a-hoja-informativa.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/conozca-su-enfermedad/2. Hoja informativa Estudios Diagnóstico para la Estadificación a Distancia.(descargable).pdf" download="2. Hoja informativa Estudios Diagnóstico para la Estadificación a Distancia.(descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-Conozca-2.a-hoja-informativa.svg" alt="Descargue Estudios Diagnósticos">
+  </a>
 </div>
 HTML;
 
@@ -224,7 +252,9 @@ $emociones = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/la-paciente/1. la paciente y su proceso emociones (descargable).pdf" download="1. la paciente y su proceso emociones (descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-1.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/la-paciente/1. la paciente y su proceso emociones (descargable).pdf" download="1. la paciente y su proceso emociones (descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-lapaciente-1.svg" alt="Descargue La Paciente Emociones">
+  </a>
 </div>
 HTML;
 
@@ -238,7 +268,9 @@ $actitudes = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/la-paciente/2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" download="2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-2.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/la-paciente/2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" download="2. PLAN DE TRATAMIENTO DE CANCER DE MAMA (descargable).docx" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-lapaciente-2.svg" alt="Descargue Plan de Tratamiento">
+  </a>
 </div>
 HTML;
 
@@ -256,7 +288,9 @@ $suEntorno = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/la-paciente/3.la paciente y su proceso entorno (descargable).pdf" download="3.la paciente y su proceso entorno (descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-3.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/la-paciente/3.la paciente y su proceso entorno (descargable).pdf" download="3.la paciente y su proceso entorno (descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-lapaciente-3.svg" alt="Descargue La Paciente | Actitudes">
+  </a>
 </div>
 HTML;
 
@@ -269,6 +303,8 @@ $comunicacion = <<<HTML
 </div>
 
 <div class="pegajoso pegajoso--flex">
-  <a href="descargas/la-paciente/4. la paciente y su proceso herramientas (descargable).pdf" download="4. la paciente y su proceso herramientas (descargable).pdf" target="_blank" data-src="multimedia/vectores/descarga-lapaciente-4.svg" class="descargas descargas--3d"></a>
+  <a href="descargas/la-paciente/4. la paciente y su proceso herramientas (descargable).pdf" download="4. la paciente y su proceso herramientas (descargable).pdf" target="_blank" class="descargas descargas--3d">
+    <img src="multimedia/vectores/descarga-lapaciente-4.svg" alt="Descarge La Paciente | Herramientas de Comunicación">
+  </a>
 </div>
 HTML;
