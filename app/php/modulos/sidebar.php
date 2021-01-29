@@ -253,7 +253,7 @@ $emociones = <<<HTML
 
 <div class="pegajoso pegajoso--flex">
   <a href="descargas/la-paciente/1. la paciente y su proceso emociones (descargable).pdf" download="1. la paciente y su proceso emociones (descargable).pdf" target="_blank" class="descargas descargas--3d">
-    <img src="multimedia/vectores/descarga-lapaciente-3.svg" alt="Descargue La Paciente Emociones">
+    <img src="multimedia/vectores/descarga-lapaciente-1.svg" alt="Descargue La Paciente Emociones">
   </a>
 </div>
 HTML;
