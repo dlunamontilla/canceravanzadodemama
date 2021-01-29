@@ -126,12 +126,17 @@
 
             path {
                 fill: var(--color);
+                transition: 300ms ease;
             }
 
             transition: 300ms ease;
 
             &:hover {
                 background-color: rgba(black, 0.1);
+            }
+
+            &:hover {
+                --color: #{$color-secundario-4};
             }
         }
 

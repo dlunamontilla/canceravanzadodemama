@@ -3292,9 +3292,13 @@ p, li {
 }
 .carousel-control-prev path, .carousel-control-next path {
   fill: var(--color);
+  transition: 300ms ease;
 }
 .carousel-control-prev:hover, .carousel-control-next:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  --color: #60c160;
 }
 .carousel-control-prev {
   left: 0;
