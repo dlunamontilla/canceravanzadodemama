@@ -2,13 +2,13 @@
 
 ## Datos de la encuesta
 
-1. ¿Cree usted que el cáncer de mama es curable?:
+1. ¿Cree usted que el cáncer de mama es curable?
 
 - Si.
 - No.
 - No sabe.
 
-2.  ¿Cree usted que el diagnóstico temprano del cáncer de mama contribuye a su curación??
+2.  ¿Cree usted que el diagnóstico temprano del cáncer de mama contribuye a su curación?
 
 - Si.
 - No.
@@ -16,31 +16,31 @@
 
 <br>
 
-3.  ¿Tiene usted un familiar o conocido con diagnóstico de cáncer de mama??
+3.  ¿Tiene usted un familiar o conocido con diagnóstico de cáncer de mama?
 
 - Si.
 - No.
 
-4.  ¿De dónde recibe información del cáncer de mama??
+4.  ¿De dónde recibe información del cáncer de mama?
 
 - Familia o amigos.
 - Médicos.
 - Medios de comunicación.
 - Redes sociales.
 
-5.  ¿El cáncer de mama se produce después de un golpe o traumatismo en la mama??
+5.  ¿El cáncer de mama se produce después de un golpe o traumatismo en la mama?
 
 - Si.
 - No.
 - No sabe.
 
-6.  ¿El cáncer de mama es la principal causa de cáncer en el país??
+6.  ¿El cáncer de mama es la principal causa de cáncer en el país?
 
 - Si.
 - No.
 - No sabe.
 
-7.  ¿Cuál de los siguientes factores aumentan el riesgo de cáncer de mama??
+7.  ¿Cuál de los siguientes factores aumentan el riesgo de cáncer de mama?
 
 - Edad.
 - Familiares con cáncer.
@@ -54,13 +54,13 @@
 - Todas las anteriores.
 - No sabe.
 
-8.  ¿El cáncer de mama generalmente produe dolor??
+8.  ¿El cáncer de mama generalmente produe dolor?
 
 - Si.
 - No.
 - No sabe
 
-9.  ¿Todo cambio en la apariencia de la piel y el pezón puede ser cáncer de mama??
+9.  ¿Todo cambio en la apariencia de la piel y el pezón puede ser cáncer de mama?
 
 - Si.
 - No.
