@@ -14,8 +14,6 @@
 - No.
 - No sabe.
 
-<br>
-
 3.  ¿Tiene usted un familiar o conocido con diagnóstico de cáncer de mama?
 
 - Si.
