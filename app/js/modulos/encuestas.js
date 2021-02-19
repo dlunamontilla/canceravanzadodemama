@@ -28,6 +28,9 @@ const encuestas = (selector) => {
       ruta: "recursos/markdown/enuesta.md",
       selector: "#modal-content"
     });
+
+    // Quitar barra de desplazamiento del cuerpo:
+    document.body.setAttribute("style", "overflow: hidden");
   }
 
   // Crear una encuesta:
