@@ -1,28 +1,57 @@
 import { elemento } from "./elementos.js";
+import { obtenerDatos } from "./obtenerDatos.js";
+import { maquetarEncuesta } from "./maquetarEncuesta.js";
 
-const encuestas = ( selector ) => {
-  if ( typeof selector === "undefined" )
+const encuestas = (selector) => {
+  if (typeof selector === "undefined")
     return;
 
-    let boton = elemento( selector );
-    if ( boton === null ) return;
+  let boton = elemento(selector);
+  if (boton === null) return;
 
-    boton.onclick = () => {
-      if (
-        modal === null ||
-        modalTitle === null
-      ) {
-        return;
-      }
-
-      modal.classList.add("modal--show");
-      modalTitle.textContent = "Realizar encuestas";
-
-      let modalContent = elemento(".modal__content");
-      if ( modalContent === null ) return;
-
-      modalContent.innerHTML = "<h4>En proceso de implementación</h4> <p>Ya se encuentra lista la encuensta, sin embargo, aún no se encuentra disponible en esta Web. Su implementación se realizará las próximas horas</p><div data-src='multimedia/vectores/guia-icon.svg' class=\"destacado__imagen\"></div>";
+  boton.onclick = () => {
+    if (
+      modal === null ||
+      modalTitle === null
+    ) {
+      return;
     }
+
+    modal.classList.add("modal--show");
+    modalTitle.textContent = "¿Qué sabes del Cáncer de Mama?";
+
+    const modalContent = elemento(".modal__content");
+    if (modalContent === null) return;
+
+    // Construir encuesta a partir del archivo Markdown
+    construir({
+      ruta: "recursos/markdown/enuesta.md",
+      selector: "#modal-content"
+    });
+  }
+
+  // Crear una encuesta:
+  const construir = async (objeto) => {
+    const { ruta, selector } = objeto;
+
+    let json = await obtenerDatos(ruta);
+
+    if (!Array.isArray(json))
+      return;
+
+    const html = maquetarEncuesta(json);
+
+    const contenedor = document.querySelector(selector);
+
+    console.log(contenedor);
+
+    if (contenedor === null)
+      return;
+
+    contenedor.classList.add("modal__content--claro")
+    contenedor.innerHTML = "";
+    contenedor.appendChild(html);
+  }
 }
 
 export { encuestas };

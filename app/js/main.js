@@ -3,7 +3,7 @@ import { redesSociales } from "./modulos/redesSociales.js";
 import { menuHeader } from "./modulos/scrolling.js";
 import { eliminarAtributo } from "./modulos/eliminarAtributos.js";
 import { ventanasModales } from "./modulos/ventanasModales.js";
-import {encuestas} from "./modulos/encuestas.js";
+import { encuestas } from "./modulos/encuestas.js";
 import { csvToTable } from "./modulos/csvToTable.js";
 import { descargas } from "./modulos/descargas.js";
 
@@ -15,22 +15,22 @@ onscroll = () => {
   menuHeader();
 }
 
-eliminarAtributo( "[data-src]" );
+eliminarAtributo("[data-src]");
 
-if ( typeof salir !== "undefined" )
+if (typeof salir !== "undefined")
   salir.onclick = () => {
-    ventanasModales( "#modal", "modal--show" );
+    ventanasModales("#modal", "modal--show");
   }
 
-if ( typeof modal !== "undefined" )
-  modal.onclick = function(e) {
+if (typeof modal !== "undefined")
+  modal.onclick = function (e) {
 
-    if ( typeof e.target.dataset.tipo === "undefined" )
+    if (typeof e.target.dataset.tipo === "undefined")
       return;
 
-    switch ( e.target.dataset.tipo ) {
+    switch (e.target.dataset.tipo) {
       case "modal-main":
-        ventanasModales( "#modal", "modal--show" );
+        ventanasModales("#modal", "modal--show");
         break;
     }
   }
@@ -39,25 +39,15 @@ if ( typeof modal !== "undefined" )
 onkeydown = (e) => {
   let tecla = e.key;
 
-  switch (tecla ) {
+  switch (tecla) {
     case "Escape":
-      ventanasModales("#modal", "modal--show", true );
+      ventanasModales("#modal", "modal--show", true);
       break;
   }
 }
 
-// Evitar que se envíen los formularios:
-// const formularios = elementos( "form" );
-
-// if ( formularios.length > 0 )
-//   formularios.forEach(formulario => {
-//     formulario.addEventListener("submit", e => {
-//       e.preventDefault();
-//     }, false);
-//   });
-
-encuestas( "#encuestas" );
-csvToTable( "recursos/csv/glosario.csv", "#glosario" );
+encuestas("#encuestas");
+csvToTable("recursos/csv/glosario.csv", "#glosario");
 
 // Probar la función descargas:
 descargas({

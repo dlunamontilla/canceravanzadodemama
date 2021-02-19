@@ -11,7 +11,7 @@ $ventanasModales = <<<HTML
         <button id="salir" class="modal__salir">&times;</button>
       </div>
   
-      <div class="modal__content">
+      <div class="modal__content" id="modal-content">
         $modalContent
       </div>
     </div>

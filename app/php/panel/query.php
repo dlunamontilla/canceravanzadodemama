@@ -24,3 +24,10 @@ $token = $user->obtenerToken();
 $obtenerToken->execute([
   ":hash" => $token
 ]);
+
+// TODO: Insertaremos datos de prueba para múltiples consultas:
+$multiple = $pdo->prepare('insert into encuesta (`idencuesta`, `pregunta01`, `numero_encuesta`) values(null, :pregunta, 1)');
+
+$multiple->execute([
+  ":pregunta" => "V01"
+]);

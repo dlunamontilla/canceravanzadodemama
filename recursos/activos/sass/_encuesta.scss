@@ -1,0 +1,129 @@
+:root {
+    font-family: "Open Sans", sans-serif, arial;
+}
+
+.encuesta {
+    $color: darken(#0080d4, 10);
+    $color: darken($color, 10);
+
+    display: grid;
+    grid-template: auto / repeat(auto-fill, minmax(270px, 1fr));
+
+    gap: 10px;
+
+    &__item {
+        overflow: hidden;
+        border: 1px solid lighten($color, 50);
+        padding: 10px;
+        background-color: white;
+        transition: 300ms ease;
+        box-shadow: 2px 2px 1px 2px rgba($color, 0.1);
+        border-radius: 10px 0 10px 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &:hover {
+            box-shadow: 2px 2px 1px 2px rgba($color, 0.2);
+            border: 1px solid lighten($color, 40);
+        }
+
+        &:active {
+            opacity: 1;
+            transition: none;
+        }
+    }
+
+    &__caption {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        $color: desaturate($color, 50);
+        color: darken($color, 10);
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+
+        font: {
+            size: 0.9rem;
+            weight: normal;
+        }
+
+        line-height: 1.5;
+    }
+
+    &__opciones {
+        text-align: center;
+        position: relative;
+
+        --marca: 12px;
+        // &::before {
+        //     content: "";
+        //     display: block;
+        //     position: absolute;
+        //     width: var(--marca);
+        //     height: var(--marca);
+        //     border-radius: calc(var(--marca) / 2);
+
+        //     border: 1px solid $color;
+        //     background-color: rgba(0, 0, 0, 0);
+        //     margin: auto;
+        //     left: auto;
+        //     right: 10px;
+        //     top: 0;
+        //     bottom: 0;
+        //     transition: 300ms ease;
+
+        //     box-sizing: border-box;
+        // }
+
+        // &:hover {
+        //     &::before {
+        //         background-color: rgba($color, 0.8);
+        //     }
+        // }
+
+        // &:active {
+        //     &::before {
+        //         background-color: rgba($color, 0);
+        //     }
+        // }
+    }
+
+    &__select {
+        display: block;
+        width: 100%;
+        background-image: none;
+        border: 1px solid rgba($color, 0.3);
+        height: 35px;
+        appearance: none;
+        transition: 300ms;
+        padding: 0 10px;
+        border-radius: 10px 0 10px 0;
+        outline: medium none;
+
+        &:invalid {
+            border: 1px solid red;
+        }
+
+        &:hover {
+            background-color: white;
+            color: darken($color, 30);
+            border: 1px solid $color;
+        }
+
+        &:focus {
+            background-color: white;
+        }
+
+        option {
+            padding: 0 10px;
+        }
+    }
+}

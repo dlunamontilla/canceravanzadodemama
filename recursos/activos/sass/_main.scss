@@ -1989,11 +1989,17 @@
   }
 
   &__content {
+    --fondo: #{rgba(black, 0.1)};
     position: relative;
-    background-color: rgba(black, 0.1);
+    background-color: var(--fondo);
     padding: 10px;
     border: 1px solid rgba(white, 0.2);
     border-radius: 0 0 5px 5px;
+    transition: 300ms ease;
+
+    &--claro {
+      --fondo: #{lighten($color-secundario-2, 47)};
+    }
   }
 
   &__document {
