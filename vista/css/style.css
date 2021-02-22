@@ -3983,6 +3983,30 @@ p, li {
   position: relative;
   --marca: 12px;
 }
+.encuesta__opciones::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: var(--marca);
+  height: var(--marca);
+  border-radius: calc(var(--marca) / 2);
+  border: 1px solid #1c3d53;
+  background-color: rgba(0, 0, 0, 0);
+  margin: auto;
+  left: auto;
+  right: 10px;
+  top: 0;
+  bottom: 0;
+  transition: 300ms ease;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+.encuesta__opciones:hover::before {
+  background-color: rgba(28, 61, 83, 0.8);
+}
+.encuesta__opciones:active::before {
+  background-color: rgba(28, 61, 83, 0);
+}
 .encuesta__select {
   display: block;
   width: 100%;

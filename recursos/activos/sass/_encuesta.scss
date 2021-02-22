@@ -63,37 +63,37 @@
         position: relative;
 
         --marca: 12px;
-        // &::before {
-        //     content: "";
-        //     display: block;
-        //     position: absolute;
-        //     width: var(--marca);
-        //     height: var(--marca);
-        //     border-radius: calc(var(--marca) / 2);
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: var(--marca);
+            height: var(--marca);
+            border-radius: calc(var(--marca) / 2);
 
-        //     border: 1px solid $color;
-        //     background-color: rgba(0, 0, 0, 0);
-        //     margin: auto;
-        //     left: auto;
-        //     right: 10px;
-        //     top: 0;
-        //     bottom: 0;
-        //     transition: 300ms ease;
+            border: 1px solid $color;
+            background-color: rgba(0, 0, 0, 0);
+            margin: auto;
+            left: auto;
+            right: 10px;
+            top: 0;
+            bottom: 0;
+            transition: 300ms ease;
+            pointer-events: none;
+            box-sizing: border-box;
+        }
 
-        //     box-sizing: border-box;
-        // }
+        &:hover {
+            &::before {
+                background-color: rgba($color, 0.8);
+            }
+        }
 
-        // &:hover {
-        //     &::before {
-        //         background-color: rgba($color, 0.8);
-        //     }
-        // }
-
-        // &:active {
-        //     &::before {
-        //         background-color: rgba($color, 0);
-        //     }
-        // }
+        &:active {
+            &::before {
+                background-color: rgba($color, 0);
+            }
+        }
     }
 
     &__select {

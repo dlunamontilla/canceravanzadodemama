@@ -1,6 +1,7 @@
 import { elemento } from "./elementos.js";
 import { obtenerDatos } from "./obtenerDatos.js";
 import { maquetarEncuesta } from "./maquetarEncuesta.js";
+import { isSelect, isLabel } from "./evaluar.js";
 
 const encuestas = (selector) => {
   if (typeof selector === "undefined")
@@ -44,9 +45,8 @@ const encuestas = (selector) => {
 
     const html = maquetarEncuesta(json);
 
+    // Contenedor de los elementos de la encuesta:
     const contenedor = document.querySelector(selector);
-
-    console.log(contenedor);
 
     if (contenedor === null)
       return;
@@ -54,6 +54,26 @@ const encuestas = (selector) => {
     contenedor.classList.add("modal__content--claro")
     contenedor.innerHTML = "";
     contenedor.appendChild(html);
+
+
+    contenedor.addEventListener("change", (e) => {
+      console.log(e.target.querySelectorAll("option")[e.target.value].textContent);
+    }, false);
+
+    // 
+    contenedor.addEventListener("click", e => {
+      e.preventDefault();
+
+      if (!isLabel(e.target))
+        return;
+
+      const select = e.target.querySelector("select");
+
+      if (isSelect(select)) {
+        select.click();
+        console.log(e.target, select);
+      }
+    }, false);
   }
 }
 
