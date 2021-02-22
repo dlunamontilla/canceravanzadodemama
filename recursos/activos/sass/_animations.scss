@@ -1,6 +1,6 @@
 @keyframes fadeIn {
     from {
-        transform: scale(0.97);
+        transform: scale(0.98);
         opacity: 0;
     }
 }
@@ -14,7 +14,6 @@
 
 .fadeIn {
     animation: 300ms ease fadeIn 1;
-    animation-delay: 300ms;
 }
 
 .fadeOut {

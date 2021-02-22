@@ -36,38 +36,27 @@ if ( count($_GET) < 1 ) {
     content="Facilitar a las pacientes con cáncer de mama a desarrollar una mejor perspectiva de su enfermedad, aportándoles las herramientas necesarias para la toma de decisiones." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://canceravanzadodemama.com/">
-  <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/fotos/FotoSparc1.jpg" />
+  <!-- <meta property="og:image" content="https://canceravanzadodemama.com/multimedia/fotos/FotoSparc1.jpg" /> -->
   <!-- <meta property="og:video" content="https://canceravanzadodemama.com/video" /> -->
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="multimedia/favicon/favicon.ico" type="image/x-icon" />
   <link rel="icon" href="multimedia/favicon/favicon.png" type="image/png" />
 
-  <!-- Fuentes tipográficas -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  -->
-
-  <!-- CSS only -->
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
-
-
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?b17" />
+  <link rel="stylesheet" href="vista/css/style.css?b18" />
 
-  <!-- jQuery -->
-  <!--
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-	-->
-
-  <!-- JS, Popper.js, and jQuery -->
-  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>-->
-
+  <!-- Buscador de Google  -->
+  <script async src="https://cse.google.com/cse.js?cx=152873a5aa8cc05c3"></script>
+  
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   <!-- JavaScript -->
-  <script src="app/js/main.js?b17" type="module" defer></script>
+  <script src="app/js/main.js?b18" type="module" defer></script>
+
+  <!-- Búsqueda con Google -->
+  <script src="app/js/busqueda.js?v1" type="module" defer></script>
 </head>
 
 <body<?= $overflow; ?>>
@@ -99,6 +88,13 @@ if ( count($_GET) < 1 ) {
   </main>
 
   <?= $ventanasModales; ?>
+
+  <!-- Ventana de búsqueda -->
+  <div class="busqueda busqueda--none" id="busqueda-modal">
+    <div class="busqueda__content" id="contenedor-busqueda">
+      <div class="gcse-search"></div>
+    </div>
+  </div>
 </body>
 
 </html>

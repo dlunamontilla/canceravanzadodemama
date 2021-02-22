@@ -42,6 +42,7 @@ onkeydown = (e) => {
   switch (tecla) {
     case "Escape":
       ventanasModales("#modal", "modal--show", true);
+      ventanasModales("#busqueda-modal", "busqueda--mostrar", true);
       break;
   }
 }
