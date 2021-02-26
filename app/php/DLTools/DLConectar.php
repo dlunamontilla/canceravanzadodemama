@@ -31,13 +31,11 @@ class DLConectar {
 
     foreach ($lineas as $linea) {
       list($nombre, $valor) = explode("=", $linea, 2);
-
+      
       $nombre = trim($nombre);
       $valor = trim($valor);
 
-      if (!array_key_exists($nombre, $_ENV)) {
-        putenv(sprintf("%s=%s", $nombre, $valor));
-      }
+      putenv(sprintf("%s=%s", $nombre, $valor));
     }
   }
 

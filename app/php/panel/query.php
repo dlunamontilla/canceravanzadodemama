@@ -11,6 +11,9 @@ if ( !isset($pdo) ) {
 // Preparar una consulta a la base de datos:
 $usuario = $pdo->prepare("SELECT * FROM `usuarios` WHERE usuario = :usuario AND password = :clave LIMIT 1;");
 
+// Obtener nombre y apellido del usuario:
+$_perfil = $pdo->prepare("SELECT * FROM `usuarios` WHERE token = :hash LIMIT 1;");
+
 // Obtener token de la base de datos:
 $obtenerToken = $pdo->prepare("SELECT * FROM usuarios WHERE token = :hash");
 
