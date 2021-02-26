@@ -10,7 +10,7 @@ $form = <<<HTML
     <div class="sesion__content">
       <div class="sesion__logo" data-src="multimedia/vectores/logotipo-slogan.svg"></div>
       
-      <form class="sesion__form" action="" method="post">
+      <form class="sesion__form" action="app/php/panel/procesar.php" method="post">
         <label class="sesion__label" for="usuario">
           <span class="sesion__caption">Usuario:</span>
           <input class="sesion__input" type="text" name="usuario" id="usuario">

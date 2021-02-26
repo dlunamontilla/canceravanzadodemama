@@ -13,4 +13,8 @@ if ( ! $user->autenticado($hash) )
 if ( $user->autenticado($hash))
   $content = $panel;
 
-  
+
+if ($get->modulo("salir")) {
+  $user->salir();
+  header("Location: ./");
+}

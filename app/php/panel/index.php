@@ -14,9 +14,6 @@ $query = __DIR__ . "/query.php";
 
 if ( file_exists( $query ) )
     include $query;
-    
-if ( file_exists( $procesar ) )
-    include $procesar;
 
 include __DIR__ . "/textos.php";
 include __DIR__ . "/perfil.php";

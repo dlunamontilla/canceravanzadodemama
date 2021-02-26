@@ -14,7 +14,7 @@ $panel = <<<HTML
       <div class="user user--info">
         <img class="user__img" src="multimedia/vectores/avatar.svg" alt="David E Luna M">
         <span class="user__caption">David E Luna M</span>
-        <a href="app/#" class="user__enlace">
+        <a href="app/?salir" class="user__enlace">
             <span data-src="multimedia/vectores/salir.svg"></span>
             <span>Salir</span>
         </a>

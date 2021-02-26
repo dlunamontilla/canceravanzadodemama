@@ -1,13 +1,24 @@
 <?php
-/**
- * Procesar peticiones de usuarios
- */
+$dir = preg_replace("/(panel)+$/", "DLTools", __DIR__);
 
-//  Procesar inicio Sesión:
-// Obtener el token de la base de datos:
-$hash = "";
-$hash = $obtenerToken->fetch( PDO::FETCH_ASSOC );
-$hash = ( isset($hash['token']) ) ? $hash['token'] : "";
+$DLTools = $dir . "/index.php";
+$query = __DIR__ . "/query.php";
+
+if (!file_exists($DLTools) || !file_exists($query)) {
+  exit;
+}
+
+include $DLTools;
+include $config;
+include $query;
+
+// Consultar usuario:
+$user = new DLUser();
+$post = new DLPeticiones("post");
+
+// $user->salir();
+
+// print_r($hash);
 
 // Iniciar sesión de usuario si no lo ha hecho antes:
 if ( ! $user->autenticado( $hash ) ) {
@@ -32,7 +43,8 @@ if ( ! $user->autenticado( $hash ) ) {
       ]);
   
       $user->autenticar( $user->hash );
+
+      header("Location: ../../");
     }
   }
-
 }
