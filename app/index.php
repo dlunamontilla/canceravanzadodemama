@@ -4,8 +4,7 @@
 
   if ( !isset($pdo) ) {
     echo "\$pdo se encuentra ausente";
-    echo "<br>$DLTools";
-    echo "\$Datos: $Datos";
+    echo "<br>\$Datos: $Datos";
     exit;
   }
 
