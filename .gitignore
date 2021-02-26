@@ -10,6 +10,7 @@ cgi-bin
 
 # Base de datos:
 config.php
+*/**config.php
 
 # Ignorado temporalmente:
 sitemap.xml
