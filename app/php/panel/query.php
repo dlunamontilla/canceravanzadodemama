@@ -3,6 +3,11 @@
 if ( !isset($user) )
   $user = new DLUser();
 
+if ( !isset($pdo) ) {
+  echo "\$pdo se encuentra ausente";
+  exit;
+}
+
 // Preparar una consulta a la base de datos:
 $usuario = $pdo->prepare("SELECT * FROM `usuarios` WHERE usuario = :usuario AND password = :clave LIMIT 1;");
 
