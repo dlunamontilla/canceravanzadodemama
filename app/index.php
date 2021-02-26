@@ -4,7 +4,6 @@
 
   if ( !isset($pdo) ) {
     echo "\$pdo se encuentra ausente";
-    echo "<br>\$Datos: $Datos";
     exit;
   }
 

@@ -14,3 +14,8 @@ config.php
 
 # Ignorado temporalmente:
 sitemap.xml
+
+# Variables de entorno:
+.env
+*/*.env
+**/*.env

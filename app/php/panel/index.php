@@ -1,10 +1,5 @@
 <?php
 
-// Conexión con el servidor de base de datos:
-$ruta = __DIR__ . "/config.php";
-if ( file_exists($ruta) )
-    include $ruta;
-
 // Componentes
 include __DIR__ . "/instancias.php";
 
