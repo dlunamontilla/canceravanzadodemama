@@ -1,8 +1,11 @@
 <?php
-  include __DIR__ . "/php/DLTools/index.php";
+  $DLTools = __DIR__ . "/php/DLTools/index.php";
+  include $DLTools;
 
   if ( !isset($pdo) ) {
     echo "\$pdo se encuentra ausente";
+    echo "<br>$DLTools";
+    exit;
   }
 
   include __DIR__ . "/php/panel/index.php";
