@@ -2,13 +2,14 @@
 class DLConectar {
   protected $ruta = "";
 
-  public function __construct( $ruta = "../.env" ) {
+  public function __construct( $ruta = __DIR__ . "/.env" ) {
     $this -> ruta = $ruta;
     if ( !file_exists($ruta) ){
       echo "<h2>Establezca los parámetros de conexión en <code>.env</code>";
       exit;
     }
 
+    // Se cargan las variables de entorno:
     $this -> env();
 
     // Parámetros de conexión:
@@ -22,8 +23,6 @@ class DLConectar {
   }
 
   private function env() : void {
-    echo "Se ejecuta la función";
-
     if ( !file_exists($this -> ruta) )
       return;
 

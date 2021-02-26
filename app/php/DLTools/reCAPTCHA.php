@@ -9,7 +9,7 @@
 
     // Datos de envío:
     $datos = [
-      "secret" => "6LcFs8UZAAAAABfuBmFn5P5WQrrHGI1MY9Y82Xgz",
+      "secret" => getenv("DL_SECRET"),
       "response" => $response,
       "remoteip" => $ip
     ];

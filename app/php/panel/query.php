@@ -4,8 +4,8 @@ if ( !isset($user) )
   $user = new DLUser();
 
 if ( !isset($pdo) ) {
-  echo "\$pdo se encuentra ausente";
-  exit;
+  $conexion = new DLConectar(__DIR__ . "/../../../../.env");
+  $pdo = $conexion->obtenerPDO();
 }
 
 // Preparar una consulta a la base de datos:
