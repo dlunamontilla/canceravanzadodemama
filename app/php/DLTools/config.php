@@ -5,5 +5,7 @@
   $password = "entorno2";
 
 # INSTANCIAR EL OBJETO PDO:
-$pdo = new PDO( $dsn, $usuario, $password );
+// $pdo = new PDO( $dsn, $usuario, $password );
+
+$Datos = "Datos de prueba";
 ?>
