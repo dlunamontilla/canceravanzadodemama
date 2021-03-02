@@ -10,4 +10,8 @@ const isSelect = (objeto) => {
     return evaluar(objeto) === "[object HTMLSelectElement]";
 }
 
-export { isLabel, isSelect };
+const isForm = (objeto) => {
+    return (evaluar) === "[object HTMLFormElement]";
+}
+
+export { isLabel, isSelect, isForm };

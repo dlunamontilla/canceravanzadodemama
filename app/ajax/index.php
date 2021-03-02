@@ -1,12 +1,12 @@
 <?php
 include "../php/DLTools/index.php";
 include "../php/modulos/index.php";
-
+include __DIR__ . "/procesar.php";
 
 if ( !isset($get) )
     $get = new DLPeticiones("get");
 
-header("Content-Type: application/json; charset=utf-8");
+    // header("Content-Type: application/json; charset=utf-8");
 
 $datos = ["Primer dato"];
 
@@ -21,4 +21,4 @@ $datos = $enlaces;
 
 $datos = obtenerDatos($menuNosotros, "param" );
 
-echo json_encode($enlaces);
+// echo json_encode($enlaces);

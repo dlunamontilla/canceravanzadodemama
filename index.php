@@ -48,7 +48,7 @@ if ( count($_GET) < 1 ) {
 
   <!-- Buscador de Google  -->
   <script async src="https://cse.google.com/cse.js?cx=152873a5aa8cc05c3"></script>
-  
+
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
@@ -63,6 +63,15 @@ if ( count($_GET) < 1 ) {
   <!-- Plantilla para la ventana Modal -->
   <template id="plantillaModal"><?= $plantillaModal; ?></template>
 
+  <template id="carga">
+      <div class="caja giro-constante">
+        <svg viewBox="0 0 140 140" class="lienzo giro-intervalo">
+          <!-- Circunferencia con borde animado -->
+          <circle class="cir cir--completando giro-trazo" cx="70" cy="70" r="65" />
+        </svg>
+      </div>
+  </template>
+  
   <main id="app">
     <header class="header header--fondo">
       <div<?= $border; ?>>
@@ -95,6 +104,10 @@ if ( count($_GET) < 1 ) {
       <div class="gcse-search"></div>
     </div>
   </div>
+
+  <!-- reCAPTCHA de Google  -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfNtGkaAAAAAIqyVvHYXYWm2zXUR9JN3XuiXpMy"></script>
+
 </body>
 
 </html>

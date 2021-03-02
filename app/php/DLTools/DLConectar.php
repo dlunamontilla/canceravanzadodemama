@@ -3,7 +3,7 @@ class DLConectar {
   protected $ruta = "";
 
   public function __construct( $ruta = __DIR__ . "/.env" ) {
-    $this -> ruta = $ruta;
+    $this->ruta = $ruta;
     if ( !file_exists($ruta) ){
       echo "<h2>Establezca los parámetros de conexión en <code>.env</code>";
       exit;
@@ -13,13 +13,13 @@ class DLConectar {
     $this -> env();
 
     // Parámetros de conexión:
-    $this -> usuario = getenv("DL_USERNAME");
-    $this -> password = getenv("DL_PASSWORD");
-    $this -> database = getenv("DL_DATABASE");
+    $this->usuario = getenv("DL_USERNAME");
+    $this->password = getenv("DL_PASSWORD");
+    $this->database = getenv("DL_DATABASE");
 
-    $this -> host = getenv("DL_HOST");
-    $this -> motor = getenv("DL_MOTOR");
-    $this -> dsn = "$this->motor:dbname=$this->database;host=$this->host";
+    $this->host = getenv("DL_HOST");
+    $this->motor = getenv("DL_MOTOR");
+    $this->dsn = "$this->motor:dbname=$this->database;host=$this->host";
   }
 
   private function env() : void {

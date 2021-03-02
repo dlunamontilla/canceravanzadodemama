@@ -283,7 +283,7 @@
   margin-left: 10px;
   border-width: 1px;
   border-style: solid;
-  border-color: rgba(white, .1);
+  border-color: rgba(white, 0.1);
 
   &:hover {
     border-color: rgba(white, 0.1);
@@ -351,7 +351,7 @@
   display: grid;
   gap: 12px;
 
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   counter-reset: contar;
 
   max-width: 900px;
@@ -447,7 +447,7 @@
   // grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 
   grid-template-columns: repeat(3, 1fr);
-  
+
   &__item {
     cursor: default;
     min-height: 60px;

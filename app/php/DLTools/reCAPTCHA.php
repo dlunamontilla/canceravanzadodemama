@@ -1,18 +1,26 @@
 <?php
   // Procesar recapcha de Google:
-  function reCAPTCHA( $response ) {
+  function reCAPTCHA( $response, $ruta = __DIR__ . "/../../../../.google" ) {
     
     // Ruta de la petición:
     $url = "https://www.google.com/recaptcha/api/siteverify";
     
-    $ip = @$_SERVER['REMOTE_ADDR'];
+    // $ip = @$_SERVER['REMOTE_ADDR'];
+
+    if ( !file_exists($ruta) )
+      return "No existe";
+
+    $clave = file_get_contents($ruta);
 
     // Datos de envío:
     $datos = [
-      "secret" => getenv("DL_SECRET"),
-      "response" => $response,
-      "remoteip" => $ip
+      "secret" => $clave,
+      "response" => $response
     ];
+    // $datos = [
+    //   "secret" => "6LfNtGkaAAAAAJE-tAHy73yDPlVMjjwVERRZ7Az0",
+    //   "response" => $response
+    // ];
 
     // Opciones de envío:
     $opciones = [

@@ -15,6 +15,8 @@ const maquetarEncuesta = (json) => {
     select = document.createElement("select"),
     option = document.createElement("option");
 
+  encuesta.innerHTML = "";
+
   // Asignarle una clase a los elementos de la tarjeta:
   encuesta.classList.add("encuesta");
   tarjeta.classList.add("encuesta__item");
@@ -43,8 +45,8 @@ const maquetarEncuesta = (json) => {
 
     let id = `pregunta${agregarCero(indice + 1)}`;
 
+    opcionesClon.innerHTML = "";
     opcionesClon.setAttribute("for", id);
-    selectBox.id = id;
     selectBox.name = id;
 
 
@@ -53,6 +55,7 @@ const maquetarEncuesta = (json) => {
     seleccione.textContent = "--Elija una opción--";
 
     selectBox.appendChild(seleccione);
+    selectBox.required = true;
 
     bloque.opciones.forEach((label, indice) => {
       let op = option.cloneNode(false);

@@ -19,3 +19,7 @@ sitemap.xml
 .env
 */*.env
 **/*.env
+
+# Este archivo se debe generar desde el servidor:
+*.encuesta.json
+**/*.json

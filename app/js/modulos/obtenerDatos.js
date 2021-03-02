@@ -30,12 +30,12 @@ const procesarDatos = (data) => {
         .split(separadorNumerico)
         .filter(valor => {
             let elemento = valor.replace(".", "");
-
             return isNaN(Number(elemento));
         })
         .map(elemento => {
             return elemento.trim().replaceAll("\n", "");
         });
+
 
     const preguntas = [];
 
