@@ -8,7 +8,7 @@
     // $ip = @$_SERVER['REMOTE_ADDR'];
 
     if ( !file_exists($ruta) )
-      return "No existe";
+      return false;
 
     $clave = file_get_contents($ruta);
 
