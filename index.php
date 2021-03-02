@@ -44,7 +44,7 @@ if ( count($_GET) < 1 ) {
   <link rel="icon" href="multimedia/favicon/favicon.png" type="image/png" />
 
   <!-- Estilos -->
-  <link rel="stylesheet" href="vista/css/style.css?b18" />
+  <link rel="stylesheet" href="vista/css/style.css?b19" />
 
   <!-- Buscador de Google  -->
   <script async src="https://cse.google.com/cse.js?cx=152873a5aa8cc05c3"></script>
@@ -53,10 +53,10 @@ if ( count($_GET) < 1 ) {
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   <!-- JavaScript -->
-  <script src="app/js/main.js?b18" type="module" defer></script>
+  <script src="app/js/main.js?b19" type="module" defer></script>
 
   <!-- Búsqueda con Google -->
-  <script src="app/js/busqueda.js?v1" type="module" defer></script>
+  <script src="app/js/busqueda.js?v2" type="module" defer></script>
 </head>
 
 <body<?= $overflow; ?>>
