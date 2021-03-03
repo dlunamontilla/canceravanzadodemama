@@ -122,10 +122,12 @@ const encuestas = (selector) => {
           };
 
           fetch(formulario.action, config)
-            .then(respuesta => respuesta.json())
+            .then(respuesta => respuesta.text())
             .then(data => {
               // Notificar al usuario que su encuesta fue enviada:
-              mensaje.textContent = data.mensaje;
+              // mensaje.textContent = data.mensaje;
+
+              console.log(data);
 
               // Actualizar el estado del botón:
               button.disabled = true;
