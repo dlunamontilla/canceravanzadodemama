@@ -62,10 +62,6 @@ const encuestas = (selector) => {
 
     button.appendChild(etiqueta);
     button.classList.add("button", "button--success", "button--encuesta", "g-recaptcha");
-    // button.setAttribute("data-sitekey", "6LfNtGkaAAAAAIqyVvHYXYWm2zXUR9JN3XuiXpMy");
-    // button.setAttribute("data-callback", "onSubmit");
-    // button.setAttribute("data-action", "submit");
-
 
     button.setAttribute("type", "submit");
 
@@ -74,7 +70,7 @@ const encuestas = (selector) => {
     groupButton.classList.add("group-button", "group-button--encuesta");
 
     const mensaje = document.createElement("div");
-    mensaje.classList.add("mensaje", "mensaje--success");
+    mensaje.classList.add("mensaje");
 
     groupButton.append(mensaje, button);
 
@@ -122,12 +118,14 @@ const encuestas = (selector) => {
           };
 
           fetch(formulario.action, config)
-            .then(respuesta => respuesta.text())
+            .then(respuesta => respuesta.json())
             .then(data => {
               // Notificar al usuario que su encuesta fue enviada:
-              // mensaje.textContent = data.mensaje;
+              mensaje.textContent = data.mensaje;
 
-              console.log(data);
+              // Marcar si se produjo o no un error:
+              let marcar = data.error ? "mensaje--error" : "mensaje--success";
+              mensaje.classList.add(marcar);
 
               // Actualizar el estado del botón:
               button.disabled = true;

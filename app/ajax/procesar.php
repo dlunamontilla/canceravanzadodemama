@@ -72,19 +72,25 @@ function almacenar() {
 // Almacenar datos de la encuesta:
 if ($get->modulo("encuesta")) {
     header("content-type: application/json; charset=utf-8");
+
     if ( !reCAPTCHA($_POST["Google"]) ) {
         $info = [
-            "mensaje" => "No ha superado la prueba para enviar formulario"
+            "mensaje" => "No se pudo confirmar que usted sea una persona",
+            "error" => true
         ];
 
         echo json_encode($info);
+        exit;
     }
 
     $info = almacenar() ? [
-        "mensaje" => "Gracias por completar la encuesta"
+        "mensaje" => "Gracias por completar la encuesta",
+        "error" => false
     ] : [
-        "mensaje" => "Se ha detectado un intento ilegítimo de envío de datos"
+        "mensaje" => "Se ha detectado un intento ilegítimo de envío de datos",
+        "error" => true
     ];
 
     echo json_encode($info);
+    exit;
 }
